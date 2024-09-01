@@ -1,0 +1,12 @@
+{
+  "mappings": [
+    "/content/eds-poc/:/",
+    "/content/eds-poc/forms/form-schema:/forms/form-schema.json",
+    "/content/eds-poc/forms/form-modal-demat-account-schema:/forms/form-modal-demat-account-schema.json",
+    "/content/eds-poc/api/highest-quality-research:/api/highest-quality-research.json",
+    "/content/eds-poc/forms/generate-lead:/forms/generate-lead.json",
+    "/content/eds-poc/forms/lead:/forms/lead.json",
+    "/content/eds-poc/form/:/form/*.json",
+    "/content/eds-poc/configuration:/.helix/config.json"
+  ]
+}
