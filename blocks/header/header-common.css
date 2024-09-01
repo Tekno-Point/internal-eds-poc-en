@@ -488,7 +488,7 @@ header.header-wrapper
   ul
   li
   p {
-  height: 88px;
+  /* height: 88px; */
   width: 40%;
   padding: 20px;
 }

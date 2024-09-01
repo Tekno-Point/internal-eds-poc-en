@@ -207,7 +207,7 @@ async function loadPage() {
 
 loadPage();
 
-const texts = ['Equity', 'Mutual Funds', 'Commodities', 'US stocks', 'Bonds', 'Fixed Deposits', 'PMS', 'AIF'];
+const texts = [' Insurance Plans For Every Need'];
 const period = 2000;
 
 function startTyping(element, texts, period) {
