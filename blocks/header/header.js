@@ -250,6 +250,7 @@ export default async function decorate(block) {
     }
   }
   handleResponsiveDesign();
+  const navTools = nav.querySelector('.nav-tools');
 
   // Function to toggle the background color
   function toggleBackgroundColor(element) {
@@ -260,8 +261,10 @@ export default async function decorate(block) {
     // Check current background color and toggle
     if (element.style.backgroundColor === color2) {
       element.style.backgroundColor = color1;
+      navTools.style.opacity = 0.5;
     } else {
       element.style.backgroundColor = color2;
+      navTools.style.opacity = 1;
     }
   }
   // Hamburger for mobile
