@@ -5,7 +5,7 @@ export default async function decorate(block) {
   const data = await resp.json();
   data.data.forEach((element) => {
     block.innerHTML += `<div>
-  <a href="https://www.motilaloswal.com/markets/equity-market-overview/KALYANKJIL/2955/42402/nse">
+  <a href="/max-life-insurance/">
     <div class="card-wrapper">
       <div class="">
         <div class="card-type">
