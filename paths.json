@@ -7,6 +7,7 @@
     "/content/eds-poc/forms/generate-lead:/forms/generate-lead.json",
     "/content/eds-poc/forms/lead:/forms/lead.json",
     "/content/eds-poc/form/:/form/*.json",
+    "/content/eds-poc/metadata:/metadata.json",
     "/content/eds-poc/configuration:/.helix/config.json"
   ]
 }
