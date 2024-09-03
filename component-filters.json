@@ -1,15 +1,9 @@
 [
   {
     "id": "main",
-    "components": ["section"]
-  },
-  {
-    "id": "columns",
-    "components": []
-  },
-  {
-    "id": "column",
-    "components": ["text", "image", "button", "title"]
+    "components": [
+      "section"
+    ]
   },
   {
     "id": "section",
@@ -21,20 +15,28 @@
       "hero",
       "cards",
       "columns",
-      "fragment",
-      "embed",
-      "investment-opportunity",
-      "highest-quality-research-stock-list",
-      "lead-form",
-      "carousel"
+      "fragment"
     ]
   },
   {
     "id": "cards",
-    "components": ["card"]
+    "components": [
+      "card"
+    ]
   },
   {
-    "id": "carousel",
-    "components": ["carousel-item", "embed", "image"]
+    "id": "columns",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
   }
 ]

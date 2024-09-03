@@ -469,27 +469,15 @@ function decorateButtons(element) {
  * @param {string} [alt] alt text to be added to icon
  */
 function decorateIcon(span, prefix = '', alt = '') {
-  if (Array.from(span.classList)
-    .find((c) => c.includes('icon-images'))) {
-    const classes = (span.classList[1])?.split('-');
-    const path = `/${classes.slice(1, 2).join('/')}/${classes.slice(2, -1).join('-')}.${classes.slice(-1)}`;
-    const img = document.createElement('img');
-    img.dataset.iconName = path;
-    img.src = `${window.hlx.codeBasePath}${prefix + path}`;
-    img.alt = alt;
-    img.loading = 'lazy';
-    span.append(img);
-  } else {
-    const iconName = Array.from(span.classList)
-      .find((c) => c.startsWith('icon-'))
-      .substring(5);
-    const img = document.createElement('img');
-    img.dataset.iconName = iconName;
-    img.src = `${window.hlx.codeBasePath}${prefix}/icons/${iconName}.svg`;
-    img.alt = alt;
-    img.loading = 'lazy';
-    span.append(img);
-  }
+  const iconName = Array.from(span.classList)
+    .find((c) => c.startsWith('icon-'))
+    .substring(5);
+  const img = document.createElement('img');
+  img.dataset.iconName = iconName;
+  img.src = `${window.hlx.codeBasePath}${prefix}/icons/${iconName}.svg`;
+  img.alt = alt;
+  img.loading = 'lazy';
+  span.append(img);
 }
 
 /**
@@ -537,8 +525,6 @@ function decorateSections(main) {
             .filter((style) => style)
             .map((style) => toClassName(style.trim()));
           styles.forEach((style) => section.classList.add(style));
-        } else if (key === 'background-image') {
-          section.style.backgroundImage = `url(${meta[key]})`;
         } else {
           section.dataset[toCamelCase(key)] = meta[key];
         }
