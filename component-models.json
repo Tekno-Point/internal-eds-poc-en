@@ -129,6 +129,15 @@
           {
             "name": "Term Insurance Cards",
             "value": "term-insurance-cards"
+          },
+          {
+            "name": "Background Color",
+            "children": [
+              {
+                "name": "Light Grey",
+                "value": "light-grey"
+              }
+            ]
           }
         ]
       }
