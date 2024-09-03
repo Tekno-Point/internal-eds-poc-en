@@ -103,7 +103,6 @@ section {
   display: block;
 }
 
-
 ol,
 ul {
   list-style: none;
@@ -118,7 +117,7 @@ blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -127,7 +126,6 @@ table {
   border-spacing: 0;
 }
 
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   appearance: none;
@@ -135,7 +133,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type='number'] {
+input[type="number"] {
   appearance: textfield;
 }
 
@@ -144,4 +142,3 @@ a {
   cursor: pointer;
   color: unset;
 }
-

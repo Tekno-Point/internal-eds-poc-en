@@ -561,5 +561,42 @@
         ]
       }
     ]
+  },
+  {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Accordion Style",
+        "options": [
+          {
+            "name": "Accordion Style",
+            "children": [
+              {
+                "name": "Life Insurance",
+                "value": "life-insurance"
+              }
+            ]
+          }
+        ],
+        "valueType": "string[]"
+      },
+      {
+        "component": "text",
+        "name": "accordion-title",
+        "value": "",
+        "label": "Accordion Question",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "accordion-answer",
+        "value": "",
+        "label": "Accordion Answer"
+      }
+    ]
   }
 ]
