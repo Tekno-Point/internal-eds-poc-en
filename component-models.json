@@ -101,11 +101,47 @@
       {
         "component": "multiselect",
         "name": "style",
-        "label": "Style",
+        "label": "Section Style",
         "options": [
           {
-            "name": "Highlight",
-            "value": "highlight"
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Term Insurance Cards",
+                "value": "term-insurance-cards"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "multiselect",
+        "label": "Cards Style",
+        "name": "classes",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Cards Style",
+            "children": [
+              {
+                "name": "Term Insurance Cards",
+                "value": "term-insurance-cards"
+              }
+            ]
+          },
+          {
+            "name": "Event Style",
+            "children": [
+              {
+                "name": "Redirect Card",
+                "value": "redirect-card"
+              }
+            ]
           }
         ]
       }
