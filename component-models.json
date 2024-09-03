@@ -123,7 +123,6 @@
         "component": "multiselect",
         "label": "Cards Style",
         "name": "classes",
-        "valueType": "string",
         "options": [
           {
             "name": "Cards Style",
