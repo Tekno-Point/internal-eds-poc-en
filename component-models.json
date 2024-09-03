@@ -184,5 +184,17 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "popular-searches",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
   }
 ]
