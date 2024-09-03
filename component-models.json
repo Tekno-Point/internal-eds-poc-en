@@ -120,27 +120,15 @@
     "id": "cards",
     "fields": [
       {
-        "component": "multiselect",
-        "label": "Cards Style",
+        "component": "select",
+        "valueType": "string",
         "name": "classes",
+        "value": "",
+        "label": "Card Style",
         "options": [
           {
-            "name": "Cards Style",
-            "children": [
-              {
-                "name": "Term Insurance Cards",
-                "value": "term-insurance-cards"
-              }
-            ]
-          },
-          {
-            "name": "Event Style",
-            "children": [
-              {
-                "name": "Redirect Card",
-                "value": "redirect-card"
-              }
-            ]
+            "name": "Term Insurance Cards",
+            "value": "term-insurance-cards"
           }
         ]
       }
