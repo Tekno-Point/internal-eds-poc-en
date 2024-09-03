@@ -120,26 +120,22 @@
     "id": "cards",
     "fields": [
       {
-        "component": "multiselect",
-        "label": "Cards Style",
-        "name": "classes",
+        "component": "select",
         "valueType": "string",
+        "name": "classes",
+        "value": "",
+        "label": "Card Style",
         "options": [
           {
-            "name": "Cards Style",
-            "children": [
-              {
-                "name": "Term Insurance Cards",
-                "value": "term-insurance-cards"
-              }
-            ]
+            "name": "Term Insurance Cards",
+            "value": "term-insurance-cards"
           },
           {
-            "name": "Event Style",
+            "name": "Background Color",
             "children": [
               {
-                "name": "Redirect Card",
-                "value": "redirect-card"
+                "name": "Light Grey",
+                "value": "light-grey"
               }
             ]
           }
@@ -222,6 +218,29 @@
     ]
   },
   {
+     "id": "accordion",
+     "fields": []
+   },
+   {
+     "id": "accordion-item",
+     "fields": [
+       {
+         "component": "richtext",
+         "name": "head",
+         "value": "",
+         "label": "Head",
+         "row": true
+       },
+       {
+         "component": "richtext",
+         "name": "body",
+         "value": "",
+         "label": "Body",
+         "row": true
+       }
+     ]
+   },
+{
     "id": "popular-searches",
     "fields": [
       {

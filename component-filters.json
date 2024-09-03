@@ -16,6 +16,7 @@
       "cards",
       "columns",
       "fragment",
+      "accordion",
       "popular-searches"
     ]
   },
@@ -39,5 +40,8 @@
       "button",
       "title"
     ]
+  }, {
+    "id": "accordion",
+    "components": ["text", "accordion-item"]
   }
 ]
