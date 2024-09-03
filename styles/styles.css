@@ -80,6 +80,19 @@
   --font-family-mono: monospace;
 }
 
+/* Container */
+body {
+  line-height: 1;
+  overflow: hidden auto;
+  font-size: var(--font-size-s);
+  font-family: poppins-regular, sans-serif;
+}
+
+.section > div {
+  max-width: 1200px;
+  margin: auto;
+}
+
 /* Headings */
 h1 {
   font-size: var(--size-font-2xl);
@@ -125,14 +138,24 @@ h6 {
 
 /* Background Colors */
 
-.bg-default-dark {
+.bg-default-dark-light-gray {
   background-color: var(--color-background-default-dark);
 }
 
-.bg-light {
+.bg-dark-gray {
   background-color: var(--color-background-light);
 }
 
-.bg-primary {
+.bg-light-blue {
+  background-color: var(--color-background-active);
+}
+
+.bg-primary-orange {
   background-color: var(--color-background-primary);
+}
+
+@media screen and (width <=767.99px) {
+  .section > div {
+    width: 90%;
+  }
 }
