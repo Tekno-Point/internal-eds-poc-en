@@ -228,5 +228,40 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "custom-card",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Card Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Term Insurance Cards",
+                "value": "term-insurance-cards"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "custom-card-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
   }
 ]
