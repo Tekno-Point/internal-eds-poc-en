@@ -15,7 +15,8 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "accordion"
     ]
   },
   {
@@ -38,5 +39,8 @@
       "button",
       "title"
     ]
+  }, {
+    "id": "accordion",
+    "components": ["text", "accordion-item"]
   }
 ]
