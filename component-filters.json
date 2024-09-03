@@ -16,8 +16,9 @@
       "cards",
       "columns",
       "fragment",
-      "accordion",
-      "popular-searches"
+      "popular-searches",
+      "custom-card",
+      "accordion"
     ]
   },
   {
