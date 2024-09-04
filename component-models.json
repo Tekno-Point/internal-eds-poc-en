@@ -107,16 +107,38 @@
             "name": "Content Style",
             "children": [
               {
-                "name": "Term Insurance Cards",
-                "value": "term-insurance-cards"
-              },
-              {
                 "name": "Insurance Plans Cards",
                 "value": "insurance-plans-cards"
+              }
+            ]
+          },
+          {
+            "name": "Background Color",
+            "children": [
+              {
+                "name": "Gradient Purple",
+                "value": "bg-gradient-purple"
+              }
+            ]
+          },
+          {
+            "name": "Padding",
+            "children": [
+              {
+                "name": "pt-32",
+                "value": "pt-32"
               },
               {
-                "name": "Prefer Max Life Cards",
-                "value": "prefer-max-life-cards"
+                "name": "pb-32",
+                "value": "pb-32"
+              },
+              {
+                "name": "pt-64",
+                "value": "pt-64"
+              },
+              {
+                "name": "pb-64",
+                "value": "pb-64"
               }
             ]
           }
