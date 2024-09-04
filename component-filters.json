@@ -16,8 +16,9 @@
       "cards",
       "columns",
       "fragment",
-      "accordion",
-      "popular-searches"
+      "popular-searches",
+      "custom-card",
+      "accordion"
     ]
   },
   {
@@ -43,5 +44,9 @@
   }, {
     "id": "accordion",
     "components": ["text", "accordion-item"]
+  },
+  {
+    "id": "custom-card",
+    "components": ["custom-card-item"]
   }
 ]
