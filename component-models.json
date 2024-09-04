@@ -218,29 +218,29 @@
     ]
   },
   {
-     "id": "accordion",
-     "fields": []
-   },
-   {
-     "id": "accordion-item",
-     "fields": [
-       {
-         "component": "richtext",
-         "name": "head",
-         "value": "",
-         "label": "Head",
-         "row": true
-       },
-       {
-         "component": "richtext",
-         "name": "body",
-         "value": "",
-         "label": "Body",
-         "row": true
-       }
-     ]
-   },
-{
+    "id": "accordion",
+    "fields": []
+  },
+  {
+    "id": "accordion-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "head",
+        "value": "",
+        "label": "Head",
+        "row": true
+      },
+      {
+        "component": "richtext",
+        "name": "body",
+        "value": "",
+        "label": "Body",
+        "row": true
+      }
+    ]
+  },
+  {
     "id": "popular-searches",
     "fields": [
       {
@@ -290,5 +290,24 @@
         "valueType": "string"
       }
     ]
-  }
+  },
+  {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
 ]
