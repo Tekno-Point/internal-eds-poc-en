@@ -372,6 +372,27 @@
     "id": "carousel",
     "fields": [
       {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Carousel Styles",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "FAQ Tabs",
+                "value": "faq-tabs"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "carousel-item",
+    "fields": [
+      {
         "component": "reference",
         "valueType": "string",
         "name": "image",
@@ -380,10 +401,10 @@
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "body",
         "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "label": "Tab Body",
+        "row": true
       }
     ]
   },
