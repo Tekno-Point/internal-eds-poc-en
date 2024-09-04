@@ -227,7 +227,28 @@
   },
   {
     "id": "accordion",
-    "fields": []
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Accordion Styles",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Footer Quick Links",
+                "value": "footer-quick-links"
+              },
+              {
+                "name": "Footer Disclaimer",
+                "value": "footer-disclaimer"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "accordion-item",
@@ -308,7 +329,68 @@
     ]
   },
   {
+    "id": "tabs",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Tab Styles",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "FAQ Tabs",
+                "value": "faq-tabs"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tabs-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "head",
+        "value": "",
+        "label": "Tab Head",
+        "row": true
+      },
+      {
+        "component": "richtext",
+        "name": "body",
+        "value": "",
+        "label": "Tab Body",
+        "row": true
+      }
+    ]
+  },
+  {
     "id": "carousel",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Carousel Styles",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "FAQ Tabs",
+                "value": "faq-tabs"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "carousel-item",
     "fields": [
       {
         "component": "reference",
@@ -319,14 +401,15 @@
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "body",
         "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "label": "Tab Body",
+        "row": true
       }
     ]
-  },{
-    "id": "tabel",
+  },
+  {
+    "id": "table",
     "fields": [
       {
         "component": "text",
@@ -343,6 +426,24 @@
         "label": "Rows"
       }
     ]
+  },
+  {
+    "id": "teaser",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "Left Content",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "Right Content",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
   }
-
 ]
