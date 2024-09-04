@@ -218,29 +218,50 @@
     ]
   },
   {
-     "id": "accordion",
-     "fields": []
-   },
-   {
-     "id": "accordion-item",
-     "fields": [
-       {
-         "component": "richtext",
-         "name": "head",
-         "value": "",
-         "label": "Head",
-         "row": true
-       },
-       {
-         "component": "richtext",
-         "name": "body",
-         "value": "",
-         "label": "Body",
-         "row": true
-       }
-     ]
-   },
-{
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Accordion Styles",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Footer Quick Links",
+                "value": "footer-quick-links"
+              },
+              {
+                "name": "Footer Disclaimer",
+                "value": "footer-disclaimer"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accordion-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "head",
+        "value": "",
+        "label": "Head",
+        "row": true
+      },
+      {
+        "component": "richtext",
+        "name": "body",
+        "value": "",
+        "label": "Body",
+        "row": true
+      }
+    ]
+  },
+  {
     "id": "popular-searches",
     "fields": [
       {
