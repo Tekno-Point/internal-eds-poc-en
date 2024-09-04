@@ -109,6 +109,14 @@
               {
                 "name": "Term Insurance Cards",
                 "value": "term-insurance-cards"
+              },
+              {
+                "name": "Insurance Plans Cards",
+                "value": "insurance-plans-cards"
+              },
+              {
+                "name": "Prefer Max Life Cards",
+                "value": "prefer-max-life-cards"
               }
             ]
           }
@@ -380,7 +388,7 @@
     ]
   },
   {
-    "id": "tabel",
+    "id": "table",
     "fields": [
       {
         "component": "text",
