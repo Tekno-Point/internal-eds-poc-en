@@ -1,9 +1,7 @@
 [
   {
     "id": "main",
-    "components": [
-      "section"
-    ]
+    "components": ["section"]
   },
   {
     "id": "section",
@@ -19,31 +17,24 @@
       "popular-searches",
       "custom-card",
       "accordion",
+      "tabs",
       "carousel",
       "table"
     ]
   },
   {
     "id": "cards",
-    "components": [
-      "card"
-    ]
+    "components": ["card"]
   },
   {
     "id": "columns",
-    "components": [
-      "column"
-    ]
+    "components": ["column"]
   },
   {
     "id": "column",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title"
-    ]
-  }, {
+    "components": ["text", "image", "button", "title"]
+  },
+  {
     "id": "accordion",
     "components": ["text", "accordion-item", "table"]
   },
@@ -52,14 +43,15 @@
     "components": ["custom-card-item"]
   },
   {
+    "id": "tabs",
+    "components": ["tabs-item"]
+  },
+  {
     "id": "carousel",
     "components": ["carousel-item"]
   },
   {
     "id": "tabel",
-    "components": [ 
-      "tabel-item"
-    ]
+    "components": ["tabel-item"]
   }
-
 ]
