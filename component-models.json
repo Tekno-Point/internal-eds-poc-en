@@ -356,15 +356,15 @@
         "component": "richtext",
         "name": "head",
         "value": "",
-        "label": "Tab Head"
-        // "row": true
+        "label": "Tab Head",
+        "raw": true
       },
       {
         "component": "richtext",
         "name": "body",
         "value": "",
-        "label": "Tab Body"
-        // "row": true
+        "label": "Tab Body",
+        "raw": true
       }
     ]
   },
