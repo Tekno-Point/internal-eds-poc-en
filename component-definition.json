@@ -342,15 +342,15 @@
           }
         },
         {
-          "title": "Default Wrapper",
-          "id": "default-wrapper",
+          "title": "Wrapper Creation",
+          "id": "wrapper-creation",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "Default Wrapper",
-                  "model": "default-wrapper"
+                  "name": "wrappercreation",
+                  "model": "wrapper-creation"
                 }
               }
             }
