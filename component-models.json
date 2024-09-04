@@ -272,6 +272,14 @@
               {
                 "name": "Redirect card",
                 "value": "redirect-card"
+              },
+              {
+                "name": "Insurance Plans Cards",
+                "value": "insurance-plans-cards"
+              },
+              {
+                "name": "Prefer Max Life Cards",
+                "value": "prefer-max-life-cards"
               }
             ]
           }
