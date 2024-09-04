@@ -326,7 +326,7 @@
       }
     ]
   },{
-    "id": "tabel",
+    "id": "table",
     "fields": [
       {
         "component": "text",

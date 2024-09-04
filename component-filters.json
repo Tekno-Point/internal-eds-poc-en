@@ -46,9 +46,6 @@
   }, {
     "id": "accordion",
     "components": ["text", "accordion-item", "table"]
-  },{
-    "id": "accordion-item",
-    "components": ["table"]
   },
   {
     "id": "custom-card",
