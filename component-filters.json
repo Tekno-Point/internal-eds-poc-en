@@ -15,7 +15,10 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "popular-searches",
+      "custom-card",
+      "accordion"
     ]
   },
   {
@@ -38,5 +41,12 @@
       "button",
       "title"
     ]
+  }, {
+    "id": "accordion",
+    "components": ["text", "accordion-item"]
+  },
+  {
+    "id": "custom-card",
+    "components": ["custom-card-item"]
   }
 ]
