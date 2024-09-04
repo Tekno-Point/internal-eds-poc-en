@@ -107,16 +107,38 @@
             "name": "Content Style",
             "children": [
               {
-                "name": "Term Insurance Cards",
-                "value": "term-insurance-cards"
-              },
-              {
                 "name": "Insurance Plans Cards",
                 "value": "insurance-plans-cards"
+              }
+            ]
+          },
+          {
+            "name": "Background Color",
+            "children": [
+              {
+                "name": "Gradient Purple",
+                "value": "bg-gradient-purple"
+              }
+            ]
+          },
+          {
+            "name": "Padding",
+            "children": [
+              {
+                "name": "pt-32",
+                "value": "pt-32"
               },
               {
-                "name": "Prefer Max Life Cards",
-                "value": "prefer-max-life-cards"
+                "name": "pb-32",
+                "value": "pb-32"
+              },
+              {
+                "name": "pt-64",
+                "value": "pt-64"
+              },
+              {
+                "name": "pb-64",
+                "value": "pb-64"
               }
             ]
           }
@@ -227,28 +249,7 @@
   },
   {
     "id": "accordion",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "style",
-        "label": "Accordion Styles",
-        "options": [
-          {
-            "name": "Content Style",
-            "children": [
-              {
-                "name": "Footer Quick Links",
-                "value": "footer-quick-links"
-              },
-              {
-                "name": "Footer Disclaimer",
-                "value": "footer-disclaimer"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "fields": []
   },
   {
     "id": "accordion-item",
@@ -330,24 +331,7 @@
   },
   {
     "id": "tabs",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "style",
-        "label": "Tab Styles",
-        "options": [
-          {
-            "name": "Content Style",
-            "children": [
-              {
-                "name": "FAQ Tabs",
-                "value": "faq-tabs"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "fields": []
   },
   {
     "id": "tabs-item",
@@ -357,14 +341,14 @@
         "name": "head",
         "value": "",
         "label": "Tab Head",
-        "row": true
+        "raw": true
       },
       {
         "component": "richtext",
         "name": "body",
         "value": "",
         "label": "Tab Body",
-        "row": true
+        "raw": true
       }
     ]
   },
