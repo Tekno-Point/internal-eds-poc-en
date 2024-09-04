@@ -20,7 +20,8 @@
       "tabs",
       "carousel",
       "table",
-      "teaser"
+      "teaser",
+      "default-wrapper"
     ]
   },
   {
