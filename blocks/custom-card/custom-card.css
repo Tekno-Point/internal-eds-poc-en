@@ -1,9 +1,17 @@
+.section.term-insurance-cards > div p {
+  padding: 8px 32px 32px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.section.term-insurance-cards > div p strong {
+  font-weight: 700;
+}
+
 .custom-card.term-insurance-cards {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 4px 8px rgba(23, 26, 33, 0.1215686275);
   border-radius: 16px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   padding: 32px;
 }
@@ -12,35 +20,29 @@
   box-shadow: 0px 4px 8px rgba(80, 151, 229, 0.1607843137);
   border-radius: 12px;
   border: solid 1px #ebedf0;
-  min-height: 174px;
+  min-height: 157px;
   min-width: 174px;
   max-height: 124px;
   max-width: 104px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
 }
 .custom-card.term-insurance-cards > div > div {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 100%;
 }
-.custom-card.term-insurance-cards > div > div p {
-  margin-top: 35px;
-}
-.custom-card.term-insurance-cards > div > div p span {
-  margin-top: 12px;
-}
-.custom-card.term-insurance-cards > div > div p span img {
+.custom-card.term-insurance-cards > div > div p a > span img {
   width: 43px;
   height: 48px;
+  margin-left: 63px;
+  margin-top: 22px;
 }
 .custom-card.term-insurance-cards > div > div h6 {
   font-size: 16px;
   line-height: 21px;
-  margin-top: 12px;
   color: #171a21;
   text-align: center;
-  padding: 0 28px;
+  padding: 40px 20px 0;
 }
 .custom-card.term-insurance-cards > div > div pre {
   text-align: center;
@@ -62,4 +64,21 @@
 .custom-card.term-insurance-cards > div:hover {
   box-shadow: 0 6px 24px 0 rgba(23, 26, 33, 0.12);
   border: solid 1px transparent;
+}
+
+.custom-card.redirect-card > div > div > p a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-card.term-insurance-cards {
+    padding: 16px;
+  }
+  .custom-card.term-insurance-cards > div {
+    width: 32%;
+  }
 }/*# sourceMappingURL=custom-card.css.map */
