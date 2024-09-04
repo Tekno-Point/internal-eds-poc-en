@@ -249,28 +249,7 @@
   },
   {
     "id": "accordion",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "style",
-        "label": "Accordion Styles",
-        "options": [
-          {
-            "name": "Content Style",
-            "children": [
-              {
-                "name": "Footer Quick Links",
-                "value": "footer-quick-links"
-              },
-              {
-                "name": "Footer Disclaimer",
-                "value": "footer-disclaimer"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "fields": []
   },
   {
     "id": "accordion-item",
@@ -352,24 +331,7 @@
   },
   {
     "id": "tabs",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "style",
-        "label": "Tab Styles",
-        "options": [
-          {
-            "name": "Content Style",
-            "children": [
-              {
-                "name": "FAQ Tabs",
-                "value": "faq-tabs"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "fields": []
   },
   {
     "id": "tabs-item",
