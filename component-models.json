@@ -293,6 +293,14 @@
               {
                 "name": "Redirect card",
                 "value": "redirect-card"
+              },
+              {
+                "name": "Insurance Plans Cards",
+                "value": "insurance-plans-cards"
+              },
+              {
+                "name": "Prefer Max Life Cards",
+                "value": "prefer-max-life-cards"
               }
             ]
           }
@@ -349,6 +357,44 @@
         "value": "",
         "label": "Tab Body",
         "row": true
+      }
+    ]
+  },
+  {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "tabel",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
       }
     ]
   }
