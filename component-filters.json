@@ -45,7 +45,7 @@
     ]
   }, {
     "id": "accordion",
-    "components": ["text", "accordion-item"]
+    "components": ["text", "accordion-item", "tabel"]
   },
   {
     "id": "custom-card",
