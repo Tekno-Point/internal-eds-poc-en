@@ -18,7 +18,9 @@
       "fragment",
       "popular-searches",
       "custom-card",
-      "accordion"
+      "accordion",
+      "carousel",
+      "table"
     ]
   },
   {
@@ -43,10 +45,24 @@
     ]
   }, {
     "id": "accordion",
-    "components": ["text", "accordion-item"]
+    "components": ["text", "accordion-item", "table"]
+  },{
+    "id": "accordion-item",
+    "components": ["table"]
   },
   {
     "id": "custom-card",
     "components": ["custom-card-item"]
+  },
+  {
+    "id": "carousel",
+    "components": ["carousel-item"]
+  },
+  {
+    "id": "tabel",
+    "components": [ 
+      "tabel-item"
+    ]
   }
+
 ]
