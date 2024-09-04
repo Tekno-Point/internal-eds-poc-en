@@ -1,0 +1,37 @@
+.block.popular-searches {
+    h2 {
+        font-size: 20px;
+        line-height: 28px;
+        font-family: var(--font-family-regular)
+        color: var(--color-secondary);
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+
+        li {
+            a {
+                margin-right: 0.75rem;
+                margin-top: 1rem;
+                display: inline-block;
+                font-weight: 600;
+                padding: 0.438rem 1rem;
+                border-radius: 1.5rem;
+                border: solid 1px var(--color-light);
+                font-size: 0.8rem;
+                cursor: pointer;
+                color: #6d7585;
+                line-height: 19px;
+
+                &:hover {
+                    color: var(--color-background-primary);
+                    border: solid 1px var(--color-background-primary);
+                    box-shadow: 0 2px 8px 0 rgba(242, 121, 48, 0.16);
+                }
+            }
+        }
+    }
+}
