@@ -125,6 +125,14 @@
               {
                 "name": "p-style-20",
                 "value": "p-style-20"
+              },
+              {
+                "name": "width-50",
+                "value": "width-50"
+              },
+              {
+                "name": "width-69",
+                "value": "width-69"
               }
             ]
           },
@@ -468,31 +476,6 @@
               {
                 "name": "Flex Container",
                 "value": "flex-container"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "text",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "style",
-        "label": "Text Style",
-        "options": [
-          {
-            "name": "Content Style",
-            "children": [
-              {
-                "name": "width-50",
-                "value": "width-50"
-              },
-              {
-                "name": "width-69",
-                "value": "width-69"
               }
             ]
           }
