@@ -195,11 +195,11 @@ h2 strong {
   align-items: center;
 }
 
-.width-50>div.default-content-wrapper{
+.width-50>div>div>div>div.default-content-wrapper{
   width: 50%;
 }
 
-.width-69>div.default-content-wrapper{
+.width-69>div>div>div>div.default-content-wrapper{
   width: 69%;
 }
 
