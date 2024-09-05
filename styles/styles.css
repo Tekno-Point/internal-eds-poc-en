@@ -11,6 +11,7 @@
  */
 
 @import url("./reset.css");
+
 /* @import url("../blocks/cards/cards.css"); */
 
 * {
@@ -34,6 +35,7 @@
   --color-background-default-dark: #f7f8f9;
   --color-shadow-primary: #171a211f;
   --color-shadow-secondary: #171a210f;
+  --hamburger-color: black;
 
   /* Font Sizes */
   --size-font-2xs: 0.512rem;
@@ -49,7 +51,7 @@
   --line-height-2xs: 0.687rem;
   --line-height-xs: 0.875rem;
   --line-height-sm: 1.125rem;
-  --line-height-base: 1.437rem;
+  --line-height-base: 1.5rem;
   --line-height-lg: 1.75rem;
   --line-height-xl: 2.187rem;
   --line-height-2xl: 2.75rem;
@@ -147,7 +149,7 @@ h2 strong {
 }
 
 .bg-gradient-purple {
-  background: linear-gradient(45deg, rgba(196, 221, 254, 0.32) -12.5%, rgba(254, 216, 247, 0.32) 112.5%);
+  background: linear-gradient(45deg, rgb(196 221 254 / 32%) -12.5%, rgb(254 216 247 / 32%) 112.5%);
 }
 
 /* padding classes */
@@ -167,6 +169,32 @@ h2 strong {
 .pb-64{
   padding-bottom: 64px;
 }
+
+/* Paragraph */
+
+
+.p-style-12 {
+  font-size: var(--size-font-sm);
+  line-height: var(--line-height-sm);
+  font-family: var(--font-family-regular);
+  color: #000;
+}
+
+.p-style-20 {
+  font-size: var(--size-font-lg);
+  line-height: var(--line-height-base);
+  font-family: var(--font-family-regular);
+  font-weight: 500;
+  color: #171a21;
+}
+
+/* Flex container */
+.flex-container>div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 @media screen and (width <=767.99px) {
   .section>div {
