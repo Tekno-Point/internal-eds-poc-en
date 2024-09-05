@@ -189,7 +189,7 @@ h2 strong {
 }
 
 /* Flex container */
-.flex-container>div {
+.flex-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
