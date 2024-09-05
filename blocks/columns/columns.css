@@ -1,9 +1,3 @@
-@import url("./redirect-column.css");
-@import url("./investment-opportunities.css");
-@import url("./remarkable-achievements/remarkable-achievements.css");
-@import url("./investing-affordable.css");
-@import url("./multiple-ways-to-grow-your-money/multiple-ways-to-grow-your-money.css");
-
 .columns > div {
   display: flex;
   flex-direction: column;

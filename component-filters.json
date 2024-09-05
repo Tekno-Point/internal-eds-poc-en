@@ -4,14 +4,6 @@
     "components": ["section"]
   },
   {
-    "id": "columns",
-    "components": []
-  },
-  {
-    "id": "column",
-    "components": ["text", "image", "button", "title"]
-  },
-  {
     "id": "section",
     "components": [
       "text",
@@ -22,11 +14,14 @@
       "cards",
       "columns",
       "fragment",
-      "embed",
-      "investment-opportunity",
-      "highest-quality-research-stock-list",
-      "lead-form",
-      "carousel"
+      "popular-searches",
+      "custom-card",
+      "accordion",
+      "tabs",
+      "carousel",
+      "table",
+      "teaser",
+      "wrappercreation"
     ]
   },
   {
@@ -34,7 +29,31 @@
     "components": ["card"]
   },
   {
+    "id": "columns",
+    "components": ["column"]
+  },
+  {
+    "id": "column",
+    "components": ["text", "image", "button", "title"]
+  },
+  {
+    "id": "accordion",
+    "components": ["text", "accordion-item"]
+  },
+  {
+    "id": "custom-card",
+    "components": ["custom-card-item"]
+  },
+  {
+    "id": "tabs",
+    "components": ["tabs-item"]
+  },
+  {
     "id": "carousel",
-    "components": ["carousel-item", "embed", "image"]
+    "components": ["carousel-item"]
+  },
+  {
+    "id": "tabel",
+    "components": ["tabel-item"]
   }
 ]

@@ -1,20 +1,32 @@
 [
   {
+    "id": "image",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Alt Text"
+      }
+    ]
+  },
+  {
     "id": "title",
     "fields": [
       {
         "component": "text",
-        "valueType": "string",
-        "name": "jcr:title",
-        "value": "",
-        "label": "Text"
+        "name": "title",
+        "label": "Title"
       },
       {
         "component": "select",
-        "name": "type",
-        "value": "h1",
-        "label": "Type",
-        "valueType": "string",
+        "name": "titleType",
+        "label": "Title Type",
         "options": [
           {
             "name": "h1",
@@ -45,54 +57,27 @@
     ]
   },
   {
-    "id": "image",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "fileReference",
-        "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "alt",
-        "value": "Default alt",
-        "label": "Alt Text"
-      }
-    ]
-  },
-  {
     "id": "button",
     "fields": [
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "href",
-        "value": "",
+        "component": "aem-content",
+        "name": "link",
         "label": "Link"
       },
       {
         "component": "text",
-        "valueType": "string",
-        "name": "text",
-        "value": "",
+        "name": "linkText",
         "label": "Text"
       },
       {
         "component": "text",
-        "valueType": "string",
-        "name": "title",
-        "value": "",
+        "name": "linkTitle",
         "label": "Title"
       },
       {
         "component": "select",
-        "name": "type",
-        "value": "",
+        "name": "linkType",
         "label": "Type",
-        "valueType": "string",
         "options": [
           {
             "name": "default",
@@ -111,59 +96,65 @@
     ]
   },
   {
-    "id": "columns",
+    "id": "section",
     "fields": [
       {
         "component": "multiselect",
-        "label": "Columns Style",
-        "name": "classes",
-        "valueType": "string",
+        "name": "style",
+        "label": "Section Style",
         "options": [
           {
-            "name": "Columns Style",
+            "name": "Content Style",
             "children": [
               {
-                "name": "Investment Opportunities",
-                "value": "investment-opportunities"
+                "name": "Insurance Plans Cards",
+                "value": "insurance-plans-cards"
               },
               {
-                "name": "Making Investing Affordable",
-                "value": "making-investing-affordable"
+                "name": "p-style-12",
+                "value": "p-style-12"
               },
               {
-                "name": "Multiple Ways to Grow",
-                "value": "multiple-ways-to-grow"
+                "name": "p-style-20",
+                "value": "p-style-20"
               },
               {
-                "name": "Remarkable Achievements",
-                "value": "remarkable-achievements"
+                "name": "Insurance Info Accordion",
+                "value": "insurance-info-accordion"
               }
             ]
           },
           {
-            "name": "Event Style",
+            "name": "Background Color",
             "children": [
               {
-                "name": "Redirect Column",
-                "value": "redirect-column"
+                "name": "Gradient Purple",
+                "value": "bg-gradient-purple"
+              }
+            ]
+          },
+          {
+            "name": "Padding",
+            "children": [
+              {
+                "name": "pt-32",
+                "value": "pt-32"
+              },
+              {
+                "name": "pb-32",
+                "value": "pb-32"
+              },
+              {
+                "name": "pt-64",
+                "value": "pt-64"
+              },
+              {
+                "name": "pb-64",
+                "value": "pb-64"
               }
             ]
           }
         ]
-      },
-      {
-        "component": "text",
-        "valueType": "number",
-        "name": "columns",
-        "value": "",
-        "label": "Columns"
-      },
-      {
-        "component": "text",
-        "valueType": "number",
-        "name": "rows",
-        "value": "",
-        "label": "Rows"
       }
     ]
   },
@@ -171,26 +162,22 @@
     "id": "cards",
     "fields": [
       {
-        "component": "multiselect",
-        "label": "Cards Style",
-        "name": "classes",
+        "component": "select",
         "valueType": "string",
+        "name": "classes",
+        "value": "",
+        "label": "Card Style",
         "options": [
           {
-            "name": "Cards Style",
-            "children": [
-              {
-                "name": "Market Leaders",
-                "value": "market-leaders"
-              }
-            ]
+            "name": "Term Insurance Cards",
+            "value": "term-insurance-cards"
           },
           {
-            "name": "Event Style",
+            "name": "Background Color",
             "children": [
               {
-                "name": "Redirect Card",
-                "value": "redirect-card"
+                "name": "Light Grey",
+                "value": "light-grey"
               }
             ]
           }
@@ -218,114 +205,31 @@
     ]
   },
   {
-    "id": "section",
+    "id": "columns",
     "fields": [
       {
-        "component": "multiselect",
-        "name": "style",
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
         "value": "",
-        "label": "Section Style",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Background Color",
-            "children": [
-              {
-                "name": "Light Grey",
-                "value": "light-grey"
-              },
-              {
-                "name": "Dark Grey",
-                "value": "dark-grey"
-              },
-              {
-                "name": "Light Black",
-                "value": "light-black"
-              },
-              {
-                "name": "Dark Black",
-                "value": "dark-black"
-              }
-            ]
-          },
-          {
-            "name": "Background Image",
-            "children": [
-              {
-                "name": "Hero Banner Fade",
-                "value": "hero-banner-fade"
-              }
-            ]
-          },
-          {
-            "name": "Content Style",
-            "children": [
-              {
-                "name": "Think Stocks",
-                "value": "think-stocks"
-              },
-              {
-                "name": "Making Investing Affordable",
-                "value": "making-investing-affordable"
-              },
-              {
-                "name": "Investment Opportunities",
-                "value": "investment-opportunities"
-              },
-              {
-                "name": "Market Leaders Reason",
-                "value": "market-leaders-reason"
-              },
-              {
-                "name": "Multiple Ways To Grow",
-                "value": "multiple-ways-to-grow"
-              },
-              {
-                "name": "Remarkable Achievements",
-                "value": "remarkable-achievements"
-              },
-              {
-                "name": "Think Stocks Form",
-                "value": "think-stocks-form"
-              },
-              {
-                "name": "Making Money Work",
-                "value": "making-money-work"
-              },
-              {
-                "name": "Highlights",
-                "value": "highlights"
-              },
-              {
-                "name": "Turbo Charge Investments",
-                "value": "turbo-charge-investments"
-              },
-              {
-                "name": "Go To Top",
-                "value": "go-to-top"
-              },
-              {
-                "name": "One Thirds Carousel",
-                "value": "one-thirds-carousel"
-              }
-            ]
-          },
-          {
-            "name": "Image Style",
-            "children": [
-              {
-                "name": "Image Center",
-                "value": "image-center"
-              }
-            ]
-          }
-        ]
+        "label": "Columns"
       },
       {
-        "component": "reference",
-        "name": "background-image",
-        "label": "Background Image",
-        "valueType": "string"
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "fragment",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "reference",
+        "label": "Reference"
       }
     ]
   },
@@ -356,104 +260,107 @@
     ]
   },
   {
-    "id": "fragment",
-    "fields": [
-      {
-        "component": "aem-content",
-        "name": "reference",
-        "label": "Reference"
-      }
-    ]
+    "id": "accordion",
+    "fields": []
   },
   {
-    "id": "embed",
+    "id": "accordion-item",
     "fields": [
       {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Embed Classes",
-        "options": [
-          {
-            "name": "Embed Style",
-            "children": [
-              {
-                "name": "Making Money Work",
-                "value": "making-money-work"
-              }
-            ]
-          }
-        ]
+        "component": "richtext",
+        "name": "head",
+        "value": "",
+        "label": "Head",
+        "row": true
       },
       {
-        "component": "text",
-        "name": "embed",
-        "label": "Embed"
+        "component": "richtext",
+        "name": "body",
+        "value": "",
+        "label": "Body",
+        "row": true
       }
     ]
   },
   {
-    "id": "investment-opportunity",
+    "id": "popular-searches",
     "fields": [
       {
         "component": "richtext",
         "name": "text",
         "value": "",
         "label": "Text",
-        "valueType": "string",
-        "row": true
-      }
-    ]
-  },
-  {
-    "id": "highest-quality-research-stock-list",
-    "fields": [
-      {
-        "component": "text",
-        "name": "api-url",
-        "value": "",
-        "label": "API Url",
         "valueType": "string"
       }
     ]
   },
   {
-    "id": "lead-form",
+    "id": "custom-card",
     "fields": [
       {
         "component": "multiselect",
         "name": "classes",
         "value": "",
-        "label": "Form Style",
+        "label": "Card Style",
+        "valueType": "string",
         "options": [
           {
             "name": "Content Style",
             "children": [
               {
-                "name": "Open Demat Account",
-                "value": "open-demat-account"
+                "name": "Term Insurance Cards",
+                "value": "term-insurance-cards"
               },
               {
-                "name": "Banner Open Demat Account",
-                "value": "banner-open-demat-account"
+                "name": "Redirect card",
+                "value": "redirect-card"
+              },
+              {
+                "name": "Insurance Plans Cards",
+                "value": "insurance-plans-cards"
+              },
+              {
+                "name": "Prefer Max Life Cards",
+                "value": "prefer-max-life-cards"
               }
             ]
           }
-        ],
-        "valueType": "string[]"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "custom-card-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "tabs",
+    "fields": []
+  },
+  {
+    "id": "tabs-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "head",
+        "value": "",
+        "label": "Tab Head",
+        "raw": true
       },
       {
-        "component": "text",
-        "name": "form-schema-json",
+        "component": "richtext",
+        "name": "body",
         "value": "",
-        "label": "Form Schema JSON",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "api-url",
-        "value": "",
-        "label": "API Url",
-        "valueType": "string"
+        "label": "Tab Body",
+        "raw": true
       }
     ]
   },
@@ -462,36 +369,19 @@
     "fields": [
       {
         "component": "multiselect",
-        "name": "classes",
-        "value": "",
-        "label": "Carousel Style",
+        "name": "style",
+        "label": "Carousel Styles",
         "options": [
           {
             "name": "Content Style",
             "children": [
               {
-                "name": "Hero Carousel",
-                "value": "hero-carousel"
-              },
-              {
-                "name": "One Thirds Carousel",
-                "value": "one-thirds-carousel"
-              },
-              {
-                "name": "One Half Carousel",
-                "value": "one-half-carousel"
+                "name": "FAQ Tabs",
+                "value": "faq-tabs"
               }
             ]
           }
-        ],
-        "valueType": "string[]"
-      },
-      {
-        "component": "boolean",
-        "label": "Infinite",
-        "name": "infinite",
-        "value": "",
-        "valueType": "boolean"
+        ]
       }
     ]
   },
@@ -499,64 +389,75 @@
     "id": "carousel-item",
     "fields": [
       {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "body",
+        "value": "",
+        "label": "Tab Body",
+        "row": true
+      }
+    ]
+  },
+  {
+    "id": "table",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "teaser",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "Left Content",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "Right Content",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "wrappercreation",
+    "fields": [
+      {
         "component": "multiselect",
         "name": "classes",
-        "value": "",
-        "label": "Carousel Style",
+        "label": "Wrapper Style",
         "options": [
           {
             "name": "Content Style",
             "children": [
               {
-                "name": "Hero Carousel",
-                "value": "hero-carousel"
-              },
-              {
-                "name": "One Thirds Carousel",
-                "value": "one-thirds-carousel"
-              },
-              {
-                "name": "One Half Carousel",
-                "value": "one-half-carousel"
+                "name": "Flex Container",
+                "value": "flex-container"
               }
             ]
-          }
-        ],
-        "valueType": "string[]"
-      },
-      {
-        "component": "richtext",
-        "name": "eyebrow",
-        "label": "Eyebrow",
-        "raw": true
-      },
-      {
-        "component": "reference",
-        "name": "image",
-        "label": "Image"
-      },
-      {
-        "component": "text",
-        "name": "imageAlt",
-        "label": "Image Alt"
-      },
-      {
-        "component": "text",
-        "name": "heading",
-        "label": "Carousel Heading"
-      },
-      {
-        "component": "select",
-        "name": "headingType",
-        "label": "Carousel Heading Type",
-        "options": [
-          {
-            "name": "H1",
-            "value": "h1"
-          },
-          {
-            "name": "H2",
-            "value": "h2"
           }
         ]
       }

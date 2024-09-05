@@ -1,6 +1,3 @@
-/* eslint-disable func-names */
-/* eslint-disable no-plusplus */
-/* eslint-disable no-shadow */
 import {
   sampleRUM,
   loadHeader,
@@ -63,41 +60,15 @@ async function loadFonts() {
   }
 }
 
-export function createElement(tagName, options = {}) {
-  const { classes = [], props = {} } = options;
-  const elem = document.createElement(tagName);
-  const isString = typeof classes === 'string';
-  if (classes || (isString && classes !== '') || (!isString && classes.length > 0)) {
-    const classesArr = isString ? [classes] : classes;
-    elem.classList.add(...classesArr);
-  }
-  if (!isString && classes.length === 0) elem.removeAttribute('class');
-
-  if (props) {
-    Object.keys(props).forEach((propName) => {
-      const isBooleanAttribute = propName === 'allowfullscreen' || propName === 'autoplay' || propName === 'muted' || propName === 'controls';
-
-      // For boolean attributes, add the attribute without a value if it's truthy
-      if (isBooleanAttribute) {
-        if (props[propName]) {
-          elem.setAttribute(propName, '');
-        }
-      } else {
-        const value = props[propName];
-        elem.setAttribute(propName, value);
-      }
-    });
-  }
-
-  return elem;
-}
 function autolinkModals(element) {
   element.addEventListener('click', async (e) => {
     const origin = e.target.closest('a');
 
     if (origin && origin.href && origin.href.includes('/modals/')) {
       e.preventDefault();
-      const { openModal } = await import(`${window.hlx.codeBasePath}/blocks/modal/modal.js`);
+      const { openModal } = await import(
+        `${window.hlx.codeBasePath}/blocks/modal/modal.js`
+      );
       openModal(origin.href);
     }
   });
@@ -153,17 +124,7 @@ async function loadEager(doc) {
     // do nothing
   }
 }
-// document.body.addEventListener('click', function (e) {
-//   bodyEventHandler(e, this);
-//   if (!(e.target.closest('.header'))) {
-//     const nav = document.getElementById('nav');
-//     const navSections = document.querySelector('.nav-sections');
-//     toggleMenu(nav, navSections);
-//   }
-// })
-// export function bodyEventHandler(e, _this) {
 
-// }
 /**
  * Loads everything that doesn't need to be delayed.
  * @param {Element} doc The container element
@@ -206,63 +167,3 @@ async function loadPage() {
 }
 
 loadPage();
-
-const texts = [' Insurance Plans For Every Need'];
-const period = 2000;
-
-function startTyping(element, texts, period) {
-  let loopNum = 0;
-  let isDeleting = false;
-  let txt = '';
-
-  function tick() {
-    const i = loopNum % texts.length;
-    const fullTxt = texts[i];
-
-    if (isDeleting) {
-      txt = fullTxt.substring(0, txt.length - 1);
-    } else {
-      txt = fullTxt.substring(0, txt.length + 1);
-    }
-
-    element.innerHTML = `<span class="wrap">${txt}<span class="type-cursor">|</span></span>`;
-
-    let delta = 200 - Math.random() * 100;
-
-    if (isDeleting) {
-      delta /= 2;
-    }
-
-    if (!isDeleting && txt === fullTxt) {
-      delta = period;
-      isDeleting = true;
-    } else if (isDeleting && txt === '') {
-      isDeleting = false;
-      loopNum++;
-      delta = 500;
-    }
-
-    setTimeout(tick, delta);
-  }
-
-  tick();
-}
-
-window.onload = function () {
-  const element = document.querySelector('.think-stocks > div.default-content-wrapper > ul:nth-child(2) > li:nth-child(1)');
-  startTyping(element, texts, period);
-};
-
-window.onscroll = function () {
-  const foldThreshold = 100;
-  const navWrapper = document.querySelector('.nav-wrapper');
-
-  // Check if the scroll position is greater than the fold threshold
-  if (window.scrollY > foldThreshold) {
-    navWrapper.classList.add('white-bg');
-  } else {
-    navWrapper.classList.remove('white-bg');
-  }
-  const element = document.querySelector('.go-to-top >div.default-content-wrapper');
-  element.style.display = 'block';
-};

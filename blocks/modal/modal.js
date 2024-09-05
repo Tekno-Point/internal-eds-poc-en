@@ -1,8 +1,10 @@
 import { loadFragment } from '../fragment/fragment.js';
 import {
-  buildBlock, decorateBlock, loadBlock, loadCSS,
+  buildBlock,
+  decorateBlock,
+  loadBlock,
+  loadCSS,
 } from '../../scripts/aem.js';
-// import decorate from '../lead-form/lead-form.js';
 
 /*
   This is not a traditional block, so there is no decorate function.
@@ -29,7 +31,6 @@ export async function createModal(contentNodes) {
   const block = buildBlock('modal', '');
   document.querySelector('main').append(block);
   decorateBlock(block);
-  // decorate(block);
   await loadBlock(block);
 
   // close on click outside the dialog
@@ -38,7 +39,12 @@ export async function createModal(contentNodes) {
       left, right, top, bottom,
     } = dialog.getBoundingClientRect();
     const { clientX, clientY } = e;
-    if (clientX < left || clientX > right || clientY < top || clientY > bottom) {
+    if (
+      clientX < left
+      || clientX > right
+      || clientY < top
+      || clientY > bottom
+    ) {
       dialog.close();
     }
   });
@@ -56,7 +62,9 @@ export async function createModal(contentNodes) {
     showModal: () => {
       dialog.showModal();
       // reset scroll position
-      setTimeout(() => { dialogContent.scrollTop = 0; }, 0);
+      setTimeout(() => {
+        dialogContent.scrollTop = 0;
+      }, 0);
       document.body.classList.add('modal-open');
     },
   };
