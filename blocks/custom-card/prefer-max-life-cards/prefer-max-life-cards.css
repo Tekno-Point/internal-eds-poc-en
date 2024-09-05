@@ -52,4 +52,10 @@
   font-family: Manrope-Regular;
   color: #171a21;
   padding-left: 8px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .custom-card.prefer-max-life-cards {
+    flex-wrap: unset;
+  }
 }/*# sourceMappingURL=prefer-max-life-cards.css.map */
