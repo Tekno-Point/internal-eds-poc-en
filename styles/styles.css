@@ -195,6 +195,14 @@ h2 strong {
   align-items: center;
 }
 
+.width-50{
+  width: 50%;
+}
+
+.width-69{
+  width: 69%;
+}
+
 
 @media screen and (width <=767.99px) {
   .section>div {
