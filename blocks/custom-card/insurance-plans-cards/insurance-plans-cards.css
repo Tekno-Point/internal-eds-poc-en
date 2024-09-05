@@ -33,8 +33,28 @@
   text-align: center;
   background: #fef2ea;
   color: #f27930;
+  font-size: 16px;
   font-family: Manrope-Bold;
   font-weight: 700;
   display: block;
   border-radius: 200px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .flex-container > div {
+    display: unset;
+  }
+  .custom-card.insurance-plans-cards {
+    flex-wrap: unset;
+    justify-content: unset;
+    gap: 16px;
+    width: 95%;
+    overflow: auto;
+    margin: auto;
+  }
+  .custom-card.insurance-plans-cards > div > div {
+    margin-left: 0;
+    margin-bottom: 16px;
+    width: 268px;
+  }
 }/*# sourceMappingURL=insurance-plans-cards.css.map */
