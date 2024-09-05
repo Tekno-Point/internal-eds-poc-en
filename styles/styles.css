@@ -11,6 +11,7 @@
  */
 
 @import url("./reset.css");
+/* @import url("../blocks/cards/cards.css"); */
 
 * {
   margin: 0;
@@ -42,6 +43,7 @@
   --size-font-lg: 1.25rem;
   --size-font-xl: 1.563rem;
   --size-font-2xl: 1.953rem;
+  --size-font-4xl: 4rem;
 
   /* Line Heights */
   --line-height-2xs: 0.687rem;
@@ -51,6 +53,7 @@
   --line-height-lg: 1.75rem;
   --line-height-xl: 2.187rem;
   --line-height-2xl: 2.75rem;
+  --line-height-3xl: 5.76rem;
 
   /* Font Family */
   --font-family-regular: manrope-regular, "sans-serif";
@@ -87,8 +90,9 @@ h2 {
 }
 
 h2 {
-  font-size: var(--size-font-xl);
-  line-height: var(--line-height-xl);
+  font-size: var(--size-font-2xl);
+  line-height: var(--line-height-lg);
+  color: var(--color-secondary);
 }
 
 h3 {
@@ -118,6 +122,12 @@ h6 {
   line-height: var(--line-height-xs);
 }
 
+h2 strong {
+  font-size: var(--size-font-4xl);
+  line-height: var(--line-height-3xl);
+  color: var(--color-secondary);
+}
+
 /* Background Colors */
 
 .bg-default-dark-light-gray {
@@ -134,6 +144,28 @@ h6 {
 
 .bg-primary-orange {
   background-color: var(--color-background-primary);
+}
+
+.bg-gradient-purple {
+  background: linear-gradient(45deg, rgba(196, 221, 254, 0.32) -12.5%, rgba(254, 216, 247, 0.32) 112.5%);
+}
+
+/* padding classes */
+
+.pt-32{
+  padding-top: 32px;
+}
+
+.pb-32{
+  padding-bottom: 32px;
+}
+
+.pt-64{
+  padding-top: 64px;
+}
+
+.pb-64{
+  padding-bottom: 64px;
 }
 
 @media screen and (width <=767.99px) {
