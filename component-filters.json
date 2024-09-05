@@ -20,7 +20,8 @@
       "tabs",
       "carousel",
       "table",
-      "teaser"
+      "teaser",
+      "wrappercreation"
     ]
   },
   {
@@ -37,7 +38,7 @@
   },
   {
     "id": "accordion",
-    "components": ["text", "accordion-item", "table"]
+    "components": ["text", "accordion-item"]
   },
   {
     "id": "custom-card",
