@@ -1,6 +1,7 @@
 .custom-card.insurance-plans-cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
   width: 100%;
 }
 .custom-card.insurance-plans-cards > div > div {
@@ -9,7 +10,7 @@
   padding: 16px;
   border-radius: 16px;
   width: 328px;
-  margin-right: 24px;
+  margin-left: 24px;
   margin-bottom: 24px;
 }
 .custom-card.insurance-plans-cards > div > div h3 {
