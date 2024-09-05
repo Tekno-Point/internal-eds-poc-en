@@ -117,6 +117,10 @@
               {
                 "name": "p-style-20",
                 "value": "p-style-20"
+              },
+              {
+                "name": "Insurance Info Accordion",
+                "value": "insurance-info-accordion"
               }
             ]
           },

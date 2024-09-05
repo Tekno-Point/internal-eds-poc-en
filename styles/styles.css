@@ -11,6 +11,7 @@
  */
 
 @import url("./reset.css");
+
 /* @import url("../blocks/cards/cards.css"); */
 
 * {
@@ -34,6 +35,7 @@
   --color-background-default-dark: #f7f8f9;
   --color-shadow-primary: #171a211f;
   --color-shadow-secondary: #171a210f;
+  --hamburger-color: black;
 
   /* Font Sizes */
   --size-font-2xs: 0.512rem;
@@ -147,7 +149,7 @@ h2 strong {
 }
 
 .bg-gradient-purple {
-  background: linear-gradient(45deg, rgba(196, 221, 254, 0.32) -12.5%, rgba(254, 216, 247, 0.32) 112.5%);
+  background: linear-gradient(45deg, rgb(196 221 254 / 32%) -12.5%, rgb(254 216 247 / 32%) 112.5%);
 }
 
 /* padding classes */
