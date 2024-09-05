@@ -474,5 +474,30 @@
         ]
       }
     ]
+  },
+  {
+    "id": "text",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Text Style",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "width-50",
+                "value": "width-50"
+              },
+              {
+                "name": "width-69",
+                "value": "width-69"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
