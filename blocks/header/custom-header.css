@@ -1,68 +1,42 @@
-header {
-  height: 80px;
-  box-shadow: 0 2px 8px 0 rgb(29 37 56 / 12%);
-  background-color: #fff;
-}
-
 header .nav-brand > div {
   width: 79px;
   height: 48px;
 }
-
 header .nav-sections > div {
   display: flex;
   align-items: center;
 }
-
 header .nav-sections > div > ul > li > p,
 header .nav-sections > div > ul:last-child > li {
   margin-top: -2rem;
   margin-bottom: -2rem;
   display: flex;
   align-items: center;
-  padding: 2rem 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   font-family: var(--font-family-bold);
 }
-
-header .nav-sections > div > ul .nav-drop > ul {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  align-items: start;
-  gap: 20px;
-  max-width: 1240px;
-  margin: 0 auto;
-  width: 100%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 10px;
-}
-
-header .nav-sections > div > ul .nav-drop > ul::before {
-  content: "";
-  z-index: -1;
-  width: 100vw;
-  height: 100%;
-  position: absolute;
-  background-color: aquamarine;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 header .nav-tools > div {
   display: flex;
   gap: 10px;
 }
-
-header .nav-tools > div .button-container em .secondary {
+header .nav-tools > div .button-container .button {
   background-color: transparent;
   padding: 0.5rem 1rem;
   color: var(--color-text-primary, #171a21);
-  border: 1px solid rgb(109 117 133);
+  border: 1px solid rgb(109, 117, 133);
   border-radius: 20px;
   text-align: center;
   font-family: var(--font-family-bold);
   font-size: var(--size-font-sm);
   line-height: var(--line-height-sm);
-  height: 2rem;
 }
+header .nav-tools > div p:last-child .button {
+  border-color: var(--color-primary);
+  background-color: transparent;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: var(--color-primary);
+}/*# sourceMappingURL=custom-header.css.map */

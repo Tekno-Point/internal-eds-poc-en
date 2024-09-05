@@ -4,14 +4,12 @@
   font-family: var(--font-family-regular);
   color: var(--color-secondary);
 }
-
 .block.popular-searches ul {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   padding-top: 1rem;
 }
-
 .block.popular-searches ul li a {
   margin-right: 0.75rem;
   margin-top: 1rem;
@@ -25,9 +23,8 @@
   color: #6d7585;
   line-height: 19px;
 }
-
 .block.popular-searches ul li a:hover {
   color: var(--color-background-primary);
   border: solid 1px var(--color-background-primary);
-  box-shadow: 0 2px 8px 0 rgb(242 121 48 / 16%);
-}
+  box-shadow: 0 2px 8px 0 rgba(242, 121, 48, 0.16);
+}/*# sourceMappingURL=popular-searches.css.map */
