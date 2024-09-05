@@ -21,27 +21,7 @@
       "carousel",
       "table",
       "teaser",
-      "container"
-    ]
-  },
-  {
-    "id": "container",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title",
-      "hero",
-      "cards",
-      "columns",
-      "fragment",
-      "popular-searches",
-      "custom-card",
-      "accordion",
-      "tabs",
-      "carousel",
-      "table",
-      "teaser"
+      "wrappercreation"
     ]
   },
   {
