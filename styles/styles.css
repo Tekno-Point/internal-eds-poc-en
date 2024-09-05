@@ -188,6 +188,11 @@ h2 strong {
   color: #171a21;
 }
 
+/* text center */
+.text-center>div>div>div>div.default-content-wrapper {
+  text-align: center;
+}
+
 /* Flex container */
 .flex-container>div{
   display: flex;
