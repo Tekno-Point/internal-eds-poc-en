@@ -23,19 +23,21 @@
             height: 100%;
 
             p {
-                a>span {
-                    img {
-                        width: 43px;
-                        height: 48px;
-                        margin-left: 63px;
-                        margin-top: 22px;
-                    }
+                position: absolute;
+                top: 18%;
+                left: 37%;
+
+                a>span>img {
+                    width: 43px;
+                    height: 48px;
                 }
             }
 
             h6 {
                 font-size: 16px;
                 line-height: 21px;
+                font-family: manrope-bold;
+                font-weight: 500;
                 color: #171a21;
                 text-align: center;
                 padding: 83px 20px 0;
@@ -56,6 +58,7 @@
                     color: rgb(9, 154, 79);
                     font-size: 10px;
                     line-height: 14px;
+                    font-family: manrope-bold;
                     font-style: normal;
                 }
             }
@@ -85,8 +88,35 @@
 @media only screen and (max-width: 768px) {
     .custom-card.term-insurance-cards {
         padding: 16px;
-        >div{
+        gap: 5px;
+
+        >div {
             width: 32%;
+            min-height: unset;
+            min-width: unset;
+            max-height: unset;
+            max-width: unset;
+            border: unset;
+
+            >div {
+                h6 {
+                    font-size: 13px;
+                    line-height: 16px;
+                    padding: 90px 10px 15px;
+                }
+
+                p {
+                    top: 21%;
+                    left: 31%;
+                }
+
+                pre {
+                    code {
+                        font-size: 8.192px;
+                        line-height: 10.992px;
+                    }
+                }
+            }
         }
     }
 }
