@@ -133,6 +133,10 @@
               {
                 "name": "width-69",
                 "value": "width-69"
+              },
+              {
+                "name": "text-center",
+                "value": "text-center"
               }
             ]
           },
