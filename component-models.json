@@ -109,6 +109,10 @@
               {
                 "name": "Insurance Plans Cards",
                 "value": "insurance-plans-cards"
+              },
+              {
+                "name": "Insurance Info Accordion",
+                "value": "insurance-info-accordion"
               }
             ]
           },
