@@ -51,6 +51,7 @@
     width: 95%;
     overflow: auto;
     margin: auto;
+    padding-top: 16px;
   }
   .custom-card.insurance-plans-cards > div > div {
     margin-left: 0;
