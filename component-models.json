@@ -281,7 +281,34 @@
   },
   {
     "id": "accordion",
-    "fields": []
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Accordion Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Accordion Style",
+            "children": [
+              {
+                "name": "Only One Expandable",
+                "value": "only-one-expandable"
+              },
+              {
+                "name": "All Expandable",
+                "value": "all-expandable"
+              },
+              {
+                "name": "Only Mobile Expandable",
+                "value": "only-mobile-expandable"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "accordion-item",

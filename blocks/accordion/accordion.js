@@ -1,3 +1,5 @@
+import { isDesktop } from "../header/header.js";
+
 export default function decorate(block) {
   const accordionItems = [];
 
@@ -20,21 +22,27 @@ export default function decorate(block) {
     row.replaceWith(details);
 
     // Store references to accordion items
+    accordionItems.open = true;
     accordionItems.push(details);
   });
 
   // Add event listeners to manage open state
   accordionItems.forEach((item) => {
-    item.addEventListener('toggle', () => {
-      // If the accordion item is being opened
-      if (item.open) {
-        // Close all other accordion items
-        accordionItems.forEach((otherItem) => {
-          if (otherItem !== item) {
-            otherItem.open = false;
-          }
-        });
-      }
-    });
+    if (isDesktop.matches && block.className.contains('only-mobile-expandable')) {
+      item.disabled = true;
+      item.open = true;
+    } else {
+      item.addEventListener('toggle', () => {
+        // If the accordion item is being opened
+        if (item.open) {
+          // Close all other accordion items
+          accordionItems.forEach((otherItem) => {
+            if (otherItem !== item) {
+              otherItem.open = false;
+            }
+          });
+        }
+      });
+    }
   });
 }
