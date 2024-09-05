@@ -480,7 +480,7 @@
     "fields": [
       {
         "component": "multiselect",
-        "name": "classes",
+        "name": "style",
         "label": "Text Style",
         "options": [
           {
