@@ -109,6 +109,14 @@
               {
                 "name": "Insurance Plans Cards",
                 "value": "insurance-plans-cards"
+              },
+              {
+                "name": "p-style-12",
+                "value": "p-style-12"
+              },
+              {
+                "name": "p-style-20",
+                "value": "p-style-20"
               }
             ]
           },
@@ -432,6 +440,23 @@
   },
   {
     "id": "wrappercreation",
-    "fields": []
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Wrapper Style",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Flex Container",
+                "value": "flex-container"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
