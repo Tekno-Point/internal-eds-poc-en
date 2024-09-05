@@ -189,7 +189,7 @@ h2 strong {
 }
 
 /* text center */
-.text-center>div>div>div>div.default-content-wrapper {
+.text-center {
   text-align: center;
 }
 
