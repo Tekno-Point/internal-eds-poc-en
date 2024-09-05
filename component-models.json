@@ -111,8 +111,12 @@
                 "value": "insurance-plans-cards"
               },
               {
-                "name": "Insurance Info Accordion",
-                "value": "insurance-info-accordion"
+                "name": "Quick Links Accordion Footer",
+                "value": "quick-links-footer"
+              },
+              {
+                "name": "Disclaimer Accordion Footer",
+                "value": "disclaimer-footer"
               }
             ]
           },
@@ -122,6 +126,14 @@
               {
                 "name": "Gradient Purple",
                 "value": "bg-gradient-purple"
+              },
+              {
+                "name": "Footer Background 1",
+                "value": "bg-default-dark-light-gray"
+              },
+              {
+                "name": "Footer Background 2",
+                "value": "bg-dark-gray"
               }
             ]
           },
