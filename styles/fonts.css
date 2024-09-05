@@ -1,6 +1,6 @@
 /* stylelint-disable max-line-length */
 @font-face {
-  font-family: Manrope-Regular;
+  font-family: manrope-regular;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: Manrope-Medium;
+  font-family: manrope-medium;
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -22,7 +22,7 @@
 }
 
 @font-face {
-  font-family: Manrope-SemiBold;
+  font-family: manrope-semibold;
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -55,7 +55,7 @@
 } */
 
 @font-face {
-  font-family: Manrope-Bold;
+  font-family: manrope-bold;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -66,7 +66,7 @@
 }
 
 @font-face {
-  font-family: Manrope-ExtraBold;
+  font-family: manrope-extraBold;
   font-style: normal;
   font-weight: 800;
   font-display: swap;
