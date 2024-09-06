@@ -376,6 +376,7 @@ header nav#nav[aria-expanded="true"] .nav-hamburger-icon::after {
 @media (width >=900px) {
   header nav#nav .nav-hamburger {
     /* display: none; */
+
     /* visibility: hidden; */
   }
 }
@@ -390,6 +391,7 @@ header .nav-brand {
 }
 
 /* sections */
+
 /* header nav#nav .nav-sections {
   grid-area: sections;
   flex: 1 1 auto;

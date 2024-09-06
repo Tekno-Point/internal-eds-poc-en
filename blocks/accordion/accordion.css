@@ -1,4 +1,6 @@
 @import url("./accordion-new.css");
+@import url("./disclaimer-footer.css");
+@import url("./quick-links-footer.css");
 
 .accordion details summary {
   position: relative;
