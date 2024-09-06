@@ -35,6 +35,7 @@
   --color-background-default-dark: #f7f8f9;
   --color-shadow-primary: #171a211f;
   --color-shadow-secondary: #171a210f;
+  --color-text-primary: #171a21;
   --hamburger-color: black;
 
   /* Font Sizes */
@@ -60,7 +61,7 @@
   /* Font Family */
   --font-family-regular: manrope-regular, "sans-serif";
   --font-family-semi-bold: manrope-medium, "sans-serif";
-  --font-family-bold: manrope-bold, "sans-serif";;
+  --font-family-bold: manrope-bold, "sans-serif";
   --font-family-light: manrope-light, "sans-serif";
   --font-family-sans: sans-serif;
   --font-family-serif: serif;
@@ -75,7 +76,7 @@ body {
   font-family: var(--font-family-regular);
 }
 
-.section>div {
+.section > div {
   max-width: 1200px;
   margin: auto;
 }
@@ -149,29 +150,32 @@ h2 strong {
 }
 
 .bg-gradient-purple {
-  background: linear-gradient(45deg, rgb(196 221 254 / 32%) -12.5%, rgb(254 216 247 / 32%) 112.5%);
+  background: linear-gradient(
+    45deg,
+    rgb(196 221 254 / 32%) -12.5%,
+    rgb(254 216 247 / 32%) 112.5%
+  );
 }
 
 /* padding classes */
 
-.pt-32{
+.pt-32 {
   padding-top: 32px;
 }
 
-.pb-32{
+.pb-32 {
   padding-bottom: 32px;
 }
 
-.pt-64{
+.pt-64 {
   padding-top: 64px;
 }
 
-.pb-64{
+.pb-64 {
   padding-bottom: 64px;
 }
 
 /* Paragraph */
-
 
 .p-style-12 {
   font-size: var(--size-font-sm);
@@ -189,23 +193,22 @@ h2 strong {
 }
 
 /* Flex container */
-.flex-container>div{
+.flex-container > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.width-50>div>div>div>div.default-content-wrapper{
+.width-50 > div > div > div > div.default-content-wrapper {
   width: 50%;
 }
 
-.width-69>div>div>div>div.default-content-wrapper{
+.width-69 > div > div > div > div.default-content-wrapper {
   width: 69%;
 }
 
-
 @media screen and (width <=767.99px) {
-  .section>div {
+  .section > div {
     width: 90%;
   }
 
@@ -219,11 +222,11 @@ h2 strong {
     line-height: var(--line-height-2xl);
   }
 
-  .width-50>div>div>div>div.default-content-wrapper{
+  .width-50 > div > div > div > div.default-content-wrapper {
     width: 100%;
   }
-  
-  .width-69>div>div>div>div.default-content-wrapper{
+
+  .width-69 > div > div > div > div.default-content-wrapper {
     width: 100%;
   }
 
@@ -231,7 +234,7 @@ h2 strong {
     font-size: var(--size-font-xs);
     line-height: var(--line-height-xs);
   }
-  
+
   .p-style-20 {
     font-size: var(--size-font-base);
     line-height: var(--line-height-base);

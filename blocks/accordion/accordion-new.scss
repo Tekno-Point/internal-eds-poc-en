@@ -1,5 +1,3 @@
-// This file contains Accordion CSS for "Main" and "Footer"
-
 // Main Accordion CSS
 main .section.accordion-container {
   .accordion-wrapper {
@@ -13,6 +11,9 @@ main .section.accordion-container {
             font-family: var(--font-family-bold);
             font-size: var(--size-font-base);
             line-height: var(--line-height-base);
+            @media screen and (max-width: 767px) {
+              width: 90%;
+            }
           }
         }
         .accordion-item-body {
@@ -39,49 +40,6 @@ main .section.accordion-container {
             a {
               text-decoration: underline;
               color: rgb(51, 102, 255);
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-// Footer Accordion CSS
-footer.footer-wrapper {
-  .footer.block {
-    .quick-links-footer {
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-      .accordion-wrapper {
-        .accordion.block {
-          .accordion-item {
-            summary {
-              p {
-                margin-bottom: 1.5rem;
-                font-family: var(--font-family-bold);
-                strong {
-                  span {
-                    display: none;
-                    @media screen and (max-width: 767px) {
-                      display: block;
-                    }
-                  }
-                }
-              }
-              &::after {
-                display: none;
-              }
-            }
-            .accordion-item-body {
-              ul {
-                li {
-                  margin-bottom: 0.5rem;
-                  color: var(--color-text-secondary);
-                  a {
-                  }
-                }
-              }
             }
           }
         }
