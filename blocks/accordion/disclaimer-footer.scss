@@ -1,0 +1,28 @@
+footer.footer-wrapper {
+  .footer.block {
+    .disclaimer-footer {
+      padding-bottom: 1.5rem;
+      .accordion-wrapper {
+        .accordion.block {
+          .accordion-item {
+            font-family: var(--font-family-regular);
+            color: var(--color-text-primary);
+            border-bottom: 1px solid #c2c7d0;
+            font-size: var(--size-font-base);
+            line-height: 1.44;
+            // padding-bottom: 1.5rem;
+            .accordion-item-label {
+              padding: 1.5rem 0;
+            }
+            .accordion-item-body {
+              padding: 0;
+              p {
+                margin-bottom: 0.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

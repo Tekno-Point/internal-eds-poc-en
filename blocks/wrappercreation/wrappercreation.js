@@ -2,10 +2,8 @@ export default function decorate(block) {
   const mainParentContainer = block.parentElement.closest('.section');
   const mainParentContainerChildren = Array.from(mainParentContainer.children);
   let wrapperChecker = false;
-  let currentIndex; let
-    contentDiv;
-  // eslint-disable-next-line prefer-const
-  contentDiv = document.createElement('div');
+  let currentIndex;
+  const contentDiv = document.createElement('div');
   contentDiv.classList.add('wrapper-creation-container');
 
   mainParentContainerChildren.forEach((child, index) => {
