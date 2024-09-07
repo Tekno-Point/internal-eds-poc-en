@@ -4,11 +4,12 @@ export default function decorate(block) {
   let wrapperChecker = false;
   let currentIndex; let
     contentDiv;
+  // eslint-disable-next-line prefer-const
   contentDiv = document.createElement('div');
   contentDiv.classList.add('wrapper-creation-container');
 
   mainParentContainerChildren.forEach((child, index) => {
-    if (((currentIndex + 1) == index) || wrapperChecker) {
+    if (((currentIndex + 1) === index) || wrapperChecker) {
       wrapperChecker = true;
       contentDiv.append(child);
     } else if (child.classList.contains('wrappercreation-wrapper')) {
