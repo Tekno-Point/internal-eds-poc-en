@@ -38,7 +38,7 @@
   },
   {
     "id": "accordion",
-    "components": ["text", "accordion-item"]
+    "components": ["accordion-item"]
   },
   {
     "id": "custom-card",
