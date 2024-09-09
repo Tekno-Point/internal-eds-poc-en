@@ -393,7 +393,7 @@
     ]
   },
   {
-    "id": "custom-accordion",
+    "id": "custom-accordions",
     "fields": [
       {
         "component": "multiselect",
@@ -416,18 +416,18 @@
     ]
   },
   {
-    "id": "custom-accordion-item",
+    "id": "custom-accordions-item",
     "fields": [
       {
         "component": "richtext",
-        "name": "custom-accordion-head",
+        "name": "custom-accordions-head",
         "value": "",
         "label": "Head",
         "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "custom-accordion-body",
+        "name": "custom-accordions-body",
         "value": "",
         "label": "Body",
         "valueType": "string"

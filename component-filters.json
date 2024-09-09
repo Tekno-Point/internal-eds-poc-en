@@ -16,7 +16,7 @@
       "fragment",
       "popular-searches",
       "custom-card",
-      "custom-accordion",
+      "custom-accordions",
       "accordion",
       "accordion-container",
       "tabs",
@@ -47,8 +47,8 @@
     "components": ["custom-card-item"]
   },
   {
-    "id": "custom-accordion",
-    "components": ["custom-accordion-item"]
+    "id": "custom-accordions",
+    "components": ["custom-accordions-item"]
   },
   {
     "id": "tabs",
