@@ -17,6 +17,7 @@
       "popular-searches",
       "custom-card",
       "custom-accordions",
+      "accordion-group",
       "accordion",
       "accordion-container",
       "tabs",
@@ -37,6 +38,10 @@
   {
     "id": "column",
     "components": ["text", "image", "button", "title"]
+  },
+  {
+    "id": "accordion-group-item",
+    "components": ["accordion-group-item"]
   },
   {
     "id": "accordion",
