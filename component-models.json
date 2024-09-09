@@ -419,11 +419,10 @@
     "id": "custom-accordions-item",
     "fields": [
       {
-        "component": "richtext",
+        "component": "text",
         "name": "custom-accordions-head",
         "value": "",
-        "label": "Head",
-        "valueType": "string"
+        "label": "Head"
       },
       {
         "component": "richtext",
