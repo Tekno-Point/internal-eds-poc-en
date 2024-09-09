@@ -422,14 +422,16 @@
         "component": "text",
         "name": "custom-accordions-head",
         "value": "",
-        "label": "Head"
+        "label": "Head",
+        "raw": true
       },
       {
-        "component": "richtext",
+        "component": "text",
         "name": "custom-accordions-body",
         "value": "",
         "label": "Body",
-        "valueType": "string"
+        "valueType": "string",
+        "raw": true
       }
     ]
   },
