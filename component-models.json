@@ -420,7 +420,7 @@
     "fields": [
       {
         "component": "multiselect",
-        "name": "style",
+        "name": "classes",
         "label": "Carousel Styles",
         "options": [
           {
