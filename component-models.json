@@ -420,14 +420,14 @@
     "fields": [
       {
         "component": "richtext",
-        "name": "text",
+        "name": "head",
         "value": "",
         "label": "Head",
         "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "body",
         "value": "",
         "label": "Body",
         "valueType": "string"
