@@ -17,6 +17,7 @@
       "popular-searches",
       "custom-card",
       "accordion",
+      "accordion-container",
       "tabs",
       "carousel",
       "table",
@@ -51,6 +52,10 @@
   {
     "id": "carousel",
     "components": ["carousel-item"]
+  },
+  {
+    "id": "accordion-container",
+    "components": ["accordion-body"]
   },
   {
     "id": "tabel",

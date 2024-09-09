@@ -443,15 +443,65 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Image",
-        "multi": false
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "value": "",
+        "label": "Image Alt"
       },
       {
         "component": "richtext",
-        "name": "body",
+        "name": "description",
         "value": "",
-        "label": "Tab Body",
-        "row": true
+        "label": "Description",
+        "raw": true
+      }
+    ]
+  },
+  {
+    "id": "accordion-container",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Carousel Styles",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "FAQ Tabs",
+                "value": "faq-tabs"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accordion-body",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "value": "",
+        "label": "Image Alt"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "value": "",
+        "label": "Description",
+        "raw": true
       }
     ]
   },
