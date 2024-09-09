@@ -485,22 +485,17 @@
     "id": "accordion-body",
     "fields": [
       {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image"
-      },
-      {
-        "component": "text",
-        "name": "imageAlt",
+        "component": "richtext",
+        "name": "head",
         "value": "",
-        "label": "Image Alt"
+        "label": "Head",
+        "raw": true
       },
       {
         "component": "richtext",
-        "name": "description",
+        "name": "body",
         "value": "",
-        "label": "Description",
+        "label": "Body",
         "raw": true
       }
     ]
