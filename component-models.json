@@ -420,14 +420,14 @@
     "fields": [
       {
         "component": "richtext",
-        "name": "head",
+        "name": "custom-accordion-head",
         "value": "",
         "label": "Head",
         "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "body",
+        "name": "custom-accordion-body",
         "value": "",
         "label": "Body",
         "valueType": "string"
