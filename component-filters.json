@@ -49,8 +49,8 @@
     "components": ["tabs-item"]
   },
   {
-    "id": "carousel-group",
-    "components": ["text", "image", "button", "title", "hero", "teaser"]
+    "id": "carousel",
+    "components": ["carousel-item"]
   },
   {
     "id": "tabel",

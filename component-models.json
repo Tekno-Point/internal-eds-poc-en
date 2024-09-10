@@ -367,56 +367,6 @@
     ]
   },
   {
-    "id": "accordion",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "value": "",
-        "label": "Accordion Style",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Accordion Style",
-            "children": [
-              {
-                "name": "Only One Expandable",
-                "value": "only-one-expandable"
-              },
-              {
-                "name": "All Expandable",
-                "value": "all-expandable"
-              },
-              {
-                "name": "Only Mobile Expandable",
-                "value": "only-mobile-expandable"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "accordion-item",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "head",
-        "value": "",
-        "label": "Head",
-        "row": true
-      },
-      {
-        "component": "richtext",
-        "name": "body",
-        "value": "",
-        "label": "Body",
-        "row": true
-      }
-    ]
-  },
-  {
     "id": "popular-searches",
     "fields": [
       {
@@ -476,49 +426,6 @@
     ]
   },
   {
-    "id": "custom-accordions",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "value": "",
-        "label": "Custom Accordion Style",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Content Style",
-            "children": [
-              {
-                "name": "Term Insurance Cards",
-                "value": "term-insurance-cards"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "custom-accordions-item",
-    "fields": [
-      {
-        "component": "text",
-        "name": "custom-accordions-head",
-        "value": "",
-        "label": "Head",
-        "raw": true
-      },
-      {
-        "component": "text",
-        "name": "custom-accordions-body",
-        "value": "",
-        "label": "Body",
-        "valueType": "string",
-        "raw": true
-      }
-    ]
-  },
-  {
     "id": "tabs",
     "fields": []
   },
@@ -542,53 +449,7 @@
     ]
   },
   {
-    "id": "carousel-group",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "previcon",
-        "value": "",
-        "label": "Previous Icon"
-      },
-      {
-        "component": "text",
-        "name": "imageAlt",
-        "value": "",
-        "label": "Image Alt for Prev Icon"
-      },
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "nexticon",
-        "value": "",
-        "label": "Next Icon"
-      },
-      {
-        "component": "text",
-        "name": "imageAlt",
-        "value": "",
-        "label": "Image Alt for Next Icon"
-      },
-      {
-        "component": "richtext",
-        "name": "description",
-        "value": "",
-        "label": "Description",
-        "raw": true
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "config",
-        "value": "",
-        "label": "Config"
-      }
-    ]
-  },
-
-  {
-    "id": "accordion-container",
+    "id": "carousel",
     "fields": [
       {
         "component": "multiselect",
@@ -609,20 +470,25 @@
     ]
   },
   {
-    "id": "accordion-body",
+    "id": "carousel-item",
     "fields": [
       {
-        "component": "richtext",
-        "name": "head",
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
         "value": "",
-        "label": "Head",
-        "raw": true
+        "label": "Image Alt"
       },
       {
         "component": "richtext",
-        "name": "body",
+        "name": "description",
         "value": "",
-        "label": "Body",
+        "label": "Description",
         "raw": true
       }
     ]
@@ -650,79 +516,18 @@
     "id": "teaser",
     "fields": [
       {
-        "component": "reference",
-        "valueType": "string",
-        "name": "fileReference",
-        "label": "Background Image",
-        "description": "The teaser image, Background",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "fileReferenceAlt",
+        "component": "richtext",
+        "name": "Left Content",
         "value": "",
-        "label": "Image Alt",
-        "description": "A descriptive text of the image will be shown as tooltip."
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "eyebrow",
-        "value": "",
-        "label": "Eyebrow",
-        "description": "Sets the small pre-title above the title."
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "title",
-        "value": "",
-        "label": "Heading",
-        "description": "Sets the main title of the teaser.",
-        "multi": true
+        "label": "Text",
+        "valueType": "string"
       },
       {
         "component": "richtext",
-        "valueType": "string",
-        "name": "longDescr",
+        "name": "Right Content",
         "value": "",
-        "label": "Long Description",
-        "description": "The description shown in Desktop and Tablet view."
-      },
-      {
-        "component": "select",
-        "name": "cta1Type",
-        "value": "primary",
-        "label": "First CTA Type",
-        "description": "'Primary' will render button filled, 'Secondary' with an outline.",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Primary",
-            "value": "primary"
-          },
-          {
-            "name": "Secondary",
-            "value": "secondary"
-          }
-        ]
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "cta1Text",
-        "value": "",
-        "label": "First CTA Text",
-        "description": "Text to be shown inside button."
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "cta1",
-        "value": "",
-        "label": "First CTA Link",
-        "description": "What link to open when clicking the button."
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   },
