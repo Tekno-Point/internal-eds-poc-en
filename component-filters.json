@@ -16,10 +16,7 @@
       "fragment",
       "popular-searches",
       "custom-card",
-      "custom-accordions",
       "accordion-group",
-      "accordion",
-      "accordion-container",
       "tabs",
       "carousel",
       "table",
@@ -44,16 +41,8 @@
     "components": ["accordion-group-item"]
   },
   {
-    "id": "accordion",
-    "components": ["accordion-item"]
-  },
-  {
     "id": "custom-card",
     "components": ["custom-card-item"]
-  },
-  {
-    "id": "custom-accordions",
-    "components": ["custom-accordions-item"]
   },
   {
     "id": "tabs",
@@ -64,11 +53,7 @@
     "components": ["carousel-item"]
   },
   {
-    "id": "accordion-container",
-    "components": ["accordion-body"]
-  },
-  {
-    "id": "tabel",
-    "components": ["tabel-item"]
+    "id": "table",
+    "components": ["table-item"]
   }
 ]
