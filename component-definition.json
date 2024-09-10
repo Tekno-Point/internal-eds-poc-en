@@ -199,37 +199,6 @@
           }
         },
         {
-          "title": "Accordion",
-          "id": "accordion",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Accordion",
-                  "model": "accordion",
-                  "filter": "accordion"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Accordion Item",
-          "id": "accordion-item",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Accordion Item",
-                  "model": "accordion-item"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Popular Searches",
           "id": "popular-searches",
           "plugins": {
@@ -276,37 +245,6 @@
           }
         },
         {
-          "title": "Custom Accordions",
-          "id": "custom-accordions",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Custom Accordions",
-                  "model": "custom-accordions",
-                  "filter": "custom-accordions"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Custom Accordions Item",
-          "id": "custom-accordions-item",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Custom Accordions Item",
-                  "model": "custom-accordions-item"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Tabs",
           "id": "tabs",
           "plugins": {
@@ -332,68 +270,6 @@
                 "template": {
                   "name": "Tabs Item",
                   "model": "tabs-item"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Carousel",
-          "id": "carousel",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Carousel",
-                  "model": "carousel",
-                  "filter": "carousel"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Carousel Item",
-          "id": "carousel-item",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Carousel Item",
-                  "model": "carousel-item"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Accordion Container",
-          "id": "accordion-container",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Accordion Container",
-                  "model": "accordion-container",
-                  "filter": "accordion-container"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Accordion Body",
-          "id": "accordion-body",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Accordion Body",
-                  "model": "accordion-body"
                 }
               }
             }
@@ -430,21 +306,6 @@
           }
         },
         {
-          "title": "Teaser",
-          "id": "teaser",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Teaser",
-                  "model": "teaser"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Wrapper Creation",
           "id": "wrappercreation",
           "plugins": {
@@ -454,6 +315,51 @@
                 "template": {
                   "name": "wrappercreation",
                   "model": "wrappercreation"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Carousel Group",
+          "id": "carousel-group",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Carousel Group",
+                  "model": "carousel-group",
+                  "filter": "teaser",
+                  "teaser": {
+                    "name": "Teaser",
+                    "model": "teaser",
+                    "fileReference": "/content/dam/eds-poc/max-life/high-1.webp",
+                    "title": "Carousel Title",
+                    "titleType": "h3",
+                    "longDescr": "<p> Carousel Description</p>",
+                    "classes": ["light", "left"]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Teaser",
+          "id": "teaser",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Teaser",
+                  "model": "teaser",
+                  "fileReference": "/content/dam/eds-poc/max-life/high-1.webp",
+                  "title": "Teaser Title",
+                  "titleType": "h3",
+                  "longDescr": "<p>Teaser Description</p>",
+                  "classes": ["light", "left"]
                 }
               }
             }

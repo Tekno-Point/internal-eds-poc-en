@@ -542,40 +542,33 @@
     ]
   },
   {
-    "id": "carousel",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Carousel Styles",
-        "options": [
-          {
-            "name": "Content Style",
-            "children": [
-              {
-                "name": "FAQ Tabs",
-                "value": "faq-tabs"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "carousel-item",
+    "id": "carousel-group",
     "fields": [
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
-        "label": "Image"
+        "name": "previcon",
+        "value": "",
+        "label": "Previous Icon"
       },
       {
         "component": "text",
         "name": "imageAlt",
         "value": "",
-        "label": "Image Alt"
+        "label": "Image Alt for Prev Icon"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "nexticon",
+        "value": "",
+        "label": "Next Icon"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "value": "",
+        "label": "Image Alt for Next Icon"
       },
       {
         "component": "richtext",
@@ -583,9 +576,17 @@
         "value": "",
         "label": "Description",
         "raw": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "config",
+        "value": "",
+        "label": "Config"
       }
     ]
   },
+
   {
     "id": "accordion-container",
     "fields": [
