@@ -18,7 +18,7 @@
       "custom-card",
       "accordion-group",
       "tabs",
-      "carousel-group",
+      "carousel",
       "table",
       "teaser",
       "wrappercreation"
@@ -37,7 +37,7 @@
     "components": ["text", "image", "button", "title"]
   },
   {
-    "id": "accordion-group-item",
+    "id": "accordion-group",
     "components": ["accordion-group-item"]
   },
   {
@@ -53,7 +53,7 @@
     "components": ["carousel-item"]
   },
   {
-    "id": "tabel",
-    "components": ["tabel-item"]
+    "id": "table",
+    "components": ["table-item"]
   }
 ]
