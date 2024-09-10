@@ -37,7 +37,7 @@
     "components": ["text", "image", "button", "title"]
   },
   {
-    "id": "accordion-group",
+    "id": "accordion-group-item",
     "components": ["accordion-group-item"]
   },
   {
