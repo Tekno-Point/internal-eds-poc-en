@@ -183,6 +183,15 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Background Image",
+        "children": [
+          {
+            "name": "Section Background",
+            "value": "section-background"
+          }
+        ]
       }
     ]
   },
