@@ -40,7 +40,7 @@
     "components": ["text", "image", "button", "title"]
   },
   {
-    "id": "accordion-group-item",
+    "id": "accordion-group",
     "components": ["accordion-group-item"]
   },
   {
