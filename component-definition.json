@@ -167,7 +167,7 @@
                 "template": {
                   "name": "Accordion Group",
                   "model": "accordion-group",
-                  "filter": "accordion-group"
+                  "filter": "accordion-group-item"
                 }
               }
             }
