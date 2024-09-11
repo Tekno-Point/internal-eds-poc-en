@@ -170,7 +170,7 @@
                   "filter": "accordion-dropdown-item",
                   "item": {
                     "sling:resourceType": "core/franklin/components/block/v1/block/item",
-                    "name": "Accordion",
+                    "name": "Accordion Dropdown Item",
                     "model": "accordion-dropdown-item",
                     "heading": "Lorem ipsum",
                     "headingType": "h3",
