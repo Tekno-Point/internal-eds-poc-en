@@ -170,8 +170,8 @@
                   "filter": "accordion-dropdown-item",
                   "item": {
                     "sling:resourceType": "core/franklin/components/block/v1/block/item",
-                    "name": "Accordion Dropdown Item",
-                    "model": "accordion-dropdown-item",
+                    "name": "Accordion",
+                    "model": "accordion",
                     "heading": "Lorem ipsum",
                     "headingType": "h3",
                     "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
