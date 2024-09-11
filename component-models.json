@@ -340,7 +340,7 @@
       {
         "component": "richtext",
         "valueType": "string",
-        "name": "text",
+        "name": "text1",
         "label": "Body",
         "value": ""
       }
