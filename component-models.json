@@ -245,6 +245,19 @@
     "id": "columns",
     "fields": [
       {
+        "component": "select",
+        "valueType": "string",
+        "name": "classes",
+        "value": "",
+        "label": "Columns Style",
+        "options": [
+          {
+            "name": "Trusted Companies Members",
+            "value": "trusted-companies-members"
+          }
+        ]
+      },
+      {
         "component": "text",
         "valueType": "number",
         "name": "columns",
