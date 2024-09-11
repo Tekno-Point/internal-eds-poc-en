@@ -346,7 +346,7 @@
       {
         "component": "richtext",
         "valueType": "string",
-        "name": "heading",
+        "name": "text",
         "value": "",
         "label": "Heading"
       },
@@ -382,7 +382,7 @@
       {
         "component": "richtext",
         "valueType": "string",
-        "name": "body",
+        "name": "text",
         "value": "",
         "label": "Body"
       }
