@@ -258,6 +258,10 @@
           {
             "name": "Trusted Companies Members",
             "value": "trusted-companies-members"
+          },
+          {
+            "name": "Insurance App",
+            "value": "insurance-app"
           }
         ]
       },

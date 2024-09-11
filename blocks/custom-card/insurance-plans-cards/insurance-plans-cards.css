@@ -3,17 +3,15 @@
   flex-wrap: wrap;
   width: 100%;
 }
-
 .custom-card.insurance-plans-cards > div > div {
   background-color: #fff;
-  box-shadow: 0 4px 12px 0 rgb(80 86 98 / 8%);
+  box-shadow: 0px 4px 12px 0px rgba(80, 86, 98, 0.08);
   padding: 16px;
   border-radius: 16px;
   width: 328px;
   margin-right: 24px;
   margin-bottom: 24px;
 }
-
 .custom-card.insurance-plans-cards > div > div h3 {
   color: #926ef7;
   font-family: Manrope-Bold;
@@ -21,7 +19,6 @@
   line-height: 28px;
   font-weight: 700;
 }
-
 .custom-card.insurance-plans-cards > div > div p:nth-child(2) {
   font-family: Manrope-Regular;
   font-size: 16px;
@@ -30,7 +27,6 @@
   color: #171a21;
   padding: 16px 0;
 }
-
 .custom-card.insurance-plans-cards > div > div p.button-container a {
   padding: 10px 24px;
   text-align: center;
@@ -40,4 +36,4 @@
   font-weight: 700;
   display: block;
   border-radius: 200px;
-}
+}/*# sourceMappingURL=insurance-plans-cards.css.map */
