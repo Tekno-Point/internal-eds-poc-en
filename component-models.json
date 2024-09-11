@@ -331,15 +331,15 @@
     "id": "accordion-dropdown-item",
     "fields": [
       {
-        "component": "text",
+        "component": "richtext",
         "valueType": "string",
-        "name": "text",
+        "name": "heading",
         "label": "Text",
         "value": ""
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "body",
         "value": "",
         "label": "Text",
         "valueType": "string"
