@@ -182,7 +182,9 @@
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "Accordion Dropdown Item",
-                  "model": "accordion-dropdown-item"
+                  "model": "accordion-dropdown-item",
+                  "heading": "Lorem ipsum",
+                  "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
                 }
               }
             }
