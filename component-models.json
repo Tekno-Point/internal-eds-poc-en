@@ -331,7 +331,7 @@
     "id": "accordion-dropdown-item",
     "fields": [
       {
-        "component": "richtext",
+        "component": "text",
         "valueType": "string",
         "name": "text1",
         "label": "Heading",
