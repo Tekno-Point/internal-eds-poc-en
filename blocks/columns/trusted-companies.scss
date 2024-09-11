@@ -1,0 +1,98 @@
+.trusted-companies-members>div {
+    > div:first-child {
+        width: 33%;
+        flex: unset;
+
+      h2 {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        line-height: 1.41;
+        font-size: 1.938rem;
+      }
+      p {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: #6d7585;
+        font-size: 1rem;
+        line-height: 1.437rem;
+      }
+      .button-container {
+        a.button {
+          display: block;
+          font-weight: 700;
+          color: #171a21;
+          -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+          text-decoration-color: #6d7585;
+          text-underline-offset: 0.4rem;
+  
+          &:hover {
+            -webkit-text-decoration-color: var(--color-primary);
+            text-decoration-color: #f27930
+          }
+        }
+      }
+    }
+  
+    > div:nth-child(2) {
+      ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+  
+        li {
+          margin: auto;
+          width: 14rem;
+          padding: 1rem 2rem;
+          text-align: center;
+          vertical-align: middle;
+          background-color: #ffffff;
+          opacity: 0.49;
+          mix-blend-mode: luminosity;
+  
+          .icon {
+            display: block;
+  
+            img {
+              max-width: 100%;
+              height: auto;
+              mix-blend-mode: luminosity;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width:1200px) {
+    .trusted-companies-members>div {
+      > div:first-child {
+          width: 100%;
+  
+        h2 {
+          margin: auto;
+          width: 80%;
+          text-align: center;
+          font-size: 1.25rem;
+          line-height: 1.75rem;
+        }
+        p {
+          display: none;
+        }
+        .button-container {
+          display: none
+        }
+      }
+    
+      > div:nth-child(2) {
+        ul {
+          li {
+            margin: auto;
+            width: 8rem;
+            padding: 0.5rem 1rem;
+          }
+        }
+      }
+    }
+  }
+  

@@ -2,48 +2,52 @@ header .nav-brand > div {
   width: 79px;
   height: 48px;
 }
+
 header .nav-sections > div {
   display: flex;
   align-items: center;
 }
+
 header .nav-sections > div > ul > li > p,
 header .nav-sections > div > ul:last-child > li {
   margin-top: -2rem;
   margin-bottom: -2rem;
   display: flex;
   align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 2rem 1rem;
   font-family: var(--font-family-bold);
 }
+
 header .nav-sections > div > ul > li > ul > li {
   display: flex;
 }
+
 header .nav-sections > div > ul > li > ul > li > p:last-child {
   display: flex;
   flex-direction: column;
 }
+
 header .nav-tools > div {
   display: flex;
   gap: 10px;
 }
+
 header .nav-tools > div .button-container .button {
   background-color: transparent;
   padding: 0.5rem 1rem;
   color: var(--color-text-primary, #171a21);
-  border: 1px solid rgb(109, 117, 133);
+  border: 1px solid rgb(109 117 133);
   border-radius: 20px;
   text-align: center;
   font-family: var(--font-family-bold);
   font-size: var(--size-font-sm);
   line-height: var(--line-height-sm);
 }
+
 header .nav-tools > div p:last-child .button {
   border-color: var(--color-primary);
   background-color: transparent;
   padding-left: 1rem;
   padding-right: 1rem;
   color: var(--color-primary);
-}/*# sourceMappingURL=custom-header.css.map */
+}
