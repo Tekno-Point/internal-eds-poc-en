@@ -334,6 +334,13 @@
         "component": "richtext",
         "valueType": "string",
         "name": "text",
+        "label": "Head",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "text",
         "label": "Body",
         "value": ""
       }
