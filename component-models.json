@@ -344,18 +344,18 @@
     "id": "accordion-dropdown-item",
     "fields": [
       {
-        "component": "text",
+        "component": "richtext",
         "valueType": "string",
         "name": "text",
-        "label": "Text222222",
+        "label": "Head",
         "value": ""
       },
       {
         "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "valueType": "string",
+        "name": "text1",
+        "label": "Body",
+        "value": ""
       }
     ]
   },
