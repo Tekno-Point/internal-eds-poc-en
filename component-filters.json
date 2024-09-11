@@ -11,12 +11,12 @@
       "button",
       "title",
       "hero",
+      "accordion-group",
       "cards",
       "columns",
       "fragment",
       "popular-searches",
       "custom-card",
-      "accordion-group",
       "tabs",
       "carousel",
       "table",
@@ -36,14 +36,13 @@
     "id": "column",
     "components": ["text", "image", "button", "title"]
   },
-
-  {
-    "id": "custom-card",
-    "components": ["custom-card-item"]
-  },
   {
     "id": "accordion-group",
     "components": ["accordion-group-item"]
+  },
+  {
+    "id": "custom-card",
+    "components": ["custom-card-item"]
   },
   {
     "id": "tabs",

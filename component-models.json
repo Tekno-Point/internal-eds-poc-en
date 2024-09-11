@@ -296,7 +296,56 @@
       }
     ]
   },
-
+  {
+    "id": "accordion-group",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Accordion Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Only One Expandable",
+                "value": "only-one-expandable"
+              },
+              {
+                "name": "All Expandable",
+                "value": "all-expandable"
+              },
+              {
+                "name": "Only Mobile Expandable",
+                "value": "only-mobile-expandable"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accordion-group-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "text",
+        "value": "",
+        "label": "Heading"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "text",
+        "value": "",
+        "label": "Body"
+      }
+    ]
+  },
   {
     "id": "popular-searches",
     "fields": [
@@ -356,56 +405,7 @@
       }
     ]
   },
-  {
-    "id": "accordion-group",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "value": "",
-        "label": "Accordion Style",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Content Style",
-            "children": [
-              {
-                "name": "Only One Expandable",
-                "value": "only-one-expandable"
-              },
-              {
-                "name": "All Expandable",
-                "value": "all-expandable"
-              },
-              {
-                "name": "Only Mobile Expandable",
-                "value": "only-mobile-expandable"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "accordion-group-item",
-    "fields": [
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "heading",
-        "value": "",
-        "label": "Heading"
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "body",
-        "value": "",
-        "label": "Body"
-      }
-    ]
-  },
+
   {
     "id": "tabs",
     "fields": []
