@@ -167,7 +167,7 @@
                 "template": {
                   "name": "Accordion Dropdown",
                   "model": "accordion-dropdown",
-                  "filter": "accordion-dropdown"
+                  "filter": "accordion-dropdown-item"
                 }
               }
             }
