@@ -367,7 +367,7 @@
         "valueType": "string",
         "options": [
           {
-            "name": "Accordion Style",
+            "name": "Content Style",
             "children": [
               {
                 "name": "Only One Expandable",
