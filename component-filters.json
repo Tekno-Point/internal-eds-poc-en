@@ -11,7 +11,7 @@
       "button",
       "title",
       "hero",
-      "accordion",
+      "accordion-dropdown",
       "accordion-group",
       "cards",
       "columns",
@@ -38,8 +38,8 @@
     "components": ["text", "image", "button", "title"]
   },
   {
-    "id": "accordion-item",
-    "components": ["accordion-item"]
+    "id": "accordion-dropdown",
+    "components": ["accordion-dropdown-item"]
   },
   {
     "id": "accordion-group",

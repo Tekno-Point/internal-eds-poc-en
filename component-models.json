@@ -297,56 +297,45 @@
     ]
   },
   {
-    "id": "accordion",
-    "fields": []
+    "id": "accordion-dropdown",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Accordion Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Only One Expandable",
+                "value": "only-one-expandable"
+              },
+              {
+                "name": "All Expandable",
+                "value": "all-expandable"
+              },
+              {
+                "name": "Only Mobile Expandable",
+                "value": "only-mobile-expandable"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": "accordion-item",
+    "id": "accordion-dropdown-item",
     "fields": [
       {
         "component": "richtext",
-        "valueType": "string",
         "name": "text",
         "value": "",
-        "label": "Heading",
-        "raw": true
-      },
-      {
-        "component": "select",
-        "valueType": "string",
-        "name": "headingType",
-        "value": "h3",
-        "label": "Heading Type",
-        "options": [
-          {
-            "name": "H2",
-            "value": "h2"
-          },
-          {
-            "name": "H3",
-            "value": "h3"
-          },
-          {
-            "name": "H4",
-            "value": "h4"
-          },
-          {
-            "name": "H5",
-            "value": "h5"
-          },
-          {
-            "name": "H6",
-            "value": "h6"
-          }
-        ]
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "text",
-        "value": "",
-        "label": "Body",
-        "raw": true
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   },
