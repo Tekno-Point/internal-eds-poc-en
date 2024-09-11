@@ -1,4 +1,4 @@
-@import url("./trusted-companies.scss");
+@import url("./trusted-companies.css");
 
 .columns > div {
   display: flex;

@@ -158,6 +158,10 @@
               {
                 "name": "Footer Background 2",
                 "value": "bg-dark-gray"
+              },
+              {
+                "name": "Light Blue",
+                "value": "bg-light-blue"
               }
             ]
           },
