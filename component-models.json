@@ -331,11 +331,11 @@
     "id": "accordion-group-item",
     "fields": [
       {
-        "component": "richtext",
+        "component": "text",
         "valueType": "string",
         "name": "text",
-        "value": "",
-        "label": "Heading"
+        "label": "Heading",
+        "value": ""
       },
       {
         "component": "richtext",
