@@ -334,15 +334,15 @@
         "component": "richtext",
         "valueType": "string",
         "name": "heading",
-        "label": "Text",
+        "label": "Heading",
         "value": ""
       },
       {
         "component": "richtext",
+        "valueType": "string",
         "name": "body",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "label": "Body",
+        "value": ""
       }
     ]
   },
