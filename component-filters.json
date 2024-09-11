@@ -38,7 +38,7 @@
     "components": ["text", "image", "button", "title"]
   },
   {
-    "id": "accordion-dropdown-item",
+    "id": "accordion-dropdown",
     "components": ["accordion-dropdown-item"]
   },
   {
