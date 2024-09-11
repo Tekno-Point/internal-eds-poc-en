@@ -333,15 +333,15 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "text1",
-        "label": "Heading",
+        "name": "text",
+        "label": "Text",
         "value": ""
       },
       {
         "component": "richtext",
-        "name": "text2",
+        "name": "text",
         "value": "",
-        "label": "Body",
+        "label": "Text",
         "valueType": "string"
       }
     ]
