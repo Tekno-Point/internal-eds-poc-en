@@ -334,14 +334,14 @@
         "component": "text",
         "valueType": "string",
         "name": "text",
-        "label": "Text",
+        "label": "Text222222",
         "value": ""
       },
       {
         "component": "richtext",
         "name": "text",
         "value": "",
-        "label": "Text2",
+        "label": "Text",
         "valueType": "string"
       }
     ]
