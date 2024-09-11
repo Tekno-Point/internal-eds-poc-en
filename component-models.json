@@ -308,7 +308,8 @@
         "valueType": "string",
         "name": "heading",
         "value": "",
-        "label": "Heading"
+        "label": "Heading",
+        "raw": true
       },
       {
         "component": "select",
@@ -344,7 +345,8 @@
         "valueType": "string",
         "name": "body",
         "value": "",
-        "label": "Body"
+        "label": "Body",
+        "raw": true
       }
     ]
   },
