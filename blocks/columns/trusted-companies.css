@@ -2,19 +2,19 @@
   background-color: transparent;
 }
 
-.trusted-companies-members > div > div:first-child {
+.trusted-companies-members.columns > div > div:first-child {
   width: 33%;
   flex: unset;
 }
 
-.trusted-companies-members > div > div:first-child h2 {
+.trusted-companies-members.columns > div > div:first-child h2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   line-height: 1.41;
   font-size: 1.938rem;
 }
 
-.trusted-companies-members > div > div:first-child p {
+.trusted-companies-members.columns > div > div:first-child p {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: #6d7585;
@@ -22,7 +22,7 @@
   line-height: 1.437rem;
 }
 
-.trusted-companies-members > div > div:first-child .button-container a.button {
+.trusted-companies-members.columns > div > div:first-child .button-container a.button {
   display: block;
   font-weight: 700;
   color: #171a21;
@@ -31,17 +31,17 @@
   text-underline-offset: 0.4rem;
 }
 
-.trusted-companies-members > div > div:first-child .button-container a.button:hover {
+.trusted-companies-members.columns > div > div:first-child .button-container a.button:hover {
   text-decoration-color: #f27930;
 }
 
-.trusted-companies-members > div > div:nth-child(2) ul {
+.trusted-companies-members.columns > div > div:nth-child(2) ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-.trusted-companies-members > div > div:nth-child(2) ul li {
+.trusted-companies-members.columns > div > div:nth-child(2) ul li {
   margin: auto;
   width: 14rem;
   padding: 1rem 2rem;
@@ -52,11 +52,11 @@
   mix-blend-mode: luminosity;
 }
 
-.trusted-companies-members > div > div:nth-child(2) ul li .icon {
+.trusted-companies-members.columns > div > div:nth-child(2) ul li .icon {
   display: block;
 }
 
-.trusted-companies-members > div > div:nth-child(2) ul li .icon img {
+.trusted-companies-members.columns > div > div:nth-child(2) ul li .icon img {
   max-width: 100%;
   height: auto;
   mix-blend-mode: luminosity;
@@ -67,11 +67,15 @@
     background-color: var(--color-background-active);
   }
 
-  .trusted-companies-members > div > div:first-child {
+  .trusted-companies-members.columns > div {
+    flex-direction: column;
+  }
+
+  .trusted-companies-members.columns > div > div:first-child {
     width: 100%;
   }
 
-  .trusted-companies-members > div > div:first-child h2 {
+  .trusted-companies-members.columns > div > div:first-child h2 {
     margin: auto;
     width: 80%;
     text-align: center;
@@ -79,15 +83,15 @@
     line-height: 1.75rem;
   }
 
-  .trusted-companies-members > div > div:first-child p {
+  .trusted-companies-members.columns > div > div:first-child p {
     display: none;
   }
 
-  .trusted-companies-members > div > div:first-child .button-container {
+  .trusted-companies-members.columns > div > div:first-child .button-container {
     display: none;
   }
 
-  .trusted-companies-members > div > div:nth-child(2) ul li {
+  .trusted-companies-members.columns > div > div:nth-child(2) ul li {
     margin: auto;
     width: 8rem;
     padding: 0.5rem 1rem;

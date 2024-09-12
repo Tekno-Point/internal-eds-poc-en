@@ -3,7 +3,7 @@
   background-color: transparent;
 }
 
-.trusted-companies-members>div {
+.trusted-companies-members.columns>div {
     > div:first-child {
         width: 33%;
         flex: unset;
@@ -74,7 +74,9 @@
       background-color: var(--color-background-active);
     }
 
-    .trusted-companies-members>div {
+    .trusted-companies-members.columns>div {
+      flex-direction: column;
+      
       > div:first-child {
           width: 100%;
   
