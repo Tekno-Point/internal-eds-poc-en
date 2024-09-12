@@ -111,6 +111,10 @@
                 "value": "insurance-plans-cards"
               },
               {
+                "name": "Prefer Max Life Cards",
+                "value": "prefer-max-life-cards"
+              },
+              {
                 "name": "Quick Links Accordion Footer",
                 "value": "quick-links-footer"
               },
@@ -575,6 +579,10 @@
               {
                 "name": "Three Slides Only",
                 "value": "three-slides-only"
+              },
+              {
+                "name": "Reviews",
+                "value": "reviews"
               }
             ]
           }
@@ -653,12 +661,6 @@
         "component": "richtext",
         "name": "text",
         "label": "Description",
-        "raw": true
-      },
-      {
-        "component": "richtext",
-        "name": "Review Content",
-        "label": "Review",
         "raw": true
       }
     ]
