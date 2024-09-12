@@ -699,51 +699,46 @@
         ]
       },
       {
-        "id": "teaser",
-        "fields": [
-          {
-            "component": "reference",
-            "valueType": "string",
-            "name": "teaser_desk-image",
-            "label": "Desktop Image",
-            "description": "The Desktop image"
-          },
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "teaser_desk-imageAlt",
-            "label": "The Desktop image alt",
-            "value": ""
-          },
-          {
-            "component": "reference",
-            "valueType": "string",
-            "name": "teaser_mob-image",
-            "label": "Mobile Image",
-            "description": "The Mobile image"
-          },
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "teaser_mob-imageAlt",
-            "label": "The Mobile image alt",
-            "value": ""
-          },
-          {
-            "component": "richtext",
-            "name": "shortDescr",
-            "value": "",
-            "label": "Short Description",
-            "valueType": "string"
-          },
-          {
-            "component": "richtext",
-            "name": "longDescr",
-            "value": "",
-            "label": "Long Description",
-            "valueType": "string"
-          }
-        ]
+        "component": "reference",
+        "valueType": "string",
+        "name": "teaser_desk-image",
+        "label": "Desktop Image",
+        "description": "The Desktop image"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "teaser_desk-imageAlt",
+        "label": "The Desktop image alt",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "teaser_mob-image",
+        "label": "Mobile Image",
+        "description": "The Mobile image"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "teaser_mob-imageAlt",
+        "label": "The Mobile image alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "shortDescr",
+        "value": "",
+        "label": "Short Description",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "longDescr",
+        "value": "",
+        "label": "Long Description",
+        "valueType": "string"
       }
     ]
   },
