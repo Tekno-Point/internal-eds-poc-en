@@ -6,6 +6,11 @@ header .nav-sections > div {
   display: flex;
   align-items: center;
 }
+
+header .nav-sections > div > ul > li > ul > li {
+  display: flex;
+}
+
 header .nav-sections > div > ul > li > p,
 header .nav-sections > div > ul:last-child > li {
   margin-top: -2rem;

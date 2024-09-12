@@ -15,7 +15,6 @@
 }
 .swiper .swiper-slide > div > picture > img {
   width: 100%;
-  -o-object-fit: fill;
      object-fit: fill;
 }
 
