@@ -1,5 +1,9 @@
 .section.contact-us-cards {
+  background-image: url("/images/contactus-sidebg.webp");
   background-repeat: no-repeat;
+}
+.section.contact-us-cards .default-content-wrapper > p {
+  padding-bottom: 20px;
 }
 .section.contact-us-cards .custom-card-wrapper {
   display: flex;
@@ -43,4 +47,27 @@
   font-family: var(--font-family-regular);
   font-weight: 700;
   color: #171a21;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section.contact-us-cards {
+    background-color: #fff;
+    background-image: unset;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .section.contact-us-cards .default-content-wrapper > p {
+    display: none;
+  }
+  .custom-card.contact-us-cards {
+    width: 100%;
+    padding-top: 32px;
+  }
+  .custom-card.contact-us-cards > div > div:nth-child(2) {
+    padding-left: 8px;
+  }
+  .custom-card.contact-us-cards > div > div:nth-child(2) p:nth-child(2) {
+    font-size: 12.8px;
+    line-height: 19.2px;
+  }
 }/*# sourceMappingURL=contact-us-cards.css.map */

@@ -1,5 +1,10 @@
 .section.contact-us-cards {
+    background-image: url('/images/contactus-sidebg.webp');
     background-repeat: no-repeat;
+
+    .default-content-wrapper>p{
+        padding-bottom: 20px;
+    }
     .custom-card-wrapper {
         display: flex;
         justify-content: flex-end;
@@ -47,6 +52,35 @@
                 font-family: var(--font-family-regular);
                 font-weight: 700;
                 color: #171a21;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .section.contact-us-cards {
+        background-color: #fff;
+        background-image: unset;
+        padding-top: 24px;
+        padding-bottom: 24px;
+
+        .default-content-wrapper>p{
+            display: none;
+        }
+    }
+
+    .custom-card.contact-us-cards {
+        width: 100%;
+        padding-top: 32px;
+
+        >div{
+            >div:nth-child(2){
+                padding-left: 8px;
+
+                p:nth-child(2) {
+                    font-size: 12.8px;
+                    line-height: 19.2px;
+                }
             }
         }
     }
