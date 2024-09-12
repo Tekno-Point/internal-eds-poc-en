@@ -589,12 +589,6 @@
         "valueType": "string[]"
       },
       {
-        "component": "richtext",
-        "name": "eyebrow",
-        "label": "Eyebrow",
-        "raw": true
-      },
-      {
         "component": "reference",
         "name": "image",
         "label": "Image"
@@ -621,8 +615,22 @@
           {
             "name": "H2",
             "value": "h2"
+          },
+          {
+            "name": "H3",
+            "value": "h3"
+          },
+          {
+            "name": "H4",
+            "value": "h4"
           }
         ]
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "label": "Description",
+        "raw": true
       }
     ]
   },
