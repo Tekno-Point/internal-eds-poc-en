@@ -601,19 +601,17 @@
               {
                 "name": "One Slide Only",
                 "value": "one-slide-only"
-              },
-              {
-                "name": "Two Slides Only",
-                "value": "two-slides-only"
-              },
-              {
-                "name": "Three Slides Only",
-                "value": "three-slides-only"
               }
             ]
           }
         ],
         "valueType": "string[]"
+      },
+      {
+        "component": "richtext",
+        "name": "eyebrow",
+        "label": "Eyebrow",
+        "raw": true
       },
       {
         "component": "reference",
@@ -657,12 +655,6 @@
         "component": "richtext",
         "name": "text",
         "label": "Description",
-        "raw": true
-      },
-      {
-        "component": "richtext",
-        "name": "Review Content",
-        "label": "Review",
         "raw": true
       }
     ]
