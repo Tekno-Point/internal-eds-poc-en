@@ -1,3 +1,15 @@
+.section.prefer-max-life-cards {
+    background-image: url('/images/prefer-max-life-bg.svg');
+    background-repeat: no-repeat;
+
+    .default-content-wrapper {
+        text-align: center;
+        p{
+            padding-bottom: 20px;
+        }
+    }
+}
+
 .custom-card.prefer-max-life-cards {
     display: flex;
     flex-wrap: wrap;
@@ -61,6 +73,21 @@
 }
 
 @media only screen and (max-width: 1024px){
+    .section.prefer-max-life-cards {
+        background-image: unset;
+        padding-top: 40px;
+        padding-bottom: 16px;
+
+        >div{
+            padding: 0;
+            .default-content-wrapper {
+                p{
+                    display: none;
+                }
+            }
+        }
+    }
+
     .custom-card.prefer-max-life-cards{
         flex-wrap: unset;
         margin-top: 24px;
