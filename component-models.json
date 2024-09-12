@@ -196,6 +196,12 @@
             "value": "section-background"
           }
         ]
+      },
+      {
+        "component": "reference",
+        "name": "background-image",
+        "label": "Background Image",
+        "valueType": "string"
       }
     ]
   },
