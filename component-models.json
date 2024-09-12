@@ -561,16 +561,16 @@
             "name": "Content Style",
             "children": [
               {
-                "name": "Hero Carousel",
-                "value": "hero-carousel"
+                "name": "One Slide Only",
+                "value": "one-slide-only"
               },
               {
-                "name": "One Thirds Carousel",
-                "value": "one-thirds-carousel"
+                "name": "Two Slides Only",
+                "value": "two-slides-only"
               },
               {
-                "name": "One Half Carousel",
-                "value": "one-half-carousel"
+                "name": "Three Slides Only",
+                "value": "three-slides-only"
               }
             ]
           }
@@ -589,24 +589,6 @@
   {
     "id": "carousel-item",
     "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "value": "",
-        "label": "Carousel Style",
-        "options": [
-          {
-            "name": "Content Style",
-            "children": [
-              {
-                "name": "Hero Carousel",
-                "value": "hero-carousel"
-              }
-            ]
-          }
-        ],
-        "valueType": "string[]"
-      },
       {
         "component": "reference",
         "name": "image",
@@ -654,9 +636,8 @@
       {
         "component": "richtext",
         "name": "Review Content",
-        "value": "",
         "label": "Review",
-        "valueType": "string"
+        "raw": true
       }
     ]
   },
