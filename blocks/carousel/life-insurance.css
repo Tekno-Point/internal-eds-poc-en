@@ -1,0 +1,48 @@
+.life-insurance .carousel-wrapper .carousel.block .carousel-slides-container .carousel-slides .carousel-slide .carousel-slide-image {
+  padding-left: 1rem;
+}
+.life-insurance .carousel-wrapper .carousel.block .carousel-slides-container .carousel-slides .carousel-slide .carousel-slide-image picture {
+  left: 1rem;
+}
+.life-insurance .carousel-wrapper .carousel.block .carousel-slides-container .carousel-slides .carousel-slide .carousel-slide-image picture img {
+  height: 77px;
+  width: 66px;
+}
+.life-insurance .carousel-wrapper .carousel.block .carousel-slides-container .carousel-slides .carousel-slide .carousel-slide-image::after {
+  content: "";
+  display: block;
+  width: 5.125rem;
+  height: 5px;
+  background-color: var(--color-background-light);
+  border-radius: 5px;
+  position: absolute;
+  top: 90px;
+}
+.life-insurance .carousel-wrapper .carousel.block .carousel-slides-container .carousel-slides .carousel-slide .carousel-slide-content {
+  background-color: unset;
+  margin: 120px 0;
+  border-left: 1px solid #ebedf0;
+  padding: 0 0 0 1rem;
+  height: 17rem;
+}
+.life-insurance .carousel-wrapper .carousel.block .carousel-slides-container .carousel-slides .carousel-slide .carousel-slide-content h3 {
+  font-size: 1.563rem;
+  line-height: var(--line-height-base);
+  color: var(--color-secondary);
+  font-family: var(--font-family-bold);
+}
+.life-insurance .carousel-wrapper .carousel.block .carousel-slides-container .carousel-slides .carousel-slide .carousel-slide-content p {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: var(--color-text-primary);
+  font-family: var(--font-family-semi-bold);
+  line-height: var(--line-height-base);
+}
+.life-insurance .carousel-wrapper .carousel.block nav {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .life-insurance .carousel-wrapper .carousel.block nav {
+    display: block;
+  }
+}/*# sourceMappingURL=life-insurance.css.map */

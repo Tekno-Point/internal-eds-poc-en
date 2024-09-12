@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="77" viewBox="0 0 66 77">
+    <defs>
+        <linearGradient id="a" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#b3e796"/>
+            <stop offset="1" stop-color="#21a2d0"/>
+        </linearGradient>
+        <linearGradient id="b" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#62baf8"/>
+            <stop offset="1" stop-color="#497af8"/>
+        </linearGradient>
+    </defs>
+    <g data-name="Group 22425">
+        <path data-name="Union 2" d="m9308.884 284.638-30.331-29.62a1.814 1.814 0 0 1-.2-2.375l10.11-13.822a1.905 1.905 0 0 1 1.536-.771h40.441a1.9 1.9 0 0 1 1.535.771l10.11 13.822a1.81 1.81 0 0 1-.2 2.375l-30.333 29.62a1.914 1.914 0 0 1-2.668 0zm1.334-7.133 7.491-21.946h-14.98zm4.321-1 21.451-20.95h-14.3zm-8.641 0-7.151-20.95h-14.3zm18.1-24.638h12.882l-6.44-8.807zm-20.221 0h12.885l-6.443-8.807zm-20.221 0h12.885l-6.441-8.802zm36.772-1.327 6.44-8.809h-12.882zm-20.221 0 6.443-8.809h-12.885zm30.228-20.558 6.12-6.117a2.019 2.019 0 0 1 2.855 2.856l-6.117 6.12a2.088 2.088 0 0 1-1.427.6 2.031 2.031 0 0 1-1.431-3.455zm-22.136 1.428v-8.652a2.02 2.02 0 0 1 4.039 0v8.652a2.02 2.02 0 1 1-4.039 0zm-20.955 1.43-6.117-6.12a2.019 2.019 0 0 1 2.855-2.856l6.12 6.117a2.021 2.021 0 0 1-2.858 2.858z" transform="translate(-9278 -214.466)" style="fill:url(#b)"/>
+    </g>
+</svg>

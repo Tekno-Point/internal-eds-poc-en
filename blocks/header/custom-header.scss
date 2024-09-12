@@ -30,6 +30,15 @@ header {
                 padding-right: 1rem;
                 font-family: var(--font-family-bold);
             }
+
+
+            >ul >li >ul >li{
+                display: flex;
+                >p:last-child{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
         }
     }
 

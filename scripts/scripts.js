@@ -60,6 +60,35 @@ async function loadFonts() {
   }
 }
 
+export function createElement(tagName, options = {}) {
+  const { classes = [], props = {} } = options;
+  const elem = document.createElement(tagName);
+  const isString = typeof classes === 'string';
+  if (classes || (isString && classes !== '') || (!isString && classes.length > 0)) {
+    const classesArr = isString ? [classes] : classes;
+    elem.classList.add(...classesArr);
+  }
+  if (!isString && classes.length === 0) elem.removeAttribute('class');
+
+  if (props) {
+    Object.keys(props).forEach((propName) => {
+      const isBooleanAttribute = propName === 'allowfullscreen' || propName === 'autoplay' || propName === 'muted' || propName === 'controls';
+
+      // For boolean attributes, add the attribute without a value if it's truthy
+      if (isBooleanAttribute) {
+        if (props[propName]) {
+          elem.setAttribute(propName, '');
+        }
+      } else {
+        const value = props[propName];
+        elem.setAttribute(propName, value);
+      }
+    });
+  }
+
+  return elem;
+}
+
 function autolinkModals(element) {
   element.addEventListener('click', async (e) => {
     const origin = e.target.closest('a');
@@ -102,6 +131,53 @@ export function decorateMain(main) {
 }
 
 /**
+ * Loads a fragment.
+ * @param {string} path The path to the fragment
+ * @returns {HTMLElement} The root element of the fragment
+ */
+export async function loadFragment(path) {
+  if (path && path.startsWith('/')) {
+    // eslint-disable-next-line no-param-reassign
+    path = path.replace(/(\.plain)?\.html/, '');
+    const resp = await fetch(`${path}.plain.html`);
+    if (resp.ok) {
+      const main = document.createElement('main');
+      main.innerHTML = await resp.text();
+
+      // reset base path for media to fragment base
+      const resetAttributeBase = (tag, attr) => {
+        main.querySelectorAll(`${tag}[${attr}^="./media_"]`).forEach((elem) => {
+          elem[attr] = new URL(elem.getAttribute(attr), new URL(path, window.location)).href;
+        });
+      };
+      resetAttributeBase('img', 'src');
+      resetAttributeBase('source', 'srcset');
+
+      decorateMain(main);
+      await loadBlocks(main);
+      return main;
+    }
+  }
+  return null;
+}
+
+function autolinkFragements(element) {
+  element.querySelectorAll('a').forEach(async (link) => {
+    if (link.href.includes('fragements')) {
+      const path = link ? link.getAttribute('href') : link.textContent.trim();
+      const fragment = await loadFragment(path);
+      if (fragment) {
+        const fragmentSection = fragment.querySelector(':scope .section');
+        if (fragmentSection) {
+          link.classList.add(...fragmentSection.classList);
+          link.replaceWith(...fragment.childNodes);
+        }
+      }
+    }
+  });
+}
+
+/**
  * Loads everything needed to get to LCP.
  * @param {Element} doc The container element
  */
@@ -131,6 +207,7 @@ async function loadEager(doc) {
  */
 async function loadLazy(doc) {
   autolinkModals(doc);
+  autolinkFragements(doc);
   const main = doc.querySelector('main');
   await loadBlocks(main);
 
