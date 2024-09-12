@@ -608,12 +608,6 @@
         "valueType": "string[]"
       },
       {
-        "component": "richtext",
-        "name": "eyebrow",
-        "label": "Eyebrow",
-        "raw": true
-      },
-      {
         "component": "reference",
         "name": "image",
         "label": "Image"
@@ -655,6 +649,12 @@
         "component": "richtext",
         "name": "text",
         "label": "Description",
+        "raw": true
+      },
+      {
+        "component": "richtext",
+        "name": "Review Content",
+        "label": "Review",
         "raw": true
       }
     ]
