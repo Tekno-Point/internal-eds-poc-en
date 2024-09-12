@@ -496,18 +496,18 @@
             ]
           }
         ]
-      },
-      {
-        "component": "reference",
-        "name": "background-image",
-        "label": "Background Image",
-        "valueType": "string"
       }
     ]
   },
   {
     "id": "custom-card-item",
     "fields": [
+      {
+        "component": "reference",
+        "name": "background-image",
+        "label": "Background Image",
+        "valueType": "string"
+      },
       {
         "component": "richtext",
         "name": "text",
