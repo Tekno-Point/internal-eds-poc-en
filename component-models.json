@@ -123,6 +123,10 @@
                 "value": "life-insurance"
               },
               {
+                "name": "Contact Us Cards",
+                "value": "contact-us-cards"
+              },
+              {
                 "name": "p-style-12",
                 "value": "p-style-12"
               },
@@ -193,15 +197,6 @@
                 "value": "pb-64"
               }
             ]
-          }
-        ]
-      },
-      {
-        "name": "Background Image",
-        "children": [
-          {
-            "name": "Section Background",
-            "value": "section-background"
           }
         ]
       },
