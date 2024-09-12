@@ -123,6 +123,10 @@
                 "value": "life-insurance"
               },
               {
+                "name": "Contact Us Cards",
+                "value": "contact-us-cards"
+              },
+              {
                 "name": "p-style-12",
                 "value": "p-style-12"
               },
@@ -177,6 +181,14 @@
                 "value": "pb-32"
               },
               {
+                "name": "pt-48",
+                "value": "pt-48"
+              },
+              {
+                "name": "pb-48",
+                "value": "pb-48"
+              },
+              {
                 "name": "pt-64",
                 "value": "pt-64"
               },
@@ -189,13 +201,10 @@
         ]
       },
       {
-        "name": "Background Image",
-        "children": [
-          {
-            "name": "Section Background",
-            "value": "section-background"
-          }
-        ]
+        "component": "reference",
+        "name": "background-image",
+        "label": "Background Image",
+        "valueType": "string"
       }
     ]
   },
@@ -486,6 +495,10 @@
               {
                 "name": "Prefer Max Life Cards",
                 "value": "prefer-max-life-cards"
+              },
+              {
+                "name": "Contact Us Cards",
+                "value": "contact-us-cards"
               }
             ]
           }
@@ -496,6 +509,12 @@
   {
     "id": "custom-card-item",
     "fields": [
+      {
+        "component": "reference",
+        "name": "background-image",
+        "label": "Background Image",
+        "valueType": "string"
+      },
       {
         "component": "richtext",
         "name": "text",
