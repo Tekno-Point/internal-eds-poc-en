@@ -177,6 +177,14 @@
                 "value": "pb-32"
               },
               {
+                "name": "pt-48",
+                "value": "pt-48"
+              },
+              {
+                "name": "pb-48",
+                "value": "pb-48"
+              },
+              {
                 "name": "pt-64",
                 "value": "pt-64"
               },
