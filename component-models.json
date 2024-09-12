@@ -590,32 +590,6 @@
     "id": "carousel-item",
     "fields": [
       {
-        "component": "multiselect",
-        "name": "classes",
-        "value": "",
-        "label": "Carousel Style",
-        "options": [
-          {
-            "name": "Content Style",
-            "children": [
-              {
-                "name": "One Slide Only",
-                "value": "one-slide-only"
-              },
-              {
-                "name": "Two Slides Only",
-                "value": "two-slides-only"
-              },
-              {
-                "name": "Three Slides Only",
-                "value": "three-slides-only"
-              }
-            ]
-          }
-        ],
-        "valueType": "string[]"
-      },
-      {
         "component": "reference",
         "name": "image",
         "label": "Image"
@@ -662,9 +636,8 @@
       {
         "component": "richtext",
         "name": "Review Content",
-        "value": "",
         "label": "Review",
-        "valueType": "string"
+        "raw": true
       }
     ]
   },
