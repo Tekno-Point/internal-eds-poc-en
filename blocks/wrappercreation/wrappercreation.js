@@ -2,7 +2,7 @@ export default function decorate(block) {
   const mainParentContainer = block.parentElement.closest('.section');
   const mainParentContainerChildren = Array.from(mainParentContainer.children);
   let wrapperChecker = false;
-  let currentIndex; 
+  let currentIndex;
   const contentDiv = document.createElement('div');
   contentDiv.classList.add('wrapper-creation-container');
 

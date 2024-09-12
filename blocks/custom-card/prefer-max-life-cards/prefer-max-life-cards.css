@@ -7,6 +7,7 @@
   background-color: #F5FAFE;
   overflow: auto;
 }
+
 .custom-card.prefer-max-life-cards > div > div {
   background-color: #fff;
   border-radius: 16px;
@@ -17,46 +18,51 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.custom-card.prefer-max-life-cards > div > div p:first-child {
-  height: 74px;
-  width: 74px;
-  padding: 14px 14.2px;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.08);
-  border-radius: 16px;
-}
-.custom-card.prefer-max-life-cards > div > div p:first-child span > img {
-  width: 46px;
-  height: 46px;
-}
-.custom-card.prefer-max-life-cards > div > div h3 {
-  padding-top: 16px;
-  font-size: 20px;
-  line-height: 28px;
-  font-family: Manrope-Regular;
-  font-weight: 600;
-  color: #171a21;
-  padding-left: 8px;
-}
+
 .custom-card.prefer-max-life-cards > div > div p {
   padding-top: 4px;
   font-size: 16px;
   line-height: 22.9px;
-  font-family: Manrope-Regular;
+  font-family: var(--font-family-regular);
   font-weight: 600;
   color: #6D7585;
   padding-left: 8px;
 }
-.custom-card.prefer-max-life-cards > div > div pre > code {
-  font-size: 10px;
-  line-height: 14px;
-  font-family: Manrope-Regular;
+
+.custom-card.prefer-max-life-cards > div > div p:first-child {
+  height: 74px;
+  width: 74px;
+  padding: 14px 14.2px;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 8%);
+  border-radius: 16px;
+}
+
+.custom-card.prefer-max-life-cards > div > div p:first-child span > img {
+  width: 46px;
+  height: 46px;
+}
+
+.custom-card.prefer-max-life-cards > div > div h3 {
+  padding-top: 16px;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: var(--font-family-regular);
+  font-weight: 600;
   color: #171a21;
   padding-left: 8px;
 }
 
-@media only screen and (max-width: 1024px) {
+.custom-card.prefer-max-life-cards > div > div pre > code {
+  font-size: 10px;
+  line-height: 14px;
+  font-family: var(--font-family-regular);
+  color: #171a21;
+  padding-left: 8px;
+}
+
+@media only screen and (width <= 1024px) {
   .custom-card.prefer-max-life-cards {
     flex-wrap: unset;
     margin-top: 24px;
   }
-}/*# sourceMappingURL=prefer-max-life-cards.css.map */
+}

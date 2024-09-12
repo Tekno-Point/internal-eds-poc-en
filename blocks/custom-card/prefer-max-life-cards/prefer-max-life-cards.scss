@@ -17,6 +17,16 @@
         align-items: flex-start;
         justify-content: flex-start;
 
+        p{
+            padding-top: 4px;
+            font-size: 16px;
+            line-height: 22.9px;
+            font-family: var(--font-family-regular);
+            font-weight: 600;
+            color: #6D7585;
+            padding-left: 8px;
+        }
+
         p:first-child{
             height: 74px;
             width: 74px;
@@ -34,26 +44,16 @@
             padding-top: 16px;
             font-size: 20px;
             line-height: 28px;
-            font-family: Manrope-Regular;
+            font-family: var(--font-family-regular);
             font-weight: 600;
             color: #171a21;
-            padding-left: 8px;
-        }
-
-        p{
-            padding-top: 4px;
-            font-size: 16px;
-            line-height: 22.9px;
-            font-family: Manrope-Regular;
-            font-weight: 600;
-            color: #6D7585;
             padding-left: 8px;
         }
 
         pre>code{
             font-size: 10px;
             line-height: 14px;
-            font-family: Manrope-Regular;
+            font-family: var(--font-family-regular);
             color: #171a21;
             padding-left: 8px;
         }
