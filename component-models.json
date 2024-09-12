@@ -535,18 +535,35 @@
       {
         "component": "multiselect",
         "name": "classes",
-        "label": "Carousel Styles",
+        "value": "",
+        "label": "Carousel Style",
         "options": [
           {
             "name": "Content Style",
             "children": [
               {
-                "name": "FAQ Tabs",
-                "value": "faq-tabs"
+                "name": "Hero Carousel",
+                "value": "hero-carousel"
+              },
+              {
+                "name": "One Thirds Carousel",
+                "value": "one-thirds-carousel"
+              },
+              {
+                "name": "One Half Carousel",
+                "value": "one-half-carousel"
               }
             ]
           }
-        ]
+        ],
+        "valueType": "string[]"
+      },
+      {
+        "component": "boolean",
+        "label": "Infinite",
+        "name": "infinite",
+        "value": "",
+        "valueType": "boolean"
       }
     ]
   },
@@ -554,23 +571,58 @@
     "id": "carousel-item",
     "fields": [
       {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Carousel Style",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Hero Carousel",
+                "value": "hero-carousel"
+              }
+            ]
+          }
+        ],
+        "valueType": "string[]"
+      },
+      {
+        "component": "richtext",
+        "name": "eyebrow",
+        "label": "Eyebrow",
+        "raw": true
+      },
+      {
         "component": "reference",
-        "valueType": "string",
         "name": "image",
         "label": "Image"
       },
       {
         "component": "text",
         "name": "imageAlt",
-        "value": "",
         "label": "Image Alt"
       },
       {
-        "component": "richtext",
-        "name": "description",
-        "value": "",
-        "label": "Description",
-        "raw": true
+        "component": "text",
+        "name": "heading",
+        "label": "Carousel Heading"
+      },
+      {
+        "component": "select",
+        "name": "headingType",
+        "label": "Carousel Heading Type",
+        "options": [
+          {
+            "name": "H1",
+            "value": "h1"
+          },
+          {
+            "name": "H2",
+            "value": "h2"
+          }
+        ]
       }
     ]
   },
