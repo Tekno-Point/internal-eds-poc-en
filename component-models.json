@@ -650,6 +650,13 @@
         "name": "text",
         "label": "Description",
         "raw": true
+      },
+      {
+        "component": "richtext",
+        "name": "Review Content",
+        "value": "",
+        "label": "Review",
+        "valueType": "string"
       }
     ]
   },

@@ -303,7 +303,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  color: #6d7585;
 }
 
 .swiper-button-next.swiper-button-disabled,
@@ -405,6 +405,7 @@
   top: var(--swiper-pagination-top, auto);
   left: 0;
   width: 100%;
+  color: #c2c7d1;
 }
 
 .swiper-pagination-bullets-dynamic {
