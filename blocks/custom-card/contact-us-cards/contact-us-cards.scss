@@ -1,5 +1,14 @@
+.section.contact-us-cards {
+    background-repeat: no-repeat;
+    .custom-card-wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
 .custom-card.contact-us-cards {
     padding-top: 64px;
+    width: 50%;
 
     >div {
         margin-bottom: 34px;
@@ -8,7 +17,7 @@
         border-radius: 1rem;
         display: flex;
         align-items: center;
-        width: 50%;
+        width: 100%;
 
         >div:first-child {
             >picture>img {
