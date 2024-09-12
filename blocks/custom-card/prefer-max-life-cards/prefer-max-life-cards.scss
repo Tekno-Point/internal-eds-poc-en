@@ -7,7 +7,7 @@
     background-color: #F5FAFE;
     overflow: auto;
 
-    >div>div {
+    >div>div:nth-child(2) {
         background-color: #fff;
         border-radius: 16px;
         width: 232px;

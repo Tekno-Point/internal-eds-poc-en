@@ -8,7 +8,7 @@
   overflow: auto;
 }
 
-.custom-card.prefer-max-life-cards > div > div {
+.custom-card.prefer-max-life-cards > div > div:nth-child(2) {
   background-color: #fff;
   border-radius: 16px;
   width: 232px;
@@ -19,7 +19,7 @@
   justify-content: flex-start;
 }
 
-.custom-card.prefer-max-life-cards > div > div p {
+.custom-card.prefer-max-life-cards > div > div:nth-child(2) p {
   padding-top: 4px;
   font-size: 16px;
   line-height: 22.9px;
@@ -29,7 +29,7 @@
   padding-left: 8px;
 }
 
-.custom-card.prefer-max-life-cards > div > div p:first-child {
+.custom-card.prefer-max-life-cards > div > div:nth-child(2) p:first-child {
   height: 74px;
   width: 74px;
   padding: 14px 14.2px;
@@ -37,12 +37,12 @@
   border-radius: 16px;
 }
 
-.custom-card.prefer-max-life-cards > div > div p:first-child span > img {
+.custom-card.prefer-max-life-cards > div > div:nth-child(2) p:first-child span > img {
   width: 46px;
   height: 46px;
 }
 
-.custom-card.prefer-max-life-cards > div > div h3 {
+.custom-card.prefer-max-life-cards > div > div:nth-child(2) h3 {
   padding-top: 16px;
   font-size: 20px;
   line-height: 28px;
@@ -52,7 +52,7 @@
   padding-left: 8px;
 }
 
-.custom-card.prefer-max-life-cards > div > div pre > code {
+.custom-card.prefer-max-life-cards > div > div:nth-child(2) pre > code {
   font-size: 10px;
   line-height: 14px;
   font-family: var(--font-family-regular);

@@ -12,11 +12,13 @@ main .section.accordion-container .accordion-wrapper .accordion.block .accordion
   font-size: var(--size-font-base);
   line-height: var(--line-height-base);
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (width <= 767px) {
   main .section.accordion-container .accordion-wrapper .accordion.block .accordion-item summary p {
     width: 90%;
   }
 }
+
 main .section.accordion-container .accordion-wrapper .accordion.block .accordion-item .accordion-item-body {
   margin-top: 1.5rem;
   margin-left: 1rem;
@@ -44,5 +46,5 @@ main .section.accordion-container .accordion-wrapper .accordion.block .accordion
 
 main .section.accordion-container .accordion-wrapper .accordion.block .accordion-item .accordion-item-body p a {
   text-decoration: underline;
-  color: rgb(51, 102, 255);
-}/*# sourceMappingURL=accordion-new.css.map */
+  color: rgb(51 102 255);
+}
