@@ -11,12 +11,13 @@
       "button",
       "title",
       "hero",
+      "accordion-dropdown",
+      "accordion-group",
       "cards",
       "columns",
       "fragment",
       "popular-searches",
       "custom-card",
-      "accordion",
       "tabs",
       "carousel",
       "table",
@@ -37,8 +38,12 @@
     "components": ["text", "image", "button", "title"]
   },
   {
-    "id": "accordion",
-    "components": ["text", "accordion-item"]
+    "id": "accordion-dropdown-item",
+    "components": ["accordion-dropdown-item"]
+  },
+  {
+    "id": "accordion-group",
+    "components": ["accordion-group-item"]
   },
   {
     "id": "custom-card",
@@ -53,7 +58,7 @@
     "components": ["carousel-item"]
   },
   {
-    "id": "tabel",
-    "components": ["tabel-item"]
+    "id": "table",
+    "components": ["table-item"]
   }
 ]

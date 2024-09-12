@@ -119,6 +119,10 @@
                 "value": "disclaimer-footer"
               },
               {
+                "name": "Carousal Life Insurance",
+                "value": "life-insurance"
+              },
+              {
                 "name": "p-style-12",
                 "value": "p-style-12"
               },
@@ -154,6 +158,10 @@
               {
                 "name": "Footer Background 2",
                 "value": "bg-dark-gray"
+              },
+              {
+                "name": "Light Blue",
+                "value": "bg-light-blue"
               }
             ]
           },
@@ -177,6 +185,15 @@
                 "value": "pb-64"
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Background Image",
+        "children": [
+          {
+            "name": "Section Background",
+            "value": "section-background"
           }
         ]
       }
@@ -232,6 +249,23 @@
     "id": "columns",
     "fields": [
       {
+        "component": "select",
+        "valueType": "string",
+        "name": "classes",
+        "value": "",
+        "label": "Columns Style",
+        "options": [
+          {
+            "name": "Trusted Companies Members",
+            "value": "trusted-companies-members"
+          },
+          {
+            "name": "Insurance App",
+            "value": "insurance-app"
+          }
+        ]
+      },
+      {
         "component": "text",
         "valueType": "number",
         "name": "columns",
@@ -284,7 +318,7 @@
     ]
   },
   {
-    "id": "accordion",
+    "id": "accordion-dropdown",
     "fields": [
       {
         "component": "multiselect",
@@ -294,7 +328,7 @@
         "valueType": "string",
         "options": [
           {
-            "name": "Accordion Style",
+            "name": "Content Style",
             "children": [
               {
                 "name": "Only One Expandable",
@@ -315,21 +349,100 @@
     ]
   },
   {
-    "id": "accordion-item",
+    "id": "accordion-dropdown-item",
     "fields": [
       {
         "component": "richtext",
-        "name": "head",
+        "valueType": "string",
+        "name": "heading",
         "value": "",
-        "label": "Head",
-        "row": true
+        "label": "Heading"
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "headingType",
+        "value": "h3",
+        "label": "Heading Type",
+        "options": [
+          {
+            "name": "H2",
+            "value": "h2"
+          },
+          {
+            "name": "H3",
+            "value": "h3"
+          },
+          {
+            "name": "H4",
+            "value": "h4"
+          },
+          {
+            "name": "H5",
+            "value": "h5"
+          },
+          {
+            "name": "H6",
+            "value": "h6"
+          }
+        ]
       },
       {
         "component": "richtext",
+        "valueType": "string",
         "name": "body",
         "value": "",
-        "label": "Body",
-        "row": true
+        "label": "Body"
+      }
+    ]
+  },
+  {
+    "id": "accordion-group",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Accordion Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Only One Expandable",
+                "value": "only-one-expandable"
+              },
+              {
+                "name": "All Expandable",
+                "value": "all-expandable"
+              },
+              {
+                "name": "Only Mobile Expandable",
+                "value": "only-mobile-expandable"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accordion-group-item",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text",
+        "label": "Heading",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "text",
+        "value": "",
+        "label": "Body"
       }
     ]
   },
@@ -392,6 +505,7 @@
       }
     ]
   },
+
   {
     "id": "tabs",
     "fields": []
@@ -420,7 +534,7 @@
     "fields": [
       {
         "component": "multiselect",
-        "name": "style",
+        "name": "classes",
         "label": "Carousel Styles",
         "options": [
           {
@@ -443,15 +557,20 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Image",
-        "multi": false
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "value": "",
+        "label": "Image Alt"
       },
       {
         "component": "richtext",
-        "name": "body",
+        "name": "description",
         "value": "",
-        "label": "Tab Body",
-        "row": true
+        "label": "Description",
+        "raw": true
       }
     ]
   },

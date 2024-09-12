@@ -17,7 +17,13 @@ header .nav-sections > div > ul:last-child > li {
   padding: 2rem 1rem;
   font-family: var(--font-family-bold);
 }
-
+header .nav-sections > div > ul > li > ul > li {
+  display: flex;
+}
+header .nav-sections > div > ul > li > ul > li > p:last-child {
+  display: flex;
+  flex-direction: column;
+}
 header .nav-tools > div {
   display: flex;
   gap: 10px;

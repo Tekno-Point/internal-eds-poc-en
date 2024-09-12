@@ -1,3 +1,6 @@
+@import url("./trusted-companies.css");
+@import url("./insurance-app.css");
+
 .columns > div {
   display: flex;
   flex-direction: column;
