@@ -157,6 +157,10 @@ h2 strong {
   );
 }
 
+.bg-gradient-blue {
+  background-image: linear-gradient(to bottom, #62baf8, #497af8);
+}
+
 /* padding classes */
 
 .pt-32 {

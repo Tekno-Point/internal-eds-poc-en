@@ -170,6 +170,10 @@
               {
                 "name": "Light Blue",
                 "value": "bg-light-blue"
+              },
+              {
+                "name": "Gradient Blue",
+                "value": "bg-gradient-blue"
               }
             ]
           },
@@ -575,6 +579,10 @@
               {
                 "name": "Three Slides Only",
                 "value": "three-slides-only"
+              },
+              {
+                "name": "Reviews",
+                "value": "reviews"
               }
             ]
           }
@@ -605,14 +613,6 @@
               {
                 "name": "One Slide Only",
                 "value": "one-slide-only"
-              },
-              {
-                "name": "Two Slides Only",
-                "value": "two-slides-only"
-              },
-              {
-                "name": "Three Slides Only",
-                "value": "three-slides-only"
               }
             ]
           }
@@ -662,12 +662,6 @@
         "name": "text",
         "label": "Description",
         "raw": true
-      },
-      {
-        "component": "richtext",
-        "name": "Review Content",
-        "label": "Review",
-        "raw": true
       }
     ]
   },
@@ -694,17 +688,58 @@
     "id": "teaser",
     "fields": [
       {
-        "component": "richtext",
-        "name": "Left Content",
+        "component": "select",
+        "valueType": "string",
+        "name": "classes",
         "value": "",
-        "label": "Text",
+        "label": "Teaser Style",
+        "options": [
+          {
+            "name": "Claims Paid Ratio Wrapper",
+            "value": "claims-paid-ratio-wrapper"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "teaser_desk-image",
+        "label": "Desktop Image",
+        "description": "The Desktop image"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "teaser_desk-imageAlt",
+        "label": "The Desktop image alt",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "teaser_mob-image",
+        "label": "Mobile Image",
+        "description": "The Mobile image"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "teaser_mob-imageAlt",
+        "label": "The Mobile image alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "shortDescr",
+        "value": "",
+        "label": "Short Description",
         "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "Right Content",
+        "name": "longDescr",
         "value": "",
-        "label": "Text",
+        "label": "Long Description",
         "valueType": "string"
       }
     ]
