@@ -658,12 +658,6 @@
         "name": "text",
         "label": "Description",
         "raw": true
-      },
-      {
-        "component": "richtext",
-        "name": "Review Content",
-        "label": "Review",
-        "raw": true
       }
     ]
   },
