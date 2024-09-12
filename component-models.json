@@ -590,6 +590,24 @@
     "id": "carousel-item",
     "fields": [
       {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Carousel Style",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Three Slides Only",
+                "value": "three-slides-only"
+              }
+            ]
+          }
+        ],
+        "valueType": "string[]"
+      },
+      {
         "component": "reference",
         "name": "image",
         "label": "Image"
