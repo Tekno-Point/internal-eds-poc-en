@@ -209,6 +209,18 @@ h2 strong {
   text-align: center;
 }
 
+p > em { 
+  font-family: var(--font-family-regular);
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 12.8px;
+  line-height: 18px;
+  border-radius: 17px;
+  padding: 8px 16px;
+  color: #6d7585;
+  background-color: #f7f8f9;
+}
+
 /* Flex container */
 .flex-container > div {
   display: flex;
