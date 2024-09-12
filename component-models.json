@@ -599,8 +599,16 @@
             "name": "Content Style",
             "children": [
               {
-                "name": "Hero Carousel",
-                "value": "hero-carousel"
+                "name": "One Slide Only",
+                "value": "one-slide-only"
+              },
+              {
+                "name": "Two Slides Only",
+                "value": "two-slides-only"
+              },
+              {
+                "name": "Three Slides Only",
+                "value": "three-slides-only"
               }
             ]
           }
