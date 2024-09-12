@@ -215,6 +215,7 @@ p > em {
   padding: 8px 16px;
   color: #6d7585;
   background-color: #f7f8f9;
+  font-style: normal;
 }
 
 /* Flex container */
