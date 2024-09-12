@@ -1,15 +1,14 @@
 .custom-card.term-insurance-cards {
-  background-color: rgb(255 255 255);
-  box-shadow: 0 4px 8px rgb(23 26 33 / 12.2%);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 8px rgba(23, 26, 33, 0.1215686275);
   border-radius: 16px;
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
 }
-
 .custom-card.term-insurance-cards > div {
-  background: #fff 0% 0% no-repeat padding-box;
-  box-shadow: 0 4px 8px rgb(80 151 229 / 16.1%);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 8px rgba(80, 151, 229, 0.1607843137);
   border-radius: 12px;
   border: solid 1px #ebedf0;
   min-height: 157px;
@@ -79,12 +78,11 @@
   top: 0;
 }
 
-@media only screen and (width <= 768px) {
+@media only screen and (max-width: 768px) {
   .custom-card.term-insurance-cards {
     padding: 16px;
     gap: 5px;
   }
-
   .custom-card.term-insurance-cards > div {
     width: 32%;
     min-height: unset;
@@ -109,4 +107,4 @@
     font-size: 8.192px;
     line-height: 10.992px;
   }
-}
+}/*# sourceMappingURL=term-insurance-cards.css.map */
