@@ -3,39 +3,51 @@
   height: 470px;
   padding-top: 80px;
 }
+
 .teaser.term-insurance-banner > div:first-child > div p:first-child {
   position: absolute;
   right: 47px;
   top: 90px;
 }
+
+.teaser.term-insurance-banner > div:nth-child(2) > div ul li span img {
+  width: 22px;
+  height: 22px;
+}
+
 .teaser.term-insurance-banner > div:first-child > div p:first-child > picture > img {
   width: 348px;
   height: auto;
   padding-top: 47px;
   padding-right: 16px;
 }
+
 .teaser.term-insurance-banner > div:first-child > div p:nth-child(2) {
   position: absolute;
   top: 97px;
   right: -8px;
   left: auto;
 }
+
 .teaser.term-insurance-banner > div:nth-child(2) > div {
   padding-top: 56px;
   width: 61%;
 }
+
 .teaser.term-insurance-banner > div:nth-child(2) > div h6 {
   font-size: 40px;
   line-height: 43px;
   font-family: var(--font-family-bold);
   font-weight: 700;
 }
+
 .teaser.term-insurance-banner > div:nth-child(2) > div ul {
   margin-top: 32px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
+
 .teaser.term-insurance-banner > div:nth-child(2) > div ul li {
   font-size: 20px;
   line-height: 28px;
@@ -45,14 +57,12 @@
   align-items: center;
   gap: 8px;
 }
+
 .teaser.term-insurance-banner > div:nth-child(2) > div ul li span {
   width: 22px;
   height: 22px;
 }
-.teaser.term-insurance-banner > div:nth-child(2) > div ul li span img {
-  width: 22px;
-  height: 22px;
-}
+
 .teaser.term-insurance-banner > div:nth-child(3) > div {
   background: #3597ec;
   width: 424px;
@@ -65,46 +75,55 @@
   top: 90px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (width <= 1024px) {
   .teaser.term-insurance-banner {
     height: 280px;
     padding-top: 40px;
   }
+
   .teaser.term-insurance-banner > div:first-child > div p:first-child {
     right: 5px;
     top: 80px;
   }
+
   .teaser.term-insurance-banner > div:first-child > div p:first-child > picture > img {
     width: 110px;
     padding-top: 16px;
   }
+
   .teaser.term-insurance-banner > div:first-child > div p:nth-child(2) {
     top: 70px;
     left: 0;
   }
+
   .teaser.term-insurance-banner > div:first-child > div p:nth-child(2) > picture > img {
     width: 146px;
     height: 13px;
   }
+
   .teaser.term-insurance-banner > div:nth-child(2) > div {
     width: 100%;
   }
+
   .teaser.term-insurance-banner > div:nth-child(2) > div h6 {
     font-size: 20px;
     line-height: 22px;
     width: 60%;
   }
+
   .teaser.term-insurance-banner > div:nth-child(2) > div ul {
     width: 100%;
     position: relative;
     background: #f1f6fa 0% 0% no-repeat padding-box;
     margin-top: 32px;
   }
+
   .teaser.term-insurance-banner > div:nth-child(2) > div ul li {
     font-size: 10px;
     line-height: 14px;
     color: #6b7280;
   }
+
   .teaser.term-insurance-banner > div:nth-child(3) > div {
     width: 40%;
     height: 128px;
@@ -112,4 +131,4 @@
     top: 70px;
     border: unset;
   }
-}/*# sourceMappingURL=term-insurance-banner.css.map */
+}

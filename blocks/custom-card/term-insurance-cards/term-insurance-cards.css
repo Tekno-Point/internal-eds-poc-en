@@ -2,13 +2,14 @@
   position: relative;
   bottom: 88px;
 }
+
 .section.term-insurance-cards .custom-card-wrapper {
   padding: 0;
 }
 
 .custom-card.term-insurance-cards {
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0px 4px 8px rgba(23, 26, 33, 0.1215686275);
+  background-color: rgb(255 255 255);
+  box-shadow: 0 4px 8px rgb(23 26 33 / 12.2%);
   border-radius: 16px;
   display: flex;
   flex-wrap: wrap;
@@ -16,6 +17,7 @@
   position: relative;
   bottom: 112px;
 }
+
 .custom-card.term-insurance-cards > div {
   padding: 16px 0;
   min-height: 157px;
@@ -26,36 +28,39 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 0px 4px 8px rgba(80, 151, 229, 0.1607843137);
+  background: #fff 0% 0% no-repeat padding-box;
+  box-shadow: 0 4px 8px rgb(80 151 229 / 16.1%);
   border-radius: 12px;
   display: flex;
   align-items: center;
 }
+
 .custom-card.term-insurance-cards > div > div:nth-child(2) h4 {
   position: absolute;
   top: -10px;
   left: 2px;
-  font-size: 10px;
   padding-top: 4px;
   padding-bottom: 4px;
   background: #cef5e1;
   width: 98%;
   border-radius: 12px;
-  color: rgb(9, 154, 79);
+  color: rgb(9 154 79);
   font-size: 10px;
   line-height: 14px;
   font-family: var(--font-family-bold);
   text-align: center;
 }
+
 .custom-card.term-insurance-cards > div > div:nth-child(2) p {
   margin-top: 12px;
   text-align: center;
 }
+
 .custom-card.term-insurance-cards > div > div:nth-child(2) p span > img {
   width: 43px;
   height: 48px;
 }
+
 .custom-card.term-insurance-cards > div > div:nth-child(2) h6 {
   font-size: 16px;
   line-height: 21px;
@@ -66,23 +71,25 @@
   margin-top: 12px;
   padding: 0 16px;
 }
+
 .custom-card.term-insurance-cards > div:hover {
-  box-shadow: 0 6px 24px 0 rgba(23, 26, 33, 0.12);
+  box-shadow: 0 6px 24px 0 rgb(23 26 33 / 12%);
   border: solid 1px transparent;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (width <= 1024px) {
   .section.term-insurance-cards .default-content-wrapper {
     bottom: 13px;
   }
+
   .custom-card.term-insurance-cards {
     position: unset;
-    column-gap: 5px;
-    row-gap: 16px;
-    padding: 32px 16px 20px 16px;
+    gap: 16px 5px;
+    padding: 32px 16px 20px;
     border-radius: unset;
     margin-bottom: 40px;
   }
+
   .custom-card.term-insurance-cards > div {
     width: 32%;
     min-height: unset;
@@ -91,13 +98,15 @@
     max-width: unset;
     flex-direction: column;
   }
+
   .custom-card.term-insurance-cards > div > div:nth-child(2) h4 {
     font-size: 8.192px;
     line-height: 10.992px;
   }
+
   .custom-card.term-insurance-cards > div > div:nth-child(2) h6 {
     font-size: 13px;
     line-height: 16px;
     padding: 0 4px;
   }
-}/*# sourceMappingURL=term-insurance-cards.css.map */
+}
