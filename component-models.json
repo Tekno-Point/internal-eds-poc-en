@@ -115,6 +115,10 @@
                 "value": "prefer-max-life-cards"
               },
               {
+                "name": "Term Insurance Cards",
+                "value": "term-insurance-cards"
+              },
+              {
                 "name": "Quick Links Accordion Footer",
                 "value": "quick-links-footer"
               },
@@ -458,14 +462,14 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "text",
+        "name": "head",
         "label": "Heading",
         "value": ""
       },
       {
         "component": "richtext",
         "valueType": "string",
-        "name": "text",
+        "name": "body",
         "value": "",
         "label": "Body"
       }
@@ -705,7 +709,7 @@
           {
             "name": "Claims Paid Ratio Wrapper",
             "value": "claims-paid-ratio-wrapper"
-          },             
+          },
           {
             "name": "Term Insurance Banner",
             "value": "term-insurance-banner"
