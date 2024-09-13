@@ -5,6 +5,8 @@
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
+  position: relative;
+  bottom: 7rem;
 }
 .custom-card.term-insurance-cards > div {
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -19,27 +21,18 @@
   margin-right: auto;
   margin-left: auto;
 }
-
-.custom-card.term-insurance-cards > div:hover {
-  box-shadow: 0 6px 24px 0 rgb(23 26 33 / 12%);
-  border: solid 1px transparent;
-}
-
 .custom-card.term-insurance-cards > div > div:nth-child(2) {
   height: 100%;
 }
-
 .custom-card.term-insurance-cards > div > div:nth-child(2) p {
   position: absolute;
   top: 18%;
   left: 37%;
 }
-
 .custom-card.term-insurance-cards > div > div:nth-child(2) p a > span > img {
   width: 43px;
   height: 48px;
 }
-
 .custom-card.term-insurance-cards > div > div:nth-child(2) h6 {
   font-size: 16px;
   line-height: 21px;
@@ -49,7 +42,6 @@
   text-align: center;
   padding: 83px 20px 0;
 }
-
 .custom-card.term-insurance-cards > div > div:nth-child(2) pre {
   text-align: center;
   background: #cef5e1;
@@ -61,13 +53,16 @@
   padding: 4px 0;
   border-radius: 12px;
 }
-
 .custom-card.term-insurance-cards > div > div:nth-child(2) pre code {
-  color: rgb(9 154 79);
+  color: rgb(9, 154, 79);
   font-size: 10px;
   line-height: 14px;
   font-family: var(--font-family-bold);
   font-style: normal;
+}
+.custom-card.term-insurance-cards > div:hover {
+  box-shadow: 0 6px 24px 0 rgba(23, 26, 33, 0.12);
+  border: solid 1px transparent;
 }
 
 .custom-card.redirect-card > div > div > p a {
@@ -91,18 +86,15 @@
     max-width: unset;
     border: unset;
   }
-
   .custom-card.term-insurance-cards > div > div h6 {
     font-size: 13px;
     line-height: 16px;
     padding: 90px 10px 15px;
   }
-
   .custom-card.term-insurance-cards > div > div p {
     top: 21%;
     left: 31%;
   }
-
   .custom-card.term-insurance-cards > div > div pre code {
     font-size: 8.192px;
     line-height: 10.992px;

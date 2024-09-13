@@ -5,6 +5,8 @@
     display: flex;
     flex-wrap: wrap;
     padding: 32px;
+    position: relative;
+    bottom: 7rem;
 
     >div {
         background: #ffffff 0% 0% no-repeat padding-box;

@@ -93,5 +93,32 @@
     .custom-card.prefer-max-life-cards{
         flex-wrap: unset;
         margin-top: 24px;
+
+        >div{
+            width: 229px;
+            min-width: 229px;
+            display: flex;
+            align-items: center;
+
+            >div:first-child{
+                height: 54px;
+                width: 54px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+
+                >picture>img{
+                    width: 38px;
+                    height: 38px;
+                }
+            }
+
+            div:nth-child(2) {
+                h3{
+                    padding-top: 0;
+                }
+            }
+        }
     }
 }
