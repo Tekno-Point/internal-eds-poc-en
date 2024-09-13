@@ -1,0 +1,41 @@
+.section.faqs-tabs-accordion {
+  display: flex;
+  .default-content-wrapper {
+    margin-top: 8rem;
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+  .tabs-wrapper {
+    width: 57%;
+    margin-top: 50px;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+    .tabs.block {
+      .tabs-list {
+        button {
+          padding: 0.5em 0.5rem 0.5rem 0;
+          border: none;
+
+          &.active-tab {
+            border-bottom: 4px solid #3b99e9;
+            color: #3597ec;
+          }
+
+          p {
+            cursor: pointer;
+            font-family: var(--font-family-regular);
+            font-size: 20px;
+            line-height: 1.75rem;
+          }
+        }
+      }
+    }
+    .tabs-panel {
+      border: none;
+      padding: 0;
+      padding-top: 1rem;
+    }
+  }
+}
