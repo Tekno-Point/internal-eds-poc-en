@@ -19,55 +19,57 @@
     background-color: #F5FAFE;
     overflow: auto;
 
-    >div>div:nth-child(2) {
+    >div{
         background-color: #fff;
         border-radius: 16px;
         width: 232px;
         padding: 16px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
 
-        p{
-            padding-top: 4px;
-            font-size: 16px;
-            line-height: 22.9px;
-            font-family: var(--font-family-regular);
-            font-weight: 600;
-            color: #6D7585;
-            padding-left: 8px;
-        }
-
-        p:first-child{
+        >div:first-child{
             height: 74px;
             width: 74px;
             padding: 14px 14.2px;
             box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.08);
             border-radius: 16px;
+                >picture>img{
+                    width: 46px;
+                    height: 46px;
+                }
+        }
 
-            span>img {
-                width: 46px;
-                height: 46px;
+        >div:nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+    
+            p{
+                padding-top: 4px;
+                font-size: 16px;
+                line-height: 22.9px;
+                font-family: var(--font-family-regular);
+                font-weight: 600;
+                color: #6D7585;
+                padding-left: 8px;
             }
-        }
-
-        h3{
-            padding-top: 16px;
-            font-size: 20px;
-            line-height: 28px;
-            font-family: var(--font-family-regular);
-            font-weight: 600;
-            color: #171a21;
-            padding-left: 8px;
-        }
-
-        pre>code{
-            font-size: 10px;
-            line-height: 14px;
-            font-family: var(--font-family-regular);
-            color: #171a21;
-            padding-left: 8px;
+    
+            h3{
+                padding-top: 16px;
+                font-size: 20px;
+                line-height: 28px;
+                font-family: var(--font-family-regular);
+                font-weight: 600;
+                color: #171a21;
+                padding-left: 8px;
+            }
+    
+            pre>code{
+                font-size: 10px;
+                line-height: 14px;
+                font-family: var(--font-family-regular);
+                color: #171a21;
+                padding-left: 8px;
+            }
         }
     }
 }
