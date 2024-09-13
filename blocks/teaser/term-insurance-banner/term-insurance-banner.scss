@@ -6,30 +6,21 @@
     >div:first-child>div {
         p:first-child {
             position: absolute;
-            background: #3597ec;
-            width: 424px;
-            height: 424px;
-            border-radius: 50%;
-            border: solid #c1ddf5 20px;
-            /* opacity: 0.08; */
-            right: 20px;
+            right: 47px;
             top: 90px;
-            display: flex;
-            align-items: flex-start;
-            justify-content: flex-end;
 
             >picture>img {
                 width: 348px;
                 height: auto;
-                padding-top: 30px;
+                padding-top: 47px;
                 padding-right: 16px;
             }
         }
 
         p:nth-child(2) {
             position: absolute;
-            top: 24px;
-            right: 34px;
+            top: 97px;
+            right: -8px;
             left: auto;
         }
     }
@@ -70,6 +61,80 @@
                     }
                 }
             }
+        }
+    }
+
+    >div:nth-child(3)>div {
+        background: #3597ec;
+        width: 424px;
+        height: 424px;
+        border-radius: 50%;
+        border: solid #c1ddf5 20px;
+        position: absolute;
+        opacity: 0.08;
+        right: 20px;
+        top: 90px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .teaser.term-insurance-banner {
+        height: 280px;
+        padding-top: 40px;
+
+        >div:first-child>div {
+            p:first-child {
+                right: 5px;
+                top: 80px;
+
+                >picture>img {
+                    width: 110px;
+                    padding-top: 16px;
+                }
+            }
+
+
+            p:nth-child(2) {
+                top: 70px;
+                left: 0;
+                >picture>img {
+                    width: 146px;
+                    height: 13px;
+                }
+            }
+        }
+
+        >div:nth-child(2)>div {
+            width: 100%;
+
+            h6 {
+                font-size: 20px;
+                line-height: 22px;
+                width: 60%;
+            }
+
+            ul {
+                width: 100%;
+                position: relative;
+                background: #f1f6fa 0% 0% no-repeat padding-box;
+                margin-top: 32px;
+
+                li {
+                    font-size: 10px;
+                    line-height: 14px;
+                    color: #6b7280;
+
+                }
+            }
+        }
+
+        >div:nth-child(3)>div {
+            width: 40%;
+            height: 128px;
+            right: 2px;
+            top: 70px;
+            border: unset;
         }
     }
 }
