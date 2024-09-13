@@ -1,80 +1,98 @@
 .insurance-app > div {
   justify-content: space-between;
 }
+
 .insurance-app > div > div:first-child h2 {
   line-height: 1.41;
   font-size: 1.938rem;
 }
+
 .insurance-app > div > div:first-child ul {
   list-style-type: none;
 }
+
 .insurance-app > div > div:first-child ul li {
   font-size: 1.25rem;
   line-height: 1.75rem;
   margin: 1rem 0;
 }
+
 .insurance-app > div > div:first-child ol {
   list-style-type: none;
   display: flex;
   align-items: end;
   gap: 0.875rem;
 }
+
 .insurance-app > div > div:first-child ol li .icon img {
   max-width: 100%;
   height: auto;
 }
+
 .insurance-app > div > div:first-child ol li:first-child .icon {
   display: block;
   width: 106px;
   height: 106px;
 }
+
 .insurance-app > div > div:nth-child(2) {
   flex: unset;
   width: 33.33%;
 }
+
 .insurance-app > div > div:nth-child(2) p:first-child {
   background-image: url("../../images/mobile-bg-cricle.png");
   background-repeat: no-repeat;
   background-size: 400px 400px;
 }
+
 .insurance-app > div > div:nth-child(2) p:first-child picture {
   display: block;
 }
+
 .insurance-app > div > div:nth-child(2) p:first-child picture img {
   width: 100%;
   height: 422px;
 }
+
 .insurance-app > div > div:nth-child(2) .button-container {
   display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (width <= 767px) {
   .insurance-app > div {
     justify-content: space-between;
   }
+
   .insurance-app > div > div:first-child h2 {
     font-size: 1.563rem;
     line-height: 1.4;
   }
+
   .insurance-app > div > div:first-child ul li {
     font-size: 0.8rem;
     line-height: 1.125rem;
   }
+
   .insurance-app > div > div:first-child ol {
     display: none;
   }
+
   .insurance-app > div > div:nth-child(2) {
     width: 100%;
     position: relative;
   }
+
   .insurance-app > div > div:nth-child(2) p:first-child {
     background-size: contain;
     background-position: bottom;
     min-height: 422px;
   }
+
   .insurance-app > div > div:nth-child(2) p:first-child picture {
     display: block;
   }
+
   .insurance-app > div > div:nth-child(2) p:first-child picture img {
     width: 80%;
     height: 322px;
@@ -83,6 +101,7 @@
     left: 0;
     right: 0;
   }
+
   .insurance-app > div > div:nth-child(2) .button-container {
     display: block;
     position: absolute;
@@ -90,6 +109,7 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
   .insurance-app > div > div:nth-child(2) .button-container .button {
     margin: auto;
     display: block;
@@ -104,34 +124,42 @@
     text-align: center;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+@media screen and (width >= 768px) and (width <= 1200px) {
   .insurance-app.columns > div {
     flex-direction: row;
   }
+
   .insurance-app.columns > div > div:first-child h2 {
     line-height: 1.4;
     font-size: 1.563rem;
     width: 80%;
   }
+
   .insurance-app.columns > div > div:first-child ul li {
     font-size: 0.8rem;
     line-height: 1.125rem;
   }
+
   .insurance-app.columns > div > div:first-child ol {
     display: none;
   }
+
   .insurance-app.columns > div > div:nth-child(2) {
     width: 50%;
     position: relative;
   }
+
   .insurance-app.columns > div > div:nth-child(2) p:first-child {
     background-size: 243px 243px;
     background-position: top;
     min-height: 256px;
   }
+
   .insurance-app.columns > div > div:nth-child(2) p:first-child picture {
     display: block;
   }
+
   .insurance-app.columns > div > div:nth-child(2) p:first-child picture img {
     width: 200px;
     height: 238px;
@@ -140,6 +168,7 @@
     left: 0;
     right: 0;
   }
+
   .insurance-app.columns > div > div:nth-child(2) .button-container {
     display: block;
     position: absolute;
@@ -147,6 +176,7 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
   .insurance-app.columns > div > div:nth-child(2) .button-container .button {
     margin: auto;
     display: block;
@@ -159,4 +189,4 @@
     padding: 12px;
     text-align: center;
   }
-}/*# sourceMappingURL=insurance-app.css.map */
+}
