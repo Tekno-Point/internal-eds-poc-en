@@ -1,0 +1,75 @@
+.teaser.term-insurance-banner {
+    position: relative;
+    height: 470px;
+    padding-top: 80px;
+
+    >div:first-child>div {
+        p:first-child {
+            position: absolute;
+            background: #3597ec;
+            width: 424px;
+            height: 424px;
+            border-radius: 50%;
+            border: solid #c1ddf5 20px;
+            /* opacity: 0.08; */
+            right: 20px;
+            top: 90px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+
+            >picture>img {
+                width: 348px;
+                height: auto;
+                padding-top: 30px;
+                padding-right: 16px;
+            }
+        }
+
+        p:nth-child(2) {
+            position: absolute;
+            top: 24px;
+            right: 34px;
+            left: auto;
+        }
+    }
+
+    >div:nth-child(2)>div {
+        padding-top: 56px;
+        width: 61%;
+
+        h6 {
+            font-size: 40px;
+            line-height: 43px;
+            font-family: var(--font-family-bold);
+            font-weight: 700;
+        }
+
+        ul {
+            margin-top: 32px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+
+            li {
+                font-size: 20px;
+                line-height: 28px;
+                font-family: var(--font-family-regular);
+                width: 45%;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                span {
+                    width: 22px;
+                    height: 22px;
+
+                    img {
+                        width: 22px;
+                        height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
