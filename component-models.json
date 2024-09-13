@@ -123,6 +123,10 @@
                 "value": "disclaimer-footer"
               },
               {
+                "name": "Faqs Tabs and Accordion",
+                "value": "faqs-tabs-accordion"
+              },
+              {
                 "name": "Carousal Life Insurance",
                 "value": "life-insurance"
               },

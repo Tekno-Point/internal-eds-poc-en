@@ -1,17 +1,112 @@
-.section.reviews .swiper-wrapper .swiper-slide div {
-  display: grid;
-  grid-template-areas: "item1 item2 item2 " "item3 item3 item3";
+.section .reviews {
+  margin-top: 50px;
+}
+
+.section .reviews .swiper-wrapper {
   gap: 10px;
 }
 
-.section.reviews .swiper-wrapper .swiper-slide div:nth-child(1) {
+.section .reviews .swiper-wrapper .swiper-slide {
+  border-radius: 16px;
+  box-shadow: 0 3px 6px 0 #00000012;
+  background-color: #fff;
+  padding: 2rem;
+  height: 420px;
+  text-align: left;
+}
+
+@media screen and (width <= 767px) {
+  .section .reviews .swiper-wrapper .swiper-slide {
+    height: unset;
+  }
+}
+
+.section .reviews .swiper-wrapper .swiper-slide div:nth-child(1) {
+  display: none;
+}
+
+.section .reviews .swiper-wrapper .swiper-slide div:nth-child(2) {
+  display: none;
+}
+
+.section .reviews .swiper-wrapper .swiper-slide div:nth-child(3) {
+  width: 80%;
+  display: grid;
+  grid-template-areas: "item1 item2" "item3 item3";
+  grid-template-columns: 80px;
+  gap: 10px;
+  align-items: center;
+}
+
+.section .reviews .swiper-wrapper .swiper-slide div:nth-child(3) p {
   grid-area: item1;
 }
 
-.section.reviews .swiper-wrapper .swiper-slide div:nth-child(2) {
+.section
+  .reviews
+  .swiper-wrapper
+  .swiper-slide
+  div:nth-child(3)
+  ul:nth-child(2) {
   grid-area: item2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.section.reviews .swiper-wrapper .swiper-slide div:nth-child(3) {
+.section
+  .reviews
+  .swiper-wrapper
+  .swiper-slide
+  div:nth-child(3)
+  ul:nth-child(2)
+  li {
+  font-size: 12.8px;
+  color: #8690a3;
+}
+
+.section
+  .reviews
+  .swiper-wrapper
+  .swiper-slide
+  div:nth-child(3)
+  ul:nth-child(2)
+  li
+  strong {
+  color: var(--color-text-primary);
+  font-size: 16px;
+}
+
+.section
+  .reviews
+  .swiper-wrapper
+  .swiper-slide
+  div:nth-child(3)
+  ul:nth-child(3) {
+  margin-top: 2rem;
   grid-area: item3;
 }
+
+.section
+  .reviews
+  .swiper-wrapper
+  .swiper-slide
+  div:nth-child(3)
+  ul:nth-child(3)
+  li {
+  font-size: 20px;
+  color: #8690a3;
+  padding-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.section
+  .reviews
+  .swiper-wrapper
+  .swiper-slide
+  div:nth-child(3)
+  ul:nth-child(3)
+  li
+  strong {
+  color: var(--color-text-primary);
+} /*# sourceMappingURL=reviews.css.map */
