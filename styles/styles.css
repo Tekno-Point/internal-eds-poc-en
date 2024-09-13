@@ -37,6 +37,7 @@
   --color-shadow-secondary: #171a210f;
   --color-text-primary: #171a21;
   --hamburger-color: black;
+  --color-alice-blue: #f1f6fa;
 
   /* Font Sizes */
   --size-font-2xs: 0.512rem;
@@ -147,6 +148,10 @@ h2 strong {
 
 .bg-primary-orange {
   background-color: var(--color-background-primary);
+}
+
+.bg-alice-blue {
+  background-color: var(--color-alice-blue);
 }
 
 .bg-gradient-purple {

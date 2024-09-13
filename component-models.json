@@ -176,6 +176,10 @@
                 "value": "bg-light-blue"
               },
               {
+                "name": "Alice Blue",
+                "value": "bg-alice-blue"
+              },
+              {
                 "name": "Gradient Blue",
                 "value": "bg-gradient-blue"
               }
