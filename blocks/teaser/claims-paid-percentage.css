@@ -1,1 +1,217 @@
-/*# sourceMappingURL=claims-paid-percentage.css.map */
+.teaser.claims-paid-ratio-wrapper {
+  position: relative;
+  padding: 4rem 0;
+  background-image: url("../../images/shield-bg.png");
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-position: 10rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 85.375rem;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(1) picture img {
+  display: none;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(2) h2,
+.teaser.claims-paid-ratio-wrapper > div:nth-child(2) strong {
+  width: 100%;
+  color: #fff;
+  line-height: 1.38;
+  font-size: 2.438rem;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(2) h2 strong,
+.teaser.claims-paid-ratio-wrapper > div:nth-child(2) strong strong {
+  color: #CEF5E1;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(2) p {
+  padding-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--color-background-default-dark);
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(2) ul {
+  margin: 1.5rem 0;
+  display: inline-flex;
+  padding: 1.25rem 0.5rem;
+  border-radius: 1rem;
+  background-color: #4486e9;
+  width: 36rem;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(2) ul li {
+  margin: auto;
+  border-radius: 0;
+  padding: 0 1.5rem 0 1rem;
+  border-right: 1px solid rgb(195 199 208 / 32%);
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(235 237 240 / 98%);
+  line-height: 1.4;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(2) ul li strong {
+  padding-top: 0.25rem;
+  font-weight: 700;
+  color: var(--color-background-active);
+  font-size: 1.563rem;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(2) ul li sup {
+  top: -1rem;
+  position: relative;
+  font-size: 40%;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(2) li:last-child {
+  border-right: unset;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(3) {
+  padding: 1rem;
+  background-color: #5e9ffa;
+  border-radius: 1rem;
+  width: 36rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(3) div {
+  display: flex;
+  justify-content: center;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(3) div p {
+  margin-right: 1rem;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(3) div p img {
+  width: 240px;
+  height: 93px;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(3) div ul li {
+  font-size: 1rem;
+  padding: 0.25rem;
+  font-weight: 700;
+  color: rgb(247 248 249 / 98%);
+  line-height: 1.4;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(3) div ul li strong {
+  padding: 0;
+  font-size: 3rem;
+  line-height: 1;
+  color: #CEF5E1;
+  font-weight: 700;
+}
+
+.teaser.claims-paid-ratio-wrapper > div:nth-child(3) div ul li sup {
+  font-size: 75%;
+  position: relative;
+  top: -0.5em;
+}
+
+@media screen and (width <= 1200px) {
+  .teaser.claims-paid-ratio-wrapper {
+    padding: 1rem 0;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(2) h2,
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(2) strong {
+    color: #fff;
+    line-height: 1.38;
+    font-size: 1.5rem;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(2) p {
+    font-size: 0.8rem;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(2) ul {
+    margin: 1rem 0;
+    display: inline-flex;
+    gap: 20px;
+    padding: unset;
+    border-radius: 0;
+    background-color: transparent;
+    width: 20.5rem;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(2) ul li:first-child {
+    display: none;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(2) ul li {
+    border-right: unset;
+    font-size: 0.638rem;
+    padding: 1rem;
+    background-color: #4486e9;
+    border-radius: 1rem;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(2) ul li strong {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(3) {
+    width: 20.5rem;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(3) div p img {
+    width: 144px;
+    height: 56px;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(3) div ul li {
+    font-size: 0.75rem;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(3) div ul li strong {
+    padding: 0.25rem;
+    font-size: 1.956rem;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (width <= 400px) {
+  .teaser.claims-paid-ratio-wrapper {
+    background-image: none;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(1) picture {
+    max-width: 100%;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(1) picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(3) {
+    width: 20.5rem;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(3) div p img {
+    width: 144px;
+    height: 56px;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(3) div ul li {
+    font-size: 0.75rem;
+  }
+
+  .teaser.claims-paid-ratio-wrapper > div:nth-child(3) div ul li strong {
+    padding: 0.25rem;
+    font-size: 1.956rem;
+    line-height: 1.4;
+  }
+}

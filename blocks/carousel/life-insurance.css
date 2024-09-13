@@ -12,14 +12,17 @@
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide {
   padding: 0 1rem;
 }
+
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide picture {
   padding-left: 1rem;
   left: 1rem;
 }
+
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide picture img {
   height: 77px;
   width: 66px;
 }
+
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide picture::after {
   content: "";
   display: block;
@@ -30,12 +33,14 @@
   position: absolute;
   top: 90px;
 }
+
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide div:nth-child(2),
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide div:nth-child(3) {
   background-color: unset;
   border-left: 1px solid #ebedf0;
   padding: 0 0 0 1rem;
 }
+
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide div:nth-child(2) h3,
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide div:nth-child(3) h3 {
   font-size: 1.563rem;
@@ -44,6 +49,7 @@
   color: var(--color-secondary);
   font-family: var(--font-family-bold);
 }
+
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide div:nth-child(2) p,
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide div:nth-child(3) p {
   padding-top: 1.25rem;
@@ -51,4 +57,4 @@
   color: var(--color-text-primary);
   font-family: var(--font-family-semi-bold);
   line-height: var(--line-height-base);
-}/*# sourceMappingURL=life-insurance.css.map */
+}

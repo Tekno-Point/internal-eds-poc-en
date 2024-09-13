@@ -219,6 +219,7 @@ p > em {
   padding: 8px 16px;
   color: #6d7585;
   background-color: #f7f8f9;
+  font-style: normal;
 }
 
 /* Flex container */
@@ -232,8 +233,8 @@ p > em {
   width: 50%;
 }
 
-.width-69 > div > div > div > div.default-content-wrapper {
-  width: 69%;
+.width-65 > div > div > div > div.default-content-wrapper {
+  width: 65%;
 }
 
 @media screen and (width <=767.99px) {
@@ -255,7 +256,7 @@ p > em {
     width: 100%;
   }
 
-  .width-69 > div > div > div > div.default-content-wrapper {
+  .width-65 > div > div > div > div.default-content-wrapper {
     width: 100%;
   }
 

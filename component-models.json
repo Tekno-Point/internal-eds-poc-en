@@ -111,6 +111,10 @@
                 "value": "insurance-plans-cards"
               },
               {
+                "name": "Prefer Max Life Cards",
+                "value": "prefer-max-life-cards"
+              },
+              {
                 "name": "Quick Links Accordion Footer",
                 "value": "quick-links-footer"
               },
@@ -143,8 +147,8 @@
                 "value": "width-50"
               },
               {
-                "name": "width-69",
-                "value": "width-69"
+                "name": "width-65",
+                "value": "width-65"
               },
               {
                 "name": "text-center",
@@ -697,6 +701,10 @@
           {
             "name": "Claims Paid Ratio Wrapper",
             "value": "claims-paid-ratio-wrapper"
+          },             
+          {
+            "name": "Term Insurance Banner",
+            "value": "term-insurance-banner"
           }
         ]
       },
