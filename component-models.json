@@ -115,6 +115,10 @@
                 "value": "prefer-max-life-cards"
               },
               {
+                "name": "Term Insurance Cards",
+                "value": "term-insurance-cards"
+              },
+              {
                 "name": "Quick Links Accordion Footer",
                 "value": "quick-links-footer"
               },
