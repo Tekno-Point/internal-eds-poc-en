@@ -1,3 +1,14 @@
+.life-insurance .default-content-wrapper p {
+  line-height: 1.44;
+  color: var(--color-text-primary);
+  font-family: var(--font-family-semi-bold);
+  padding-top: 24px;
+  padding-bottom: 3rem;
+}
+.life-insurance .default-content-wrapper p a {
+  color: rgb(51, 102, 255);
+  text-decoration: underline;
+}
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide {
   padding: 0 1rem;
 }

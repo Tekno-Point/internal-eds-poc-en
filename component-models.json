@@ -123,6 +123,10 @@
                 "value": "disclaimer-footer"
               },
               {
+                "name": "Faqs Tabs and Accordion",
+                "value": "faqs-tabs-accordion"
+              },
+              {
                 "name": "Carousal Life Insurance",
                 "value": "life-insurance"
               },
@@ -170,6 +174,10 @@
               {
                 "name": "Light Blue",
                 "value": "bg-light-blue"
+              },
+              {
+                "name": "Alice Blue",
+                "value": "bg-alice-blue"
               },
               {
                 "name": "Gradient Blue",
