@@ -1,3 +1,6 @@
+@import url("./desk-nav-modal.css");
+@import url("./mob-nav-modal.css");
+
 body.modal-open {
     overflow: hidden;
 }
