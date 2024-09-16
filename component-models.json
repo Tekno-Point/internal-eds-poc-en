@@ -139,6 +139,14 @@
                 "value": "contact-us-cards"
               },
               {
+                "name": "Desk Nav Modal",
+                "value": "desk-nav-modal"
+              },
+              {
+                "name": "MOb Nav Modal",
+                "value": "mob-nav-modal"
+              },
+              {
                 "name": "p-style-12",
                 "value": "p-style-12"
               },
