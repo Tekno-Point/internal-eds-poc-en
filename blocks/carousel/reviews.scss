@@ -1,27 +1,32 @@
 .section {
   .reviews {
     margin-top: 50px;
+
     .swiper-wrapper {
       gap: 10px;
+
       .swiper-slide {
-        border-radius: 16px;
-        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.07);
         background-color: #fff;
         padding: 2rem;
         height: 420px;
         text-align: left;
+        padding: 2rem 24%;
+
         @media screen and (max-width: 767px) {
           height: unset;
         }
+
         div {
           &:nth-child(1) {
             display: none;
           }
+
           &:nth-child(2) {
             display: none;
           }
+
           &:nth-child(3) {
-            width: 80%;
+            width: 100%;
             display: grid;
             grid-template-areas:
               "item1 item2"
@@ -29,32 +34,42 @@
             grid-template-columns: 80px;
             gap: 10px;
             align-items: center;
+            border-radius: 16px;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+            padding: 2rem;
+
             p {
               grid-area: item1;
             }
+
             ul {
               &:nth-child(2) {
                 grid-area: item2;
                 display: flex;
                 flex-direction: column;
                 gap: 12px;
+
                 li {
                   font-size: 12.8px;
                   color: #8690a3;
+
                   strong {
                     color: var(--color-text-primary);
                     font-size: 16px;
                   }
                 }
               }
+
               &:nth-child(3) {
                 margin-top: 2rem;
                 grid-area: item3;
+
                 li {
                   font-size: 20px;
                   color: #8690a3;
                   padding-bottom: 0.5rem;
                   line-height: 1.4;
+
                   strong {
                     color: var(--color-text-primary);
                   }
@@ -63,6 +78,82 @@
             }
           }
         }
+      }
+    }
+
+    .swiper-pagination {
+      display: none;
+    }
+
+    .swiper-button-next {
+      display: block;
+      right: 150px;
+    }
+
+    .swiper-button-prev {
+      display: block;
+      left: 150px;
+    }
+
+    .swiper-button-prev::after {
+      width: 16px;
+      height: 16px;
+      font-size: 1rem;
+      border-radius: 50%;
+      padding: 0.5rem;
+      background-color: #ebedf0;
+      display: block;
+    }
+
+    .swiper-button-next::after {
+      width: 16px;
+      height: 16px;
+      font-size: 1rem;
+      border-radius: 50%;
+      padding: 0.5rem;
+      background-color: #ebedf0;
+      display: block;
+    }
+  }
+}
+
+
+@media screen and (max-width:767px) {
+  .section {
+    .reviews {
+      .swiper-wrapper {
+        .swiper-slide {
+          padding: unset;
+
+          div {
+            &:nth-child(3) {
+
+              ul {
+                &:nth-child(3) {
+                  li {
+                    font-size: 0.8rem;
+                    padding-bottom: 0.5rem;
+                    line-height: 1.25rem;
+
+                    strong {
+                      color: var(--color-text-primary);
+                      font-size: 1rem;
+                      line-height: 1.437rem;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .swiper-button-next {
+        right: 4px;
+      }
+
+      .swiper-button-prev {
+        left: 0;
       }
     }
   }

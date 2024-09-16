@@ -13,7 +13,9 @@
     }
   }
   .carousel-wrapper {
+    position: relative;
     .carousel.block.swiper {
+      position: unset;
       .swiper-wrapper {
         .swiper-slide {
           padding: 0 1rem;
@@ -63,9 +65,51 @@
         }
       }
     }
-    .swiper-button-next {
+
+    .swiper-pagination {
+      display: none;
     }
+
+    .swiper-button-next,
     .swiper-button-prev {
+      display: block;
+    }
+
+    .swiper-button-next::after {
+      content: '';
+      position: absolute;
+      background-image: url('../../images/abha-card-arrow-next.svg');
+      background-repeat: no-repeat;
+      height: 35px;
+      width: 35px;
+      right: -50px;
+    }
+
+    .swiper-button-prev::after {
+      content: '';
+      position: absolute;
+      background-image: url('../../images/abha-card-arrow-next.svg');
+      background-repeat: no-repeat;
+      height: 35px;
+      width: 35px;
+      left: -50px;
+      transform: rotate(180deg);
+    }
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .life-insurance {
+    .carousel-wrapper {
+      .swiper-pagination {
+        display: block;
+      }
+  
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none;
+      }
     }
   }
 }
