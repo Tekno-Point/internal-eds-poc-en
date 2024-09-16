@@ -43,7 +43,7 @@ const createHeading = (fd) => {
 
   const level = fd.Style && fd.Style.includes('sub-heading') ? 3 : 2;
   const heading = document.createElement(`h${level}`);
-  heading.textContent = fd.Value || fd.Label;
+  heading.innerHTML = fd.Value || fd.Label;
   heading.id = fd.Id;
 
   fieldWrapper.append(heading);
@@ -55,7 +55,7 @@ const createPlaintext = (fd) => {
   const fieldWrapper = createFieldWrapper(fd);
 
   const text = document.createElement('p');
-  text.textContent = fd.Value || fd.Label;
+  text.innerHTML = fd.Value || fd.Label;
   text.id = fd.Id;
 
   fieldWrapper.append(text);
