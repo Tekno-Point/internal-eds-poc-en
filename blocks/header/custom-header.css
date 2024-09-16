@@ -38,11 +38,28 @@ header .nav-sections > div > ul > li > ul > li > p:first-child span img {
   width: 100%;
 }
 
-header .nav-sections > div > ul > li > ul > li > p:first-child span:nth-child(2) {
+header
+  .nav-sections
+  > div
+  > ul
+  > li
+  > ul
+  > li
+  > p:first-child
+  span:nth-child(2) {
   display: none;
 }
 
-header .nav-sections > div > ul > li > ul > li > p:first-child span:nth-child(2) img {
+header
+  .nav-sections
+  > div
+  > ul
+  > li
+  > ul
+  > li
+  > p:first-child
+  span:nth-child(2)
+  img {
   display: none;
 }
 
@@ -70,34 +87,84 @@ header .nav-sections > div > ul > li > ul > li:last-child p:first-child span {
   background-color: unset;
 }
 
-header .nav-sections > div > ul:nth-child(2) > li > ul > li:last-child p:first-child span {
+header
+  .nav-sections
+  > div
+  > ul:nth-child(2)
+  > li
+  > ul
+  > li:last-child
+  p:first-child
+  span {
   height: 80px;
 }
 
-header .nav-sections > div > ul:nth-child(2) > li > ul > li:last-child p:first-child span img {
+header
+  .nav-sections
+  > div
+  > ul:nth-child(2)
+  > li
+  > ul
+  > li:last-child
+  p:first-child
+  span
+  img {
   width: 257px;
   height: 360px !important;
 }
 
-header .nav-sections > div > ul > li > ul > li:nth-child(-n+8):hover {
+header .nav-sections > div > ul > li > ul > li:nth-child(-n + 8):hover {
   background-color: #f7f8f9;
   padding: 0.5rem;
   border-radius: 0.5rem;
 }
 
-header .nav-sections > div > ul > li > ul > li:nth-child(-n+8):hover p:first-child span:nth-child(1) {
+header
+  .nav-sections
+  > div
+  > ul
+  > li
+  > ul
+  > li:nth-child(-n + 8):hover
+  p:first-child
+  span:nth-child(1) {
   display: none;
 }
 
-header .nav-sections > div > ul > li > ul > li:nth-child(-n+8):hover p:first-child span:nth-child(2) {
+header
+  .nav-sections
+  > div
+  > ul
+  > li
+  > ul
+  > li:nth-child(-n + 8):hover
+  p:first-child
+  span:nth-child(2) {
   display: block;
 }
 
-header .nav-sections > div > ul > li > ul > li:nth-child(-n+8):hover p:first-child span:nth-child(2) img {
+header
+  .nav-sections
+  > div
+  > ul
+  > li
+  > ul
+  > li:nth-child(-n + 8):hover
+  p:first-child
+  span:nth-child(2)
+  img {
   display: block;
 }
 
-header .nav-sections > div > ul > li > ul > li:nth-child(-n+8):hover p:last-child strong {
+header
+  .nav-sections
+  > div
+  > ul
+  > li
+  > ul
+  > li:nth-child(-n + 8):hover
+  p:last-child
+  strong {
   color: #143a72;
   font-family: var(--font-family-bold);
 }

@@ -299,6 +299,10 @@
           {
             "name": "Insurance App",
             "value": "insurance-app"
+          },
+          {
+            "name": "Beware Of Offers",
+            "value": "beware-of-offers"
           }
         ]
       },
@@ -492,6 +496,28 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Searches Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Footer Searches",
+                "value": "footer-searches"
+              },
+              {
+                "name": "Footer Group Sites",
+                "value": "footer-group-sites"
+              }
+            ]
+          }
+        ]
       }
     ]
   },

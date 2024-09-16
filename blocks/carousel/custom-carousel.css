@@ -12,7 +12,7 @@
 }
 
 .swiper .swiper-pagination-bullet-active {
-  background-color: #8690a3;
+  background-color: gray;
   width: 25px;
   border-radius: 20px;
 }
