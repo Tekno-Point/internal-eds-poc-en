@@ -1,5 +1,7 @@
 /* header and nav layout */
 @import url('./custom-header.css');
+@import url('./desk-nav-modal.css');
+@import url('./mob-nav-modal.css');
 
 /* header .nav-wrapper {
   background-color: var(--background-color);
@@ -258,8 +260,9 @@ body.modal-open::before {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.6;
-  background-color: var(--black);
+  background-color: var(--color-background-active);
+  backdrop-filter: blur(0.5rem);
+  opacity: 0.9;
   z-index: 2;
 }
 
