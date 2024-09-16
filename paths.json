@@ -6,8 +6,8 @@
     "/content/eds-poc/forms/generate-lead:/forms/generate-lead.json",
     "/content/eds-poc/forms/lead:/forms/lead.json",
     "/content/eds-poc/form/:/form/*.json",
-    "/content/eds-poc/max-life/form/term-insurance-calculator:/max-life/form/term-insurance-calculator.json",
-    "/content/eds-poc/max-life/form/investment-plans:/max-life/form/investment-plans.json",
+    "/content/eds-poc/max-life/form/term-insurance-form:/max-life/form/term-insurance-form.json",
+    "/content/eds-poc/max-life/form/investment-plans-form:/max-life/form/investment-plans-form.json",
     "/content/eds-poc/api/highest-quality-research:/api/highest-quality-research.json",
     "/content/eds-poc/metadata:/metadata.json",
     "/content/eds-poc/configuration:/.helix/config.json"
