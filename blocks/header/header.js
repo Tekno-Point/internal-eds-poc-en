@@ -128,15 +128,15 @@ export default async function decorate(block) {
             navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
             navSections.setAttribute('aria-expanded', expanded ? 'false' : 'true');
             if (expanded) {
-                body.classList.remove('modal-open');
+              body.classList.remove('modal-open');
             } else {
-                body.classList.add('modal-open');
+              body.classList.add('modal-open');
             }
-        } else {
+          } else {
             body.classList.remove('modal-open');
             navSection.setAttribute('aria-expanded', 'false');
             navSections.setAttribute('aria-expanded', 'false');
-        }
+          }
         }
       });
     });
