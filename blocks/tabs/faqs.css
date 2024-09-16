@@ -45,3 +45,13 @@
   padding: 0;
   padding-top: 1rem;
 }
+
+.gradient-bar {
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 2rem;
+  border-radius: 0.25rem;
+  height: 0.25rem;
+  background: linear-gradient(90deg, #113874 0%, #825952 50%, #f27930 100%);
+}
