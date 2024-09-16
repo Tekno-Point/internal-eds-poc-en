@@ -518,10 +518,33 @@
               {
                 "name": "Footer Group Sites",
                 "value": "footer-group-sites"
+              },
+              {
+                "name": "Footer Socials",
+                "value": "footer-socials"
               }
             ]
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "form",
+    "fields": [
+      {
+        "component": "text",
+        "name": "form-json",
+        "value": "",
+        "label": "Form Json",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "api-url",
+        "value": "",
+        "label": "API Url",
+        "valueType": "string"
       }
     ]
   },

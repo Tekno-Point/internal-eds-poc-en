@@ -8,20 +8,12 @@ header .nav-sections > div {
   align-items: center;
 }
 
-header .nav-sections > div > ul > li > p {
-  margin-top: -2rem;
-  margin-bottom: -2rem;
-  display: flex;
-  align-items: center;
-  padding: 2rem 1rem;
-  font-family: var(--font-family-bold);
-}
-
 header .nav-sections > div > ul > li > ul > li {
   display: flex;
   width: 90%;
 }
 
+header .nav-sections > div > ul > li > p,
 header .nav-sections > div > ul:last-child > li {
   margin-top: -2rem;
   margin-bottom: -2rem;
@@ -220,7 +212,7 @@ header .nav-tools > div p:last-child .button {
   header .nav-tools > div {
     display: flex;
     gap: 1.5rem;
-    margin-right: unset;
+    margin-right: 15px;
     padding: unset;
   }
 

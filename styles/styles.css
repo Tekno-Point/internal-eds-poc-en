@@ -78,7 +78,7 @@ body {
 }
 
 .section > div {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: auto;
 }
 
@@ -246,9 +246,9 @@ header .nav-wrapper #nav {
   height: 80px;
 }
 
-.section .default-content-wrapper p:nth-child(1) {
+/* .section .default-content-wrapper p:nth-child(1) {
   padding-bottom: 20px;
-}
+} */
 
 @media screen and (width <=767.99px) {
   .section > div {
