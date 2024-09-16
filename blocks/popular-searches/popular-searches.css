@@ -1,3 +1,6 @@
+@import url("./footer-searches/footer-searches.css");
+@import url("./footer-socials/footer-socials.css");
+
 .block.popular-searches h2 {
   font-size: 20px;
   line-height: 28px;

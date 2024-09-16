@@ -69,6 +69,7 @@
                 font-family: var(--font-family-regular);
                 color: #171a21;
                 padding-left: 8px;
+                text-align: left;
             }
         }
     }
@@ -121,8 +122,4 @@
             }
         }
     }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1200px) {
-
 }
