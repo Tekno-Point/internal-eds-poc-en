@@ -4,31 +4,27 @@ export default function decorate(block) {
   const accordionItems = [];
 
   // Decorate each row
-  try {
-    [...block.children].forEach((row) => {
-      // Decorate accordion item label
-      const label = row.children[0];
-      const summary = document.createElement('summary');
-      summary.className = 'accordion-item-label';
-      summary.append(...label.childNodes);
+  [...block.children].forEach((row) => {
+    // Decorate accordion item label
+    const label = row.children[0];
+    const summary = document.createElement('summary');
+    summary.className = 'accordion-item-label';
+    summary.append(...label.childNodes);
 
-      // Decorate accordion item body
-      const body = row.children[1];
-      body.className = 'accordion-item-body';
+    // Decorate accordion item body
+    const body = row.children[1];
+    body.className = 'accordion-item-body';
 
-      // Decorate accordion item
-      const details = document.createElement('details');
-      details.className = 'accordion-item';
-      details.append(summary, body);
-      row.replaceWith(details);
+    // Decorate accordion item
+    const details = document.createElement('details');
+    details.className = 'accordion-item';
+    details.append(summary, body);
+    row.replaceWith(details);
 
-      // Store references to accordion items
-      accordionItems.open = true;
-      accordionItems.push(details);
-    });
-  } catch (error) {
-    console.log('Error', error);
-  }
+    // Store references to accordion items
+    accordionItems.open = true;
+    accordionItems.push(details);
+  });
 
   // Add event listeners to manage open state
   accordionItems.forEach((item) => {
