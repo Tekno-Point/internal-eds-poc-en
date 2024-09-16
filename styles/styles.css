@@ -242,6 +242,10 @@ p > em {
   width: 65%;
 }
 
+header .nav-wrapper #nav {
+  height: 80px;
+}
+
 @media screen and (width <=767.99px) {
   .section > div {
     width: 90%;
@@ -281,5 +285,9 @@ p > em {
     padding: 0 16px;
     margin: unset;
     width: 100%;
+  }
+
+  header .nav-wrapper #nav {
+    height: 50px;
   }
 }

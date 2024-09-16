@@ -136,7 +136,7 @@ export default async function decorate(block) {
   if (isDesktop.matches) {
     modalHeader = '/max-life/modals/nav-modal';
   } else {
-    modalHeader = '';
+    modalHeader = '/max-life/modals/mob-nav-modal';
   }
   hamburger.innerHTML = `<a href="${modalHeader}">
   <button type="button" aria-controls="nav" aria-label="Open navigation">
