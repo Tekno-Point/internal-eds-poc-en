@@ -299,6 +299,10 @@
           {
             "name": "Insurance App",
             "value": "insurance-app"
+          },
+          {
+            "name": "Beware Of Offers",
+            "value": "beware-of-offers"
           }
         ]
       },
