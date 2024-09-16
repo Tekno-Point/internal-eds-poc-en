@@ -115,6 +115,10 @@
                 "value": "prefer-max-life-cards"
               },
               {
+                "name": "Term Insurance Cards",
+                "value": "term-insurance-cards"
+              },
+              {
                 "name": "Quick Links Accordion Footer",
                 "value": "quick-links-footer"
               },
@@ -133,6 +137,14 @@
               {
                 "name": "Contact Us Cards",
                 "value": "contact-us-cards"
+              },
+              {
+                "name": "Desk Nav Modal",
+                "value": "desk-nav-modal"
+              },
+              {
+                "name": "MOb Nav Modal",
+                "value": "mob-nav-modal"
               },
               {
                 "name": "p-style-12",
@@ -480,6 +492,28 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Searches Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Footer Searches",
+                "value": "footer-searches"
+              },
+              {
+                "name": "Footer Group Sites",
+                "value": "footer-group-sites"
+              }
+            ]
+          }
+        ]
       }
     ]
   },

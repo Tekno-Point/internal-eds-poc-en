@@ -1,3 +1,14 @@
+.section.term-insurance-cards {
+    .default-content-wrapper {
+        position: relative;
+        bottom: 88px;
+    }
+
+    .custom-card-wrapper {
+        padding: 0;
+    }
+}
+
 .custom-card.term-insurance-cards {
     background-color: rgb(255 255 255 / 1);
     box-shadow: 0px 4px 8px #171a211f;
@@ -5,29 +16,49 @@
     display: flex;
     flex-wrap: wrap;
     padding: 32px;
+    position: relative;
+    bottom: 112px;
 
     >div {
-        background: #ffffff 0% 0% no-repeat padding-box;
-        box-shadow: 0px 4px 8px #5097e529;
-        border-radius: 12px;
-        border: solid 1px #ebedf0;
+        padding: 16px 0;
         min-height: 157px;
         min-width: 174px;
         max-height: 124px;
         max-width: 104px;
+        border: solid 1px #ebedf0;
         position: relative;
-        margin-right: auto;
         margin-left: auto;
+        margin-right: auto;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 8px #5097e529;
+        border-radius: 12px;
+        // display: flex;
+        // align-items: center;
 
         >div:nth-child(2) {
-            height: 100%;
+            cursor: pointer;
+            h4 {
+                position: absolute;
+                top: -10px;
+                left: 2px;
+                font-size: 10px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                background: #cef5e1;
+                width: 98%;
+                border-radius: 12px;
+                color: rgb(9, 154, 79);
+                font-size: 10px;
+                line-height: 14px;
+                font-family: var(--font-family-bold);
+                text-align: center;
+            }
 
             p {
-                position: absolute;
-                top: 18%;
-                left: 37%;
+                margin-top: 12px;
+                text-align: center;
 
-                a>span>img {
+                span>img {
                     width: 43px;
                     height: 48px;
                 }
@@ -40,30 +71,11 @@
                 font-weight: 500;
                 color: #171a21;
                 text-align: center;
-                padding: 83px 20px 0;
-            }
-
-            pre {
-                text-align: center;
-                background: #cef5e1;
-                display: block;
-                width: 98%;
-                position: absolute;
-                top: -10px;
-                left: 2px;
-                padding: 4px 0;
-                border-radius: 12px;
-
-                code {
-                    color: rgb(9, 154, 79);
-                    font-size: 10px;
-                    line-height: 14px;
-                    font-family: var(--font-family-bold);
-                    font-style: normal;
-                }
+                margin-top: 12px;
             }
         }
     }
+
 
     >div:hover {
         box-shadow: 0 6px 24px 0 rgba(23, 26, 33, 0.12);
@@ -71,24 +83,32 @@
     }
 }
 
-
 .custom-card.redirect-card {
-    >div>div>p {
-        a {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            top: 0;
-        }
+    h6 > a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 85px 16px 0 16px;
     }
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
+    .section.term-insurance-cards {
+        .default-content-wrapper {
+            bottom: 13px;
+        }
+    }
+
     .custom-card.term-insurance-cards {
-        padding: 16px;
-        gap: 5px;
+        position: unset;
+        column-gap: 5px;
+        row-gap: 16px;
+        padding: 32px 16px 20px 16px;
+        border-radius: unset;
+        margin-bottom: 40px;
 
         >div {
             width: 32%;
@@ -96,25 +116,23 @@
             min-width: unset;
             max-height: unset;
             max-width: unset;
-            border: unset;
+            flex-direction: column;
 
-            >div {
-                h6 {
-                    font-size: 13px;
-                    line-height: 16px;
-                    padding: 90px 10px 15px;
+            >div:nth-child(2) {
+                min-height: 110px;
+                h4 {
+                    font-size: 8.192px;
+                    line-height: 10.992px;
                 }
 
                 p {
-                    top: 21%;
-                    left: 31%;
+                    margin-top: 5px;
                 }
 
-                pre {
-                    code {
-                        font-size: 8.192px;
-                        line-height: 10.992px;
-                    }
+                h6 {
+                    font-size: 13px;
+                    line-height: 16px;
+                    padding: 0 4px;
                 }
             }
         }

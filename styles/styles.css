@@ -242,9 +242,25 @@ p > em {
   width: 65%;
 }
 
+header .nav-wrapper #nav {
+  height: 80px;
+}
+
 @media screen and (width <=767.99px) {
   .section > div {
     width: 90%;
+  }
+}
+
+@media screen and (width <=1200px) {
+  .section > div {
+    padding: 0 16px;
+    margin: unset;
+    width: 100%;
+  }
+
+  header .nav-wrapper #nav {
+    height: 50px;
   }
 
   h2 {
@@ -257,14 +273,6 @@ p > em {
     line-height: var(--line-height-2xl);
   }
 
-  .width-50 > div > div > div > div.default-content-wrapper {
-    width: 100%;
-  }
-
-  .width-65 > div > div > div > div.default-content-wrapper {
-    width: 100%;
-  }
-
   .p-style-12 {
     font-size: var(--size-font-xs);
     line-height: var(--line-height-xs);
@@ -274,12 +282,12 @@ p > em {
     font-size: var(--size-font-base);
     line-height: var(--line-height-base);
   }
-}
 
-@media screen and (width <=1200px) {
-  .section > div {
-    padding: 0 16px;
-    margin: unset;
+  .width-50 > div > div > div > div.default-content-wrapper {
+    width: 100%;
+  }
+
+  .width-65 > div > div > div > div.default-content-wrapper {
     width: 100%;
   }
 }

@@ -1,0 +1,15 @@
+<svg id="handshake_2_" data-name="handshake (2)" xmlns="http://www.w3.org/2000/svg" width="18.001" height="18.001" viewBox="0 0 18.001 18.001">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #171a21;
+      }
+    </style>
+  </defs>
+  <g id="Group_22153" data-name="Group 22153">
+    <path id="Path_16714" data-name="Path 16714" class="cls-1" d="M13.511,152.32l-.49-.49a3.117,3.117,0,0,0-2.217-.917l-5.478,0L3.8,152.32H0v8.427H5.21l2.231,2.228a2.114,2.114,0,0,0,2.983,0l2.231-2.228H18V152.32h-4.49ZM12.414,159l-2.983,2.98a.7.7,0,0,1-.994,0l-2.643-2.64H1.406v-5.618H4.353l1.522-1.4H8.1l-4.163,4.157.5.5a3.518,3.518,0,0,0,4.972,0l.987-.985,2.024,2.021a.7.7,0,0,1,0,.993Zm4.181.34H13.854a2.106,2.106,0,0,0-.446-2.326L10.39,154l-1.981,1.979a2.112,2.112,0,0,1-2.4.412l3.574-3.57a1.73,1.73,0,0,1,2.445,0l.9.9h3.666Z" transform="translate(0 -145.591)"/>
+    <path id="Path_16715" data-name="Path 16715" class="cls-1" d="M236,.015h1.411V2.837H236Z" transform="translate(-227.705 -0.015)"/>
+    <path id="Path_16716" data-name="Path 16716" class="cls-1" d="M0,0H1.411V2.822H0Z" transform="translate(2.046 3.044) rotate(-45)"/>
+    <path id="Path_16717" data-name="Path 16717" class="cls-1" d="M0,0H2.822V1.411H0Z" transform="translate(12.96 4.042) rotate(-45)"/>
+  </g>
+</svg>
