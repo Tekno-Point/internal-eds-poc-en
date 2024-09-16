@@ -115,12 +115,20 @@
                 "value": "prefer-max-life-cards"
               },
               {
+                "name": "Term Insurance Cards",
+                "value": "term-insurance-cards"
+              },
+              {
                 "name": "Quick Links Accordion Footer",
                 "value": "quick-links-footer"
               },
               {
                 "name": "Disclaimer Accordion Footer",
                 "value": "disclaimer-footer"
+              },
+              {
+                "name": "Faqs Tabs and Accordion",
+                "value": "faqs-tabs-accordion"
               },
               {
                 "name": "Carousal Life Insurance",
@@ -143,8 +151,8 @@
                 "value": "width-50"
               },
               {
-                "name": "width-69",
-                "value": "width-69"
+                "name": "width-65",
+                "value": "width-65"
               },
               {
                 "name": "text-center",
@@ -170,6 +178,10 @@
               {
                 "name": "Light Blue",
                 "value": "bg-light-blue"
+              },
+              {
+                "name": "Alice Blue",
+                "value": "bg-alice-blue"
               },
               {
                 "name": "Gradient Blue",
@@ -450,14 +462,14 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "text",
+        "name": "head",
         "label": "Heading",
         "value": ""
       },
       {
         "component": "richtext",
         "valueType": "string",
-        "name": "text",
+        "name": "body",
         "value": "",
         "label": "Body"
       }
@@ -697,6 +709,10 @@
           {
             "name": "Claims Paid Ratio Wrapper",
             "value": "claims-paid-ratio-wrapper"
+          },
+          {
+            "name": "Term Insurance Banner",
+            "value": "term-insurance-banner"
           }
         ]
       },

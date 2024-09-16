@@ -3,7 +3,7 @@ header .nav-brand>div {
   height: 48px;
 }
 
-header .nav-sections>div {
+header .nav-sections > div {
   display: flex;
   align-items: center;
 }

@@ -37,6 +37,7 @@
   --color-shadow-secondary: #171a210f;
   --color-text-primary: #171a21;
   --hamburger-color: black;
+  --color-alice-blue: #f1f6fa;
 
   /* Font Sizes */
   --size-font-2xs: 0.512rem;
@@ -149,6 +150,10 @@ h2 strong {
   background-color: var(--color-background-primary);
 }
 
+.bg-alice-blue {
+  background-color: var(--color-alice-blue);
+}
+
 .bg-gradient-purple {
   background: linear-gradient(
     45deg,
@@ -233,8 +238,8 @@ p > em {
   width: 50%;
 }
 
-.width-69 > div > div > div > div.default-content-wrapper {
-  width: 69%;
+.width-65 > div > div > div > div.default-content-wrapper {
+  width: 65%;
 }
 
 @media screen and (width <=767.99px) {
@@ -256,7 +261,7 @@ p > em {
     width: 100%;
   }
 
-  .width-69 > div > div > div > div.default-content-wrapper {
+  .width-65 > div > div > div > div.default-content-wrapper {
     width: 100%;
   }
 
