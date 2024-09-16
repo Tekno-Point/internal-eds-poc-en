@@ -1,4 +1,4 @@
-header .nav-brand > div {
+header .nav-brand>div {
   width: 79px;
   height: 48px;
 }
@@ -8,12 +8,14 @@ header .nav-sections > div {
   align-items: center;
 }
 
-header .nav-sections > div > ul > li > ul > li {
+
+header .nav-sections>div>ul>li>ul>li {
   display: flex;
+  width: 90%;
 }
 
-header .nav-sections > div > ul > li > p,
-header .nav-sections > div > ul:last-child > li {
+header .nav-sections>div>ul>li>p,
+header .nav-sections>div>ul:last-child>li {
   margin-top: -2rem;
   margin-bottom: -2rem;
   display: flex;
@@ -22,17 +24,93 @@ header .nav-sections > div > ul:last-child > li {
   font-family: var(--font-family-bold);
 }
 
-header .nav-sections > div > ul > li > ul > li > p:last-child {
+
+header .nav-sections>div>ul>li>ul>li>p:first-child span {
+  border-radius: 0.25rem;
+  background-color: #f7f8f9;
+  padding: 0.5rem;
+  width: 2.87rem;
+  height: 2.87rem;
+  text-align: center;
+  display: block;
+}
+
+header .nav-sections>div>ul>li>ul>li>p:first-child span img {
+  height: 1.5rem;
+  width: 100%;
+}
+
+header .nav-sections>div>ul>li>ul>li>p:first-child span:nth-child(2) {
+  display: none;
+}
+
+header .nav-sections>div>ul>li>ul>li>p:first-child span:nth-child(2) img {
+  display: none;
+}
+
+header .nav-sections>div>ul>li>ul>li>p:last-child {
   display: flex;
   flex-direction: column;
+  font-size: 0.8rem;
+  line-height: 1.125rem;
+  font-family: var(--font-family-regular);
+  color: #8690a3;
+  padding: 0.5rem;
 }
 
-header .nav-tools > div {
+header .nav-sections>div>ul>li>ul>li>p:last-child strong {
+  font-family: var(--font-family-regular);
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #171a21;
+  font-weight: 400;
+}
+
+header .nav-sections>div>ul>li>ul>li:last-child p:first-child span {
+  width: 100%;
+  height: 100%;
+  background-color: unset;
+}
+
+header .nav-sections>div>ul:nth-child(2)>li>ul>li:last-child p:first-child span {
+  height: 80px;
+}
+
+header .nav-sections>div>ul:nth-child(2)>li>ul>li:last-child p:first-child span img {
+  width: 257px;
+  height: 360px !important;
+}
+
+header .nav-sections>div>ul>li>ul>li:nth-child(-n+8):hover {
+  background-color: #f7f8f9;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+header .nav-sections>div>ul>li>ul>li:nth-child(-n+8):hover p:first-child span:nth-child(1) {
+  display: none;
+}
+
+header .nav-sections>div>ul>li>ul>li:nth-child(-n+8):hover p:first-child span:nth-child(2) {
+  display: block;
+}
+
+header .nav-sections>div>ul>li>ul>li:nth-child(-n+8):hover p:first-child span:nth-child(2) img {
+  display: block;
+}
+
+header .nav-sections>div>ul>li>ul>li:nth-child(-n+8):hover p:last-child strong {
+  color: #143a72;
+  font-family: var(--font-family-bold);
+}
+
+header .nav-tools>div {
   display: flex;
-  gap: 10px;
+  gap: 1.5rem;
+  margin-right: -60px;
 }
 
-header .nav-tools > div .button-container .button {
+header .nav-tools>div .button-container .button {
   background-color: transparent;
   padding: 0.5rem 1rem;
   color: var(--color-text-primary, #171a21);
@@ -44,10 +122,40 @@ header .nav-tools > div .button-container .button {
   line-height: var(--line-height-sm);
 }
 
-header .nav-tools > div p:last-child .button {
+header .nav-tools>div p:last-child .button {
   border-color: var(--color-primary);
   background-color: transparent;
   padding-left: 1rem;
   padding-right: 1rem;
   color: var(--color-primary);
+}
+
+@media screen and (width <=1200px) {
+  header .nav-brand>div {
+    width: 52px;
+    height: 32px;
+  }
+
+  header .nav-sections {
+    display: none;
+  }
+
+  header .nav-tools {
+    margin-left: auto;
+  }
+
+  header .nav-tools>div {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: unset;
+    padding: unset;
+  }
+
+  header .nav-tools>div p:last-child {
+    margin-left: auto;
+  }
+
+  header .nav-tools>div p:first-child {
+    display: none;
+  }
 }

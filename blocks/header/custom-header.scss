@@ -34,9 +34,92 @@ header {
 
             >ul >li >ul >li{
                 display: flex;
+                width: 90%;
+                >p:first-child {
+                    span {
+                        border-radius: 0.25rem;
+                        background-color: #f7f8f9;
+                        padding: 0.5rem;
+                        width: 2.87rem;
+                        height: 2.87rem;
+                        text-align: center;
+                        display: block;
+
+                        img {
+                            height: 1.5rem;
+                            width: 100%;
+                        }
+                    }
+
+                    span:nth-child(2) {
+                        display: none;
+                        img {
+                            display: none;
+                        }
+                    }
+                }
                 >p:last-child{
                     display: flex;
                     flex-direction: column;
+                    font-size: 0.8rem;
+                    line-height: 1.125rem;
+                    font-family: var(--font-family-regular);
+                    color: #8690a3;
+                    padding: 0.5rem;
+
+                    strong {
+                        font-family: var(--font-family-regular);
+                        font-size: 1rem;
+                        line-height: 1.4;
+                        color: #171a21;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            >ul >li >ul >li:last-child {
+                p:first-child {
+                    span {
+                        width: 100%;
+                        height: 100%;
+                        background-color: unset;
+                    }
+                }
+            }
+
+            >ul:nth-child(2) >li >ul >li:last-child {
+                p:first-child {
+                    span {
+                        height: 80px;
+                        img{
+                        width: 257px;
+                        height: 360px !important;
+                        }
+                    }
+                }
+            }
+
+            >ul >li >ul >li:nth-child(-n+8):hover {
+                background-color: #f7f8f9;
+                padding: 0.5rem;
+                border-radius: 0.5rem;
+
+                p:first-child {
+                    span:nth-child(1) {
+                        display: none;
+                    }
+                    span:nth-child(2) {
+                        display: block;
+                        img {
+                            display: block;
+                        }
+                    }
+                }
+                p:last-child {
+                    strong {
+                        color: #143a72;
+                        font-family: var(--font-family-bold)
+                    }
                 }
             }
         }
@@ -45,7 +128,8 @@ header {
     .nav-tools {
         >div {
             display: flex;
-            gap: 10px;
+            gap: 1.5rem;
+            margin-right: -60px;
 
             .button-container {
 
@@ -74,6 +158,54 @@ header {
             }
 
 
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    header {
+        .nav-brand {
+            >div {
+                width: 52px;
+                height: 32px;
+            }
+        }
+
+        .nav-sections {
+            display: none;
+        }
+
+        .nav-tools {
+            margin-left: auto;
+            >div {
+                display: flex;
+                gap: 1.5rem;
+                margin-right: unset;
+                padding: unset;
+    
+                // .button-container {
+                //     .button {
+                //         background-color: transparent;
+                //         padding: 0.5rem 1rem;
+                //         color: var(--color-text-primary, #171a21);
+                //         border: 1px solid rgb(109, 117, 133);
+                //         border-radius: 20px;
+                //         text-align: center;
+                //         font-family: var(--font-family-bold);
+                //         font-size: var(--size-font-sm);
+                //         line-height: var(--line-height-sm);
+                //     }
+    
+                // }
+    
+                p:last-child {
+                    margin-left: auto;
+                }
+
+                p:first-child {
+                    display: none;
+                }
+            }
         }
     }
 }
