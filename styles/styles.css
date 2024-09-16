@@ -251,24 +251,6 @@ header .nav-wrapper #nav {
     width: 90%;
   }
 
-  h2 {
-    font-size: var(--size-font-lg);
-    line-height: var(--line-height-lg);
-  }
-
-  h2 strong {
-    font-size: var(--size-font-2xl);
-    line-height: var(--line-height-2xl);
-  }
-
-  .width-50 > div > div > div > div.default-content-wrapper {
-    width: 100%;
-  }
-
-  .width-65 > div > div > div > div.default-content-wrapper {
-    width: 100%;
-  }
-
   .p-style-12 {
     font-size: var(--size-font-xs);
     line-height: var(--line-height-xs);
@@ -289,5 +271,23 @@ header .nav-wrapper #nav {
 
   header .nav-wrapper #nav {
     height: 50px;
+  }
+
+  h2 {
+    font-size: var(--size-font-lg);
+    line-height: var(--line-height-lg);
+  }
+
+  h2 strong {
+    font-size: var(--size-font-2xl);
+    line-height: var(--line-height-2xl);
+  }
+
+  .width-50 > div > div > div > div.default-content-wrapper {
+    width: 100%;
+  }
+
+  .width-65 > div > div > div > div.default-content-wrapper {
+    width: 100%;
   }
 }
