@@ -250,16 +250,6 @@ header .nav-wrapper #nav {
   .section > div {
     width: 90%;
   }
-
-  .p-style-12 {
-    font-size: var(--size-font-xs);
-    line-height: var(--line-height-xs);
-  }
-
-  .p-style-20 {
-    font-size: var(--size-font-base);
-    line-height: var(--line-height-base);
-  }
 }
 
 @media screen and (width <=1200px) {
@@ -281,6 +271,16 @@ header .nav-wrapper #nav {
   h2 strong {
     font-size: var(--size-font-2xl);
     line-height: var(--line-height-2xl);
+  }
+
+  .p-style-12 {
+    font-size: var(--size-font-xs);
+    line-height: var(--line-height-xs);
+  }
+
+  .p-style-20 {
+    font-size: var(--size-font-base);
+    line-height: var(--line-height-base);
   }
 
   .width-50 > div > div > div > div.default-content-wrapper {
