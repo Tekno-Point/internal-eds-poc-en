@@ -497,7 +497,7 @@
         "component": "multiselect",
         "name": "classes",
         "value": "",
-        "label": "Card Style",
+        "label": "Searches Style",
         "valueType": "string",
         "options": [
           {
