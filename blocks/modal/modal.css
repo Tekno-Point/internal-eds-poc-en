@@ -1,12 +1,11 @@
-@import url("./desk-nav-modal.css");
-@import url("./mob-nav-modal.css");
-
 body.modal-open {
     overflow: hidden;
 }
 
 .modal dialog::backdrop {
     background-color: var(--color-background-active);
+    backdrop-filter: blur(0.5rem);
+    opacity: 0.9;
 }
 
 .modal dialog {
