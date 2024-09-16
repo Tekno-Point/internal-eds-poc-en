@@ -491,7 +491,22 @@
         "name": "text",
         "value": "",
         "label": "Text",
-        "valueType": "string"
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Footer Searches",
+                "value": "footer-searches"
+              },
+              {
+                "name": "Footer Group Sites",
+                "value": "footer-group-sites"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
