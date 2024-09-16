@@ -11,6 +11,14 @@
   text-decoration: underline;
 }
 
+.life-insurance .carousel-wrapper {
+  position: relative;
+}
+
+.life-insurance .carousel-wrapper .carousel.block.swiper {
+  position: unset;
+}
+
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide {
   padding: 0 1rem;
 }
@@ -59,4 +67,45 @@
   color: var(--color-text-primary);
   font-family: var(--font-family-semi-bold);
   line-height: var(--line-height-base);
+}
+
+.life-insurance .carousel-wrapper .swiper-pagination {
+  display: none;
+}
+
+.life-insurance .carousel-wrapper .swiper-button-next,
+.life-insurance .carousel-wrapper .swiper-button-prev {
+  display: block;
+}
+
+.life-insurance .carousel-wrapper .swiper-button-next::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../images/abha-card-arrow-next.svg");
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  right: -50px;
+}
+
+.life-insurance .carousel-wrapper .swiper-button-prev::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../images/abha-card-arrow-next.svg");
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  left: -50px;
+  transform: rotate(180deg);
+}
+
+@media screen and (width <= 768px) {
+  .life-insurance .carousel-wrapper .swiper-pagination {
+    display: block;
+  }
+
+  .life-insurance .carousel-wrapper .swiper-button-next,
+  .life-insurance .carousel-wrapper .swiper-button-prev {
+    display: none;
+  }
 }
