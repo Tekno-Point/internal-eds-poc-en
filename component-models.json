@@ -518,6 +518,10 @@
               {
                 "name": "Footer Group Sites",
                 "value": "footer-group-sites"
+              },
+              {
+                "name": "Footer Socials",
+                "value": "footer-socials"
               }
             ]
           }
