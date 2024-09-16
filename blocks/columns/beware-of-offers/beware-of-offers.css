@@ -1,0 +1,41 @@
+.columns.beware-of-offers > div {
+  justify-content: space-between;
+}
+.columns.beware-of-offers > div > div {
+  width: 40%;
+}
+.columns.beware-of-offers > div > div p {
+  color: #171a21;
+  font-size: 0.64rem;
+  line-height: 0.875rem;
+  font-family: var(--font-family-regular);
+  font-weight: 400;
+}
+.columns.beware-of-offers > div > div p strong {
+  font-family: var(--font-family-bold);
+  font-weight: 700;
+}
+.columns.beware-of-offers > div > div p em {
+  background-color: unset;
+  color: #171a21;
+  font-size: 0.64rem;
+  line-height: 0.875rem;
+  font-family: var(--font-family-regular);
+  font-weight: 400;
+  padding: 0;
+  text-decoration: underline;
+}
+.columns.beware-of-offers > div div:nth-child(2) p {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .columns.beware-of-offers > div {
+    flex-direction: row;
+    gap: 30px;
+    padding: 24px 0;
+  }
+  .columns.beware-of-offers > div > div {
+    width: 100%;
+  }
+}/*# sourceMappingURL=beware-of-offers.css.map */

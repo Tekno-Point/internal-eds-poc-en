@@ -1,5 +1,6 @@
 @import url("./trusted-companies.css");
 @import url("./insurance-app.css");
+@import url("./beware-of-offers/beware-of-offers.css");
 
 .columns > div {
   display: flex;

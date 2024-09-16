@@ -79,11 +79,14 @@
 
 @media only screen and (max-width: 1024px) {
     .block.popular-searches.footer-group-sites {
-        flex-direction: column;
-        gap: 16px;
+        >div>div {
+            flex-direction: column;
+            gap: 16px;
+            padding-bottom: 24px;
 
-        ul {
-            row-gap: 24px;
+            ul {
+                row-gap: 24px;
+            }
         }
     }
 }
