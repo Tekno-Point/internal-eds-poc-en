@@ -526,6 +526,25 @@
     ]
   },
   {
+    "id": "form",
+    "fields": [
+      {
+        "component": "text",
+        "name": "form-json",
+        "value": "",
+        "label": "Form Json",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "api-url",
+        "value": "",
+        "label": "API Url",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "custom-card",
     "fields": [
       {
