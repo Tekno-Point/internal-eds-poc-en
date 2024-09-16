@@ -15,7 +15,12 @@
   height: 22px;
 }
 
-.teaser.term-insurance-banner > div:first-child > div p:first-child > picture > img {
+.teaser.term-insurance-banner
+  > div:first-child
+  > div
+  p:first-child
+  > picture
+  > img {
   width: 348px;
   height: auto;
   padding-top: 47px;
@@ -86,7 +91,12 @@
     top: 80px;
   }
 
-  .teaser.term-insurance-banner > div:first-child > div p:first-child > picture > img {
+  .teaser.term-insurance-banner
+    > div:first-child
+    > div
+    p:first-child
+    > picture
+    > img {
     width: 110px;
     padding-top: 16px;
   }
@@ -96,7 +106,12 @@
     left: 0;
   }
 
-  .teaser.term-insurance-banner > div:first-child > div p:nth-child(2) > picture > img {
+  .teaser.term-insurance-banner
+    > div:first-child
+    > div
+    p:nth-child(2)
+    > picture
+    > img {
     width: 146px;
     height: 13px;
   }

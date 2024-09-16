@@ -550,7 +550,7 @@ function decorateSections(main) {
     if (firstH2) {
       const gradientBarHr = document.createElement('hr');
       if (section.classList.contains('bg-gradient-blue')) {
-        console.log("No class");
+        console.log('No class');
       } else {
         gradientBarHr.classList.add('gradient-bar');
         // Check if <h2> has text-align: center
