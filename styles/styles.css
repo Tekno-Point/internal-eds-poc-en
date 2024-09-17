@@ -242,6 +242,10 @@ p > em {
   width: 65%;
 }
 
+.dp-none {
+  display: none;
+}
+
 header .nav-wrapper #nav {
   height: 80px;
 }
