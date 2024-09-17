@@ -1,4 +1,5 @@
 @import url("../tabs/faqs.css");
+@import url("./investment-plans/investment-plans.css");
 
 .tabs .tabs-list {
   display: flex;
