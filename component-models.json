@@ -233,6 +233,15 @@
                 "value": "pb-64"
               }
             ]
+          },
+          {
+            "name": "Section Hide",
+            "children": [
+              {
+                "name": "Hide",
+                "value": "dp-none"
+              }
+            ]
           }
         ]
       },
