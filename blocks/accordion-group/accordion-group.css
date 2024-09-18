@@ -50,3 +50,7 @@
   /* border-top: 1px solid #dadada; */
   background-color: var(--background-color);
 }
+
+.accordion-dropdown details summary::-webkit-details-marker {
+  display: none;
+}
