@@ -1,6 +1,6 @@
 .modal dialog:has(.mob-nav-modal) {
     margin-left: unset;
-    margin-top: 50px;
+    margin-top: 51px;
     width: 100%;
     height: calc(-50px + 100vh);
  
