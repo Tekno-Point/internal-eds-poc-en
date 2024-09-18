@@ -32,6 +32,7 @@
 }
 
 .trusted-companies-members.columns > div > div:first-child .button-container a.button:hover {
+  text-decoration-color: var(--color-primary);
   text-decoration-color: #f27930;
 }
 
@@ -81,6 +82,7 @@
     text-align: center;
     font-size: 1.25rem;
     line-height: 1.75rem;
+    padding-top: 24px;
   }
 
   .trusted-companies-members.columns > div > div:first-child p {
