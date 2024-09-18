@@ -6,33 +6,40 @@
 .section.faqs-tabs-accordion {
   display: flex;
 }
+
 .section.faqs-tabs-accordion .default-content-wrapper {
   margin-top: 8rem;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (width <= 767px) {
   .section.faqs-tabs-accordion .default-content-wrapper {
     display: none;
   }
 }
+
 .section.faqs-tabs-accordion .tabs-wrapper {
   width: 57%;
   margin-top: 50px;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (width <= 767px) {
   .section.faqs-tabs-accordion .tabs-wrapper {
     width: 100%;
     margin-top: 12px;
   }
 }
+
 .section.faqs-tabs-accordion .tabs-wrapper .tabs.block .tabs-list {
   gap: 24px;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (width <= 767px) {
   .section.faqs-tabs-accordion .tabs-wrapper .tabs.block .tabs-list {
     overflow: scroll;
     scrollbar-width: none;
   }
 }
+
 .section.faqs-tabs-accordion .tabs-wrapper .tabs.block .tabs-list button {
   padding: 0.5em 0.5rem 0.5rem 0;
   border: none;
@@ -40,21 +47,25 @@
   font-size: 1.25rem;
   font-weight: 500;
 }
+
 .section.faqs-tabs-accordion .tabs-wrapper .tabs.block .tabs-list button.active-tab {
   border-bottom: 4px solid #3b99e9;
   color: #3597ec;
 }
+
 .section.faqs-tabs-accordion .tabs-wrapper .tabs.block .tabs-list button p {
   cursor: pointer;
   font-family: var(--font-family-regular);
   font-size: 20px;
   line-height: 1.75rem;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (width <= 767px) {
   .section.faqs-tabs-accordion .tabs-wrapper .tabs.block .tabs-list button p {
     font-size: 1rem;
   }
 }
+
 .section.faqs-tabs-accordion .tabs-wrapper .tabs-panel {
   border: none;
   padding: 0;
@@ -69,4 +80,4 @@
   border-radius: 0.25rem;
   height: 0.25rem;
   background: linear-gradient(90deg, #113874 0%, #825952 50%, #f27930 100%);
-}/*# sourceMappingURL=faqs.css.map */
+}
