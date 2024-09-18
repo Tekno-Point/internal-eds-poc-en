@@ -22,6 +22,7 @@
 
 .accordion-group details summary::marker {
   display: none;
+  appearance: none;
 }
 
 .accordion-group details summary::after {
