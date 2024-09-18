@@ -119,6 +119,10 @@
                 "value": "term-insurance-cards"
               },
               {
+                "name": "Term Insurance Banner",
+                "value": "term-insurance-banner"
+              },
+              {
                 "name": "Quick Links Accordion Footer",
                 "value": "quick-links-footer"
               },
