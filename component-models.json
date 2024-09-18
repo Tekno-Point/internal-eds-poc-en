@@ -151,6 +151,10 @@
                 "value": "mob-nav-modal"
               },
               {
+                "name": "Investment Plans Form",
+                "value": "investment-plans-form"
+              },
+              {
                 "name": "p-style-12",
                 "value": "p-style-12"
               },
@@ -227,6 +231,15 @@
               {
                 "name": "pb-64",
                 "value": "pb-64"
+              }
+            ]
+          },
+          {
+            "name": "Section Hide",
+            "children": [
+              {
+                "name": "Hide",
+                "value": "dp-none"
               }
             ]
           }

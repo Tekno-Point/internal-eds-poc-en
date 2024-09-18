@@ -7,12 +7,10 @@
 }
 
 .section .reviews .swiper-wrapper .swiper-slide {
-  border-radius: 16px;
-  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 7%);
   background-color: #fff;
-  padding: 2rem;
   height: 420px;
   text-align: left;
+  padding: 2rem 24%;
 }
 
 @media screen and (width <= 767px) {
@@ -30,12 +28,15 @@
 }
 
 .section .reviews .swiper-wrapper .swiper-slide div:nth-child(3) {
-  width: 80%;
+  width: 100%;
   display: grid;
   grid-template-areas: "item1 item2" "item3 item3";
   grid-template-columns: 80px;
   gap: 10px;
   align-items: center;
+  border-radius: 16px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 7%);
+  padding: 2rem;
 }
 
 .section .reviews .swiper-wrapper .swiper-slide div:nth-child(3) p {
@@ -73,4 +74,64 @@
 
 .section .reviews .swiper-wrapper .swiper-slide div:nth-child(3) ul:nth-child(3) li strong {
   color: var(--color-text-primary);
+}
+
+.section .reviews .swiper-pagination {
+  display: none;
+}
+
+.section .reviews .swiper-button-next {
+  display: block;
+  right: 150px;
+}
+
+.section .reviews .swiper-button-prev {
+  display: block;
+  left: 150px;
+}
+
+.section .reviews .swiper-button-prev::after {
+  width: 16px;
+  height: 16px;
+  font-size: 1rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: #ebedf0;
+  display: block;
+}
+
+.section .reviews .swiper-button-next::after {
+  width: 16px;
+  height: 16px;
+  font-size: 1rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: #ebedf0;
+  display: block;
+}
+
+@media screen and (width <= 767px) {
+  .section .reviews .swiper-wrapper .swiper-slide {
+    padding: unset;
+  }
+
+  .section .reviews .swiper-wrapper .swiper-slide div:nth-child(3) ul:nth-child(3) li {
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.25rem;
+  }
+
+  .section .reviews .swiper-wrapper .swiper-slide div:nth-child(3) ul:nth-child(3) li strong {
+    color: var(--color-text-primary);
+    font-size: 1rem;
+    line-height: 1.437rem;
+  }
+
+  .section .reviews .swiper-button-next {
+    right: 4px;
+  }
+
+  .section .reviews .swiper-button-prev {
+    left: 0;
+  }
 }

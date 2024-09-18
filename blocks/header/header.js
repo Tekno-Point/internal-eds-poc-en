@@ -3,6 +3,7 @@ import { loadFragment } from '../../scripts/scripts.js';
 
 // media query match that indicates mobile/tablet width
 export const isDesktop = window.matchMedia('(min-width: 900px)');
+export const body = document.querySelector('body');
 
 function closeOnEscape(e) {
   if (e.code === 'Escape') {
@@ -123,7 +124,19 @@ export default async function decorate(block) {
         if (isDesktop.matches) {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
           toggleAllNavSections(navSections);
-          navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+          if (navSection.classList.contains('nav-drop')) {
+            navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+            navSections.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+            if (expanded) {
+              body.classList.remove('modal-open');
+            } else {
+              body.classList.add('modal-open');
+            }
+          } else {
+            body.classList.remove('modal-open');
+            navSection.setAttribute('aria-expanded', 'false');
+            navSections.setAttribute('aria-expanded', 'false');
+          }
         }
       });
     });
@@ -146,7 +159,7 @@ export default async function decorate(block) {
   nav.prepend(hamburger);
   nav.setAttribute('aria-expanded', 'false');
   // prevent mobile nav behavior on window resize
-  toggleMenu(nav, navSections, isDesktop.matches);
+  // toggleMenu(nav, navSections, isDesktop.matches);
   isDesktop.addEventListener('change', () => toggleMenu(nav, navSections, isDesktop.matches));
 
   const navWrapper = document.createElement('div');
