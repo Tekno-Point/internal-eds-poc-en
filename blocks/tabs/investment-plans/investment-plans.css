@@ -364,7 +364,7 @@
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .heading-wrapper h2 {
     font-size: 1rem;
     line-height: 1.437rem;
-    width: 60%;
+    width: 65%;
   }
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .plaintext-wrapper p ul {
     gap: 5px;
@@ -611,7 +611,7 @@
     position: absolute;
     top: 0;
     width: unset;
-    right: -16px;
+    right: -25px;
   }
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .default-content-wrapper p {
     padding: 13%;
