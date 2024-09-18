@@ -1,6 +1,6 @@
 .modal dialog:has(.desk-nav-modal) {
   margin-left: auto;
-  margin-top: 80px;
+  margin-top: 81px;
   max-width: 384px;
   height: calc(-80px + 100vh);
 
