@@ -250,13 +250,29 @@ header .nav-wrapper #nav {
   height: 80px;
 }
 
-/* .section .default-content-wrapper p:nth-child(1) {
+.section.para-spacing .default-content-wrapper p:nth-child(1) {
   padding-bottom: 20px;
-} */
+}
 
 @media screen and (width <=767.99px) {
   .section > div {
     width: 90%;
+  }
+
+  .pt-mob-16 {
+    padding-top: 16px;
+  }
+  
+  .pb-mob-16 {
+    padding-bottom: 16px;
+  }
+
+  .pt-mob-40 {
+    padding-top: 40px;
+  }
+  
+  .pb-mob-40 {
+    padding-bottom: 40px;
   }
 }
 

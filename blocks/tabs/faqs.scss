@@ -1,3 +1,8 @@
+.section.faq-wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
 .section.faqs-tabs-accordion {
   display: flex;
   .default-content-wrapper {
@@ -11,12 +16,21 @@
     margin-top: 50px;
     @media screen and (max-width: 767px) {
       width: 100%;
+      margin-top: 12px;
     }
     .tabs.block {
       .tabs-list {
+        gap: 24px;
+        @media screen and (max-width: 767px) {
+          overflow: scroll;
+          scrollbar-width: none;
+        }
         button {
           padding: 0.5em 0.5rem 0.5rem 0;
           border: none;
+          font-family: var(--font-family-semi-bold);
+          font-size: 1.25rem;
+          font-weight: 500;
 
           &.active-tab {
             border-bottom: 4px solid #3b99e9;
@@ -28,6 +42,9 @@
             font-family: var(--font-family-regular);
             font-size: 20px;
             line-height: 1.75rem;
+            @media screen and (max-width: 767px) {
+              font-size: 1rem;
+            }
           }
         }
       }
@@ -41,12 +58,10 @@
 }
 .gradient-bar {
   padding: 0;
-  //   margin: auto;
-  margin-top: 1rem;
+  margin-top: 0.6rem;
   margin-bottom: 1rem;
   width: 2rem;
   border-radius: 0.25rem;
   height: 0.25rem;
-  //   background: #113874;
   background: linear-gradient(90deg, #113874 0%, #825952 50%, #f27930 100%);
 }
