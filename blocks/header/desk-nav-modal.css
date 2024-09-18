@@ -25,6 +25,12 @@
 .modal dialog:has(.desk-nav-modal) .modal-content {
   padding: 1.5rem 2.5rem;
   margin-top: 1rem;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.modal dialog:has(.desk-nav-modal) .modal-content::-webkit-scrollbar {
+  display: none;
 }
 
 .section.desk-nav-modal.accordion-dropdown-container

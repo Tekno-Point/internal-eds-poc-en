@@ -1,7 +1,11 @@
+.section.term-insurance-banner {
+    min-height: 470px;
+}
+
 .teaser.term-insurance-banner {
     position: relative;
-    height: 470px;
     padding-top: 80px;
+    min-height: 470px;
 
     >div:first-child>div {
         p:first-child {
@@ -79,9 +83,13 @@
 
 
 @media only screen and (max-width: 1024px) {
+    .section.term-insurance-banner {
+        min-height: 280px;
+    }
+
     .teaser.term-insurance-banner {
-        height: 280px;
         padding-top: 35px;
+        min-height: 280px;
 
         >div:first-child>div {
             p:first-child {
@@ -119,6 +127,7 @@
                 position: relative;
                 background: #f1f6fa 0% 0% no-repeat padding-box;
                 margin-top: 32px;
+                padding-top: 15px;
                 z-index: 1;
 
                 li {
