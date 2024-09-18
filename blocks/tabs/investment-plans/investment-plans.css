@@ -1,18 +1,21 @@
+/* stylelint-disable no-descending-specificity */
 .investment-plans-form .tabs-wrapper .tabs.block {
-  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.062745098);
+  box-shadow: 0 5px 35px rgb(0 0 0 / 6.27%);
   border-radius: 33px;
   flex-direction: row;
   padding: 2.5rem 2.5rem 0;
-  margin-top: 0rem;
+  margin-top: 0;
   background: #fff;
   border: 1px solid #c2c7d1;
   margin-bottom: 1.5rem;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-list button {
   border: unset;
   display: flex;
   align-items: center;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-list button p {
   font-size: 1rem;
   line-height: 1.437rem;
@@ -20,67 +23,92 @@
   font-family: var(--font-family-regular);
   padding-bottom: 10px;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-list button p span img {
   width: 20px;
   height: 20px;
   margin-right: 0.5rem;
   vertical-align: text-bottom;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-list button.active-tab p {
   border-bottom: 1px solid #3b99eb;
   color: #3b99eb;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel {
   border: unset;
   padding: 24px 0 0;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block {
   width: 82.5%;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form {
   display: grid;
   align-items: center;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .heading-wrapper h2 {
   font-size: 1.563rem;
   line-height: 2.187rem;
   color: #171a21;
   font-family: var(--font-family-bold);
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .plaintext-wrapper p ul {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .plaintext-wrapper p ul li {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .plaintext-wrapper p ul li div {
   font-size: 0.8rem;
   line-height: 1.125rem;
   font-family: var(--font-family-regular);
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .plaintext-wrapper p ul li img {
   margin-right: 10px;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .plaintext-wrapper p ul li strong {
   font-weight: bold;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset {
   display: flex;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper {
   position: relative;
 }
+
+.investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .checkbox-wrapper label {
+  display: block;
+  position: relative;
+  line-height: 1.4;
+  user-select: none;
+  color: #8096a3;
+  font-size: 0.625rem;
+  padding-left: 1.5rem;
+}
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper label {
   position: absolute;
   top: 18px;
@@ -91,6 +119,16 @@
   font-family: var(--font-family-regular);
   font-weight: 400;
 }
+
+.investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .checkbox-wrapper input {
+  position: absolute;
+  background-color: #3b99e9;
+  accent-color: #3b99e9;
+  height: 15px;
+  width: 15px;
+  top: 2px;
+}
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper input {
   width: 100%;
   min-width: 299px;
@@ -100,27 +138,54 @@
   border-radius: 0.5rem;
   background-color: transparent;
 }
-.investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper input::-moz-placeholder {
+
+.investmentform .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper input::placeholder {
   opacity: 0;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper input::placeholder {
   opacity: 0;
 }
+
+.investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset .radio-wrapper input {
+  padding: unset;
+  display: none;
+}
+
+.investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) input {
+  width: 100%;
+  min-width: 299px;
+  height: 3.5rem;
+  padding: 1rem;
+  border: 0.5px solid #acb2bd;
+  border-radius: 0.5rem;
+  background-color: transparent;
+}
+
+.investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset .radio-wrapper input {
+  padding: unset;
+  display: none;
+}
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper input:focus {
   border: 1px solid #3b99e9;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) {
   position: relative;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset {
   display: flex;
   gap: unset;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset legend {
   color: #8690a3;
   font-size: 0.8rem;
   line-height: 1.125rem;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset .radio-wrapper {
   border: 0.5px solid #acb2bd;
   background-color: transparent;
@@ -130,6 +195,7 @@
   min-width: 150px;
   text-align: center;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset .radio-wrapper label {
   font-size: 1rem;
   line-height: 1.437rem;
@@ -139,28 +205,29 @@
   text-align: center;
   background-color: transparent;
 }
-.investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset .radio-wrapper input {
-  padding: unset;
-  display: none;
-}
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(2) {
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
   border-color: #3b99e9;
   background-color: #e6f2fd;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(2) label {
   color: #3b99e9;
   font-weight: 700;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(3) {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   background-color: transparent;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) {
   margin-left: 24px;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) label {
   position: absolute;
   top: 18px;
@@ -171,32 +238,29 @@
   font-family: var(--font-family-regular);
   font-weight: 400;
 }
-.investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) input {
-  width: 100%;
-  min-width: 299px;
-  height: 3.5rem;
-  padding: 1rem;
-  border: 0.5px solid #acb2bd;
-  border-radius: 0.5rem;
-  background-color: transparent;
-}
-.investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) input::-moz-placeholder {
+
+.investmentform .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) input::placeholder {
   opacity: 0;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) input::placeholder {
   opacity: 0;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) input:focus {
   border: 1px solid #3b99e9;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(5) {
   position: absolute;
   right: 38%;
   top: 40px;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(5) label {
   display: none;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(5) select {
   padding: unset;
   font-size: 1rem;
@@ -204,10 +268,12 @@
   color: #171a21;
   background-color: transparent;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset {
   display: flex;
   gap: unset;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset .radio-wrapper {
   border: 0.5px solid #acb2bd;
   background-color: transparent;
@@ -217,6 +283,7 @@
   min-width: 124px;
   text-align: center;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset .radio-wrapper label {
   font-size: 1rem;
   line-height: 1.437rem;
@@ -225,51 +292,34 @@
   font-weight: 400;
   text-align: center;
 }
-.investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset .radio-wrapper input {
-  padding: unset;
-  display: none;
-}
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset :nth-child(1) {
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
   border-color: #3b99e9;
   background-color: #e6f2fd;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset :nth-child(1) label {
   color: #3b99e9;
   font-weight: 700;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset :last-child {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .checkbox-wrapper {
   margin-top: 1.25rem;
   position: relative;
 }
-.investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .checkbox-wrapper input {
-  position: absolute;
-  background-color: #3b99e9;
-  accent-color: #3b99e9;
-  height: 15px;
-  width: 15px;
-  top: 2px;
-}
-.investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .checkbox-wrapper label {
-  display: block;
-  position: relative;
-  line-height: 1.4;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-  color: #8096a3;
-  font-size: 0.625rem;
-  padding-left: 1.5rem;
-}
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .checkbox-wrapper label a {
   color: #3597ec;
   text-decoration: underline;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .checkbox-wrapper label::after {
   position: absolute;
   top: 3px;
@@ -279,11 +329,13 @@
   background-color: #3597ec;
   border-radius: 0.25rem;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .submit-wrapper {
   padding-bottom: 2.5rem;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .submit-wrapper button {
-  box-shadow: 0 2px 8px 0 rgba(242, 121, 48, 0.16);
+  box-shadow: 0 2px 8px 0 rgb(242 121 48 / 16%);
   background-image: linear-gradient(to bottom, #f27930, #e15d0e);
   border-radius: 1.5rem;
   height: 3rem;
@@ -296,6 +348,7 @@
   color: #fff;
   cursor: pointer;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .default-content-wrapper p {
   padding: 13%;
   opacity: 0.9;
@@ -308,6 +361,7 @@
   display: block;
   border-radius: 50%;
 }
+
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .default-content-wrapper picture img {
   position: absolute;
   bottom: 0;
@@ -316,49 +370,60 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (width <= 768px) {
   .investment-plans-form .tabs-wrapper .tabs.block {
     border-radius: 16px;
     padding: 1rem;
     margin-top: 2.5rem;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-list {
     gap: 16px;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-list button {
     padding: unset;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-list button p {
     font-size: 0.8rem;
     line-height: 1.125rem;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-list button p span img {
     width: 15px;
     height: 15px;
     margin-right: 12px;
     vertical-align: middle;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel {
     overflow: unset;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container {
     display: block;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form-wrapper {
     padding: unset;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block {
     width: 100%;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form {
     display: grid;
     align-items: center;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .heading-wrapper h2 {
     font-size: 1rem;
     line-height: 1.437rem;
     width: 60%;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .plaintext-wrapper p ul {
     gap: 5px;
     flex-direction: column;
@@ -366,18 +431,23 @@
     margin-left: 20px;
     align-items: start;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .plaintext-wrapper p ul li {
     margin-bottom: 1px;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) {
     align-items: start;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset {
     flex-direction: column;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper {
     position: relative;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper label {
     position: absolute;
     top: 18px;
@@ -388,6 +458,7 @@
     font-family: var(--font-family-regular);
     font-weight: 400;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper input {
     width: 100%;
     min-width: unset;
@@ -397,27 +468,34 @@
     border-radius: 0.5rem;
     background-color: transparent;
   }
-  .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper input::-moz-placeholder {
+
+  .investmentform .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper input::placeholder {
     opacity: 0;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper input::placeholder {
     opacity: 0;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(3) fieldset .text-wrapper input:focus {
     border: 1px solid #3b99e9;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) {
     position: relative;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset {
     display: grid;
     grid-template-columns: auto auto;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset legend {
     color: #8690a3;
     font-size: 0.8rem;
     line-height: 1.125rem;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset .radio-wrapper {
     border: 0.5px solid #acb2bd;
     background-color: transparent;
@@ -428,6 +506,7 @@
     text-align: center;
     margin-top: 0;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset .radio-wrapper label {
     font-size: 1rem;
     line-height: 1.437rem;
@@ -437,29 +516,35 @@
     text-align: center;
     background-color: transparent;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset .radio-wrapper input {
     padding: unset;
     display: none;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(2) {
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
     border-color: #3b99e9;
     background-color: #e6f2fd;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(2) label {
     color: #3b99e9;
     font-weight: 700;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(3) {
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     background-color: transparent;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) {
     margin-left: 0;
     grid-column: 1/-1;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) label {
     position: absolute;
     top: 18px;
@@ -470,6 +555,7 @@
     font-family: var(--font-family-regular);
     font-weight: 400;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) input {
     width: 100%;
     min-width: unset;
@@ -479,24 +565,30 @@
     border-radius: 0.5rem;
     background-color: transparent;
   }
-  .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) input::-moz-placeholder {
+
+  .investmentform .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) input::placeholder {
     opacity: 0;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) input::placeholder {
     opacity: 0;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(4) input:focus {
     border: 1px solid #3b99e9;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(5) {
     left: 12px;
     top: unset;
     right: unset;
     bottom: 15px;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(5) label {
     display: none;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(5) select {
     padding: unset;
     font-size: 1rem;
@@ -504,10 +596,12 @@
     color: #171a21;
     background-color: transparent;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset {
     display: flex;
     gap: unset;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset .radio-wrapper {
     border: 0.5px solid #acb2bd;
     background-color: transparent;
@@ -519,6 +613,7 @@
     text-align: center;
     margin-top: unset;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset .radio-wrapper label {
     font-size: 1rem;
     line-height: 1.437rem;
@@ -527,28 +622,34 @@
     font-weight: 400;
     text-align: center;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset .radio-wrapper input {
     padding: unset;
     display: none;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset :nth-child(1) {
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
     border-color: #3b99e9;
     background-color: #e6f2fd;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset :nth-child(1) label {
     color: #3b99e9;
     font-weight: 700;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset :last-child {
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .checkbox-wrapper {
     margin-top: 1.25rem;
     position: relative;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .checkbox-wrapper input {
     position: absolute;
     background-color: #3b99e9;
@@ -557,21 +658,22 @@
     width: 15px;
     top: 2px;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .checkbox-wrapper label {
     display: block;
     position: relative;
     line-height: 1.4;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
+    user-select: none;
     color: #8096a3;
     font-size: 0.625rem;
     padding-left: 1.5rem;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .checkbox-wrapper label a {
     color: #3597ec;
     text-decoration: underline;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .checkbox-wrapper label::after {
     position: absolute;
     top: 3px;
@@ -581,11 +683,13 @@
     background-color: #3597ec;
     border-radius: 0.25rem;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .submit-wrapper {
     padding-bottom: 0;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form .submit-wrapper button {
-    box-shadow: 0 2px 8px 0 rgba(242, 121, 48, 0.16);
+    box-shadow: 0 2px 8px 0 rgb(242 121 48 / 16%);
     background-image: linear-gradient(to bottom, #f27930, #e15d0e);
     border-radius: 1.5rem;
     height: 3rem;
@@ -598,12 +702,14 @@
     color: #fff;
     cursor: pointer;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .default-content-wrapper {
     position: absolute;
     top: 0;
     width: unset;
     right: -16px;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .default-content-wrapper p {
     padding: 13%;
     opacity: 0.9;
@@ -616,6 +722,7 @@
     display: block;
     border-radius: 50%;
   }
+
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .default-content-wrapper picture img {
     position: absolute;
     bottom: -10px;
@@ -625,4 +732,4 @@
     width: 55px;
     height: 110px;
   }
-}/*# sourceMappingURL=investment-plans.css.map */
+}
