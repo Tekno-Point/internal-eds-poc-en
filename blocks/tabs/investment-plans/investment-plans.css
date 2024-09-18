@@ -424,8 +424,7 @@
     color: #8690a3;
     font-size: 0.8rem;
     line-height: 1.125rem;
-    grid-column: 1/-1;
-    width: 100%;
+    grid-column: 1;
   }
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset .radio-wrapper {
     border: 0.5px solid #acb2bd;
@@ -483,7 +482,7 @@
     width: 100%;
     min-width: unset;
     height: 3.5rem;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 4rem;
     border: 0.5px solid #acb2bd;
     border-radius: 0.5rem;
     background-color: transparent;
