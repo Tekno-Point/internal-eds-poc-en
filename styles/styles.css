@@ -251,6 +251,7 @@ p > em {
   display: none;
 }
 
+header,
 header .nav-wrapper #nav {
   height: 80px;
 }
@@ -288,6 +289,7 @@ header .nav-wrapper #nav {
     width: 100%;
   }
 
+  header,
   header .nav-wrapper #nav {
     height: 50px;
   }
