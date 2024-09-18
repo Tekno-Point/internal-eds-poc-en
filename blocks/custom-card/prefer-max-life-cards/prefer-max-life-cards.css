@@ -3,14 +3,6 @@
   background-repeat: no-repeat;
 }
 
-.section.prefer-max-life-cards .default-content-wrapper {
-  text-align: center;
-}
-
-.section.prefer-max-life-cards .default-content-wrapper p {
-  padding-bottom: 20px;
-}
-
 .custom-card.prefer-max-life-cards {
   display: flex;
   flex-wrap: wrap;
