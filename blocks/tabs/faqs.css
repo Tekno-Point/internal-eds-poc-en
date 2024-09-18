@@ -24,12 +24,27 @@
 @media screen and (width <= 767px) {
   .section.faqs-tabs-accordion .tabs-wrapper {
     width: 100%;
+    margin-top: 12px;
+  }
+}
+
+.section.faqs-tabs-accordion .tabs-wrapper .tabs.block .tabs-list {
+  gap: 24px;
+}
+
+@media screen and (width <= 767px) {
+  .section.faqs-tabs-accordion .tabs-wrapper .tabs.block .tabs-list {
+    overflow: scroll;
+    scrollbar-width: none;
   }
 }
 
 .section.faqs-tabs-accordion .tabs-wrapper .tabs.block .tabs-list button {
   padding: 0.5em 0.5rem 0.5rem 0;
   border: none;
+  font-family: var(--font-family-semi-bold);
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .section.faqs-tabs-accordion .tabs-wrapper .tabs.block .tabs-list button.active-tab {
@@ -44,6 +59,12 @@
   line-height: 1.75rem;
 }
 
+@media screen and (width <= 767px) {
+  .section.faqs-tabs-accordion .tabs-wrapper .tabs.block .tabs-list button p {
+    font-size: 1rem;
+  }
+}
+
 .section.faqs-tabs-accordion .tabs-wrapper .tabs-panel {
   border: none;
   padding: 0;
@@ -52,7 +73,7 @@
 
 .gradient-bar {
   padding: 0;
-  margin-top: 1rem;
+  margin-top: 0.6rem;
   margin-bottom: 1rem;
   width: 2rem;
   border-radius: 0.25rem;

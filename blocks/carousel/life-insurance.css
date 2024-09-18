@@ -60,6 +60,13 @@
   font-family: var(--font-family-bold);
 }
 
+@media screen and (width <= 767px) {
+  .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide div:nth-child(2) h3,
+  .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide div:nth-child(3) h3 {
+    font-size: 1rem;
+  }
+}
+
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide div:nth-child(2) p,
 .life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide div:nth-child(3) p {
   padding-top: 1.25rem;
