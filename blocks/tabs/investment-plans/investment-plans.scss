@@ -181,6 +181,7 @@
                                         label {
                                             color: #3b99e9;
                                             font-weight: 700;
+                                            font-family: var(--font-family-bold);
                                         }
                                     }
                                     :nth-child(3) {
@@ -299,7 +300,7 @@
                                     position: relative;
                                     line-height: 1.4;
                                     user-select: none;
-                                    color: #8096a3;
+                                    color: #171a21;
                                     font-size: 0.625rem;
                                     padding-left: 1.5rem;
                                     a {
@@ -621,6 +622,7 @@
                                             label {
                                                 color: #3b99e9;
                                                 font-weight: 700;
+                                                font-family: var(--font-family-bold);
                                             }
                                         }
                                         :last-child {
@@ -647,7 +649,7 @@
                                         position: relative;
                                         line-height: 1.4;
                                         user-select: none;
-                                        color: #8096a3;
+                                        color: #171a21;
                                         font-size: 0.625rem;
                                         padding-left: 1.5rem;
                                         a {

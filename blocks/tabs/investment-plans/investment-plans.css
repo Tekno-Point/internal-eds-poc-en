@@ -152,6 +152,7 @@
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(2) label {
   color: #3b99e9;
   font-weight: 700;
+  font-family: var(--font-family-bold);
 }
 .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(4) fieldset :nth-child(3) {
   border-top-right-radius: 0.5rem;
@@ -262,7 +263,7 @@
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  color: #8096a3;
+  color: #171a21;
   font-size: 0.625rem;
   padding-left: 1.5rem;
 }
@@ -546,6 +547,7 @@
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset :nth-child(1) label {
     color: #3b99e9;
     font-weight: 700;
+    font-family: var(--font-family-bold);
   }
   .investment-plans-form .tabs-wrapper .tabs.block .tabs-panel .form-container .form.block form :nth-child(5) fieldset :last-child {
     border-top-right-radius: 0.5rem;
@@ -570,7 +572,7 @@
     -webkit-user-select: none;
        -moz-user-select: none;
             user-select: none;
-    color: #8096a3;
+    color: #171a21;
     font-size: 0.625rem;
     padding-left: 1.5rem;
   }
