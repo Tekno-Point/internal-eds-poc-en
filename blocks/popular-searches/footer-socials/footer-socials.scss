@@ -58,3 +58,16 @@
         }
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .block.popular-searches.footer-socials {
+        >div>div  {
+            ul:nth-child(2) {
+                display: flex;
+                justify-content: unset;
+                gap: 25px;
+            }
+        }
+    }
+}
+
