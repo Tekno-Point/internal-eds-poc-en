@@ -2,7 +2,8 @@
     background-image: url('/images/contactus-sidebg.webp');
     background-repeat: no-repeat;
     display: block;
-    background-position-x: calc((100% - 999px) / 2);
+    max-width: 1240px;
+    margin: 0 auto;
 
     .custom-card-wrapper {
         display: flex;
