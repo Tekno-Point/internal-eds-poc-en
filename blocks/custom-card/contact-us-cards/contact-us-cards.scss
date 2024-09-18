@@ -1,6 +1,8 @@
 .section.contact-us-cards {
     background-image: url('/images/contactus-sidebg.webp');
     background-repeat: no-repeat;
+    display: block;
+    background-position-x: calc((100% - 1000px) / 2);
 
     .default-content-wrapper>p{
         padding-bottom: 20px;
@@ -25,9 +27,17 @@
         width: 100%;
 
         >div:first-child {
+            background-color: #f27930;
+            border-radius: 9999px;
+            width: 2.75rem;
+            height: 2.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
             >picture>img {
-                width: 44px;
-                height: 44px;
+                width: 20px;
+                height: 20px;
             }
         }
 
