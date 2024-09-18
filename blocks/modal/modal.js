@@ -5,6 +5,7 @@ import {
   loadCSS,
 } from '../../scripts/aem.js';
 import { loadFragment } from '../../scripts/scripts.js';
+import { toggleMenu } from '../header/header.js';
 
 /*
   This is not a traditional block, so there is no decorate function.
@@ -45,6 +46,10 @@ export async function createModal(contentNodes) {
       || clientY < top
       || clientY > bottom
     ) {
+      const nav = document.querySelector('nav');
+      const navSections = nav.querySelector('.nav-sections');
+
+      toggleMenu(nav, navSections);
       dialog.close();
     }
   });
