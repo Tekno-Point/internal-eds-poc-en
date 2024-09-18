@@ -235,6 +235,14 @@
               {
                 "name": "pb-64",
                 "value": "pb-64"
+              },
+              {
+                "name": "pt-mob-40",
+                "value": "pt-mob-40"
+              },
+              {
+                "name": "pb-mob-40",
+                "value": "pb-mob-40"
               }
             ]
           },

@@ -166,7 +166,7 @@ h2 strong {
   background-image: linear-gradient(to bottom, #62baf8, #497af8);
 }
 
-/* padding classes */
+/* padding classes for desktop*/
 
 .pt-32 {
   padding-top: 32px;
@@ -257,6 +257,15 @@ header .nav-wrapper #nav {
 @media screen and (width <=767.99px) {
   .section > div {
     width: 90%;
+  }
+
+  /* padding classes for mobile*/
+  .40pt-mob- {
+    padding-top: 40px;
+  }
+
+  .pb-mob-40 {
+    padding-bottom: 40px;
   }
 }
 
