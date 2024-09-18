@@ -250,9 +250,9 @@ header .nav-wrapper #nav {
   height: 80px;
 }
 
-/* .section .default-content-wrapper p:nth-child(1) {
+.section.para-spacing .default-content-wrapper p:nth-child(1) {
   padding-bottom: 20px;
-} */
+}
 
 @media screen and (width <=767.99px) {
   .section > div {
