@@ -243,6 +243,15 @@
               {
                 "name": "pb-mob-40",
                 "value": "pb-mob-40"
+              },
+              ,
+              {
+                "name": "pt-mob-16",
+                "value": "pt-mob-16"
+              },
+              {
+                "name": "pb-mob-16",
+                "value": "pb-mob-16"
               }
             ]
           },
