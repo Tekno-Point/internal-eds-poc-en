@@ -2,6 +2,7 @@
     .default-content-wrapper {
         position: relative;
         bottom: 88px;
+        min-height: 18px;
     }
 
     .custom-card-wrapper {
@@ -99,6 +100,7 @@
     .section.term-insurance-cards {
         .default-content-wrapper {
             bottom: 13px;
+            min-height: 28px;
         }
     }
 
