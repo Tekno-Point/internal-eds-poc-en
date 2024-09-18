@@ -1,6 +1,6 @@
 .teaser.term-insurance-banner {
     position: relative;
-    height: 470px;
+    min-height: 470px;
     padding-top: 80px;
 
     >div:first-child>div {
@@ -80,7 +80,7 @@
 
 @media only screen and (max-width: 1024px) {
     .teaser.term-insurance-banner {
-        height: 280px;
+        min-height: 280px;
         padding-top: 35px;
 
         >div:first-child>div {
