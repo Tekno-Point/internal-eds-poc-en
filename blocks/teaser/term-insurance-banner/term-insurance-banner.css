@@ -15,12 +15,7 @@
   height: 22px;
 }
 
-.teaser.term-insurance-banner
-  > div:first-child
-  > div
-  p:first-child
-  > picture
-  > img {
+.teaser.term-insurance-banner > div:first-child > div p:first-child > picture > img {
   width: 348px;
   height: auto;
   padding-top: 47px;
@@ -83,7 +78,7 @@
 @media only screen and (width <= 1024px) {
   .teaser.term-insurance-banner {
     height: 280px;
-    padding-top: 40px;
+    padding-top: 35px;
   }
 
   .teaser.term-insurance-banner > div:first-child > div p:first-child {
@@ -91,29 +86,19 @@
     top: 80px;
   }
 
-  .teaser.term-insurance-banner
-    > div:first-child
-    > div
-    p:first-child
-    > picture
-    > img {
+  .teaser.term-insurance-banner > div:first-child > div p:first-child > picture > img {
     width: 110px;
     padding-top: 16px;
   }
 
   .teaser.term-insurance-banner > div:first-child > div p:nth-child(2) {
-    top: 70px;
+    top: 57px;
     left: 0;
   }
 
-  .teaser.term-insurance-banner
-    > div:first-child
-    > div
-    p:nth-child(2)
-    > picture
-    > img {
-    width: 146px;
-    height: 13px;
+  .teaser.term-insurance-banner > div:first-child > div p:nth-child(2) > picture > img {
+    width: 120px;
+    height: 11px;
   }
 
   .teaser.term-insurance-banner > div:nth-child(2) > div {
@@ -131,6 +116,7 @@
     position: relative;
     background: #f1f6fa 0% 0% no-repeat padding-box;
     margin-top: 32px;
+    z-index: 1;
   }
 
   .teaser.term-insurance-banner > div:nth-child(2) > div ul li {

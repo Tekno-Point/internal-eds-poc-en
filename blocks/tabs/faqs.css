@@ -1,3 +1,8 @@
+.section.faq-wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
 .section.faqs-tabs-accordion {
   display: flex;
 }
@@ -43,11 +48,7 @@
   font-weight: 500;
 }
 
-.section.faqs-tabs-accordion
-  .tabs-wrapper
-  .tabs.block
-  .tabs-list
-  button.active-tab {
+.section.faqs-tabs-accordion .tabs-wrapper .tabs.block .tabs-list button.active-tab {
   border-bottom: 4px solid #3b99e9;
   color: #3597ec;
 }

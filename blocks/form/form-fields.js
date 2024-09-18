@@ -22,7 +22,7 @@ function generateFieldId(fd, suffix = '') {
 function createLabel(fd) {
   const label = document.createElement('label');
   label.id = generateFieldId(fd, '-label');
-  label.textContent = fd.Label || fd.Name;
+  label.innerHTML = fd.Label || fd.Name;
   label.setAttribute('for', fd.Id);
   if (fd.Mandatory.toLowerCase() === 'true' || fd.Mandatory.toLowerCase() === 'x') {
     label.dataset.required = true;

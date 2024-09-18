@@ -258,6 +258,22 @@ header .nav-wrapper #nav {
   .section > div {
     width: 90%;
   }
+
+  .pt-mob-16 {
+    padding-top: 16px;
+  }
+  
+  .pb-mob-16 {
+    padding-bottom: 16px;
+  }
+
+  .pt-mob-40 {
+    padding-top: 40px;
+  }
+  
+  .pb-mob-40 {
+    padding-bottom: 40px;
+  }
 }
 
 @media screen and (width <=1200px) {
