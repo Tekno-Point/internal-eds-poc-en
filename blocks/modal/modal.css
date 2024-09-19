@@ -1,6 +1,6 @@
-/* body.modal-open {
+body.modal-open {
     overflow: hidden;
-} */
+}
 
 .modal dialog::backdrop {
     background-color: var(--color-background-active);
