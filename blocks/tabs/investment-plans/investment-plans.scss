@@ -58,8 +58,9 @@
                         form {
                             display: grid;
                             align-items: center;
+
                             .heading-wrapper {
-                               
+
                                 h2 {
                                     font-size: 1.563rem;
                                     line-height: 2.187rem;
@@ -102,128 +103,138 @@
                             :nth-child(3) {
                                 fieldset {
                                     display: flex;
+
                                     .text-wrapper {
-                                                    position: relative;
-            
-                                                    label {
-                                                        position: absolute;
-                                                        top: 18px;
-                                                        left: 18px;
-                                                        font-size: 1rem;
-                                                        line-height: 1.437rem;
-                                                        color: #6d7585;
-                                                        font-family: var(--font-family-regular);
-                                                        font-weight: 400;
-                                                    }
-            
-                                                    input {
-                                                        width: 100%;
-                                                        min-width: 299px;
-                                                        height: 3.5rem;
-                                                        padding: 1rem;
-                                                        border: 0.5px solid #acb2bd; 
-                                                        border-radius: 0.5rem;
-                                                        background-color: transparent;
-                                                    
-                                                        &::placeholder {
-                                                            opacity: 0; 
-                                                        }
-                                                    
-                                                        &:focus {
-                                                            border: 1px solid #3b99e9; 
-                                                        }
-                                                    }
-                                                    
-                                                }
+                                        position: relative;
+
+                                        label {
+                                            position: absolute;
+                                            top: 18px;
+                                            left: 18px;
+                                            font-size: 1rem;
+                                            line-height: 1.437rem;
+                                            color: #6d7585;
+                                            font-family: var(--font-family-regular);
+                                            font-weight: 400;
+                                        }
+
+                                        input {
+                                            width: 100%;
+                                            min-width: 299px;
+                                            height: 3.5rem;
+                                            padding: 1rem;
+                                            border: 0.5px solid #acb2bd;
+                                            border-radius: 0.5rem;
+                                            background-color: transparent;
+
+                                            &::placeholder {
+                                                opacity: 0;
+                                            }
+
+                                            &:focus {
+                                                border: 1px solid #3b99e9;
+                                            }
+                                        }
+
+                                    }
                                 }
                             }
 
                             :nth-child(4) {
                                 position: relative;
+
                                 fieldset {
                                     display: flex;
                                     gap: unset;
+
                                     legend {
                                         color: #8690a3;
                                         font-size: 0.8rem;
                                         line-height: 1.125rem;
                                     }
+
                                     .radio-wrapper {
-                                            border: 0.5px solid #acb2bd;
-                                            background-color: transparent;
-                                            padding: 1rem;
-                                            justify-content: center;
-                                            display: inline-block;
-                                            min-width: 150px;
+                                        border: 0.5px solid #acb2bd;
+                                        background-color: transparent;
+                                        padding: 1rem;
+                                        justify-content: center;
+                                        display: inline-block;
+                                        min-width: 150px;
+                                        text-align: center;
+
+                                        label {
+                                            font-size: 1rem;
+                                            line-height: 1.437rem;
+                                            color: #6d7585;
+                                            font-family: var(--font-family-regular);
+                                            font-weight: 400;
                                             text-align: center;
-            
-                                            label {
-                                                font-size: 1rem;
-                                                line-height: 1.437rem;
-                                                color: #6d7585;
-                                                font-family: var(--font-family-regular);
-                                                font-weight: 400;
-                                                text-align: center;
-                                                background-color: transparent;
-                                            }
-            
-                                            input {
-                                                padding: unset;
-                                                display: none;
-                                            }
+                                            background-color: transparent;
                                         }
-                                    
+
+                                        input {
+                                            padding: unset;
+                                            display: none;
+                                        }
+                                    }
+
                                     :nth-child(2) {
                                         border-top-left-radius: 0.5rem;
                                         border-bottom-left-radius: 0.5rem;
                                         border-color: #3b99e9;
                                         background-color: #e6f2fd;
+
                                         label {
                                             color: #3b99e9;
                                             font-weight: 700;
                                             font-family: var(--font-family-bold);
                                         }
                                     }
+
                                     :nth-child(3) {
                                         border-top-right-radius: 0.5rem;
                                         border-bottom-right-radius: 0.5rem;
                                         background-color: transparent;
                                     }
+
                                     :nth-child(4) {
                                         margin-left: 24px;
-                                            label {
-                                                position: absolute;
-                                                top: 18px;
-                                                left: 75px;
-                                                font-size: 1rem;
-                                                line-height: 1.437rem;
-                                                color: #6d7585;
-                                                font-family: var(--font-family-regular);
-                                                font-weight: 400;
+
+                                        label {
+                                            position: absolute;
+                                            top: 18px;
+                                            left: 75px;
+                                            font-size: 1rem;
+                                            line-height: 1.437rem;
+                                            color: #6d7585;
+                                            font-family: var(--font-family-regular);
+                                            font-weight: 400;
+                                        }
+
+                                        input {
+                                            width: 100%;
+                                            min-width: 299px;
+                                            height: 3.5rem;
+                                            padding: 1rem;
+                                            border: 0.5px solid #acb2bd;
+                                            border-radius: 0.5rem;
+                                            background-color: transparent;
+
+                                            &::placeholder {
+                                                opacity: 0;
                                             }
-    
-                                            input {
-                                                width: 100%;
-                                                min-width: 299px;
-                                                height: 3.5rem;
-                                                padding: 1rem;
-                                                border: 0.5px solid #acb2bd; 
-                                                border-radius: 0.5rem;
-                                                background-color: transparent;
-                                            
-                                                &::placeholder {
-                                                    opacity: 0; 
-                                                }
-                                            
-                                                &:focus {
-                                                    border: 1px solid #3b99e9; 
-                                                }
+
+                                            &:focus {
+                                                border: 1px solid #3b99e9;
                                             }
+                                        }
                                     }
+
                                     :nth-child(5) {
                                         position: absolute;
                                         right: 38%;
                                         top: 40px;
+
                                         label {
                                             display: none;
                                         }
@@ -243,39 +254,43 @@
                                 fieldset {
                                     display: flex;
                                     gap: unset;
+
                                     .radio-wrapper {
-                                            border: 0.5px solid #acb2bd;
-                                            background-color: transparent;
-                                            padding: 1rem;
-                                            justify-content: center;
-                                            display: inline-block;
-                                            min-width: 124px;
+                                        border: 0.5px solid #acb2bd;
+                                        background-color: transparent;
+                                        padding: 1rem;
+                                        justify-content: center;
+                                        display: inline-block;
+                                        min-width: 124px;
+                                        text-align: center;
+
+                                        label {
+                                            font-size: 1rem;
+                                            line-height: 1.437rem;
+                                            color: #6d7585;
+                                            font-family: var(--font-family-regular);
+                                            font-weight: 400;
                                             text-align: center;
-            
-                                            label {
-                                                font-size: 1rem;
-                                                line-height: 1.437rem;
-                                                color: #6d7585;
-                                                font-family: var(--font-family-regular);
-                                                font-weight: 400;
-                                                text-align: center;
-                                            }
-            
-                                            input {
-                                                padding: unset;
-                                                display: none;
-                                            }
                                         }
+
+                                        input {
+                                            padding: unset;
+                                            display: none;
+                                        }
+                                    }
+
                                     :nth-child(1) {
                                         border-top-left-radius: 0.5rem;
                                         border-bottom-left-radius: 0.5rem;
                                         border-color: #3b99e9;
                                         background-color: #e6f2fd;
+
                                         label {
                                             color: #3b99e9;
                                             font-weight: 700;
                                         }
                                     }
+
                                     :last-child {
                                         border-top-right-radius: 0.5rem;
                                         border-bottom-right-radius: 0.5rem;
@@ -286,10 +301,11 @@
                             .checkbox-wrapper {
                                 margin-top: 1.25rem;
                                 position: relative;
+
                                 input {
                                     position: absolute;
-                                    background-color: #3b99e9; 
-                                    accent-color: #3b99e9; 
+                                    background-color: #3b99e9;
+                                    accent-color: #3b99e9;
                                     height: 15px;
                                     width: 15px;
                                     top: 2px;
@@ -303,10 +319,12 @@
                                     color: #171a21;
                                     font-size: 0.625rem;
                                     padding-left: 1.5rem;
+
                                     a {
                                         color: #3597ec;
                                         text-decoration: underline;
                                     }
+
                                     &::after {
                                         position: absolute;
                                         top: 3px;
@@ -376,21 +394,23 @@
         padding-bottom: 2rem;
         margin-bottom: 1.5rem;
         background-color: #f1f6fa;
+
         .tabs-wrapper {
             .tabs.block {
                 border-radius: 16px;
                 padding: 1rem;
                 margin-bottom: unset;
-    
+
                 .tabs-list {
                     gap: 16px;
+
                     button {
                         padding: unset;
-    
+
                         p {
                             font-size: 0.8rem;
                             line-height: 1.125rem;
-    
+
                             span {
                                 img {
                                     width: 15px;
@@ -402,30 +422,33 @@
                         }
                     }
                 }
-    
+
                 .tabs-panel {
                     overflow: unset;
+
                     .form-container {
                         display: block;
-    
+
                         .form-wrapper {
                             padding: unset;
                         }
+
                         .form.block {
                             width: 100%;
-    
+
                             form {
                                 display: grid;
                                 align-items: center;
+
                                 .heading-wrapper {
-                                   
+
                                     h2 {
                                         font-size: 1rem;
                                         line-height: 1.437rem;
                                         width: 65%;
                                     }
                                 }
-    
+
                                 .plaintext-wrapper {
                                     p {
                                         ul {
@@ -434,289 +457,110 @@
                                             width: 55%;
                                             margin-left: 20px;
                                             align-items: start;
-    
+
                                             li {
                                                 margin-bottom: 1px;
                                             }
                                         }
                                     }
                                 }
-    
+
                                 :nth-child(3) {
                                     align-items: start;
+
                                     fieldset {
                                         flex-direction: column;
-                                        .text-wrapper {
-                                                        position: relative;
-                
-                                                        label {
-                                                            position: absolute;
-                                                            top: 18px;
-                                                            left: 18px;
-                                                            font-size: 1rem;
-                                                            line-height: 1.437rem;
-                                                            color: #6d7585;
-                                                            font-family: var(--font-family-regular);
-                                                            font-weight: 400;
-                                                        }
-                
-                                                        input {
-                                                            width: 100%;
-                                                            min-width: unset;
-                                                            height: 3.5rem;
-                                                            padding: 1rem;
-                                                            border: 0.5px solid #acb2bd; 
-                                                            border-radius: 0.5rem;
-                                                            background-color: transparent;
-                                                        
-                                                            &::placeholder {
-                                                                opacity: 0; 
-                                                            }
-                                                        
-                                                            &:focus {
-                                                                border: 1px solid #3b99e9; 
-                                                            }
-                                                        }
-                                                        
-                                                    }
                                     }
                                 }
-    
+
                                 :nth-child(4) {
-                                    position: relative;
                                     fieldset {
                                         display: grid;
                                         grid-template-columns: auto auto;
+
                                         legend {
-                                            color: #8690a3;
-                                            font-size: 0.8rem;
-                                            line-height: 1.125rem;
                                             grid-column: 1;
                                             grid-row: 1;
                                             white-space: nowrap;
                                         }
+
                                         .radio-wrapper {
-                                                border: 0.5px solid #acb2bd;
-                                                background-color: transparent;
-                                                padding: 1rem;
-                                                justify-content: center;
-                                                display: inline-block;
-                                                min-width: 145px;
-                                                text-align: center;
-                                                margin-top: 0;
-                
-                                                label {
-                                                    font-size: 1rem;
-                                                    line-height: 1.437rem;
-                                                    color: #6d7585;
-                                                    font-family: var(--font-family-regular);
-                                                    font-weight: 400;
-                                                    text-align: center;
-                                                    background-color: transparent;
-                                                }
-                
-                                                input {
-                                                    padding: unset;
-                                                    display: none;
-                                                }
-                                            }
-                                        
-                                        :nth-child(2) {
-                                            border-top-left-radius: 0.5rem;
-                                            border-bottom-left-radius: 0.5rem;
-                                            border-color: #3b99e9;
-                                            background-color: #e6f2fd;
-                                            label {
-                                                color: #3b99e9;
-                                                font-weight: 700;
-                                            }
+                                            min-width: 145px;
+                                            text-align: center;
+                                            margin-top: 0;
                                         }
+
                                         :nth-child(3) {
                                             border-top-right-radius: 0.5rem;
                                             border-bottom-right-radius: 0.5rem;
                                             background-color: transparent;
                                         }
+
                                         :nth-child(4) {
                                             margin-left: 0;
                                             grid-column: 1 / -1;
-                                                label {
-                                                    position: absolute;
-                                                    top: 18px;
-                                                    left: 75px;
-                                                    font-size: 1rem;
-                                                    line-height: 1.437rem;
-                                                    color: #6d7585;
-                                                    font-family: var(--font-family-regular);
-                                                    font-weight: 400;
-                                                }
-        
-                                                input {
-                                                    width: 100%;
-                                                    min-width: unset;
-                                                    height: 3.5rem;
-                                                    padding: 1rem 1rem 1rem 4rem;
-                                                    border: 0.5px solid #acb2bd; 
-                                                    border-radius: 0.5rem;
-                                                    background-color: transparent;
-                                                
-                                                    &::placeholder {
-                                                        opacity: 0; 
-                                                    }
-                                                
-                                                    &:focus {
-                                                        border: 1px solid #3b99e9; 
-                                                    }
-                                                }
+
+                                            input {
+                                                padding: 1rem 1rem 1rem 4rem;
+                                            }
                                         }
+
                                         :nth-child(5) {
                                             left: 12px;
                                             top: unset;
                                             right: unset;
                                             bottom: 15px;
-                                            label {
-                                                display: none;
-                                            }
-    
-                                            select {
-                                                padding: unset;
-                                                font-size: 1rem;
-                                                line-height: 1.437rem;
-                                                color: #171a21;
-                                                background-color: transparent;
-                                            }
                                         }
                                     }
                                 }
-    
+
                                 :nth-child(5) {
                                     fieldset {
-                                        display: flex;
-                                        gap: unset;
                                         .radio-wrapper {
-                                                border: 0.5px solid #acb2bd;
-                                                background-color: transparent;
-                                                padding: 13px;
-                                                justify-content: center;
-                                                display: inline-block;
-                                                min-width: unset;
-                                                width: 100%;
-                                                text-align: center;
-                                                margin-top: unset;
-                
-                                                label {
-                                                    font-size: 1rem;
-                                                    line-height: 1.437rem;
-                                                    color: #6d7585;
-                                                    font-family: var(--font-family-regular);
-                                                    font-weight: 400;
-                                                    text-align: center;
-                                                }
-                
-                                                input {
-                                                    padding: unset;
-                                                    display: none;
-                                                }
-                                            }
+                                            padding: 13px;
+                                            min-width: unset;
+                                            width: 100%;
+                                            margin-top: unset;
+
+                                        }
+
                                         :nth-child(1) {
-                                            border-top-left-radius: 0.5rem;
-                                            border-bottom-left-radius: 0.5rem;
-                                            border-color: #3b99e9;
-                                            background-color: #e6f2fd;
                                             label {
                                                 color: #3b99e9;
                                                 font-weight: 700;
                                                 font-family: var(--font-family-bold);
                                             }
                                         }
-                                        :last-child {
-                                            border-top-right-radius: 0.5rem;
-                                            border-bottom-right-radius: 0.5rem;
-                                        }
                                     }
                                 }
-    
-                                .checkbox-wrapper {
-                                    margin-top: 1.25rem;
-                                    position: relative;
-                                    input {
-                                        position: absolute;
-                                        background-color: #3b99e9; 
-                                        accent-color: #3b99e9; 
-                                        height: 15px;
-                                        width: 15px;
-                                        top: 2px;
-                                    }
-    
-                                    label {
-                                        display: block;
-                                        position: relative;
-                                        line-height: 1.4;
-                                        user-select: none;
-                                        color: #171a21;
-                                        font-size: 0.625rem;
-                                        padding-left: 1.5rem;
-                                        a {
-                                            color: #3597ec;
-                                            text-decoration: underline;
-                                        }
-                                        &::after {
-                                            position: absolute;
-                                            top: 3px;
-                                            left: 0;
-                                            height: 1rem;
-                                            width: 1rem;
-                                            background-color: #3597ec;
-                                            border-radius: 0.25rem;
-                                        }
-                                    }
-                                }
-    
+
                                 .submit-wrapper {
                                     padding-bottom: 0;
-    
+
                                     button {
-                                        box-shadow: 0 2px 8px 0 rgba(242, 121, 48, 0.16);
-                                        background-image: linear-gradient(to bottom, #f27930, #e15d0e);
-                                        border-radius: 1.5rem;
-                                        height: 3rem;
-                                        font-family: var(--font-family-bold);
-                                        text-align: center;
                                         min-width: unset;
-                                        border: unset;
-                                        font-size: 1rem;
-                                        line-height: 1.437rem;
-                                        color: #fff;
-                                        cursor: pointer;
                                     }
                                 }
                             }
                         }
-    
+
                         .default-content-wrapper {
                             position: absolute;
                             top: 0;
                             width: unset;
                             right: -25px;
+
                             p {
-                                padding: 13%;
-                                opacity: 0.9;
-                                background: #d8edff;
                                 width: 115px;
                                 height: 115px;
                                 border: solid #d3e6f8 10px;
-                                top: 14%;
-                                right: auto;
-                                display: block;
-                                border-radius: 50%;
                             }
-    
+
                             picture {
                                 img {
                                     position: absolute;
                                     bottom: -10px;
                                     right: 45px;
-                                    display: block;
-                                    z-index: 1;
                                     width: 55px;
                                     height: 110px;
                                 }
