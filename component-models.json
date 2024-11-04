@@ -882,5 +882,30 @@
         ]
       }
     ]
+  },
+  {
+    "id": "videoteaser",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "longDescr",
+        "value": "",
+        "label": "Long Description",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "quicklinks",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "longDescr",
+        "value": "",
+        "label": "Long Description",
+        "valueType": "string"
+      }
+    ]
   }
+
 ]
