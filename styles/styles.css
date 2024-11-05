@@ -322,3 +322,10 @@ header .nav-wrapper #nav {
     width: 100%;
   }
 }
+.section.center-text-red .default-content-wrapper h2{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
+  color: #e7252d;
+  line-height: 1.1;
+}

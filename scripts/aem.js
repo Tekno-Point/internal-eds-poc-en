@@ -546,7 +546,7 @@ function decorateSections(main) {
       sectionMeta.parentNode.remove();
     }
     // Add 'gradient-bar' class to the first <h2> element inside the section
-    const firstH2 = section.querySelector('h2');
+    const firstH2 = section.querySelector('.h2');
     if (firstH2) {
       const gradientBarHr = document.createElement('hr');
       if (section.classList.contains('bg-gradient-blue')) {
