@@ -84,7 +84,7 @@ const threeSlidesOnly = {
       slidesPerView: 1,
     },
     780: {
-      slidesPerView: 2,
+      slidesPerView: 1.8,
     },
     992: {
       slidesPerView: 3,

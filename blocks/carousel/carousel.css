@@ -1,4 +1,7 @@
 @import url("./swiper.min.css");
 @import url("./custom-carousel.css");
-@import url("../carousel/life-insurance.css");
-@import url("../carousel/reviews.css");
+
+/* @import url("../carousel/life-insurance.css");
+@import url("../carousel/reviews.css"); */
+
+@import url("../carousel/banner-carousel.css");
