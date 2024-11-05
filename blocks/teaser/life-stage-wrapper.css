@@ -1,0 +1,72 @@
+.section.life-stage-wrapper .carousel-wrapper {
+    max-width: 1110px;
+    position: relative;
+}
+
+.section.life-stage-wrapper .carousel-wrapper .carousel,
+.section.life-stage-wrapper .carousel-wrapper .carousel .swiper-wrapper{
+    position: unset;
+}
+
+.section.life-stage-wrapper .carousel-wrapper .carousel .swiper-button-next,
+.section.life-stage-wrapper .carousel-wrapper .carousel .swiper-button-prev{
+    display: block;
+}
+
+.section.life-stage-wrapper .carousel-wrapper .carousel .swiper-button-next{
+    top: 39%;
+    transform: translateY(-50%);
+    right: -60px;
+}
+
+.section.life-stage-wrapper .carousel-wrapper .carousel .swiper-button-prev{
+    top: 39%;
+    transform: translateY(-50%);
+    left: -60px;
+}
+
+.section.life-stage-wrapper .carousel-wrapper .carousel .swiper-button-next::after,
+.section.life-stage-wrapper .carousel-wrapper .carousel .swiper-button-prev::after{
+    font-size: 36px;
+}
+
+.section.life-stage-wrapper .carousel-wrapper .carousel .swiper-wrapper .swiper-slide {
+    padding: 0 10px;
+}
+
+.section.life-stage-wrapper .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div>picture>img {
+    border-radius: 10px;
+}
+
+.section.life-stage-wrapper .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div:last-child {
+    padding: 15px 15px 0;
+}
+
+.section.life-stage-wrapper .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div:last-child a {
+    font-size: 15px;
+    color: #494949;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.section.life-stage-wrapper .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div:last-child p {
+    font-size: 15px;
+    color: #494949;
+    font-weight: normal;
+    margin-top: 7px;
+
+}
+
+@media screen and (width <=768px) {
+    .section.life-stage-wrapper .carousel-wrapper .carousel .swiper-button-next{
+        top: 4%;
+        transform: translateY(-50%);
+        right: 45px;
+    }
+
+    .section.life-stage-wrapper .carousel-wrapper .carousel .swiper-button-prev{
+        top: 4%;
+        transform: translateY(-50%);
+        left: 45px;
+    }
+}

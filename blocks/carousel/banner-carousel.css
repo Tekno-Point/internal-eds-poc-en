@@ -1,0 +1,87 @@
+.section.banner-carousel .carousel-wrapper {
+    width: 100%;
+    max-width: 100%;
+}
+
+.section.banner-carousel .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div>ul {
+    position: absolute;
+    bottom: 20px;
+    right: 16%;
+    display: flex;
+    gap: 5px;
+}
+
+.section.banner-carousel .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div p:first-child {
+    display: block;
+}
+
+.section.banner-carousel .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div p:last-child {
+    display: none;
+}
+
+.section.banner-carousel .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div p picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.section.banner-carousel .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div>ul>li {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 1px solid;
+    box-shadow: 0 0 8px 2px rgb(0 0 0 / 20%);
+    transition: all 0.2s ease-out;
+    outline: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #000;
+    border-color: #5d5d5fb0;
+    background-color: white;
+}
+
+.section.banner-carousel .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div>ul>li:hover {
+    background-image: none;
+    background-color: #fff;
+    border-color: #f31414;
+    color: #e91e1e;
+    cursor: pointer;
+    box-shadow: 0 3px 3px 0.3px rgb(0 0 0 / 30%);
+}
+
+.section.banner-carousel .carousel-wrapper .carousel .swiper-pagination-bullets {
+    bottom: 155px;
+}
+
+.section.banner-carousel .carousel-wrapper .carousel .swiper-pagination-bullet-active {
+    background-color: #ed1b24
+}
+
+
+@media only screen and (width <= 767px) {
+    .section.banner-carousel .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div p:last-child {
+        display: block;
+    }
+
+    .section.banner-carousel .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div p:first-child {
+        display: none;
+    }
+
+    .section.banner-carousel .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div>ul>li {
+        padding: 13px 11px;
+        font-size: 2.5vw;
+        line-height: 1.33;
+        color: #000;
+        border-color: #5d5d5fb0;
+    }
+
+    .section.banner-carousel .carousel-wrapper .carousel .swiper-wrapper {
+        height: 427px;
+    }
+
+    .section.banner-carousel .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div p picture img {
+        width: 100%;
+        height: 382px;
+    }
+}

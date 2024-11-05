@@ -167,6 +167,26 @@
                 "value": "para-spacing"
               },
               {
+                "name": "Banner Carousel",
+                "value": "banner-carousel"
+              },
+              {
+                "name":"Center Text Red",
+                "value" :"center-text-red"
+              },
+              {
+                "name":"Quick Links",
+                "value" :"quick-links-css"
+              },
+              {
+                "name":"Video Teaser",
+                "value" :"video-teaser"
+              },
+              {
+                "name":"Life Stage Wrapper",
+                "value" :"life-stage-wrapper"
+              },
+              {
                 "name": "p-style-12",
                 "value": "p-style-12"
               },
@@ -882,5 +902,37 @@
         ]
       }
     ]
+  },
+  {
+    "id": "videoteaser",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "longDescr",
+        "value": "",
+        "label": "Long Description",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "videourl",
+        "label": "Video URL",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "quicklinks",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "longDescr",
+        "value": "",
+        "label": "Long Description",
+        "valueType": "string"
+      }
+    ]
   }
+
 ]
