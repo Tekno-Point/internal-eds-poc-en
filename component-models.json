@@ -187,6 +187,18 @@
                 "value" :"life-stage-wrapper"
               },
               {
+                "name":"Get The App",
+                "value" :"get-the-app"
+              },
+              {
+                "name":"Social",
+                "value" :"social"
+              },
+              {
+                "name":"Footer RTE",
+                "value" :"footer-rte"
+              },
+              {
                 "name": "p-style-12",
                 "value": "p-style-12"
               },
