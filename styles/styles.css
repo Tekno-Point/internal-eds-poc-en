@@ -74,13 +74,13 @@ body {
   line-height: 1;
   overflow: hidden auto;
   font-size: var(--font-size-s);
-  font-family: var(--font-family-regular);
+  font-family: Arial !important
 }
 
-.section > div {
+/* .section > div {
   max-width: 1240px;
   margin: auto;
-}
+} */
 
 :root, main {
   width: 100%;
@@ -91,17 +91,6 @@ body {
 h1 {
   font-size: var(--size-font-2xl);
   line-height: var(--line-height-2xl);
-}
-
-h1,
-h2 {
-  font-family: var(--font-family-bold);
-}
-
-h2 {
-  font-size: var(--size-font-2xl);
-  line-height: var(--line-height-lg);
-  color: var(--color-secondary);
 }
 
 h3 {
@@ -251,10 +240,10 @@ p > em {
   display: none;
 }
 
-header,
+/* header,
 header .nav-wrapper #nav {
   height: 80px;
-}
+} */
 
 .section.para-spacing .default-content-wrapper p:nth-child(1) {
   padding-bottom: 20px;
@@ -284,15 +273,15 @@ header .nav-wrapper #nav {
 
 @media screen and (width <=1200px) {
   .section > div {
-    padding: 0 16px;
+    /* padding: 0 16px; */
     margin: unset;
     width: 100%;
   }
 
-  header,
+  /* header,
   header .nav-wrapper #nav {
     height: 50px;
-  }
+  } */
 
   h2 {
     font-size: var(--size-font-lg);
@@ -320,5 +309,17 @@ header .nav-wrapper #nav {
 
   .width-65 > div > div > div > div.default-content-wrapper {
     width: 100%;
+  }
+
+  .section.page-container>div {
+    max-width: 100% !important;
+    padding: 0 16px;
+  }
+}
+
+@media (width >=900px) {
+  .section.page-container>div {
+    max-width: 1170px !important;
+    margin: 0 auto !important;
   }
 }

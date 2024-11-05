@@ -546,27 +546,27 @@ function decorateSections(main) {
       sectionMeta.parentNode.remove();
     }
     // Add 'gradient-bar' class to the first <h2> element inside the section
-    const firstH2 = section.querySelector('h2');
-    if (firstH2) {
-      const gradientBarHr = document.createElement('hr');
-      if (section.classList.contains('bg-gradient-blue')) {
-        // console.log('No class');
-      } else {
-        gradientBarHr.classList.add('gradient-bar');
-        // Check if <h2> has text-align: center
-        const h2ComputedStyle = window.getComputedStyle(firstH2);
-        if (h2ComputedStyle.textAlign === 'center') {
-          gradientBarHr.style.marginLeft = 'auto';
-          gradientBarHr.style.marginRight = 'auto';
-          gradientBarHr.style.display = 'block';
-        } else {
-          gradientBarHr.style.marginLeft = '0';
-          gradientBarHr.style.marginRight = '0';
-          gradientBarHr.style.display = 'block';
-        }
-        firstH2.appendChild(gradientBarHr);
-      }
-    }
+    // const firstH2 = section.querySelector('h2');
+    // if (firstH2) {
+    //   const gradientBarHr = document.createElement('hr');
+    //   if (section.classList.contains('bg-gradient-blue')) {
+    //     // console.log('No class');
+    //   } else {
+    //     gradientBarHr.classList.add('gradient-bar');
+    //     // Check if <h2> has text-align: center
+    //     const h2ComputedStyle = window.getComputedStyle(firstH2);
+    //     if (h2ComputedStyle.textAlign === 'center') {
+    //       gradientBarHr.style.marginLeft = 'auto';
+    //       gradientBarHr.style.marginRight = 'auto';
+    //       gradientBarHr.style.display = 'block';
+    //     } else {
+    //       gradientBarHr.style.marginLeft = '0';
+    //       gradientBarHr.style.marginRight = '0';
+    //       gradientBarHr.style.display = 'block';
+    //     }
+    //     firstH2.appendChild(gradientBarHr);
+    //   }
+    // }
   });
 }
 
