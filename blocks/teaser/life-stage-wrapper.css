@@ -1,6 +1,7 @@
 .section.life-stage-wrapper .carousel-wrapper {
     max-width: 1110px;
     position: relative;
+    margin: 0 auto;
 }
 
 .section.life-stage-wrapper .carousel-wrapper .carousel,
