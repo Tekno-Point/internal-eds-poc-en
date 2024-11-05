@@ -69,7 +69,7 @@
 
 /* Footer RTE Ends */
 
-@media screen and (max-width:768px) {
+@media screen and (width <=768px) {
     .section.get-the-app .default-content-wrapper>ul {
         gap: 10px;
     }

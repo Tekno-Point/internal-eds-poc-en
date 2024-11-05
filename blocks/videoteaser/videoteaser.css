@@ -1,7 +1,7 @@
 .section.video-teaser .videoteaser-wrapper {
     padding: 9px 5px 10px;
     position: relative;
-    background: rgba(210, 206, 205, 0.4);
+    background: rgb(210 206 205 / 40%);
 }
 
 .section.video-teaser .videoteaser-wrapper .videoteaser {
@@ -51,7 +51,7 @@
     padding-top: 60px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (width <= 768px) {
     .section.video-teaser .videoteaser-wrapper .videoteaser {
         flex-direction: column;
     }

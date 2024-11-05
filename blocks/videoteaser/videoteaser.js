@@ -1,6 +1,7 @@
-import loadEmbed from '../embed/embed.js'
+import loadEmbed from '../embed/embed.js';
+
 export default function decorate(block) {
-    const props = Array.from(block.children, (row) => row.firstElementChild);
-    const [Content, embedURl] = props;
-    loadEmbed(embedURl)
+  const props = Array.from(block.children, (row) => row.firstElementChild);
+  const [, embedURl] = props;
+  loadEmbed(embedURl);
 }

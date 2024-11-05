@@ -1,5 +1,5 @@
 .section.quicklinks-container {
-    background: rgba(210, 206, 205, 0.4);
+    background: rgb(210 206 205 / 40%);
     padding: 30px;
 }
 
@@ -29,7 +29,7 @@
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (width <=768px) {
     .section.quicklinks-container .quicklinks-wrapper .quicklinks div div ul {
         display: flex;
         gap: 20px;
@@ -38,6 +38,6 @@
     }
 
     .section.quicklinks-container .quicklinks-wrapper {
-        padding: 0 0;
+        padding: 0;
     }
 }
