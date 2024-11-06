@@ -1,0 +1,83 @@
+.section.product-accordian .accordion-dropdown-wrapper .accordion-dropdown details{
+    width: 50%;
+}
+
+.section.product-accordian .accordion-dropdown-wrapper .accordion-dropdown details summary{
+    padding: 15px;
+    background: #ffcccc;
+    pointer-events: all;
+}
+
+.section.product-accordian  .accordion-dropdown-wrapper .accordion-dropdown details summary p{
+    padding: 0;
+    min-height: 0;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* .section.product-accordian  .accordion-dropdown-wrapper .accordion-dropdown details summary::after {
+    display: block;
+} */
+
+.section.product-accordian  .accordion-dropdown-wrapper .accordion-dropdown details summary::after {
+    display: block;
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    width: 9px;
+    height: 9px;
+    transition: transform 0.2s;
+    transform: translateY(-50%);
+    font-size: 30px;
+    line-height: .5;
+    color: #7d9bbc;
+}
+
+.section.product-accordian  .accordion-dropdown-wrapper .accordion-dropdown  details[open] summary::after {
+    content: "-";
+   font-size: 50px;
+   line-height: 0;
+}
+
+.section.product-accordian .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body{
+    background: rgba(210, 206, 205, 0.4);
+    font-size: 16px;
+    color: #737373;
+    border-top: 1px solid #ddd;
+    padding: 15px;
+}
+
+.section.product-accordian .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body ul li{
+    border-bottom: 1px dashed #f5b1b4;
+}
+
+.section.product-accordian .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body ul li:last-child{
+    border-bottom: unset;
+}
+
+.section.product-accordian .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body ul li a{
+    color: #737373;
+    font-size: 16px;
+    line-height: 1.428;
+}
+
+@media screen and (width <= 768px) {
+    .section.product-accordian .accordion-dropdown-wrapper .accordion-dropdown details{
+        width: 100%;
+        border-top: unset;
+    }
+
+    .section.product-accordian .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body ul li a{
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+    .section.product-accordian .accordion-dropdown-wrapper .accordion-dropdown{
+        gap: 10px;
+    }
+
+    .section.product-accordian .accordion-dropdown-wrapper .accordion-dropdown details summary p{
+        font-size: 15px;
+    }
+}
