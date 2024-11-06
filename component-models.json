@@ -185,6 +185,18 @@
               {
                 "name": "text-center",
                 "value": "text-center"
+              },
+              {
+                "name": "page-container",
+                "value": "page-container"
+              },
+              {
+                "name": "product-accordian",
+                "value": "product-accordian"
+              },
+              {
+                "name": "important-links",
+                "value": "important-links"
               }
             ]
           },
@@ -268,6 +280,51 @@
               {
                 "name": "Hide",
                 "value": "dp-none"
+              }
+            ]
+          },
+          {
+            "name": "Section Spacing",
+            "children": [
+              {
+                "name": "mt-45",
+                "value": "mt-45"
+              },
+              {
+                "name": "mt-50",
+                "value": "mt-50"
+              },
+              {
+                "name": "mb-45",
+                "value": "mb-45"
+              },
+              {
+                "name": "mb-50",
+                "value": "mb-50"
+              },
+              {
+                "name": "mob-mt-30",
+                "value": "mob-mt-30"
+              },
+              {
+                "name": "mob-mt-40",
+                "value": "mob-mt-40"
+              },
+              {
+                "name": "mob-mt-50",
+                "value": "mob-mt-50"
+              },
+              {
+                "name": "mob-mb-30",
+                "value": "mob-mb-30"
+              },
+              {
+                "name": "mob-mb-40",
+                "value": "mob-mb-40"
+              },
+              {
+                "name": "mob-mb-50",
+                "value": "mob-mb-50"
               }
             ]
           }
