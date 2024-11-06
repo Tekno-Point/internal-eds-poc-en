@@ -1,0 +1,70 @@
+.section.video-teaser .videoteaser-wrapper {
+    padding: 9px 5px 10px;
+    position: relative;
+    background: rgb(210 206 205 / 40%);
+}
+
+.section.video-teaser .videoteaser-wrapper .videoteaser {
+    display: flex;
+}
+
+.section.video-teaser .videoteaser-wrapper .videoteaser div div {
+    padding-right: 15px;
+    padding-left: 35px;
+}
+
+.section.video-teaser .videoteaser-wrapper .videoteaser div div p {
+    font-size: 16px;
+    color: #494949;
+    font-weight: normal;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.section.video-teaser .videoteaser-wrapper .videoteaser div div h2 {
+    width: 80%;
+    font-size: 22px;
+    color: #494949;
+    line-height: 28px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.section.video-teaser .videoteaser-wrapper .videoteaser div div h5 {
+    font-size: 16px;
+    color: #494949;
+    font-weight: normal;
+    line-height: 30px;
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+.section.video-teaser .videoteaser-wrapper .videoteaser div div p span img {
+    width: 22px;
+    height: 17px;
+}
+
+.section.video-teaser .videoteaser-wrapper .videoteaser div .embed {
+    width: 560px;
+    height: 360px;
+    right: 20px;
+    padding-top: 60px;
+}
+
+@media screen and (width <= 768px) {
+    .section.video-teaser .videoteaser-wrapper .videoteaser {
+        flex-direction: column;
+    }
+
+    .section.video-teaser .videoteaser-wrapper .videoteaser div .embed {
+        width: 100%;
+        min-height: 303px;
+        height: 303px;
+        right: 20px;
+        padding-top: 60px;
+    }
+
+    .section.video-teaser .videoteaser-wrapper .videoteaser div .embed div {
+        min-height: 100%;
+    }
+}

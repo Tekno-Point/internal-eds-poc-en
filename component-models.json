@@ -939,5 +939,36 @@
         ]
       }
     ]
+  },
+  {
+    "id": "videoteaser",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "longDescr",
+        "value": "",
+        "label": "Long Description",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "videourl",
+        "label": "Video URL",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "quicklinks",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "longDescr",
+        "value": "",
+        "label": "Long Description",
+        "valueType": "string"
+      }
+    ]
   }
 ]
