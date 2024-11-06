@@ -203,6 +203,22 @@ h2 strong {
   color: #171a21;
 }
 
+.mt-45 {
+  margin-top: 45px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-45 {
+  margin-bottom: 45px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
 /* text center */
 .text-center {
   text-align: center;
@@ -314,6 +330,32 @@ header .nav-wrapper #nav {
   .section.page-container>div {
     max-width: 100% !important;
     padding: 0 16px;
+  }
+}
+
+@media screen and (width <=768px) {
+  .mob-mt-30 {
+    margin-top: 30px;
+  }
+
+  .mob-mt-40 {
+    margin-top: 40px;
+  }
+
+  .mob-mt-50 {
+    margin-top: 50px;
+  }
+
+  .mob-mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .mob-mb-40 {
+    margin-bottom: 40px;
+  }
+
+  .mob-mb-50 {
+    margin-bottom: 50px;
   }
 }
 
