@@ -22,6 +22,9 @@
     font-weight: bold;
     font-size: 16px;
     max-width: 152px;
+    text-align: center;
+    font-family: var(--font-family-regular);
+    margin-top: 10px;
 }
 
 .section.quicklinks-container .quicklinks-wrapper .quicklinks div div ul li a span img {
@@ -42,15 +45,6 @@
     .section.quicklinks-container .quicklinks-wrapper {
         padding: 0;
     }
-
-
-
-    .section.quicklinks-container .quicklinks-wrapper .quicklinks div div ul li:nth-child(n+2) a {
-        /* width: 134px; */
-    }
-
-
-
 }
 
 @media screen and (width <=490px) {
@@ -64,6 +58,7 @@
 
     .section.quicklinks-container .quicklinks-wrapper .quicklinks div div ul li a {
         max-width: 130px;
+        margin-top: unset;
     }
 
     .section.quicklinks-container .quicklinks-wrapper .quicklinks div div ul li:first-child a {

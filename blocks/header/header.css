@@ -357,7 +357,7 @@ header nav .section.nav-head .default-content-wrapper>ul>li:nth-child(3) p>a::be
 header nav .section.nav-brand {
   width: 100%;
   background-color: rgb(210 206 205 / 40%);
-  border-color: #ccc;
+  border: 1px solid #ccc;
   border-bottom: none;
   min-height: 57px;
   position: absolute;
@@ -388,7 +388,7 @@ header nav .section.nav-tools .default-content-wrapper ul li{
   padding: 8px 10px;
   font-size: 18px;
   color: #231f20;
-  border-color:#5d5d5f;
+  border:1px solid #5d5d5f;
   margin-right: 5px;
   border-radius: 50px;
   background-color: #fff;
@@ -404,6 +404,7 @@ header nav .section.nav-brand .default-content-wrapper>ul>li {
   padding: 15px;
   position: unset;
   min-height: 57px;
+  cursor: pointer;
 }
 
 header nav .section.nav-brand .default-content-wrapper>ul>li:hover {
@@ -427,7 +428,7 @@ header nav .section.nav-brand .default-content-wrapper>ul>li>ul>li p>a {
 }
 
 header nav .section.nav-tools .default-content-wrapper ul li:first-child {
-  border-color:#f31414;
+  border:1px solid #f31414;
   color: #f31414;
 }
 
