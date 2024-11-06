@@ -63,9 +63,9 @@
 }
 
 @media screen and (width <=768px) {
-    .section.center-text-red .default-content-wrapper h2{
+    .section.life-stage-wrapper .default-content-wrapper h2{
         padding: 0 90px;
-    }
+    }    
 
     .section.life-stage-wrapper .carousel-wrapper .carousel .swiper-button-next{
         top: 0;

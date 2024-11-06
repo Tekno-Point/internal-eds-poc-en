@@ -1,0 +1,102 @@
+.section.important-links .accordion-dropdown-wrapper .accordion-dropdown {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section.important-links .accordion-dropdown-wrapper .accordion-dropdown details {
+    width: 24%;
+}
+
+.section.important-links .accordion-dropdown-wrapper .accordion-dropdown details summary {
+    pointer-events: none;
+    padding: 0;
+    width: 100%;
+}
+
+.section.important-links .accordion-dropdown-wrapper .accordion-dropdown details summary::after {
+    display: none;
+}
+
+.section.important-links .accordion-dropdown-wrapper .accordion-dropdown details summary p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    min-height: 44px;
+}
+
+.section.important-links .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body {
+    padding: 0;
+}
+
+.section.important-links .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body ul {
+    list-style: none;
+}
+
+.section.important-links .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body ul li {
+    padding: 5px 0;
+}
+
+.section.important-links .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body ul li a {
+    color: #282828;
+    font-size: 16px;
+    word-wrap: break-word;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+@media screen and (width <=768px) {
+    .section.important-links .accordion-dropdown-wrapper .accordion-dropdown {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section.important-links .accordion-dropdown-wrapper .accordion-dropdown details {
+        width: 100%;
+        color: #212121;
+        background-color: #f7f7f7;
+        border-color: #7d9bbc;
+        border-top: 1px solid #7d9bbc;
+    }
+
+    .section.important-links .accordion-dropdown-wrapper .accordion-dropdown details summary {
+        pointer-events: all;
+    }
+
+    .section.important-links .accordion-dropdown-wrapper .accordion-dropdown details summary::after {
+        display: block;
+        content: "+";
+        position: absolute;
+        top: 50%;
+        right: 18px;
+        width: 9px;
+        height: 9px;
+        transition: transform 0.2s;
+        transform: translateY(-50%);
+        font-size: 30px;
+        line-height: .5;
+        color: #7d9bbc;
+    }
+
+    .section.important-links .accordion-dropdown-wrapper .accordion-dropdown  details[open] summary::after {
+        content: "-";
+       font-size: 50px;
+       line-height: 0;
+    }
+
+    .section.important-links .accordion-dropdown-wrapper .accordion-dropdown details summary p {
+        padding: 15px;
+        margin: 0;
+    }
+
+    .section.important-links .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body {
+        padding: 15px;
+        transition: all 0.2s ease-out;
+    }
+
+    .section.important-links .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body ul li a {
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+}
