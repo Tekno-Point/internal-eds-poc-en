@@ -68,13 +68,13 @@
     }    
 
     .section.life-stage-wrapper .carousel-wrapper .carousel .swiper-button-next{
-        top: 0;
+        top: -20px;
         transform: translateY(-50%);
         right: 45px;
     }
 
     .section.life-stage-wrapper .carousel-wrapper .carousel .swiper-button-prev{
-        top: 0;
+        top: -20px;
         transform: translateY(-50%);
         left: 45px;
     }
