@@ -32,6 +32,7 @@
     font-size: 30px;
     line-height: .5;
     color: #7d9bbc;
+    border: unset;
 }
 
 .section.product-accordian  .accordion-dropdown-wrapper .accordion-dropdown  details[open] summary::after {
