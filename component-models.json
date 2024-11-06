@@ -197,6 +197,22 @@
               {
                 "name": "important-links",
                 "value": "important-links"
+              },
+              {
+                "name": "banner-carousel",
+                "value": "banner-carousel"
+              },
+              {
+                "name": "life-stage-wrapper",
+                "value": "life-stage-wrapper"
+              },
+              {
+                "name": "video-teaser",
+                "value": "video-teaser"
+              },
+              {
+                "name": "center-text-red",
+                "value": "center-text-red"
               }
             ]
           },
