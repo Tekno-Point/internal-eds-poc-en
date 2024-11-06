@@ -249,6 +249,22 @@ header .nav-wrapper #nav {
   padding-bottom: 20px;
 }
 
+.mt-45 {
+  margin-top: 45px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-45 {
+  margin-bottom: 45px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
 @media screen and (width <=767.99px) {
   .section > div {
     width: 90%;
@@ -317,12 +333,39 @@ header .nav-wrapper #nav {
   }
 }
 
+@media screen and (width <=768px) {
+  .mob-mt-30 {
+    margin-top: 30px;
+  }
+
+  .mob-mt-40 {
+    margin-top: 40px;
+  }
+
+  .mob-mt-50 {
+    margin-top: 50px;
+  }
+
+  .mob-mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .mob-mb-40 {
+    margin-bottom: 40px;
+  }
+
+  .mob-mb-50 {
+    margin-bottom: 50px;
+  }
+}
+
 .section.center-text-red .default-content-wrapper h2{
   margin-bottom: 20px;
   text-align: center;
   font-size: 28px;
   color: #e7252d;
   line-height: 1.1;
+  font-family: Arial, sans-serif;
 }
 
 @media (width >=900px) {
