@@ -215,7 +215,7 @@ async function loadLazy(doc) {
   const element = hash ? doc.getElementById(hash.substring(1)) : false;
   if (hash && element) element.scrollIntoView();
 
-  loadHeader(doc.querySelector('header'));
+  // loadHeader(doc.querySelector('header'));
   loadFooter(doc.querySelector('footer'));
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
@@ -238,6 +238,7 @@ function loadDelayed() {
 }
 
 async function loadPage() {
+  loadHeader(document.querySelector('header'));
   await loadEager(document);
   await loadLazy(document);
   loadDelayed();
