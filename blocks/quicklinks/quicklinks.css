@@ -9,7 +9,7 @@
 
 .section.quicklinks-container .quicklinks-wrapper .quicklinks div div ul {
     display: flex;
-    align-items: center;
+    gap: 10px;
     justify-content: space-between;
 }
 
@@ -21,6 +21,7 @@
     color: #494949;
     font-weight: bold;
     font-size: 16px;
+    max-width: 152px;
 }
 
 .section.quicklinks-container .quicklinks-wrapper .quicklinks div div ul li a span img {
@@ -35,9 +36,42 @@
         gap: 20px;
         justify-content: center;
         flex-wrap: wrap;
+        align-items: start;
     }
 
     .section.quicklinks-container .quicklinks-wrapper {
         padding: 0;
     }
+
+
+
+    .section.quicklinks-container .quicklinks-wrapper .quicklinks div div ul li:nth-child(n+2) a {
+        /* width: 134px; */
+    }
+
+
+
+}
+
+@media screen and (width <=490px) {
+    .section.quicklinks-container {
+        padding: 16px;
+    }
+
+    .section.quicklinks-container .quicklinks-wrapper .quicklinks div div ul li:first-child {
+        width: 100%;
+    }
+
+    .section.quicklinks-container .quicklinks-wrapper .quicklinks div div ul li a {
+        max-width: 130px;
+    }
+
+    .section.quicklinks-container .quicklinks-wrapper .quicklinks div div ul li:first-child a {
+        max-width: 100%;
+    }
+
+    .section.quicklinks-container .quicklinks-wrapper .quicklinks div div ul li:nth-child(n+2) a span img {
+        width: 132px;
+    }
+
 }
