@@ -1,6 +1,8 @@
-@import url("./accordion-new.css");
+/* @import url("./accordion-new.css");
 @import url("./disclaimer-footer.css");
-@import url("./quick-links-footer.css");
+@import url("./quick-links-footer.css"); */
+
+@import url("./important-links.css");
 
 .accordion-dropdown .accordion-item:nth-child(1) {
   display: none;
@@ -29,7 +31,7 @@
 }
 
 .accordion-dropdown details summary::after {
-  content: "";
+  content: "+";
   color: #6d7585;
   position: absolute;
   top: 50%;
@@ -37,8 +39,8 @@
   transform: translateY(-50%) rotate(135deg);
   width: 9px;
   height: 9px;
-  border: 2px solid;
-  border-width: 2px 2px 0 0;
+  /* border: 2px solid;
+  border-width: 2px 2px 0 0; */
   transition: transform 0.2s;
 }
 
