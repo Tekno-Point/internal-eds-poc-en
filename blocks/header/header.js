@@ -8,6 +8,7 @@ export const isDesktop = window.matchMedia('(min-width: 900px)');
  *
  * @param {Element} navSection
  */
+// eslint-disable-next-line no-unused-vars
 const wrapListUE = (navSection) => {
   const p = document.createElement('p');
   if (!window.isEditor) return;
@@ -189,31 +190,9 @@ export default async function decorate(block) {
   hamburger.innerHTML = `<button type="button" aria-controls="nav" aria-label="Open navigation">
       <span class="nav-hamburger-icon"></span>
     </button>`;
-  // let mobFragment = null;
   hamburger.addEventListener('click', async () => {
-    // if (!mobFragment) {
-    //   mobFragment = await loadFragment('/nippon/modals/mob-nav-modal');
-    //   const mobNav = mobFragment.querySelector('.default-content-wrapper');
-    //   mobNav.classList.add('desk-dp-none');
-    //   navBrand.prepend(mobNav);
-    //   // navSections.prepend(mobFragment.lastElementChild.lastElementChild);
-    //   mobNav.querySelectorAll(':scope > ul > li').forEach((navSection) => {
-    //     wrapListUE(navSection);
-    //   });
-    //   mobNav.querySelectorAll('ul ul').forEach((el) => {
-    //     el.querySelectorAll('ul').forEach((ele) => {
-    //       ele.setAttribute('aria-expanded', 'false');
-    //       ele.parentElement.querySelector('p').addEventListener('click', () => {
-    //         const expanded = ele.getAttribute('aria-expanded') === 'true';
-    //         ele.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-    //         ele.parentElement.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-    //         ele.parentElement.querySelector('p').classList.toggle('navlist-dropdown');
-    //       });
-    //     });
-    //   });
-    // }
     toggleMenu(nav, navSections);
-  }); 
+  });
   nav.prepend(hamburger);
   nav.setAttribute('aria-expanded', 'false');
   // prevent mobile nav behavior on window resize

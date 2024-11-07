@@ -81,10 +81,10 @@ const threeSlidesOnly = {
   },
   breakpoints: {
     300: {
-      slidesPerView: 1,
+      slidesPerView: 1.3,
     },
     780: {
-      slidesPerView: 1.8,
+      slidesPerView: 1.2,
     },
     992: {
       slidesPerView: 3,
