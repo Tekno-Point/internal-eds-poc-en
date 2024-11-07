@@ -3,6 +3,10 @@
     max-width: 100%;
 }
 
+.section.banner-carousel .carousel-wrapper .carousel .swiper-pagination-bullet-active {
+    background-color: #ed1b24
+}
+
 .section.banner-carousel .carousel-wrapper .carousel .swiper-pagination .swiper-pagination-bullet{
     opacity: 1;
     background-color: #b1b4b6;
@@ -65,11 +69,6 @@
 .section.banner-carousel .carousel-wrapper .carousel .swiper-pagination-bullets {
     bottom: 155px;
 }
-
-.section.banner-carousel .carousel-wrapper .carousel .swiper-pagination-bullet-active {
-    background-color: #ed1b24
-}
-
 
 @media only screen and (width <= 767px) {
     .section.banner-carousel .carousel-wrapper .carousel .swiper-wrapper .swiper-slide>div p:last-child {

@@ -4,7 +4,7 @@
 
 .section.product-accordian .accordion-dropdown-wrapper .accordion-dropdown details summary{
     padding: 15px;
-    background: #ffcccc;
+    background: #fcc;
     pointer-events: all;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .section.product-accordian .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body{
-    background: rgba(210, 206, 205, 0.4);
+    background: rgb(210 206 205 / 40%);
     font-size: 16px;
     color: #737373;
     border-top: 1px solid #ddd;
