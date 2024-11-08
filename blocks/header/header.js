@@ -209,11 +209,15 @@ export default async function decorate(block) {
   firstUl.forEach((p) => {
     const listItems = p.querySelectorAll('li');
     listItems.forEach((li) => {
+      li.querySelector('p')?.setAttribute('aria-expanded', 'false');
       const innerUL = li.querySelector('ul');
       if (innerUL) {
         li.addEventListener('click', (event) => {
           const currentDisplay = innerUL.style.display;
-          innerUL.style.display = currentDisplay === 'block' ? 'none' : 'block';
+          const isExpanded = currentDisplay === 'block';
+          innerUL.style.display = isExpanded ? 'none' : 'block';
+          const parent = event.target;
+          parent.setAttribute('aria-expanded', !isExpanded ? 'true' : 'false');
           event.stopImmediatePropagation();
         });
       }
