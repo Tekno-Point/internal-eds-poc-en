@@ -592,7 +592,7 @@ header nav .section.nav-sections {
     display: block;
   }
 
-  header nav .section.nav-sections .default-content-wrapper ul>li  p:has(+ ul)::after {
+  header nav .section.nav-sections .default-content-wrapper ul>li  p[aria-expanded="false"]:has(+ ul)::after {
     content: ''; 
     position: absolute;
     right: 10%;
@@ -602,6 +602,18 @@ header nav .section.nav-sections {
     display: inline-block;
     padding: 4px;
     transform: rotate(45deg);
+  }
+
+  header nav .section.nav-sections .default-content-wrapper ul>li  p[aria-expanded="true"]:has(+ ul)::after {
+    content: ''; 
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    border: solid #464c4e;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(225deg);
   }
 
   header nav .section.nav-sections .default-content-wrapper ul>li p {
