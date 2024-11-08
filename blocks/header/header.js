@@ -226,6 +226,7 @@ export default async function decorate(block) {
 
   const closeBTN = block.querySelector('.nav-sections .default-content-wrapper ul li img');
   closeBTN.addEventListener('click', () => {
+    closeBTN.closest('body').style.overflow = 'auto';
     const navSection = closeBTN.closest('nav');
     navSection.setAttribute('aria-expanded', 'false');
   });
