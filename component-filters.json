@@ -25,7 +25,8 @@
       "teaser",
       "wrappercreation",
       "quicklinks",
-      "videoteaser"
+      "videoteaser",
+      "newcarousel"
     ]
   },
   {
@@ -63,5 +64,9 @@
   {
     "id": "table",
     "components": ["table-item"]
+  },
+  {
+    "id": "newcarousel",
+    "components": ["newcarousel-item", "embed"]
   }
 ]
