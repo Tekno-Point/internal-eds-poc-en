@@ -167,6 +167,38 @@
                 "value": "para-spacing"
               },
               {
+                "name": "Banner Carousel",
+                "value": "banner-carousel"
+              },
+              {
+                "name":"Center Text Red",
+                "value" :"center-text-red"
+              },
+              {
+                "name":"Quick Links",
+                "value" :"quick-links-css"  
+              },
+              {
+                "name":"Video Teaser",
+                "value" :"video-teaser"
+              },
+              {
+                "name":"Life Stage Wrapper",
+                "value" :"life-stage-wrapper"
+              },
+              {
+                "name":"Get The App",
+                "value" :"get-the-app"
+              },
+              {
+                "name":"Social",
+                "value" :"social"
+              },
+              {
+                "name":"Footer RTE",
+                "value" :"footer-rte"
+              },
+              {
                 "name": "p-style-12",
                 "value": "p-style-12"
               },
@@ -185,34 +217,6 @@
               {
                 "name": "text-center",
                 "value": "text-center"
-              },
-              {
-                "name": "page-container",
-                "value": "page-container"
-              },
-              {
-                "name": "product-accordian",
-                "value": "product-accordian"
-              },
-              {
-                "name": "important-links",
-                "value": "important-links"
-              },
-              {
-                "name": "banner-carousel",
-                "value": "banner-carousel"
-              },
-              {
-                "name": "life-stage-wrapper",
-                "value": "life-stage-wrapper"
-              },
-              {
-                "name": "video-teaser",
-                "value": "video-teaser"
-              },
-              {
-                "name": "center-text-red",
-                "value": "center-text-red"
               }
             ]
           },
@@ -296,51 +300,6 @@
               {
                 "name": "Hide",
                 "value": "dp-none"
-              }
-            ]
-          },
-          {
-            "name": "Section Spacing",
-            "children": [
-              {
-                "name": "mt-45",
-                "value": "mt-45"
-              },
-              {
-                "name": "mt-50",
-                "value": "mt-50"
-              },
-              {
-                "name": "mb-45",
-                "value": "mb-45"
-              },
-              {
-                "name": "mb-50",
-                "value": "mb-50"
-              },
-              {
-                "name": "mob-mt-30",
-                "value": "mob-mt-30"
-              },
-              {
-                "name": "mob-mt-40",
-                "value": "mob-mt-40"
-              },
-              {
-                "name": "mob-mt-50",
-                "value": "mob-mt-50"
-              },
-              {
-                "name": "mob-mb-30",
-                "value": "mob-mb-30"
-              },
-              {
-                "name": "mob-mb-40",
-                "value": "mob-mb-40"
-              },
-              {
-                "name": "mob-mb-50",
-                "value": "mob-mb-50"
               }
             ]
           }
@@ -986,5 +945,149 @@
         "valueType": "string"
       }
     ]
+  },
+
+  {
+    "id": "newcarousel",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Carousel Style",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "One Slide Only",
+                "value": "one-slide-only"
+              },
+              {
+                "name": "Two Slides Only",
+                "value": "two-slides-only"
+              },
+              {
+                "name": "Three Slides Only",
+                "value": "three-slides-only"
+              },
+              {
+                "name": "Reviews",
+                "value": "reviews"
+              }
+            ]
+          }
+        ],
+        "valueType": "string[]"
+      },
+      {
+        "component": "boolean",
+        "label": "Infinite",
+        "name": "infinite",
+        "value": "",
+        "valueType": "boolean"
+      }
+    ]
+  },
+  {
+    "id": "newcarousel-item",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "newcarousel Style",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "One Slide Only",
+                "value": "one-slide-only"
+              }
+            ]
+          }
+        ],
+        "valueType": "string[]"
+      },
+      {
+        "component": "reference",
+        "name": "prevIcon",
+        "label": "Prev Icon"
+      },
+      {
+        "component": "reference",
+        "name": "nextIcon",
+        "label": "Next Icon"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "carousel_desk-image",
+        "label": "Desktop Image",
+        "description": "The Desktop image"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "carousel_desk-imageAlt",
+        "label": "The Desktop image alt",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "carousel_mob-image",
+        "label": "Mobile Image",
+        "description": "The Mobile image"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "carousel_mob-imageAlt",
+        "label": "The Mobile image alt",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "heading",
+        "label": "Carousel Heading"
+      },
+      {
+        "component": "select",
+        "name": "headingType",
+        "label": "Carousel Heading Type",
+        "options": [
+          {
+            "name": "H1",
+            "value": "h1"
+          },
+          {
+            "name": "H2",
+            "value": "h2"
+          },
+          {
+            "name": "H3",
+            "value": "h3"
+          },
+          {
+            "name": "H4",
+            "value": "h4"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "label": "Description",
+        "raw": true
+      },
+      {
+        "component": "text",
+        "name": "embedLink",
+        "label": "Video Link"
+      }
+    ]
   }
+
 ]
