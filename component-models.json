@@ -1037,26 +1037,26 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "carousel_mob-image",
+        "name": "newcarousel_mob-image",
         "label": "Mobile Image",
         "description": "The Mobile image"
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "carousel_mob-imageAlt",
+        "name": "newcarousel_mob-imageAlt",
         "label": "The Mobile image alt",
         "value": ""
       },
       {
         "component": "text",
         "name": "heading",
-        "label": "Carousel Heading"
+        "label": "newCarousel Heading"
       },
       {
         "component": "select",
         "name": "headingType",
-        "label": "Carousel Heading Type",
+        "label": "newCarousel Heading Type",
         "options": [
           {
             "name": "H1",
