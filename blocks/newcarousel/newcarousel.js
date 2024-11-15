@@ -11,13 +11,24 @@ export default function decorate(block) {
   Array.from(block.classList).forEach((cls) => {
     if (configObject[cls]) configData = configObject[cls];
   });
-  const props = rows.slice(1);
+  const props = rows.slice(3);
   const swiperWrapper = createElement('div', { classes: ['swiper-wrapper'] });
   const swiperButtonPrev = createElement('div', { classes: ['swiper-button-prev'] });
   const swiperButtonNext = createElement('div', { classes: ['swiper-button-next'] });
   const swiperPagination = createElement('div', { classes: ['swiper-pagination'] });
-  let nextIcon, prevIcon;
   config.remove();
+  const prevArrow = Array.from(rows.slice(1, 2));
+  const nextArrow = Array.from(rows.slice(2, 3));
+  prevArrow.forEach((arrow) => {
+    Array.from(arrow.children).forEach((child) => {
+      swiperButtonPrev.appendChild(child);
+    });
+  });
+  nextArrow.forEach((arrow) => {
+    Array.from(arrow.children).forEach((child) => {
+      swiperButtonNext.appendChild(child);
+    });
+  });
   props.forEach((eachProps) => {
     // eslint-disable-next-line max-len
     const [classes, imageDesktop, imageMobile, heading, description, embedLink] = Array.from(eachProps.children);
@@ -30,8 +41,6 @@ export default function decorate(block) {
     imageDesktop.classList.add('image-desktop');
     imageMobile.classList.add('image-mobile');
     textWrapper.append(heading, description);
-    swiperButtonPrev.append(prevIcon);
-    swiperButtonNext.append(nextIcon);
     if (isDesktop.matches) {
       swiperSlide.append(textWrapper, imageDesktop, embedDiv);
       imageMobile.remove();
