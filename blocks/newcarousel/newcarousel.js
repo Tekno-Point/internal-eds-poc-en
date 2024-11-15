@@ -2,6 +2,7 @@ import { createElement } from '../../scripts/scripts.js';
 import Swiper from '../carousel/swiper-bundle.min.js';
 import configObject from '../carousel/carousel-config.js';
 import { loadEmbed } from '../embed/embed.js';
+import { isDesktop } from '../header/header.js';
 
 export default function decorate(block) {
   const rows = Array.from(block.children);
@@ -15,21 +16,30 @@ export default function decorate(block) {
   const swiperButtonPrev = createElement('div', { classes: ['swiper-button-prev'] });
   const swiperButtonNext = createElement('div', { classes: ['swiper-button-next'] });
   const swiperPagination = createElement('div', { classes: ['swiper-pagination'] });
+  let nextIcon, prevIcon;
   config.remove();
   props.forEach((eachProps) => {
     // eslint-disable-next-line max-len
-    const [classes, prevIcon, nextIcon, imageDesktop, heading, description, embedLink] = Array.from(eachProps.children);
+    const [classes, imageDesktop, imageMobile, heading, description, embedLink] = Array.from(eachProps.children);
     const swiperSlide = createElement('div', { classes: ['swiper-slide'] });
     classes.textContent.trim().split(',').forEach((eachClass) => {
       swiperSlide.classList.add(eachClass.trim());
     });
     const embedDiv = createElement('div', { classes: ['video-component'] });
     const textWrapper = createElement('div', { classes: ['text-wrapper'] });
-    imageDesktop.classList.add('image-con');
+    imageDesktop.classList.add('image-desktop');
+    imageMobile.classList.add('image-mobile');
     textWrapper.append(heading, description);
     swiperButtonPrev.append(prevIcon);
     swiperButtonNext.append(nextIcon);
-    swiperSlide.append(textWrapper, imageDesktop, embedDiv);
+    if (isDesktop.matches) {
+      swiperSlide.append(textWrapper, imageDesktop, embedDiv);
+      imageMobile.remove();
+    }
+    else {
+      swiperSlide.append(textWrapper, imageMobile, embedDiv);
+      imageDesktop.remove();
+    }
     try {
       loadEmbed(embedDiv, embedLink.textContent.trim());
     } catch (error) {
