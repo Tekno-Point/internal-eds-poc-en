@@ -75,18 +75,27 @@
     }
   }
   
+  .section.newcarousel-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
   .section.newcarousel-container .newcarousel-wrapper .newcarousel .swiper-wrapper .swiper-slide{
     display: flex;
     gap: 10px;
     height: 200px;
+    border: 1px solid rgb(230, 229, 229);
   }
 
-  .section.newcarousel-container .newcarousel-wrapper .newcarousel .swiper-wrapper .swiper-slide .image-con{
-    width: 27%;
+  .section.newcarousel-container .newcarousel-wrapper .newcarousel .swiper-wrapper .swiper-slide .image-desktop picture,
+  .section.newcarousel-container .newcarousel-wrapper .newcarousel .swiper-wrapper .swiper-slide .image-mobile picture{
+    width: 50%;
   }
 
-  .section.newcarousel-container .newcarousel-wrapper .newcarousel .swiper-wrapper .swiper-slide .image-con img{
+  .section.newcarousel-container .newcarousel-wrapper .newcarousel .swiper-wrapper .swiper-slide .image-desktop img,
+  .section.newcarousel-container .newcarousel-wrapper .newcarousel .swiper-wrapper .swiper-slide .image-mobile img{
     width: 100%;
+    height: 100%;
   }
 
   .section.newcarousel-container .newcarousel-wrapper .newcarousel .swiper-wrapper .swiper-slide .image-con p:last-child{
@@ -94,77 +103,16 @@
   }
 
   .section.newcarousel-container .newcarousel-wrapper .newcarousel .swiper-wrapper .swiper-slide .embed{
-    width: 30%;
+    width: 53%;
     height: 200px;
     display: block;
   }
 
-  .section.newcarousel-container .newcarousel-wrapper .newcarousel .swiper-wrapper .swiper-slide >.embed >div iframe{
-    height: 200px;
+  .section.newcarousel-container .newcarousel-wrapper .newcarousel .swiper-wrapper .swiper-slide .embed >div{
+    height: 100% !important;
   }
 
-  /* .section.highlights .swiper .swiper-wrapper .swiper-slide {
-    position: relative;
+  .section.newcarousel-container .newcarousel-wrapper .newcarousel .swiper-wrapper .swiper-slide >.embed >div iframe{
+    height: 200px;
+    max-height: 200px;
   }
-  
-  .section.highlights .swiper .swiper-wrapper .swiper-slide > div:nth-of-type(1) {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-  }
-  
-  .section.highlights
-    .swiper
-    .swiper-wrapper
-    .swiper-slide
-    > div:nth-of-type(1)
-    .button-container {
-    height: 100%;
-  }
-  
-  .section.highlights
-    .swiper
-    .swiper-wrapper
-    .swiper-slide
-    > div:nth-of-type(1)
-    .button-container
-    a {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .section.highlights
-    .swiper
-    .swiper-wrapper
-    .swiper-slide
-    > div:nth-of-type(2)
-    > picture
-    > img {
-    border-radius: 5px;
-  }
-  
-  @media screen and (width <= 767px) {
-    .section.highlights
-      .swiper
-      .swiper-wrapper
-      .swiper-slide
-      > div:nth-of-type(2)
-      > picture
-      > img {
-      width: 100%;
-      height: 120px;
-    }
-  }
-  
-  .section.highlights .swiper .swiper-pagination-bullet {
-    background-color: #ced4da;
-    opacity: 1;
-  }
-  
-  .section.highlights .swiper .swiper-pagination-bullet-active {
-    background-color: #d24d57;
-  }
-   */

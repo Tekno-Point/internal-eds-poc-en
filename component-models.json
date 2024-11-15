@@ -986,6 +986,16 @@
         "name": "infinite",
         "value": "",
         "valueType": "boolean"
+      },
+      {
+        "component": "reference",
+        "name": "prevIcon",
+        "label": "Prev Icon"
+      },
+      {
+        "component": "reference",
+        "name": "nextIcon",
+        "label": "Next Icon"
       }
     ]
   },
@@ -1009,16 +1019,6 @@
           }
         ],
         "valueType": "string[]"
-      },
-      {
-        "component": "reference",
-        "name": "prevIcon",
-        "label": "Prev Icon"
-      },
-      {
-        "component": "reference",
-        "name": "nextIcon",
-        "label": "Next Icon"
       },
       {
         "component": "reference",
