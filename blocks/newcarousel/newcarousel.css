@@ -18,12 +18,12 @@
   .swiper .swiper-button-prev img{
     display: block;
     width: 30px;
+    height: 30px;
   }
   
   .swiper .swiper-button-next::after,
   .swiper .swiper-button-prev::after {
     display: none;
-    /* width: 30px; */
   }
 
   .swiper .swiper-pagination-bullet {
