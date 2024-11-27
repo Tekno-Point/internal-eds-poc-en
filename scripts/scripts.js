@@ -1,3 +1,4 @@
+import { createApp, ref } from 'vue';
 import {
   sampleRUM,
   loadHeader,
@@ -242,6 +243,25 @@ async function loadPage() {
   await loadEager(document);
   await loadLazy(document);
   loadDelayed();
+}
+
+/**
+ * Create the vue block !!
+ */
+export function createVueBlock(
+  templateString,
+  templateBlock = {},
+  blockwrapper = document.createElement('div'),
+) {
+  console.log(templateString);
+
+  createApp({
+    setup() {
+      const data = ref(templateBlock);
+      return { data };
+    },
+    template: templateString,
+  }).mount(blockwrapper);
 }
 
 loadPage();

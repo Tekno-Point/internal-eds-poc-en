@@ -1,7 +1,9 @@
-import { createElement } from '../../scripts/scripts.js';
+import { createApp } from 'vue';
+import { createElement, createVueBlock } from '../../scripts/scripts.js';
 import Swiper from './swiper-bundle.min.js';
 import configObject from './carousel-config.js';
 import embed from '../embed/embed.js';
+import Carousel from './carousel.vue';
 
 const componentMapping = {
   embed,
@@ -60,4 +62,17 @@ export default function decorate(block) {
   );
 
   observer.observe(block);
+
+  const factWrapper = document.createElement('div');
+  factWrapper.className = 'fact__block-style';
+  const factProp = {
+    facts: ['Vue App with Suii'],
+  };
+
+  console.log('inner content of block ', block.innerHTML);
+  createApp(Carousel, {
+    factProp,
+  }).mount(factWrapper);
+  // block.textContent = "";
+  block.append(factWrapper);
 }

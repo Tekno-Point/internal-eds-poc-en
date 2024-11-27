@@ -669,15 +669,18 @@ function buildBlock(blockName, content) {
 async function loadBlock(block) {
   const status = block.dataset.blockStatus;
   if (status !== 'loading' && status !== 'loaded') {
+    // __webpack_public_path__ = window.hlx.codeBasePath;
     block.dataset.blockStatus = 'loading';
     const { blockName } = block.dataset;
     try {
-      const cssLoaded = loadCSS(`${window.hlx.codeBasePath}/blocks/${blockName}/${blockName}.css`);
+      const cssLoaded = loadCSS(
+        `${window.hlx.codeBasePath}/blocks/${blockName}/${blockName}.css`,
+      );
       const decorationComplete = new Promise((resolve) => {
         (async () => {
           try {
             const mod = await import(
-              `${window.hlx.codeBasePath}/blocks/${blockName}/${blockName}.js`
+              /* webpackChunkName: "blocks", webpackMode: "eager" */ `@blocks/${blockName}/${blockName}.js`
             );
             if (mod.default) {
               await mod.default(block);
