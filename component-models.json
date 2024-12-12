@@ -715,10 +715,6 @@
             "name": "Content Style",
             "children": [
               {
-                "name": "Default",
-                "value": "default"
-              },
-              {
                 "name": "One Slide Only",
                 "value": "one-slide-only"
               },
