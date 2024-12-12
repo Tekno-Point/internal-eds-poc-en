@@ -107,6 +107,18 @@
             "name": "Content Style",
             "children": [
               {
+                "name": "Fino Insurance Plans Cards",
+                "value": "fino-insurance-plans-cards"
+              },
+              {
+                "name": "Fino Prefer Max Life Cards",
+                "value": "fino-prefer-max-life-cards"
+              },
+              {
+                "name": "Fino Term Insurance Cards",
+                "value": "fino-term-insurance-cards"
+              },
+              {
                 "name": "Insurance Plans Cards",
                 "value": "insurance-plans-cards"
               },
@@ -733,6 +745,22 @@
               {
                 "name": "Reviews",
                 "value": "reviews"
+              },
+              {
+                "name": "Fino One Slide Only",
+                "value": "fino-one-slide-only"
+              },
+              {
+                "name": "Fino Two Slides Only",
+                "value": "fino-two-slides-only"
+              },
+              {
+                "name": "Fino Three Slides Only",
+                "value": "fino-three-slides-only"
+              },
+              {
+                "name": "Fino Reviews",
+                "value": "fino-reviews"
               }
             ]
           }
