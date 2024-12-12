@@ -118,3 +118,32 @@
 .section.highlights .swiper .swiper-pagination-bullet-active {
   background-color: #d24d57;
 }
+
+
+
+/* finobank */
+.carousel.fino-one-slide-only {
+  margin-top: 80px;
+} 
+
+.carousel.fino-two-slides-only .swiper-wrapper .swiper-slide >div > picture::after {
+  content: unset;
+}
+
+.section.fino-insurance-plans-cards {
+  background: linear-gradient(45deg, rgb(196 221 254 / 32%) -12.5%, rgb(254 216 247 / 32%) 112.5%);
+}
+
+.section.fino-insurance-plans-cards .default-content-wrapper img{
+  width: 100%;
+  height: 100%;
+}
+
+.section.fino-prefer-max-life-cards .custom-card-wrapper .custom-card > div > div:first-child {
+  background-color: unset;
+}
+
+.section.fino-prefer-max-life-cards .custom-card-wrapper .custom-card > div > div:first-child > picture > img {
+  width: 40px;
+  height: 40px;
+}
