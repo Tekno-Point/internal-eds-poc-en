@@ -121,12 +121,20 @@
 
 
 
-/* finobank */
+/* ----------------------finobank ----------------------- */
 .carousel.fino-one-slide-only {
   margin-top: 80px;
+}
+
+.carousel-wrapper:has(.carousel.fino-one-slide-only) {
+  max-width: unset;
 } 
 
-.carousel.fino-two-slides-only .swiper-wrapper .swiper-slide >div > picture::after {
+.carousel.fino-one-slide-only .swiper .swiper-slide > div > picture > img {
+  height: 576px;
+}
+
+.life-insurance .carousel-wrapper .carousel.fino-two-slides-only.block.swiper .swiper-wrapper .swiper-slide picture::after {
   content: unset;
 }
 
@@ -146,4 +154,53 @@
 .section.fino-prefer-max-life-cards .custom-card-wrapper .custom-card > div > div:first-child > picture > img {
   width: 40px;
   height: 40px;
+}
+
+/* finobank footer */
+.section.fino-term-insurance-cards {
+  background: linear-gradient(45deg, rgb(196 221 254 / 32%) -12.5%, rgb(254 216 247 / 32%) 112.5%);
+}
+
+.section.fino-term-insurance-cards .accordion-dropdown-wrapper .accordion-dropdown .accordion-item .accordion-item-body ul {
+  list-style: none;
+}
+
+.section.fino-term-insurance-cards .accordion-dropdown-wrapper .accordion-dropdown .accordion-item .accordion-item-body ul> li> a{
+  text-decoration: none;
+}
+
+.section.fino-term-insurance-cards .popular-searches-wrapper .popular-searches >div >div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.section.fino-term-insurance-cards .popular-searches-wrapper .popular-searches >div >div>ul {
+  list-style: none;
+}
+
+.section.fino-term-insurance-cards .popular-searches-wrapper .popular-searches >div >div>ul:first-child>li>span>img {
+  width: 300px;
+}
+
+.section.fino-term-insurance-cards .popular-searches-wrapper .popular-searches >div >div>ul:nth-child(2)>li {
+  background-color: #414099;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+@media screen and (width <= 1200px) {
+  .carousel.fino-one-slide-only {
+    margin-top: 50px;
+  }
+  .carousel-wrapper:has(.carousel.fino-one-slide-only) {
+    padding: 0;
+  }
+  .section.fino-term-insurance-cards .popular-searches-wrapper .popular-searches >div >div {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section.fino-term-insurance-cards .popular-searches-wrapper .popular-searches >div >div>ul:first-child>li>span>img {
+    width: 200px;
+  }
 }

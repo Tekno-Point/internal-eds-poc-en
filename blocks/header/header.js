@@ -147,9 +147,9 @@ export default async function decorate(block) {
   hamburger.classList.add('nav-hamburger');
   let modalHeader;
   if (isDesktop.matches) {
-    modalHeader = '/max-life/modals/nav-modal';
+    modalHeader = '/finobank/modals/nav-modal';
   } else {
-    modalHeader = '/max-life/modals/mob-nav-modal';
+    modalHeader = '/finobank/modals/mob-nav-modal';
   }
   hamburger.innerHTML = `<a href="${modalHeader}">
   <button type="button" aria-controls="nav" aria-label="Open navigation">
