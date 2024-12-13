@@ -130,12 +130,8 @@
   max-width: unset;
 } 
 
-.carousel.fino-one-slide-only .swiper .swiper-slide > div > picture > img {
-  height: 576px;
-}
-
-.life-insurance .carousel-wrapper .carousel.fino-two-slides-only.block.swiper .swiper-wrapper .swiper-slide picture::after {
-  content: unset;
+.life-insurance .carousel-wrapper .carousel.block.swiper.fino-two-slides-only .swiper-wrapper .swiper-slide picture::after {
+  content: unset !important;
 }
 
 .section.fino-insurance-plans-cards {
@@ -156,6 +152,25 @@
   height: 40px;
 }
 
+/* finobank header */
+header nav#nav .section.fino-prefer-max-life-cards .default-content-wrapper {
+  margin: 0;
+}
+
+header nav#nav .section.fino-prefer-max-life-cards .default-content-wrapper p > a> span > img {
+  width: 150px;
+  max-height: 48px;
+}
+
+.section.mob-nav-modal.fino-prefer-max-life-cards .accordion-dropdown-wrapper .accordion-dropdown.block .accordion-item .accordion-item-body ul {
+  list-style: none;
+}
+
+.section.mob-nav-modal.fino-prefer-max-life-cards .accordion-dropdown-wrapper .accordion-dropdown.block .accordion-item .accordion-item-body ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
 /* finobank footer */
 .section.fino-term-insurance-cards {
   background: linear-gradient(45deg, rgb(196 221 254 / 32%) -12.5%, rgb(254 216 247 / 32%) 112.5%);
@@ -173,6 +188,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .section.fino-term-insurance-cards .popular-searches-wrapper .popular-searches >div >div>ul {
@@ -189,6 +205,29 @@
   border-radius: 50%;
 }
 
+
+/* direct css */
+.nav-hamburger {
+  display: none !important;
+}
+
+.swiper .swiper-slide > div > picture > img {
+  height: 100% !important;
+  width: 100%;
+  object-fit: fill;
+}
+
+.life-insurance .carousel-wrapper .carousel.block.swiper .swiper-wrapper .swiper-slide picture::after {
+  content: unset !important;
+}
+
+@media screen and (width <= 900px) {
+  .nav-hamburger {
+    display: block !important;
+  }
+}
+
+
 @media screen and (width <= 1200px) {
   .carousel.fino-one-slide-only {
     margin-top: 50px;
@@ -202,5 +241,9 @@
   }
   .section.fino-term-insurance-cards .popular-searches-wrapper .popular-searches >div >div>ul:first-child>li>span>img {
     width: 200px;
+  }
+  
+  header .nav-wrapper #nav {
+    justify-content: space-between !important;
   }
 }
