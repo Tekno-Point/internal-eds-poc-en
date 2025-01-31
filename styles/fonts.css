@@ -75,3 +75,52 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
+
+@font-face {
+  font-family: poppins-black;
+  font-style: normal;
+  font-weight: 800;;
+  src: url("../fonts/poppins-latin-black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: poppins-bold;
+  font-style: normal;
+  font-weight: 800;;
+  src: url("../fonts/poppins-latin-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: poppins-extraBold;
+  font-style: normal;
+  font-weight: 800;;
+  src: url("../fonts/poppins-latin-exbold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: poppins-light;
+  font-style: normal;
+  font-weight: 800;;
+  src: url("../fonts/poppins-latin-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: poppins-medium;
+  font-style: normal;
+  font-weight: 800;;
+  src: url("../fonts/poppins-latin-medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: poppins-regular;
+  font-style: normal;
+  font-weight: 800;;
+  src: url("../fonts/poppins-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: poppins-semiBold;
+  font-style: normal;
+  font-weight: 800;;
+  src: url("../fonts/poppins-latin-semibold.woff2") format("woff2");
+}
