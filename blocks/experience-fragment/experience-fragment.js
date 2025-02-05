@@ -55,7 +55,6 @@ export async function appendXF(block, xfPath) {
                         newScript.src = newScriptSrc;
                         newScript.type = 'text/javascript';
                         document.body.append(newScript);
-                        console.log(index, newScriptSrc);
                     } catch (error) {
                         console.error(error); // eslint-disable-line
                     }
