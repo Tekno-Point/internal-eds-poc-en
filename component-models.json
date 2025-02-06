@@ -970,9 +970,19 @@
         "label": "Container Style",
         "options": [
           {
-            "name": "Container Bg Color",
-            "value": "eds-container-bg-color"
+            "name": "hdfc life Content Style",
+            "children": [
+            {
+              "name": "Container Bg Color",
+              "value": "eds-container-bg-color"
+            },
+            {
+              "name": "hdfc Container width ",
+              "value": "eds-container-width"
+            }
+          ]
           }
+          
         ]
       }
     ]
