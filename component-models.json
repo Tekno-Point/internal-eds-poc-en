@@ -960,6 +960,24 @@
     ]
   },
   {
+    "id": "eds-container",
+    "fields": [
+      {
+        "component": "multiselect",
+        "valueType": "string",
+        "name": "classes",
+        "value": "",
+        "label": "Container Style",
+        "options": [
+          {
+            "name": "Container Bg Color",
+            "value": "eds-container-bg-color"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "videoteaser",
     "fields": [
       {
