@@ -365,3 +365,19 @@ header .nav-wrapper #nav {
     margin: 0 auto !important;
   }
 }
+
+.section {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.section.blue-bg {
+  background-color: #f2fbff;
+}
+
+@media (width < 767px) {
+  div.section {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}

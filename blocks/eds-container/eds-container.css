@@ -1,0 +1,28 @@
+.eds-container {
+    padding: 50px 0;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.eds-container .default-content-wrapper {
+    text-align: center;
+}
+
+.eds-container .default-content-wrapper h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #233253;
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+@media screen and (width< 768px) {
+    .eds-container {
+        padding: 20px 15px;
+    }
+
+    .eds-container .default-content-wrapper h2 {
+        font-size: 24px;
+    }
+}

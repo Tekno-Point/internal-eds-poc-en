@@ -58,3 +58,20 @@
 .accordion-dropdown details summary::-webkit-details-marker {
   display: none;
 }
+
+main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown.block.hdfc-blue-faq details .accordion-item {
+  border-bottom: unset;
+}
+
+.accordion-dropdown.hdfc-blue-faq details summary::after {
+  color: #005e9e;
+}
+
+.accordion-dropdown.hdfc-blue-faq details summary,
+.accordion-dropdown.hdfc-blue-faq details summary h3 {
+  color: #005e9e;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  cursor: pointer;
+}

@@ -1,24 +1,20 @@
 .section.video-teaser .videoteaser-wrapper {
     padding: 9px 5px 10px;
-    position: relative;
-    background: rgb(210 206 205 / 40%);
 }
 
 .section.video-teaser .videoteaser-wrapper .videoteaser {
     display: flex;
-}
-
-.section.video-teaser .videoteaser-wrapper .videoteaser div div {
-    padding-right: 15px;
-    padding-left: 35px;
+    align-items: center;
+    gap: 30px;
 }
 
 .section.video-teaser .videoteaser-wrapper .videoteaser div div p {
+    margin-bottom: 1rem;
     font-size: 16px;
-    color: #494949;
-    font-weight: normal;
-    line-height: 30px;
-    padding-bottom: 20px;
+    line-height: 20px;
+    color: #454545;
+    font-weight: 300;
+    text-align: left;
 }
 
 .section.video-teaser .videoteaser-wrapper .videoteaser div div h2 {
@@ -45,10 +41,7 @@
 }
 
 .section.video-teaser .videoteaser-wrapper .videoteaser div .embed {
-    width: 560px;
-    height: 360px;
-    right: 20px;
-    padding-top: 60px;
+    width: 480px;
 }
 
 @media screen and (width <= 768px) {
@@ -58,10 +51,7 @@
 
     .section.video-teaser .videoteaser-wrapper .videoteaser div .embed {
         width: 100%;
-        min-height: 303px;
-        height: 303px;
-        right: 20px;
-        padding-top: 60px;
+        min-width: 340px;
     }
 
     .section.video-teaser .videoteaser-wrapper .videoteaser div .embed div {
