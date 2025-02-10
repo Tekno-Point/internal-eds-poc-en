@@ -691,6 +691,23 @@
                 "value": "contact-us-cards"
               }
             ]
+          },
+          {
+            "name": "Hdfc-life Content Style",
+            "children": [
+              {
+                "name": "Hdfc life detail",
+                "value": "hdfc-detail"
+              },
+              {
+                "name": "Hdfc life detail dot",
+                "value": "hdfc-detail-dot"
+              },
+              {
+                "name": "Hdfc life detail img",
+                "value": "hdfc-detail-img"
+              }
+            ]
           }
         ]
       }
@@ -787,6 +804,15 @@
                 "value": "fino-reviews"
               }
             ]
+          },
+          {
+            "name": "hdfc life Content Style",
+            "children": [
+              {
+                "name": "hdfc One Slide Only",
+                "value": "hdfc-one-slide-only"
+              }
+          ]
           }
         ],
         "valueType": "string[]"
@@ -982,9 +1008,19 @@
         "label": "Container Style",
         "options": [
           {
-            "name": "Container Bg Color",
-            "value": "eds-container-bg-color"
+            "name": "hdfc life Content Style",
+            "children": [
+            {
+              "name": "Container Bg Color",
+              "value": "eds-container-bg-color"
+            },
+            {
+              "name": "hdfc Container width ",
+              "value": "eds-container-width"
+            }
+          ]
           }
+          
         ]
       }
     ]
@@ -1020,7 +1056,39 @@
       }
     ]
   },
-
+  {
+    "id": "rte",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Type",
+            "children": [
+              {
+                "name": "Table",
+                "value": "table"
+              },
+              {
+                "name": "hdfc Table",
+                "value": "hdfc-table"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "name": "richtext",
+        "value": "",
+        "label": "Content",
+        "valueType": "string"
+      }
+    ]
+  },
   {
     "id": "newcarousel",
     "fields": [
