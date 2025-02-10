@@ -107,6 +107,10 @@
             "name": "Content Style",
             "children": [
               {
+                "name": "Blue Backgroung",
+                "value": "blue-bg"
+              },
+              {
                 "name": "Fino Insurance Plans Cards",
                 "value": "fino-insurance-plans-cards"
               },
@@ -472,6 +476,14 @@
           {
             "name": "Content Style",
             "children": [
+              {
+                "name": "HDFC Blue FAQ",
+                "value": "hdfc-blue-faq"
+              },
+              {
+                "name": "HDFC Red FAQ",
+                "value": "hdfc-red-faq"
+              },
               {
                 "name": "Only One Expandable",
                 "value": "only-one-expandable"
