@@ -107,6 +107,10 @@
             "name": "Content Style",
             "children": [
               {
+                "name": "Blue Backgroung",
+                "value": "blue-bg"
+              },
+              {
                 "name": "Fino Insurance Plans Cards",
                 "value": "fino-insurance-plans-cards"
               },
@@ -473,6 +477,14 @@
             "name": "Content Style",
             "children": [
               {
+                "name": "HDFC Blue FAQ",
+                "value": "hdfc-blue-faq"
+              },
+              {
+                "name": "HDFC Red FAQ",
+                "value": "hdfc-red-faq"
+              },
+              {
                 "name": "Only One Expandable",
                 "value": "only-one-expandable"
               },
@@ -679,6 +691,23 @@
                 "value": "contact-us-cards"
               }
             ]
+          },
+          {
+            "name": "Hdfc-life Content Style",
+            "children": [
+              {
+                "name": "Hdfc life detail",
+                "value": "hdfc-detail"
+              },
+              {
+                "name": "Hdfc life detail dot",
+                "value": "hdfc-detail-dot"
+              },
+              {
+                "name": "Hdfc life detail img",
+                "value": "hdfc-detail-img"
+              }
+            ]
           }
         ]
       }
@@ -775,6 +804,15 @@
                 "value": "fino-reviews"
               }
             ]
+          },
+          {
+            "name": "hdfc life Content Style",
+            "children": [
+              {
+                "name": "hdfc One Slide Only",
+                "value": "hdfc-one-slide-only"
+              }
+          ]
           }
         ],
         "valueType": "string[]"
@@ -1033,6 +1071,10 @@
               {
                 "name": "Table",
                 "value": "table"
+              },
+              {
+                "name": "hdfc Table",
+                "value": "hdfc-table"
               }
             ]
           }
