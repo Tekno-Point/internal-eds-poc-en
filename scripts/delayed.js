@@ -23,4 +23,4 @@ function loadGTMScript() {
   document.head.append(script);
 }
 
-loadGTMScript();
+// loadGTMScript();
