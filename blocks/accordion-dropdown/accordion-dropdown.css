@@ -67,11 +67,73 @@ main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordio
   color: #005e9e;
 }
 
-.accordion-dropdown.hdfc-blue-faq details summary,
+.accordion-dropdown.hdfc-blue-faq details summary {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  cursor: pointer;
+}
+
 .accordion-dropdown.hdfc-blue-faq details summary h3 {
   color: #005e9e;
   font-weight: 600;
   font-size: 22px;
   line-height: 22px;
+}
+
+.accordion-dropdown.hdfc-blue-faq details summary span {
+  color: #005e9e;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown.block.hdfc-red-faq .accordion-item {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #c7cacc;
+  margin: 15px 0;
+  position: relative;
+}
+main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown.block.hdfc-red-faq .accordion-item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 0;
+  background: #ed1c24;
+  left: 0;
+  top: -1px;
+  transition: all 0.5s linear;
+}
+
+main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown.block.hdfc-red-faq .accordion-item[open]::before {
+  height: 100px;
+}
+
+.accordion-dropdown.hdfc-red-faq details summary {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
   cursor: pointer;
+}
+
+.accordion-dropdown.hdfc-red-faq details summary span {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, #edf8ff, #edf8ff00);
+  text-align: center;
+  color: #005e9e;
+}
+
+.accordion-dropdown.hdfc-red-faq details summary h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #233253;
 }

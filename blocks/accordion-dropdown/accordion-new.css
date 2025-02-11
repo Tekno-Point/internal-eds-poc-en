@@ -63,7 +63,20 @@ main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordio
   padding-left: 10px;
 }
 
+main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown.block.hdfc-blue-faq .accordion-item .accordion-item-body p {
+  padding-left: 35px;
+}
+
 main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown.block .accordion-item .accordion-item-body p a {
   text-decoration: underline;
   color: rgb(51 102 255);
+}
+
+main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown.block.hdfc-red-faq .accordion-item .accordion-item-body {
+  border-left: unset;
+  padding-left: 32px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #5a5a5a;
 }

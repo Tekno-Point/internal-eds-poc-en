@@ -381,3 +381,25 @@ header .nav-wrapper #nav {
     padding-bottom: 0 !important;
   }
 }
+
+.hdfc-table table{
+  border-collapse:collapse;
+}
+
+.hdfc-table  table  td,.hdfc-table  table  th{
+  border:1px solid white;
+   margin: 0 auto;
+   padding: 15px 10px;
+  font-size:16px;
+  line-height:24px;
+  color:#5a5a5a;
+  font-weight:400;
+}
+
+.hdfc-table table tbody tr:nth-child(odd) {
+  background-color: #EAF1F8;
+}
+
+.hdfc-table table tbody tr:nth-child(even) {
+  background-color: #F2F2F2;
+}

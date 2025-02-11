@@ -4,11 +4,24 @@ export default function decorate(block) {
   const accordionItems = [];
 
   // Decorate each row
-  [...block.children].forEach((row) => {
+  [...block.children].forEach((row, index) => {
     // Decorate accordion item label
     const label = row.children[0];
     const summary = document.createElement('summary');
     summary.className = 'accordion-item-label';
+    
+    if(block.classList.contains('hdfc-blue-faq')) {
+      const pointer = document.createElement('span');
+      let formattedNumber = String(index).padStart(2, '0');
+      pointer.textContent = formattedNumber;
+      summary.append(pointer)
+    }
+
+    if(block.classList.contains('hdfc-red-faq')) {
+      const pointer = document.createElement('span');
+      pointer.textContent = index + ".";
+      summary.append(pointer)
+    }
     summary.append(...label.childNodes);
 
     // Decorate accordion item body
@@ -27,7 +40,7 @@ export default function decorate(block) {
   });
 
   // Add event listeners to manage open state
-  accordionItems.forEach((item) => {
+  accordionItems.forEach((item, index) => {
     if (isDesktop.matches && block.classList.contains('only-mobile-expandable')) {
       item.disabled = true;
       item.open = true;
@@ -44,6 +57,12 @@ export default function decorate(block) {
           });
         }
       });
+    }
+
+    if(block.classList.contains('hdfc-blue-faq') || block.classList.contains('hdfc-red-faq')) {
+      if(index == 1) {
+        item.open = true;
+      }
     }
   });
 }
