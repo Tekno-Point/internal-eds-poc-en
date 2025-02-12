@@ -706,6 +706,10 @@
               {
                 "name": "Hdfc life detail img",
                 "value": "hdfc-detail-img"
+              },
+              {
+                "name": "Hdfc life card number",
+                "value": "hdfc-card-number"
               }
             ]
           }
@@ -1017,6 +1021,10 @@
             {
               "name": "hdfc Container width ",
               "value": "eds-container-width"
+            },
+            {
+              "name": "HDFC Overflow",
+              "value": "hdfc-overflow"
             }
           ]
           }
