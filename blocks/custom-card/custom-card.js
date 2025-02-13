@@ -1,9 +1,36 @@
-export default function decorate() {
+export default function decorate(block) {
+  [...block.children].forEach((card, index) =>{
+    if (block.classList.contains('hdfc-card-number')) {
+      card.classList.add('number-card');
+      card.firstElementChild.classList.add('blue-number');
+      card.firstElementChild.textContent = index+1;
+
+      const readMoreButton = card.querySelector('.button')
+      
+      if (readMoreButton) {
+        readMoreButton.addEventListener("click", (e) => {
+          e.preventDefault();
+            const parentElement = e.target.parentElement;
+            const previousSibling = parentElement.previousElementSibling;
+            
+            previousSibling.classList.toggle('active');
+            if (e.target.textContent.includes('more') || e.target.textContent.includes('More')) {
+                e.target.textContent = 'Read Less';
+            } else {
+                e.target.textContent = 'Read More';
+            }
+     
+        });
+      }
+    }
+  });
+
   const hdfc=document.querySelectorAll('.hdfc-detail');
   if(hdfc.length > 0){
     hdfc.forEach((element) => {
       // Add event listener to each .button inside the element
       element.querySelector('.button').addEventListener("click", (e) => {
+        e.preventDefault();
           // Find the parent element of the button
           const parentElement = e.target.parentElement;
           // Find the previous sibling of the parent

@@ -12,17 +12,25 @@ export default function decorate(block) {
     
     if(block.classList.contains('hdfc-blue-faq')) {
       const pointer = document.createElement('span');
+      pointer.classList.add("number");
       let formattedNumber = String(index).padStart(2, '0');
       pointer.textContent = formattedNumber;
       summary.append(pointer)
     }
-
+    
     if(block.classList.contains('hdfc-red-faq')) {
       const pointer = document.createElement('span');
+      pointer.classList.add("number");
       pointer.textContent = index + ".";
       summary.append(pointer)
     }
     summary.append(...label.childNodes);
+
+    if(block.classList.contains('hdfc-red-faq')) {
+      const arrow = document.createElement('span');
+      arrow.classList.add("red-arrow");
+      summary.append(arrow);
+    }
 
     // Decorate accordion item body
     const body = row.children[1];

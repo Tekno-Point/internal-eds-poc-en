@@ -111,6 +111,10 @@ main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordio
   height: 100px;
 }
 
+.accordion-dropdown.hdfc-red-faq details summary::after {
+  content: unset;
+}
+
 .accordion-dropdown.hdfc-red-faq details summary {
   display: flex;
   justify-content: start;
@@ -119,7 +123,8 @@ main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordio
   cursor: pointer;
 }
 
-.accordion-dropdown.hdfc-red-faq details summary span {
+.accordion-dropdown.hdfc-red-faq details summary span.number {
+  flex: none;
   width: 46px;
   height: 46px;
   border-radius: 50%;
@@ -136,4 +141,42 @@ main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordio
   font-size: 16px;
   line-height: 16px;
   color: #233253;
+}
+
+
+.accordion-dropdown.hdfc-red-faq .red-arrow{
+  background: #fff;
+  border: 1px solid #ed1c2499;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 5px;
+  color: white;
+  margin-left: auto;
+  position: relative;
+  flex: none;
+}
+
+.accordion-dropdown.hdfc-red-faq .red-arrow::after {
+  content: "";
+  color: #ed1c24;
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  transform: rotate(135deg);
+  width: 6px;
+  height: 6px;
+  border: 2px solid;
+  border-width: 2px 2px 0 0;
+  transition: transform 0.2s;
+}
+
+.accordion-dropdown.hdfc-red-faq details[open] .red-arrow {
+  background: #ed1c24;
+}
+
+.accordion-dropdown.hdfc-red-faq details[open] .red-arrow::after {
+  color: #fff;
+  transform: rotate(-45deg);
+  top: 7px;
 }

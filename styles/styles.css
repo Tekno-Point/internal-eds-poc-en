@@ -382,11 +382,11 @@ header .nav-wrapper #nav {
   }
 }
 
-.hdfc-table table{
+table{
   border-collapse:collapse;
 }
 
-.hdfc-table  table  td,.hdfc-table  table  th{
+ table  td, table  th{
   border:1px solid white;
    margin: 0 auto;
    padding: 15px 10px;
@@ -396,10 +396,21 @@ header .nav-wrapper #nav {
   font-weight:400;
 }
 
-.hdfc-table table tbody tr:nth-child(odd) {
+table tbody tr:nth-child(odd) {
   background-color: #EAF1F8;
 }
 
-.hdfc-table table tbody tr:nth-child(even) {
+table tbody tr:nth-child(even) {
   background-color: #F2F2F2;
+}
+
+.default-content-wrapper .button-container a {
+  background: #ed1c24;
+  border: 1px solid #ed1c24;
+  color: #fff;
+  padding: 4px 20px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
 }
