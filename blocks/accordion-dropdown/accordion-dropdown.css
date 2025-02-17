@@ -161,8 +161,8 @@ main .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordio
   content: "";
   color: #ed1c24;
   position: absolute;
-  top: 5px;
-  left: 7px;
+  top: 4px;
+  left: 5.2px;
   transform: rotate(135deg);
   width: 6px;
   height: 6px;

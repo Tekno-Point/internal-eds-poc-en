@@ -24,7 +24,6 @@ export default function decorate(block) {
       }
     }
 
-    debugger;
     if (block.classList.contains('hdfc-detail')) {
 
       // Add event listener to each .button inside the element
