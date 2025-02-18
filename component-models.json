@@ -126,8 +126,20 @@
                },
                 {
                   "name":"section subtitleright ",
-                  "value":"section-subtitleright "
+                  "value":"section-subtitleright"
               },
+              {
+                "name":"section bandhancontainerone",
+                "value":"section-bandhancontainer-one"
+            },
+            {
+              "name":"section bandhancontainertwo",
+              "value":"section-bandhancontainer-two"
+          },
+              {
+                "name":"section bandhancontainer beyond ",
+                "value":"section-bandhancontainer-beyond"
+            },
               {
                 "name": "Fino Insurance Plans Cards",
                 "value": "fino-insurance-plans-cards"
@@ -851,6 +863,10 @@
               {
                 "name": "bandhan bank",
                 "value": "bandhan-bank-carousel1"
+              },
+              {
+                "name": "bandhan bank carousel2",
+                "value": "bandhan-bank-carousel2"
               }
              
             ]
