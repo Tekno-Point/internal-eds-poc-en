@@ -323,16 +323,16 @@ header nav {
 
 /* Nav Section Start */
 
-header nav .nav-sections{
+header nav .nav-sections {
   height: 100%;
 }
 
-header nav .nav-sections ul{
+header nav .nav-sections ul {
   display: flex;
   gap: unset;
 }
 
-header nav[aria-expanded='true'] .nav-sections{
+header nav[aria-expanded='true'] .nav-sections {
   width: 50%;
   height: 100%;
 }
@@ -340,11 +340,11 @@ header nav[aria-expanded='true'] .nav-sections{
 header nav .nav-sections .default-content-wrapper,
 header nav .nav-sections .default-content-wrapper>ul,
 header nav .nav-tools .default-content-wrapper,
-header nav .nav-tools .default-content-wrapper>ul{
+header nav .nav-tools .default-content-wrapper>ul {
   height: 100%;
 }
 
-header nav .nav-sections .default-content-wrapper>ul>li{
+header nav .nav-sections .default-content-wrapper>ul>li {
   position: relative;
   height: 100%;
   margin: 0 9px;
@@ -352,21 +352,21 @@ header nav .nav-sections .default-content-wrapper>ul>li{
   align-items: center;
 }
 
-header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]{
+header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"] {
   background-color: #E3F2FF;
   color: #004880;
   font-weight: bold;
 }
 
-header nav .nav-sections .default-content-wrapper>ul>li:hover{
+header nav .nav-sections .default-content-wrapper>ul>li:hover {
   background-color: #E3F2FF;
 }
 
-header nav .nav-sections .default-content-wrapper>ul>li:hover  >a img {
+header nav .nav-sections .default-content-wrapper>ul>li:hover>a img {
   transform: scale(1.1);
 }
 
-header nav .nav-sections .default-content-wrapper>ul>li >a{
+header nav .nav-sections .default-content-wrapper>ul>li>a {
   position: relative;
   align-items: center;
   display: flex;
@@ -382,11 +382,9 @@ header nav .nav-sections .default-content-wrapper>ul>li >a{
   gap: 3px;
 }
 
-header nav .nav-sections .default-content-wrapper>ul>li >a .icon{
+header nav .nav-sections .default-content-wrapper>ul>li>a .icon {}
 
-} 
-
-header nav .nav-sections .default-content-wrapper>ul>li >a img  {
+header nav .nav-sections .default-content-wrapper>ul>li>a img {
   display: block;
   width: 18px;
   height: 18px;
@@ -394,20 +392,25 @@ header nav .nav-sections .default-content-wrapper>ul>li >a img  {
   transition: all 0.4s ease-out;
 }
 
+header nav .nav-sections .default-content-wrapper>ul>li:nth-child(n+6),
+header nav .nav-sections .default-content-wrapper>ol {
+  display: none;
+}
+
 /* Nav Section End */
 
 /* Nav Tools Start */
 
-header nav .nav-tools{
+header nav .nav-tools {
   width: 28%;
   height: 100%;
 }
 
-header nav .nav-tools .default-content-wrapper >ul{
+header nav .nav-tools .default-content-wrapper>ul {
   display: flex;
 }
 
-header nav .nav-tools .default-content-wrapper >ul >li{
+header nav .nav-tools .default-content-wrapper>ul>li {
   list-style: none;
   margin: 0px 10px;
   display: flex;
@@ -415,37 +418,57 @@ header nav .nav-tools .default-content-wrapper >ul >li{
   position: relative;
 }
 
-header nav .nav-tools .default-content-wrapper >ul >li >ul[aria-expanded='false']{
+header nav .nav-tools .default-content-wrapper>ul>li>ul[aria-expanded='false'] {
   display: none;
 }
 
-header nav .nav-tools .default-content-wrapper >ul >li >ul[aria-expanded='true']{
+header nav .nav-tools .default-content-wrapper>ul>li>ul[aria-expanded='true'] {
   display: block;
-  bottom: -47px;
-    position: absolute;
-    right: 0;
-    z-index: 1000;
-    min-width: 10rem;
-    padding: .5rem 0;
-    margin: .125rem 0 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, .15);
-    top: 100%;
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .15);
+  top: 100%;
+  min-width: 260px;
+  padding: 20px 15px;
 }
 
-header nav .nav-tools .default-content-wrapper >ul >li >.button-container >a >span img{
+header nav .nav-tools .default-content-wrapper>ul>li>ul[aria-expanded='true'] >li >a{
+  color: #004880;
+  border: 1px solid #004880;
+  border-radius: 5px;
+  padding: 8px 10px;
+  width: 100%;
   display: block;
-    width: 20px;
-    height: 20px;
+  margin: 0 auto 15px;
+  text-align: center;
+  line-height: 1.2;
 }
 
-header nav .nav-tools .default-content-wrapper >ul >li >.button-container strong,
-header nav .nav-tools .default-content-wrapper >ul >li >.button-container em{
+header nav .nav-tools .default-content-wrapper>ul>li>p strong a:first-child,
+header nav .nav-tools .default-content-wrapper>ul>li>p em:first-child{
+  display: none;
+}
+
+header nav .nav-tools .default-content-wrapper>ul>li>p>a>span img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+
+
+header nav .nav-tools .default-content-wrapper>ul>li>p strong,
+header nav .nav-tools .default-content-wrapper>ul>li>p em {
   padding: 7px 15px;
   color: #093252;
   background-color: #fff;
@@ -460,15 +483,21 @@ header nav .nav-tools .default-content-wrapper >ul >li >.button-container em{
 }
 
 
-header nav .nav-tools .default-content-wrapper >ul >li >.button-container em{
+header nav .nav-tools .default-content-wrapper>ul>li>p em {
   color: #fff;
   background-color: #004880;
   border-color: #004880;
   outline: 0;
 }
 
-header nav .nav-tools .default-content-wrapper >ul >li >.button-container strong a,
-header nav .nav-tools .default-content-wrapper >ul >li >.button-container em a{
+header nav .nav-tools .default-content-wrapper>ul>li>p em:first-child{
+  background-color: unset;
+  margin: unset;
+  padding: unset;
+}
+
+header nav .nav-tools .default-content-wrapper>ul>li>p strong a,
+header nav .nav-tools .default-content-wrapper>ul>li>p em a {
   font-weight: 400;
   text-decoration: none;
   white-space: nowrap;
@@ -478,15 +507,130 @@ header nav .nav-tools .default-content-wrapper >ul >li >.button-container em a{
 
 @media only screen and (min-width: 1400px) {
   header nav[aria-expanded='true'] {
-      height: 80px;
+    height: 80px;
   }
 }
 
 @media only screen and (min-width: 1200px) and (min-width: 1500px) {
   header nav[aria-expanded='true'] {
-      padding-right: 110px;
-      padding-left: 110px;
+    padding-right: 110px;
+    padding-left: 110px;
   }
 }
 
 /* Bandhan bank header End */
+
+
+@media screen and (max-width: 725px) {
+
+  header nav {
+    display: flex;
+    padding: 0 16px;
+  }
+
+
+  header nav .nav-tools{
+    width: auto;
+  }
+
+  header nav[aria-expanded='true'] {
+    min-height: unset;
+    overflow: unset;
+  }
+
+  header nav[aria-expanded='true'] .nav-sections {
+    position: fixed;
+    width: 80%;
+    max-width: 300px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+    z-index: 10;
+    padding-top: 20px;
+    min-height: 100dvh;
+  }
+
+  header nav .nav-sections ul {
+    flex-direction: column;
+  }
+
+  header nav .nav-hamburger button[aria-label="Close navigation"] {
+    position: absolute;
+    left: 305px;
+    top: 0;
+    z-index: 2;
+  }
+
+  header nav .nav-sections .default-content-wrapper>ul{
+    height: unset;
+  }
+
+  header nav .nav-sections .default-content-wrapper>ul>li:nth-child(n+6),
+  header nav .nav-sections .default-content-wrapper>ol {
+    display: flex;
+  }
+
+  header nav .nav-sections .default-content-wrapper>ul>li{
+    justify-content: flex-start;
+  }
+
+  header nav .nav-tools .default-content-wrapper>ul>li >p:has(em){
+    width: 22px;
+    height: 22px;
+  }
+
+  header nav .nav-sections .default-content-wrapper>ul>li>a{
+    flex-direction: row;
+    gap: 15px;
+    padding: 13px 30px 13px 25px;
+  }
+
+  header nav .nav-sections .default-content-wrapper>ol{
+    gap: 15px;
+    padding: 13px 30px 13px 30px;
+  }
+  header nav .nav-sections .default-content-wrapper>ol >li{
+    list-style: none;
+  }
+
+  header nav .nav-sections .default-content-wrapper>ol >li >a >span >img{
+    display: block;
+    width: 22px;
+    height: 22px;
+  }
+
+  header nav .nav-sections .default-content-wrapper >p{
+    font-size: 10px;
+    padding-left: 30px;
+    margin-top: 5px;
+  }
+
+  header nav .nav-tools .default-content-wrapper>ul>li>p strong a:first-child,
+  header nav .nav-tools .default-content-wrapper>ul>li>p  em:first-child{
+    display: block;
+
+  }
+
+  header nav .nav-tools .default-content-wrapper>ul>li>p >strong >a:first-child >span >img,
+  header nav .nav-tools .default-content-wrapper>ul>li>p >em:first-child a >span >img{
+    display: block;
+    width: 18px;
+    height: 18px;
+  }
+
+  header nav .nav-tools .default-content-wrapper>ul>li>p >strong >em:first-child{
+    background-color: unset;
+  }
+
+  header nav .nav-tools .default-content-wrapper>ul>li>p strong, header nav .nav-tools .default-content-wrapper>ul>li>p em{
+    border: unset;
+    max-height: 50px;
+    padding: 0 15px;
+  }
+
+  header nav .nav-tools .default-content-wrapper>ul>li>p strong a:last-child,
+  header nav .nav-tools .default-content-wrapper>ul>li>p em:last-child{
+    display: none;
+  }
+}
