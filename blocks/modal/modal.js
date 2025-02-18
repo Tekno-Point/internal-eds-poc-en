@@ -5,7 +5,7 @@ import {
   loadCSS,
 } from '../../scripts/aem.js';
 import { loadFragment } from '../../scripts/scripts.js';
-import { toggleMenu } from '../header/header.js';
+// import { toggleMenu } from '../header/header.js';
 
 /*
   This is not a traditional block, so there is no decorate function.

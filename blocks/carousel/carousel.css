@@ -2,3 +2,16 @@
 @import url("./custom-carousel.css");
 @import url("../carousel/life-insurance.css");
 @import url("../carousel/reviews.css");
+
+
+.carousel-wrapper{
+    background-color: azure;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.27);
+        padding: 50px 20px;
+        margin-bottom: 40px;
+        background-color: white;
+        color: #034880;
+        font-size: 24px;
+        display: flex;
+        border-radius: 10px;
+}
