@@ -4,7 +4,7 @@ import { loadFragment } from '../../scripts/scripts.js';
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
 
-function closeOnEscape(e) {
+/* function closeOnEscape(e) {
   if (e.code === 'Escape') {
     const nav = document.getElementById('nav');
     const navSections = nav.querySelector('.nav-sections');
@@ -19,9 +19,9 @@ function closeOnEscape(e) {
       nav.querySelector('button').focus();
     }
   }
-}
+} */
 
-function closeOnFocusLost(e) {
+/* function closeOnFocusLost(e) {
   const nav = e.currentTarget;
   if (!nav.contains(e.relatedTarget)) {
     const navSections = nav.querySelector('.nav-sections');
@@ -34,9 +34,9 @@ function closeOnFocusLost(e) {
       toggleMenu(nav, navSections, false);
     }
   }
-}
+} */
 
-function openOnKeydown(e) {
+/* function openOnKeydown(e) {
   const focused = document.activeElement;
   const isNavDrop = focused.className === 'nav-drop';
   if (isNavDrop && (e.code === 'Enter' || e.code === 'Space')) {
@@ -45,11 +45,11 @@ function openOnKeydown(e) {
     toggleAllNavSections(focused.closest('.nav-sections'));
     focused.setAttribute('aria-expanded', dropExpanded ? 'false' : 'true');
   }
-}
+} */
 
-function focusNavSection() {
+/* function focusNavSection() {
   document.activeElement.addEventListener('keydown', openOnKeydown);
-}
+} */
 
 /**
  * Toggles all nav sections
@@ -58,6 +58,12 @@ function focusNavSection() {
  */
 function toggleAllNavSections(sections, expanded = false) {
   sections.querySelectorAll('.nav-sections .default-content-wrapper > ul > li').forEach((section) => {
+    section.setAttribute('aria-expanded', expanded);
+  });
+}
+
+function toggleAllSubNavSections(sections, expanded = false) {
+  sections.querySelectorAll('.default-content-wrapper > ul > li >ul').forEach((section) => {
     section.setAttribute('aria-expanded', expanded);
   });
 }
@@ -94,12 +100,12 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   // enable menu collapse on escape keypress
   if (!expanded || isDesktop.matches) {
     // collapse menu on escape press
-    window.addEventListener('keydown', closeOnEscape);
+    // window.addEventListener('keydown', closeOnEscape);
     // collapse menu on focus lost
-    nav.addEventListener('focusout', closeOnFocusLost);
+    // nav.addEventListener('focusout', closeOnFocusLost);
   } else {
-    window.removeEventListener('keydown', closeOnEscape);
-    nav.removeEventListener('focusout', closeOnFocusLost);
+    // window.removeEventListener('keydown', closeOnEscape);
+    // nav.removeEventListener('focusout', closeOnFocusLost);
   }
 }
 
@@ -140,6 +146,23 @@ export default async function decorate(block) {
         if (isDesktop.matches) {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
           toggleAllNavSections(navSections);
+          navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        }
+      });
+    });
+  }
+
+  const toolsSections = nav.querySelector('.nav-tools');
+  if (toolsSections) {
+    toolsSections.querySelectorAll(':scope .default-content-wrapper > ul > li >ul').forEach((navSection) => {
+      if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
+      const expanded = navSection.getAttribute('aria-expanded') === 'true';
+      // toggleAllSubNavSections(toolsSections);
+      navSection.setAttribute('aria-expanded', 'false');
+      navSection.closest("li")?.querySelector("strong, em")?.addEventListener('click', () => {
+        if (isDesktop.matches) {
+          const expanded = navSection.getAttribute('aria-expanded') === 'true';
+          toggleAllSubNavSections(toolsSections);
           navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
         }
       });
