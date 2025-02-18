@@ -1,3 +1,5 @@
+@import url("./bandhan-bank-header.css");
+
 /* header and nav layout */
 header .nav-wrapper {
   background-color: var(--background-color);
@@ -10,8 +12,7 @@ header nav {
   box-sizing: border-box;
   display: grid;
   grid-template:
-    'hamburger brand tools' var(--nav-height)
-    'sections sections sections' 1fr / auto 1fr auto;
+    'hamburger brand tools' var(--nav-height) 'sections sections sections' 1fr / auto 1fr auto;
   align-items: center;
   gap: 0 24px;
   margin: auto;
@@ -23,14 +24,13 @@ header nav {
 
 header nav[aria-expanded='true'] {
   grid-template:
-    'hamburger brand' var(--nav-height)
-    'sections sections' 1fr
+    'hamburger brand' var(--nav-height) 'sections sections' 1fr
     'tools tools' var(--nav-height) / auto 1fr;
   overflow-y: auto;
   min-height: 100dvh;
 }
 
-@media (width >= 900px) {
+@media (width >=900px) {
   header nav {
     display: flex;
     justify-content: space-between;
@@ -128,7 +128,7 @@ header nav[aria-expanded='true'] .nav-hamburger-icon::after {
   transform: rotate(-45deg);
 }
 
-@media (width >= 900px) {
+@media (width >=900px) {
   header nav .nav-hamburger {
     display: none;
     visibility: hidden;
@@ -169,19 +169,19 @@ header nav .nav-sections ul {
   font-size: var(--body-font-size-s);
 }
 
-header nav .nav-sections ul > li {
+header nav .nav-sections ul>li {
   font-weight: 500;
 }
 
-header nav .nav-sections ul > li > ul {
+header nav .nav-sections ul>li>ul {
   margin-top: 0;
 }
 
-header nav .nav-sections ul > li > ul > li {
+header nav .nav-sections ul>li>ul>li {
   font-weight: 400;
 }
 
-@media (width >= 900px) {
+@media (width >=900px) {
   header nav .nav-sections {
     display: block;
     visibility: visible;
@@ -224,17 +224,17 @@ header nav .nav-sections ul > li > ul > li {
     margin: 0;
   }
 
-  header nav .nav-sections .default-content-wrapper > ul > li {
+  header nav .nav-sections .default-content-wrapper>ul>li {
     flex: 0 1 auto;
     position: relative;
   }
 
-  header nav .nav-sections .default-content-wrapper > ul > li > ul {
+  header nav .nav-sections .default-content-wrapper>ul>li>ul {
     display: none;
     position: relative;
   }
 
-  header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] > ul {
+  header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded='true']>ul {
     display: block;
     position: absolute;
     left: -24px;
@@ -245,7 +245,7 @@ header nav .nav-sections ul > li > ul > li {
     white-space: initial;
   }
 
-  header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
+  header nav .nav-sections .default-content-wrapper>ul>li>ul::before {
     content: '';
     position: absolute;
     top: -8px;
@@ -257,7 +257,7 @@ header nav .nav-sections ul > li > ul > li {
     border-bottom: 8px solid var(--light-color);
   }
 
-  header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
+  header nav .nav-sections .default-content-wrapper>ul>li>ul>li {
     padding: 8px 0;
   }
 }
@@ -266,3 +266,189 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+/* Bandhan bank header Start */
+
+header .nav-wrapper {
+  position: relative;
+}
+
+header .nav-wrapper {
+  background-color: #fff !important;
+  border-bottom: 1px solid #E6E6E6;
+  box-shadow: 6px 3px 6px #0000001F;
+}
+
+header nav {
+  max-width: unset;
+}
+
+/* Nav Section Start */
+
+header nav .nav-sections{
+  height: 100%;
+}
+
+header nav .nav-sections ul{
+  display: flex;
+  gap: unset;
+}
+
+header nav[aria-expanded='true'] .nav-sections{
+  width: 50%;
+  height: 100%;
+}
+
+header nav .nav-sections .default-content-wrapper,
+header nav .nav-sections .default-content-wrapper>ul,
+header nav .nav-tools .default-content-wrapper,
+header nav .nav-tools .default-content-wrapper>ul{
+  height: 100%;
+}
+
+header nav .nav-sections .default-content-wrapper>ul>li{
+  position: relative;
+  height: 100%;
+  margin: 0 9px;
+  display: flex;
+  align-items: center;
+}
+
+header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]{
+  background-color: #E3F2FF;
+  color: #004880;
+  font-weight: bold;
+}
+
+header nav .nav-sections .default-content-wrapper>ul>li:hover{
+  background-color: #E3F2FF;
+}
+
+header nav .nav-sections .default-content-wrapper>ul>li:hover  >a img {
+  transform: scale(1.1);
+}
+
+header nav .nav-sections .default-content-wrapper>ul>li >a{
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 13px 30px 13px 60px;
+  background-color: transparent;
+  font-size: 16px;
+  color: #004880;
+  cursor: pointer;
+  padding: 0 20px;
+  text-decoration: unset;
+  gap: 3px;
+}
+
+header nav .nav-sections .default-content-wrapper>ul>li >a .icon{
+
+} 
+
+header nav .nav-sections .default-content-wrapper>ul>li >a img  {
+  display: block;
+  width: 18px;
+  height: 18px;
+  transform: scale(1);
+  transition: all 0.4s ease-out;
+}
+
+/* Nav Section End */
+
+/* Nav Tools Start */
+
+header nav .nav-tools{
+  width: 28%;
+  height: 100%;
+}
+
+header nav .nav-tools .default-content-wrapper >ul{
+  display: flex;
+}
+
+header nav .nav-tools .default-content-wrapper >ul >li{
+  list-style: none;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+header nav .nav-tools .default-content-wrapper >ul >li >ul[aria-expanded='false']{
+  display: none;
+}
+
+header nav .nav-tools .default-content-wrapper >ul >li >ul[aria-expanded='true']{
+  display: block;
+  bottom: -47px;
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    top: 100%;
+}
+
+header nav .nav-tools .default-content-wrapper >ul >li >.button-container >a >span img{
+  display: block;
+    width: 20px;
+    height: 20px;
+}
+
+header nav .nav-tools .default-content-wrapper >ul >li >.button-container strong,
+header nav .nav-tools .default-content-wrapper >ul >li >.button-container em{
+  padding: 7px 15px;
+  color: #093252;
+  background-color: #fff;
+  border-color: #093252;
+  border: 2px solid #093252;
+  text-decoration: none;
+  outline: 0;
+  font-size: 14px;
+  border-radius: 4px;
+  line-height: 15px;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+header nav .nav-tools .default-content-wrapper >ul >li >.button-container em{
+  color: #fff;
+  background-color: #004880;
+  border-color: #004880;
+  outline: 0;
+}
+
+header nav .nav-tools .default-content-wrapper >ul >li >.button-container strong a,
+header nav .nav-tools .default-content-wrapper >ul >li >.button-container em a{
+  font-weight: 400;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Nav Tools End */
+
+@media only screen and (min-width: 1400px) {
+  header nav[aria-expanded='true'] {
+      height: 80px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (min-width: 1500px) {
+  header nav[aria-expanded='true'] {
+      padding-right: 110px;
+      padding-left: 110px;
+  }
+}
+
+/* Bandhan bank header End */
