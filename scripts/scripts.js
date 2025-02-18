@@ -33,6 +33,24 @@ export function moveAttributes(from, to, attributes) {
   });
 }
 
+
+/**
+ * Wraps images followed by links within a matching <a> tag.
+ * @param {Element} container The container element
+ */
+function wrapImgsInLinks(container) {
+  const pictures = container.querySelectorAll('picture');
+  pictures.forEach((pic) => {
+    debugger;
+    const link = pic.parentElement.nextElementSibling;
+    if (link.classList.contains('button-container')) {
+      link.querySelector('a').innerHTML = '';
+      link.querySelector('a').append(pic)
+      // pic.replaceWith(link);
+    }
+  });
+}
+
 /**
  * Move instrumentation attributes from a given element to another given element.
  * @param {Element} from the element to copy attributes from
@@ -128,6 +146,7 @@ export function decorateMain(main) {
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
+  wrapImgsInLinks(main);
 }
 
 /**

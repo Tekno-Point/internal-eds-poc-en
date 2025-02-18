@@ -1,14 +1,26 @@
 footer {
   /* padding: 2rem; */
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-s);
+  /* background-color: var(--light-color); */
+  /* font-size: var(--body-font-size-s); */
+  height: 8vh;
+  background-color: #00152d;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Lato;
+  font-size: 15px;
+
+  margin-top: 20px;
+
 }
 
 footer .footer {
-  max-width: unset;
-  margin: auto;
+  padding-top: 3vh;
+  margin-left: 10vw;
+
 }
 
 footer .footer p {
   margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  
 }
