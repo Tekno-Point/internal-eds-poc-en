@@ -140,6 +140,10 @@
                 "name":"section bandhancontainer beyond ",
                 "value":"section-bandhancontainer-beyond"
             },
+            {
+              "name":"section scaner",
+                "value":"section-scaner"
+            },
               {
                       "name":"section hero ",
                       "value":"section-hero"
