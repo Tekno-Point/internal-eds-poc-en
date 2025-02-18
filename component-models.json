@@ -844,6 +844,16 @@
                 "value": "hdfc-one-slide-only"
               }
           ]
+          },
+          {
+            "name": "bandhan bank Style",
+            "children": [
+              {
+                "name": "bandhan bank",
+                "value": "bandhan-bank-carousel1"
+              }
+             
+            ]
           }
         ],
         "valueType": "string[]"
