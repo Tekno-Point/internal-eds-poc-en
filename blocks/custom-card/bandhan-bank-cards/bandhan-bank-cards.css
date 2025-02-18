@@ -487,9 +487,10 @@ border: 2px solid #3399E8;
 /* section-bandhancontainer-beyond  */
 
 /* section-subtitleright */
-.section-subtitleright .default-content-wrapper {
+.section-subtitleright .default-content-wrapper:nth-child(1) {
   margin-left:41.00%
 }
+
 /* section-subtitleright */
 
 /* section-scaner */
@@ -524,5 +525,16 @@ font-weight:400;
 color: #fff;
 background-color: #3399E8;
 border-color: #3399E8;
+}
+.section-scaner .default-content-wrapper ul > li:nth-child(1) h3{
+  font-size: 24px;
+ font-weight: 300;
+
+}
+
+.section-scaner .default-content-wrapper ul > li:nth-child(2) h3{
+     font-size: 40px;
+ font-weight: 900;
+line-height: 48px;
 }
 /* section-scaner */
