@@ -843,6 +843,10 @@
                 "value": "three-slides-only"
               },
               {
+                "name": "Five Slides Only",
+                "value": "five-Slides-only"
+              },
+              {
                 "name": "Reviews",
                 "value": "reviews"
               },
