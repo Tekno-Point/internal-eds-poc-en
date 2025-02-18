@@ -111,6 +111,52 @@
                 "value": "blue-bg"
               },
               {
+                   "name":"section subtitle",
+                   "value":"section-subtitle"
+
+              },
+              {
+                "name":"section bandhancontainer ",
+                "value":"section-bandhancontainer "
+
+             },
+             {
+              "name":"section subtitleleft ",
+              "value":"section-subtitleleft "
+               },
+                {
+                  "name":"section subtitleright ",
+                  "value":"section-subtitleright"
+              },
+              {
+                "name":"section bandhancontainerone",
+                "value":"section-bandhancontainer-one"
+            },
+            {
+              "name":"section bandhancontainertwo",
+                "value":"section-bandhancontainer-two"
+            },
+              {
+                "name":"section bandhancontainer beyond ",
+                "value":"section-bandhancontainer-beyond"
+            },
+            {
+              "name":"section scaner",
+                "value":"section-scaner"
+            },
+              {
+                      "name":"section hero ",
+                      "value":"section-hero"
+                  },
+                  {
+                    "name":"section accountbtn ",
+                    "value":"section-accountbtn"
+                },
+                {
+                  "name":"section neo ",
+                  "value":"section-neo"
+              },
+              {
                 "name": "Fino Insurance Plans Cards",
                 "value": "fino-insurance-plans-cards"
               },
@@ -712,6 +758,15 @@
                 "value": "hdfc-card-number"
               }
             ]
+          },
+          {
+            "name": "bandhan-bank Content Style",
+            "children": [
+              {
+                "name": "bandhan bank detail",
+                "value": "bandhan-customdetail"
+              }
+            ]
           }
         ]
       }
@@ -817,6 +872,24 @@
                 "value": "hdfc-one-slide-only"
               }
           ]
+          },
+          {
+            "name": "bandhan bank Style",
+            "children": [
+              {
+                "name": "bandhan bank",
+                "value": "bandhan-bank-carousel1"
+              },
+              {
+                "name": "bandhan bank carousel2",
+                "value": "bandhan-bank-carousel2"
+              },
+              {
+                "name": "bandhan bank carousel3",
+                "value": "bandhan-bank-carousel3"
+              }
+             
+            ]
           }
         ],
         "valueType": "string[]"
