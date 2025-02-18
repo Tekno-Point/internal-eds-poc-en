@@ -5,6 +5,7 @@
     "/content/eds-poc/forms/form-modal-demat-account-schema:/forms/form-modal-demat-account-schema.json",
     "/content/eds-poc/forms/generate-lead:/forms/generate-lead.json",
     "/content/eds-poc/forms/lead:/forms/lead.json",
+    "/content/eds-poc/bandhan-bank/savings-ac-form:/bandhan-bank/savings-ac-form.json",
     "/content/eds-poc/form/:/form/*.json",
     "/content/eds-poc/max-life/form/term-insurance-form:/max-life/form/term-insurance-form.json",
     "/content/eds-poc/max-life/form/investment-plans-form:/max-life/form/investment-plans-form.json",
