@@ -23,8 +23,12 @@
   border-radius: 20px;
 }
 
-.swiper .swiper-slide > div > picture > img {
+.swiper .swiper-slide > div > picture > img-0 {
   width: 25%;
+  object-fit: fill;
+}
+.swiper .swiper-slide > div > picture > img {
+  width: 100%;
   object-fit: fill;
 }
 

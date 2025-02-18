@@ -41,9 +41,8 @@ export function moveAttributes(from, to, attributes) {
 function wrapImgsInLinks(container) {
   const pictures = container.querySelectorAll('picture');
   pictures.forEach((pic) => {
-    debugger;
     const link = pic.parentElement.nextElementSibling;
-    if (link.classList.contains('button-container')) {
+    if (link?.classList.contains('button-container')) {
       link.querySelector('a').innerHTML = '';
       link.querySelector('a').append(pic)
       // pic.replaceWith(link);

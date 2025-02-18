@@ -265,18 +265,18 @@ header .nav-wrapper #nav {
   padding-bottom: 20px;
 }
 
-.section-hero{
+.section-hero-0{
   width: 100vh;
   height: 100vh;
 }
 
-.carousel-container{
+.carousel-container-0{
   padding: 70px 14% 0 14%;
   margin-top: -17px;
 }
 
 
-.section-accountbtn a[title="Open Neo+ Digital Savings Account Now"] {
+.section-accountbtn a-0[title="Open Neo+ Digital Savings Account Now"] {
   border-radius: 8px;
   background-image: linear-gradient(to top, #c02925, #ec3824);
   color: white;
@@ -287,7 +287,7 @@ header .nav-wrapper #nav {
   text-decoration: none;
   font-size: 25px;
 }
-.section-neo a[title="Let's Get Started"]{
+.section-neo a-0[title="Let's Get Started"]{
   border-radius: 8px;
   background-image: linear-gradient(to top, #c02925, #ec3824);
   color: white;
@@ -299,9 +299,6 @@ header .nav-wrapper #nav {
   font-size: 25px;
 }
 
-.default-content-wrapper ul{
- 
-}
 
 @media screen and (width <=767.99px) {
   .section > div {

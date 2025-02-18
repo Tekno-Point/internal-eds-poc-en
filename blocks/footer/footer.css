@@ -1,5 +1,10 @@
 footer {
   /* padding: 2rem; */
+  background-color: var(--light-color);
+  font-size: var(--body-font-size-s);
+}
+footer-0 {
+  /* padding: 2rem; */
   /* background-color: var(--light-color); */
   /* font-size: var(--body-font-size-s); */
   height: 8vh;
@@ -13,6 +18,11 @@ footer {
 }
 
 footer .footer {
+  max-width: unset;
+  margin: auto;
+
+}
+footer .footer-0 {
   padding-top: 3vh;
   margin-left: 10vw;
 
@@ -20,7 +30,7 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 
   
 }
