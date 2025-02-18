@@ -94,9 +94,42 @@ const threeSlidesOnly = {
     },
   },
 };
+const FiveSlidesOnly = {
+  loop: true,
+  slidesPerView: 5,
+  grabCursor: true,
+  autoplay: false,
+  // autoplay: {
+  //   delay: 5000,
+  //   disableOnInteraction: false,
+  // },
+  navigation: {
+    // nextEl: swiperButtonNext,
+    // prevEl: swiperButtonPrev,
+  },
+  pagination: {
+    // el: swiperPagination,
+    clickable: true,
+  },
+  breakpoints: {
+    300: {
+      slidesPerView: 1,
+    },
+    780: {
+      slidesPerView: 1,
+    },
+    992: {
+      slidesPerView: 3,
+    },
+    1199: {
+      slidesPerView: 3,
+    },
+  },
+};
 export default {
   'one-slide-only': oneSlideOnly,
   'two-slides-only': twoSlidesOnly,
   'three-slides-only': threeSlidesOnly,
+  'five-slides-only': FiveSlidesOnly,
   default: threeSlidesOnly,
 };
