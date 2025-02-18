@@ -111,6 +111,24 @@
                 "value": "blue-bg"
               },
               {
+                   "name":"section subtitle",
+                   "value":"section-subtitle"
+
+              },
+              {
+                "name":"section bandhancontainer ",
+                "value":"section-bandhancontainer "
+
+             },
+             {
+              "name":"section subtitleleft ",
+              "value":"section-subtitleleft "
+               },
+                {
+                  "name":"section subtitleright ",
+                  "value":"section-subtitleright "
+              },
+              {
                 "name": "Fino Insurance Plans Cards",
                 "value": "fino-insurance-plans-cards"
               },
@@ -712,6 +730,15 @@
                 "value": "hdfc-card-number"
               }
             ]
+          },
+          {
+            "name": "bandhan-bank Content Style",
+            "children": [
+              {
+                "name": "bandhan bank detail",
+                "value": "bandhan-customdetail"
+              }
+            ]
           }
         ]
       }
@@ -845,6 +872,22 @@
               {
                 "name": "One Slide Only",
                 "value": "one-slide-only"
+              },
+              {
+                "name": "Bhandhan Banner",
+                "value": "bandhan-home-slider"
+              },
+              {
+                "name": "Bandhan Image Sliders",
+                "value": "bandhan-nri-banking"
+              },
+              {
+                "name": "Bandhan multi Sliders",
+                "value": "bandhan-search-body"
+              },
+              {
+                "name": "Bandhan three Sliders",
+                "value": "bandhan-three-sliders"
               }
             ]
           }
