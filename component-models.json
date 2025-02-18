@@ -111,6 +111,24 @@
                 "value": "blue-bg"
               },
               {
+                   "name":"section subtitle",
+                   "value":"section-subtitle"
+
+              },
+              {
+                "name":"section bandhancontainer ",
+                "value":"section-bandhancontainer "
+
+             },
+             {
+              "name":"section subtitleleft ",
+              "value":"section-subtitleleft "
+               },
+                {
+                  "name":"section subtitleright ",
+                  "value":"section-subtitleright "
+              },
+              {
                 "name": "Fino Insurance Plans Cards",
                 "value": "fino-insurance-plans-cards"
               },
@@ -710,6 +728,15 @@
               {
                 "name": "Hdfc life card number",
                 "value": "hdfc-card-number"
+              }
+            ]
+          },
+          {
+            "name": "bandhan-bank Content Style",
+            "children": [
+              {
+                "name": "bandhan bank detail",
+                "value": "bandhan-customdetail"
               }
             ]
           }
