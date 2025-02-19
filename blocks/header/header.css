@@ -60,9 +60,6 @@ header.bandhan-bank-savings-account nav {
     margin-left: -15px;
 }
 
-header.bandhan-bank-savings-account nav  .nav-sections{
-  background-color: #004880;
-}
 header nav[aria-expanded='true'] {
   grid-template:
     'hamburger brand' var(--nav-height) 'sections sections' 1fr
