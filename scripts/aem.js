@@ -538,8 +538,9 @@ function decorateSections(main) {
             .map((style) => toClassName(style.trim()));
           styles.forEach((style) => section.classList.add(style));
         } else if (key === 'background-image') {
-          const url = new URL(meta[key]);
-          section.style.backgroundImage = `url(${url.pathname})`;
+          // const url = new URL(meta[key]);
+          // section.style.backgroundImage = `url(${url.pathname})`;
+          section.style.backgroundImage = `url(${meta[key]})`;
         } else {
           section.dataset[toCamelCase(key)] = meta[key];
         }
