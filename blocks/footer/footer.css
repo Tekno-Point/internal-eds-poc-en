@@ -4,7 +4,7 @@ footer {
   font-size: var(--body-font-size-s);
 }
 
-footer-0 {
+footer.bandhan-bank-savings-account {
   /* padding: 2rem; */
   /* background-color: var(--light-color); */
   /* font-size: var(--body-font-size-s); */
@@ -15,7 +15,6 @@ footer-0 {
   font-size: 15px;
 
   margin-top: 20px;
-
 }
 
 footer .footer {
@@ -23,8 +22,7 @@ footer .footer {
   margin: auto;
 
 }
-
-footer .footer-0 {
+footer.bandhan-bank-savings-account .footer {
   padding-top: 3vh;
   margin-left: 10vw;
 
