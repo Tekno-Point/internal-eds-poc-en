@@ -147,6 +147,10 @@
                 "value": "section-scaner"
               },
               {
+                "name": "section mainpagehero",
+                "value": "section-mainpage-hero"
+              },
+              {
                 "name": "section hero",
                 "value": "section-hero"
               },
