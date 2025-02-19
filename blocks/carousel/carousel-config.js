@@ -65,7 +65,7 @@ const twoSlidesOnly = {
 const threeSlidesOnly = {
   loop: true,
   slidesPerView: 3,
-  grabCursor: true,
+  // grabCursor: true,
   autoplay: false,
   // autoplay: {
   //   delay: 5000,
@@ -91,13 +91,14 @@ const threeSlidesOnly = {
     },
     1199: {
       slidesPerView: 3,
+      
     },
   },
 };
 const fiveSlidesOnly = {
-  loop: true,
+  loop: false,
   slidesPerView: 5,
-  grabCursor: true,
+  grabCursor: false,
   autoplay: false,
   // autoplay: {
   //   delay: 5000,
@@ -116,13 +117,13 @@ const fiveSlidesOnly = {
       slidesPerView: 1,
     },
     780: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     992: {
       slidesPerView: 3,
     },
     1199: {
-      slidesPerView: 3,
+      slidesPerView: 5,
     },
   },
 };
@@ -130,6 +131,6 @@ export default {
   'one-slide-only': oneSlideOnly,
   'two-slides-only': twoSlidesOnly,
   'three-slides-only': threeSlidesOnly,
-  'five-Slides-only':fiveSlidesOnly,
+  'five-slides-only':fiveSlidesOnly,
   default: threeSlidesOnly,
 };
