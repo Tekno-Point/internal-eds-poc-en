@@ -7,7 +7,7 @@ header .nav-wrapper {
   z-index: 2;
   position: fixed;
 }
-header .nav-wrapper-0 {
+header.bandhan-bank-savings-account .nav-wrapper {
   /* background-color: var(--background-color); */
   width: 100%;
   z-index: 2;
@@ -37,7 +37,7 @@ header nav {
   padding: 0 24px;
   font-family: var(--body-font-family);
 }
-header nav-0 {
+header.bandhan-bank-savings-account nav {
   box-sizing: border-box;
 
   display: grid;
@@ -60,6 +60,9 @@ header nav-0 {
     margin-left: -15px;
 }
 
+header.bandhan-bank-savings-account nav  .nav-sections{
+  background-color: #004880;
+}
 header nav[aria-expanded='true'] {
   grid-template:
     'hamburger brand' var(--nav-height) 'sections sections' 1fr
@@ -87,7 +90,7 @@ header nav p {
   margin: 0;
   line-height: 1;  
 }
-header nav p-0 {
+header.bandhan-bank-savings-account nav p {
   /* margin: 0;
   line-height: 1;
   
@@ -223,7 +226,7 @@ header nav .nav-sections {
   visibility: hidden;
 }
 
-header nav .nav-sections-0 {
+header.bandhan-bank-savings-account nav .nav-sections {
   grid-area: sections;
   flex: 1 1 auto;
   display: none;
