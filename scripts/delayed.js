@@ -3,7 +3,7 @@ import { sampleRUM } from './aem.js';
 
 // Core Web Vitals RUM collection
 sampleRUM('cwv');
-
+/* 
 // add more delayed functionality here
 function loadGTMScript() {
   const script = document.createElement('script');
@@ -24,3 +24,4 @@ function loadGTMScript() {
 }
 
 loadGTMScript();
+ */
