@@ -28,7 +28,7 @@ export default function decorate(block) {
 
   // Add event listeners to manage open state
   accordionItems.forEach((item) => {
-    if (block.classList.contains('only-mobile-expandable')) {
+    if (isDesktop.matches && block.classList.contains('only-mobile-expandable')) {
       item.disabled = true;
       item.open = true;
       item.ariaDisabled = true;
