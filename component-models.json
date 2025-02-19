@@ -279,6 +279,10 @@
               {
                 "name": "text-center",
                 "value": "text-center"
+              },
+              {
+                "name": "Footer Dark",
+                "value": "footer-dark"
               }
             ]
           },
