@@ -147,6 +147,10 @@ footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wra
   margin-bottom: 20px;
 }
 
+footer .footer>div .section.accordion-dropdown-container .default-content-wrapper >ul {
+  margin-bottom: 20px;
+}
+
 footer .footer>div .section.accordion-dropdown-container .default-content-wrapper p {
   color: #93D9F3A8;
   font-size: 12px;
