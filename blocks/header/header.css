@@ -539,6 +539,10 @@ header nav .nav-tools .default-content-wrapper>ul>li>p em a {
   white-space: nowrap;
 }
 
+header nav .nav-sections .default-content-wrapper >p{
+  display: none;
+}
+
 /* Nav Tools End */
 
 @media only screen and (min-width: 1400px) {
@@ -639,6 +643,7 @@ header nav .nav-tools .default-content-wrapper>ul>li>p em a {
   }
 
   header nav .nav-sections .default-content-wrapper >p{
+    display: block;
     font-size: 10px;
     padding-left: 30px;
     margin-top: 5px;
@@ -672,3 +677,49 @@ header nav .nav-tools .default-content-wrapper>ul>li>p em a {
     display: none;
   }
 }
+
+
+/*  */
+
+
+.section.footer-dark{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #051E31;
+  padding-right: 110px;
+  padding-left: 110px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.3);
+}
+
+.section.footer-dark .default-content-wrapper >p a{
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  padding: 0px 15px;
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  position: relative;
+  font-size: 14px;
+}
+
+.section.footer-dark .default-content-wrapper >p a::after{
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto -2px auto auto;
+  height: 12px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+@media screen and (max-width:900px) {
+  .section.footer-dark{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/*  */

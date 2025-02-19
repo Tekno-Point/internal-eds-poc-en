@@ -38,15 +38,19 @@ footer .footer p {
 
 footer .footer>div {
   background: #093252;
-  padding-top: 30px;
+  /* padding-top: 30px;
   padding-bottom: 30px;
   padding-right: 110px;
-  padding-left: 110px;
+  padding-left: 110px; */
 }
 
 footer .footer>div .section.accordion-dropdown-container{
   display: flex;
   justify-content: space-between;
+  padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 110px;
+    padding-left: 110px;
 }
 
 footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper {
@@ -172,12 +176,14 @@ footer .footer>div .section.accordion-dropdown-container .default-content-wrappe
 @media screen and (max-width:900px) {
 
   footer .footer>div{
-    padding-left: 25px;
-    padding-right: 25px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
   }
 
   footer .footer>div .section.accordion-dropdown-container{
     flex-direction: column;
+    padding-left: 25px;
+        padding-right: 25px;
   }
 
   footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper{
@@ -233,3 +239,67 @@ footer .footer>div .section.accordion-dropdown-container .default-content-wrappe
 }
 
 /* Footer Mobile Css End */
+
+
+/*  */
+
+
+.section.footer-dark{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #051E31;
+  padding-right: 110px;
+  padding-left: 110px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.3);
+}
+
+.section.footer-dark .default-content-wrapper >p a{
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  padding: 0px 15px;
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  position: relative;
+  font-size: 14px;
+}
+
+.section.footer-dark .default-content-wrapper >p a::after{
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto -2px auto auto;
+  height: 12px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.section.footer-dark .default-content-wrapper >p:last-child{
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 0 15px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width:900px) {
+  .section.footer-dark{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .section.footer-dark .default-content-wrapper >p a{
+    font-size: 10px;
+  }
+
+  .section.footer-dark .default-content-wrapper >p:last-child{
+    font-size: 10px;
+    margin-top: 10px;
+    padding: 0 15px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+/* Footer Dark End */

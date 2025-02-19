@@ -163,13 +163,23 @@ export default async function decorate(block) {
       const expanded = navSection.getAttribute('aria-expanded') === 'true';
       // toggleAllSubNavSections(toolsSections);
       navSection.setAttribute('aria-expanded', 'false');
-      navSection.closest("li")?.querySelector("strong, em")?.addEventListener('click', () => {
-        // if (isDesktop.matches) {
-          const expanded = navSection.getAttribute('aria-expanded') === 'true';
-          toggleAllSubNavSections(toolsSections);
-          navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-        // }
-      });
+      if(isDesktop.matches){
+        navSection.closest("li")?.querySelector("strong, p em:last-child")?.addEventListener('click', () => {
+          // if (isDesktop.matches) {
+            const expanded = navSection.getAttribute('aria-expanded') === 'true';
+            toggleAllSubNavSections(toolsSections);
+            navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+          // }
+        })
+      }else{
+        navSection.closest("li")?.querySelector("strong, p em")?.addEventListener('click', () => {
+          // if (isDesktop.matches) {
+            const expanded = navSection.getAttribute('aria-expanded') === 'true';
+            toggleAllSubNavSections(toolsSections);
+            navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+          // }
+        });
+      }
     });
   }
 
