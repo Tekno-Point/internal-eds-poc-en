@@ -1,5 +1,5 @@
 import { isDesktop } from '../header/header.js';
-
+// const isDesktop = window.matchMedia('(min-width: 1100px)');
 export default function decorate(block) {
   const accordionItems = [];
 

@@ -2,7 +2,7 @@ import { getMetadata } from '../../scripts/aem.js';
 import { loadFragment } from '../../scripts/scripts.js';
 
 // media query match that indicates mobile/tablet width
-const isDesktop = window.matchMedia('(min-width: 900px)');
+export const isDesktop = window.matchMedia('(min-width: 900px)');
 
 /* function closeOnEscape(e) {
   if (e.code === 'Escape') {
@@ -169,6 +169,12 @@ export default async function decorate(block) {
       });
     });
   }
+
+  document.querySelector("body").addEventListener("click",(e)=>{
+    if(!(e.target.closest(".section.nav-tools .default-content-wrapper >ul >li >ul")) && !e.target.closest(".section.nav-tools .default-content-wrapper") && !(e.target.closest(".section.nav-tools .default-content-wrapper >ul >li"))){
+      toggleAllSubNavSections(e.target.closest("body").querySelector(".section.nav-tools"));
+    }
+  })
 
   // hamburger for mobile
   const hamburger = document.createElement('div');

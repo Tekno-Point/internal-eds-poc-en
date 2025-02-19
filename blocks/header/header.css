@@ -557,11 +557,13 @@ header nav .nav-tools .default-content-wrapper>ul>li>p em a {
 /* Bandhan bank header End */
 
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 900px) {
 
   header nav {
     display: flex;
     padding: 0 16px;
+    gap: unset;
+    justify-content: space-between;
   }
 
 

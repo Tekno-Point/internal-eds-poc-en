@@ -1,3 +1,5 @@
+import { isDesktop } from '../header/header.js';
+
 export default function decorate(block) {
   const accordionItems = [];
 

@@ -3,6 +3,7 @@ footer {
   background-color: var(--light-color);
   font-size: var(--body-font-size-s);
 }
+
 footer-0 {
   /* padding: 2rem; */
   /* background-color: var(--light-color); */
@@ -22,6 +23,7 @@ footer .footer {
   margin: auto;
 
 }
+
 footer .footer-0 {
   padding-top: 3vh;
   margin-left: 10vw;
@@ -31,6 +33,205 @@ footer .footer-0 {
 footer .footer p {
   margin: 0;
   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-
-  
 }
+
+
+/* Footer Css Start */
+
+footer .footer>div {
+  background: #093252;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 110px;
+  padding-left: 110px;
+}
+
+footer .footer>div .section.accordion-dropdown-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper {
+  display: flex;
+  max-width: 33.33%;
+}
+
+footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown.only-mobile-expandable {
+  display: flex;
+  /* flex: 0 0 91%; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown.only-mobile-expandable .accordion-item{
+  width: 50%;
+}
+
+footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown details summary::after{
+  display: none;
+}
+
+footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown details summary p{
+  color: #fff;
+  padding: 10px 40px 10px 0;
+  font-size: 16px;
+  line-height: 1.4em;
+  box-shadow: none;
+}
+
+footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body >ul >li{
+  list-style: none;
+}
+
+footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body >ul >li >a{
+  line-height: 1.4em;
+  color: #fff;
+  font-size: 14px;
+  padding: 2px 0;
+  text-decoration: none;
+  color: silver;
+}
+
+footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body >ul >li a:hover{
+  color: #fff;
+}
+
+footer .footer>div .section.accordion-dropdown-container  .default-content-wrapper h2{
+  color: #93D9F3A8;
+  font-size: 12px;
+  line-height: 1.4em;
+  opacity: 1;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #235270;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  width: max-content;
+  margin-bottom: 20px;
+}
+
+footer .footer>div .section.accordion-dropdown-container .default-content-wrapper p{
+  color: #93D9F3A8;
+  font-size: 12px;
+  line-height: 1.4em;
+  opacity: 1;
+  padding-bottom: 7px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  width: max-content;
+}
+
+footer .footer>div .section.accordion-dropdown-container .default-content-wrapper p a{
+  color: #fff;
+  font-style: normal;
+  display: inline-block;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+footer .footer>div .section.accordion-dropdown-container .default-content-wrapper >ul{
+  display: flex;
+  gap: 6px;
+}
+
+footer .footer>div .section.accordion-dropdown-container .default-content-wrapper >ul >li{
+  list-style: none;
+}
+
+footer .footer>div .section.accordion-dropdown-container .default-content-wrapper >ul >li a span img{
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+footer .footer>div .section.accordion-dropdown-container .default-content-wrapper >ul:nth-child(n+3){
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 30px;
+}
+
+footer .footer>div .section.accordion-dropdown-container .default-content-wrapper >ul:nth-child(n+3) >li:has(span img){
+  list-style: none;
+  width: 140px;
+  height: 45px;
+}
+
+footer .footer>div .section.accordion-dropdown-container .default-content-wrapper >ul:nth-child(n+3) >li:has(span img) a span img{
+  display: block;
+  width: 144px;
+  height: 45px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+/* Footer Css End */
+
+
+/* Footer Mobile Css Start */
+
+@media screen and (max-width:900px) {
+
+  footer .footer>div{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  footer .footer>div .section.accordion-dropdown-container{
+    flex-direction: column;
+  }
+
+  footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper{
+    max-width: 100%;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown.only-mobile-expandable{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown.only-mobile-expandable .accordion-item{
+    width: 100%;
+    border-bottom: 1px solid #164262;
+  }
+
+  footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown.only-mobile-expandable .accordion-item summary{
+    padding: unset;
+  }
+
+  footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown details summary::after{
+    display: block;
+      content: "+";
+      position: absolute;
+      font-size: 20px;
+      border: unset;
+      line-height: 0;
+      transform: unset;
+  } 
+
+  footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown details[open] summary::after{
+    content: "-";
+      transform: unset;
+  }
+
+  footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown .accordion-item-body{
+    padding: unset;
+    padding: 0 0 10px;
+  }
+
+  footer .footer>div .section.accordion-dropdown-container .accordion-dropdown-wrapper .accordion-dropdown details .accordion-item-body >ul >li >a{
+    padding: 4px 0;
+    font-size: 16px;
+  }
+
+  footer .footer>div .section.accordion-dropdown-container .default-content-wrapper >ul:nth-child(n+3){
+    flex-direction: row;
+    gap: 20px;
+  }
+
+}
+
+/* Footer Mobile Css End */
