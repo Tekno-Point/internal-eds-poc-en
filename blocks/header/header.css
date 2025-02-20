@@ -492,6 +492,7 @@ header nav .nav-tools .default-content-wrapper>ul>li>ul[aria-expanded='true'] >l
   margin: 0 auto 15px;
   text-align: center;
   line-height: 1.2;
+  text-decoration: unset;
 }
 
 header nav .nav-tools .default-content-wrapper>ul>li>p strong a:first-child,
@@ -596,6 +597,14 @@ header nav .nav-sections .default-content-wrapper >p{
     z-index: 10;
     padding-top: 20px;
     min-height: 100dvh;
+  }
+
+  header nav .nav-hamburger-icon::before, header nav .nav-hamburger-icon::after{
+    background-color: #fff;
+  }
+
+  header .nav-wrapper{
+    position: unset;
   }
 
   header nav .nav-sections ul {
