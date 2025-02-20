@@ -169,6 +169,7 @@ left: 0;
 .section-subtitle.section-subtitleleft{
   background-repeat: no-repeat;
 background-size: cover;
+min-height: 746px;
 }
 .section-subtitle.section-subtitleleft  > div:nth-child(1) > h2{
 text-align:left;
@@ -232,6 +233,7 @@ margin-bottom: 0;
 }
 .section-subtitle.section-subtitleleft{
  background-size: contain;
+ min-height: 300px;
 }
 
 }
@@ -502,6 +504,9 @@ border: 2px solid #3399E8;
 }
 .section-subtitleright .bandhan-bank-carousel1{
   margin-top:181px;
+}
+.section-bandhancontainer-one .swiper {
+  padding-top:30px;
 }
  }
 /*section-bandhancontainer-two   */

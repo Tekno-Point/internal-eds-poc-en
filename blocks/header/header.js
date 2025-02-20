@@ -75,6 +75,13 @@ function toggleAllSubNavSections(sections, expanded = false) {
  * @param {*} forceExpanded Optional param to force nav expand behavior when not null
  */
 function toggleMenu(nav, navSections, forceExpanded = null) {
+  let body = document.querySelector("body")
+  if(body.classList.contains('modal-open')){
+    body.classList.remove('modal-open');
+  }
+  else{
+    body.classList.add('modal-open');
+  }
   // document.querySelector("body").style.backgroundColor = "rgba(0, 0, 0, 0.7)";
   const expanded = forceExpanded !== null ? !forceExpanded : nav.getAttribute('aria-expanded') === 'true';
   const button = nav.querySelector('.nav-hamburger button');
