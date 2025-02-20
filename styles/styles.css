@@ -289,9 +289,6 @@
  }
  
  
- 
- 
- 
  @media screen and (width <=767.99px) {
    .section > div {
      width: 90%;
@@ -651,4 +648,8 @@ display:none;
  text-align: right;
  font-weight: 400;
  font-size: 20px;
+}
+
+body{
+  font-family: 'Lato';
 }
