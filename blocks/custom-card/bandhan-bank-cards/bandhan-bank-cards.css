@@ -237,6 +237,9 @@ margin-bottom: 0;
 }
 
 }
+.header-wrapper{
+  display: none;
+}
 /*section-subtitle add class section  */
 
 /*add class carousel   */
