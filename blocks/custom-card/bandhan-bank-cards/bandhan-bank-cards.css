@@ -749,8 +749,7 @@ overflow:hidden;
   bottom:45px;
   }
   .section-mainpage-hero .swiper-wrapper .swiper-slide > div:nth-child(1) > picture > img{
-
-    height: 560px;
+    height: 100%;
 }
 .section-mainpage-hero .swiper{
   padding-bottom: 0px;
