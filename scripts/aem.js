@@ -11,6 +11,7 @@
  */
 
 /* eslint-env browser */
+export const isDesktop = window.matchMedia('(min-width: 900px)');
 
 /**
  * log RUM if part of the sample.
@@ -233,7 +234,8 @@ function readBlockConfig(block) {
         } else if (col.querySelector('img')) {
           const imgs = [...col.querySelectorAll('img')];
           if (imgs.length === 1) {
-            value = imgs[0].src;
+            // value = imgs[0].src;
+            value = !isDesktop.matches ? imgs[0].src : col.querySelectorAll('source')[0].srcset;
           } else {
             value = imgs.map((img) => img.src);
           }
