@@ -417,8 +417,7 @@
  list-style:none;
 }
 .section-neo{
- /* padding: 70px 14% 0 14%; */
- min-height: 550px;
+ padding: 70px 14% 0 14%;
 }
 
 /* .section-neo ul{
@@ -445,9 +444,6 @@
  padding:20px;
      box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.27);
  border-radius:4px;
-}
-.section-accountbtn .default-content-wrapper{
-  min-height: 285px;
 }
 .section-accountbtn .default-content-wrapper ul {
   display: flex;
@@ -550,12 +546,10 @@ align-content:center;
  
  padding-inline: 14%;
  display: flex;
-height: 475px;
 }
 .section-hero >div:nth-child(1){
   padding-block:54px;
   flex-basis:60%;
-  min-height: 400px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
