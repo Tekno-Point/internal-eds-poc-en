@@ -169,7 +169,10 @@ left: 0;
 .section-subtitle.section-subtitleleft{
   background-repeat: no-repeat;
 background-size: cover;
-height: 746px;
+
+}
+.section{
+  height: 746px;
 }
 .section-subtitle.section-subtitleleft  > div:nth-child(1) > h2{
 text-align:left;
