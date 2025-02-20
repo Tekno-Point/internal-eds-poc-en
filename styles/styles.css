@@ -520,6 +520,17 @@ align-content:center;
 }
 .section.section-accountbtn {
  padding: 70px 14% 0 14%;
+ background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media(min-width:786px){
+  .section.section-accountbtn {
+    background-image: none;
+  }
+  .section.section-accountbtn .four-slides-only.swiper{
+    overflow: unset;
+  }
 }
 
 .section-hero{
@@ -564,7 +575,7 @@ align-content:center;
   font-size: 13px;
   display:inline-block;
   background:unset;
-  color:#000;
+  color: #636466;
   font-style:italic;
   padding:unset;    
   line-height: 1.33;
