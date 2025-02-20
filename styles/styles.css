@@ -266,8 +266,8 @@
  }
  
  .section.section-hero{
-   width: 100vh;
-   height: 100vh;
+  height: 74vh;
+  position: relative;
  }
  
  
@@ -429,7 +429,7 @@
  list-style:none;
 }
 .section-neo{
- padding: 70px 14% 0 14%;
+ padding: 70px 0% 0 0%;
 }
 
 .section-neo .accordion-dropdown-wrapper .accordion-dropdown {
@@ -451,14 +451,33 @@
  border-radius:4px;
 }
 
-.section-accountbtn  .default-content-wrapper ul  {
-   
- font-size: 24px;
- padding-left: 10vw;
- line-height: 1.54;
- text-align:initial;
+.section-accountbtn .default-content-wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  color: #034880;
+  font-size: 24px;
+  justify-content: space-between; /* Distribute space evenly between items */
+  padding-left: 10vw;
+  line-height: 1.54;
+  text-align: initial;
+
 }
 
+.section-accountbtn .default-content-wrapper ul li {
+  width: 50%; /* Each list item takes up 48% of the container */
+  margin-bottom: 10px; /* Space between items */
+}
+
+.section-accountbtn .default-content-wrapper ul li:nth-child(3),
+.section-accountbtn .default-content-wrapper ul li:nth-child(4) {
+  color: #034880; /* Example of color change for right-side items */
+}
+.section-neo .accordion-dropdown-wrapper .accordion-dropdown .accordion-item-body p{
+  /* font: 400 20px Roboto, "Helvetica Neue", sans-serif; */
+  
+  font-size:20px;
+  letter-spacing: normal
+ }
 .section-accountbtn  .default-content-wrapper .button-container a {
  border-radius: 8px;
 background-image: linear-gradient(to top, #c02925, #ec3824);
@@ -511,24 +530,20 @@ align-content:center;
 .section-hero{
  background-size:cover;
  background-repeat:no-repeat;
- width:100%;
  background-position:center;
- height:100vh;
- height: calc(100% - 78px);
- margin: 0 14%;
- background:none !important;
+
 }
 
 .section-hero .form-wrapper .form {
  width: 350px;
  position: absolute;
- bottom: 0;
- right: 5vw;
+ right: 0;
  border-radius: 25px 25px 0 0;
  color: #fff;
  margin-bottom: 10px;
  background: url(blue-curve-over-form.png) #083152 no-repeat;
  padding:2% 2% 2% 2%;
+ bottom: -3;
  /* padding: 35px 20px 10px 20px; */
 }
 
@@ -654,6 +669,8 @@ body{
   font-family: 'Lato';
 }
 
+
+/* code regading the  */
 
 /*bandhan-customdetail  */
 .custom-card.bandhan-customdetail{
@@ -1323,7 +1340,7 @@ line-height: 48px;
   padding-inline:15px;
   margin-top: 100px;
   margin-bottom: 30px;
-  overflow: unset;
+  overflow: unset !important;
 }
 .bandhan-bank-carousel3 .swiper-wrapper .swiper-slide > div:nth-child(1) > picture > img{
       margin-top: -85px;
@@ -1446,3 +1463,5 @@ background: #ED3B25;
 }
 
 /* carouer point */
+
+/* code regading the  */

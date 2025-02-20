@@ -705,3 +705,30 @@ body{
   background-color: rgba(0, 0, 0, 0.7); /* semi-transparent black */
   z-index: 1;
 }
+
+header.bandhan-bank-savings-account nav .nav-tools .default-content-wrapper{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-right: -190px;
+}
+
+header.bandhan-bank-savings-account nav .nav-tools .default-content-wrapper p{
+ font-size:26px !important;
+  margin-top:10px
+}
+
+header.bandhan-bank-savings-account nav  .nav-sections{
+  /* background-color: #083152; */
+  /* display: none; */
+  width: 0 !important;
+  height: 0 !important;
+  }
+  
+  
+  
+  header.bandhan-bank-savings-account nav .nav-brand img {
+    width: 335px;
+    height: 56px;
+    margin-left: -107px;
+  }
