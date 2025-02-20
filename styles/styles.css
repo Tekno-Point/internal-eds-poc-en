@@ -650,7 +650,7 @@ display:none;
 
 }
 .section-accountbtn .saving-bank .swiper-wrapper .swiper-slide{
- flex: 0 0 25%;
+ /* flex: 0 0 25%; */
  padding-inline:15px;
  text-align:center;
 }
@@ -689,6 +689,47 @@ display:none;
  text-align: right;
  font-weight: 400;
  font-size: 20px;
+}
+@media(max-width:786px){
+  .section-hero{
+  flex-direction:column;
+  height: 100%;
+  background-size: 100%;
+  padding:unset;
+}
+.section-hero >div:nth-child(1) > p:nth-child(1){
+      font-size: 21px;
+      line-height: 1.5;
+      padding-inline: 45px;
+      padding-top: 13%;
+}
+ .section-hero >div:nth-child(1) > p:nth-child(2){
+      display:none;
+  }
+
+  .section-hero >div:nth-child(2),.section-hero >div:nth-child(1){
+      flex-basis: unset;
+  }
+  .section-hero >div:nth-child(2){
+      padding:unset;
+  }
+  .section-hero .form-wrapper .form{
+      width:100%;
+      border-radius:unset;
+  }
+  .section-hero >div:nth-child(1){
+      padding:unset;
+  }
+  .section.section-accountbtn{
+      padding:unset;
+      padding-top:60px;
+  }
+  .section-accountbtn .saving-bank .swiper-wrapper{
+      padding:unset;
+  }
+  .section-accountbtn .saving-bank .swiper-wrapper .swiper-slide{
+      flex-basis:unset;
+  }
 }
 
 body{
