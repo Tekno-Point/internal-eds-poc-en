@@ -254,7 +254,7 @@ border-radius:5px;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 /* flex-direction:column; */
 height:auto;
-min-height: 100px;
+min-height: 276px;
 }
 .bandhan-bank-carousel1 .swiper-wrapper .swiper-slide > div:nth-child(1)  {
 min-height:50px;
