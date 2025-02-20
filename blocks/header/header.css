@@ -419,6 +419,7 @@ header nav .nav-sections .default-content-wrapper>ul>li>a {
   padding: 0 20px;
   text-decoration: unset;
   gap: 3px;
+  font-family: 'Lato';
 }
 
 header nav .nav-sections .default-content-wrapper>ul>li>a .icon {}
@@ -544,6 +545,7 @@ header nav .nav-tools .default-content-wrapper>ul>li>p em a {
 
 header nav .nav-sections .default-content-wrapper >p{
   display: none;
+  font-family: 'Lato';
 }
 
 /* Nav Tools End */
@@ -681,16 +683,16 @@ header nav .nav-sections .default-content-wrapper >p{
   }
 }
 
-/* body{
+body{
   position: relative;
 }
 
-body.modal-open {
+.overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
-  z-index: 999; /* Below the modal */
-} */
+  background-color: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+  z-index: 1;
+}

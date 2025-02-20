@@ -75,13 +75,7 @@ function toggleAllSubNavSections(sections, expanded = false) {
  * @param {*} forceExpanded Optional param to force nav expand behavior when not null
  */
 function toggleMenu(nav, navSections, forceExpanded = null) {
-  let body = document.querySelector("body")
-  if(body.classList.contains('modal-open')){
-    body.classList.remove('modal-open');
-  }
-  else{
-    body.classList.add('modal-open');
-  }
+ 
   // document.querySelector("body").style.backgroundColor = "rgba(0, 0, 0, 0.7)";
   const expanded = forceExpanded !== null ? !forceExpanded : nav.getAttribute('aria-expanded') === 'true';
   const button = nav.querySelector('.nav-hamburger button');
@@ -202,7 +196,20 @@ export default async function decorate(block) {
   hamburger.innerHTML = `<button type="button" aria-controls="nav" aria-label="Open navigation">
       <span class="nav-hamburger-icon"></span>
     </button>`;
-  hamburger.addEventListener('click', () => toggleMenu(nav, navSections));
+  hamburger.addEventListener('click', () => {
+    toggleMenu(nav, navSections)
+    let overlayDiv = document.createElement("div");
+    overlayDiv.classList.add("overlay");
+    
+    let body = document.querySelector("body")
+    if(!document.body.querySelector(".overlay")){
+      document.body.appendChild(overlayDiv);
+    }
+    else{
+      let overlayDiv = document.body.querySelector(".overlay");
+      document.body.removeChild(overlayDiv);
+    }
+});
   nav.prepend(hamburger);
   nav.setAttribute('aria-expanded', 'false');
   // prevent mobile nav behavior on window resize
