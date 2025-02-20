@@ -456,7 +456,7 @@
   padding-left: 10vw;
   line-height: 1.54;
   text-align: initial;
-
+min-height: 210px;
 }
 
 .section-accountbtn .default-content-wrapper ul li {
@@ -553,6 +553,7 @@ height: 475px;
 .section-hero >div:nth-child(1){
   padding-block:54px;
   flex-basis:60%;
+  min-height: 400px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
