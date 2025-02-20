@@ -90,15 +90,8 @@ header nav p {
   line-height: 1;  
 }
 header.bandhan-bank-savings-account nav p {
-  /* margin: 0;
-  line-height: 1;
-  
-  font-size: 32px;
-  font-weight: 600;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 
-  /* margin-top: 39px !important; */
-  font-family: Ubuntu;
+  font-family: 'Lato';
   font-size: 22px;
   font-weight: bold;
   font-stretch: normal;

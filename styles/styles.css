@@ -552,6 +552,25 @@ align-content:center;
   max-width: max-content;
 }
 
+.section-hero >div:nth-child(1) > p:nth-child(2){
+  color: #636466;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 1.33;
+  font-weight: bold;
+}
+
+.section-hero >div:nth-child(1) > p:nth-child(2) >em {
+  font-size: 13px;
+  display:inline-block;
+  background:unset;
+  color:#000;
+  font-style:italic;
+  padding:unset;    
+  line-height: 1.33;
+  font-weight: bold;
+}
+
 .section-hero .form-wrapper .form {
  width: 350px;
  right: 0;
