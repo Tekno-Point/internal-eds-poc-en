@@ -446,7 +446,9 @@
      box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.27);
  border-radius:4px;
 }
-
+.section-accountbtn .default-content-wrapper{
+  min-height: 285px;
+}
 .section-accountbtn .default-content-wrapper ul {
   display: flex;
   flex-wrap: wrap;
@@ -456,7 +458,7 @@
   padding-left: 10vw;
   line-height: 1.54;
   text-align: initial;
-min-height: 210px;
+
 }
 
 .section-accountbtn .default-content-wrapper ul li {
