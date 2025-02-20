@@ -20,6 +20,10 @@
    box-sizing: border-box;
  }
  
+header{
+  height: 80px;
+}
+ 
  :root {
    /* Colors */
    --color-primary: #f27930;
@@ -1656,7 +1660,4 @@ background: #ED3B25;
 }
 main{
   min-height: 800px;
-}
-.header-wrapper{
-  min-height: 80px;
 }
