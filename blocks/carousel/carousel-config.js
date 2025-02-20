@@ -115,7 +115,6 @@ const fourSlidesOnly = {
   breakpoints: {
     300: {
       slidesPerView: 1,
-      spaceBetween: 10,
     },
     780: {
       slidesPerView: 1,

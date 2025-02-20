@@ -737,10 +737,25 @@ display:none;
   }
   .section-accountbtn .saving-bank .swiper-wrapper{
       padding:unset;
+      box-shadow: unset;
+      padding: unset;
+      margin-bottom: unset;
+      background-color: unset;
+      color: #034880;
+      font-size: 24px;
+      border-radius: unset;
+      justify-content: unset !important;
   }
   .section-accountbtn .saving-bank .swiper-wrapper .swiper-slide{
       flex-basis:unset;
   }
+  .section-accountbtn .saving-bank .swiper-wrapper .swiper-slide:not(:last-child)::before{
+    content: unset;
+  }
+  .section-accountbtn .saving-bank .swiper-wrapper .swiper-slide p{
+    justify-content: center;
+  }
+
 }
 
 body{
