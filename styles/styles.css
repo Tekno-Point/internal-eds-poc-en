@@ -1657,3 +1657,6 @@ background: #ED3B25;
 main{
   min-height: 800px;
 }
+.header-wrapper{
+  min-height: 80px;
+}
