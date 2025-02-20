@@ -490,7 +490,14 @@ text-align:center;
 .section-accountbtn  .default-content-wrapper .button-container {
 display: flex;
 justify-content: center;
+text-align: center;
 }
+.section-accountbtn .default-content-wrapper .button-container:first-child{
+  display: block;
+  }
+  .section-accountbtn .default-content-wrapper .button-container:last-child{
+    display: none;
+  }
 
 
 
@@ -704,9 +711,8 @@ display:none;
 @media(max-width:786px){
   .section-hero{
   flex-direction:column;
-  height: 100%;
-  background-size: 100%;
   padding:unset;
+  background-image: none !important;
 }
 .section-hero >div:nth-child(1) > p:nth-child(1){
       font-size: 21px;
@@ -730,10 +736,26 @@ display:none;
   }
   .section-hero >div:nth-child(1){
       padding:unset;
+      min-height: 298px;
+      justify-content: end;
+      display: flex;
+      background-image: url("../images/newbgmobile.jpg");
   }
   .section.section-accountbtn{
       padding:unset;
       padding-top:60px;
+  }
+  
+  .section-accountbtn .default-content-wrapper .button-container:first-child{
+    display: none;
+    }
+    
+    .section-accountbtn .default-content-wrapper .button-container:last-child{
+      display: block;
+    }
+
+  .section.section-accountbtn .carousel-wrapper{
+    margin-bottom: 25px;
   }
   .section-accountbtn .saving-bank .swiper-wrapper{
       padding:unset;
@@ -748,12 +770,78 @@ display:none;
   }
   .section-accountbtn .saving-bank .swiper-wrapper .swiper-slide{
       flex-basis:unset;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
   }
   .section-accountbtn .saving-bank .swiper-wrapper .swiper-slide:not(:last-child)::before{
     content: unset;
   }
   .section-accountbtn .saving-bank .swiper-wrapper .swiper-slide p{
     justify-content: center;
+    max-width: 420px;
+    margin: auto;
+  }
+  .section-accountbtn  .carousel.saving-bank .swiper-horizontal>.swiper-pagination-bullets,
+  .section-accountbtn  .carousel.saving-bank .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .section-accountbtn  .carousel.saving-bank .swiper-pagination-custom,
+  .section-accountbtn  .carousel.saving-bank .swiper-pagination-fraction{
+    display: none;
+}
+
+.section-accountbtn .swiper .swiper-button-next,
+.section-accountbtn .swiper .swiper-button-prev {
+  display: block;
+}
+
+.section-accountbtn .swiper .swiper-button-next::after,
+.section-accountbtn .swiper .swiper-button-prev::after{
+  font-size: 25px;
+}
+
+.section-accountbtn .default-content-wrapper ul{
+  flex-direction: column;
+}
+
+.section-accountbtn .default-content-wrapper ul li {
+  width: 100%;
+  font-size: 16px;
+  text-align: initial;
+  line-height: 1.69;
+}
+.section-accountbtn .default-content-wrapper:nth-child(2) >p{
+  display:none;
+}
+.section-accountbtn .default-content-wrapper .button-container a{
+  border-radius: 8px;
+  background-image: linear-gradient(to top, #c02925, #ec3824);
+  color: white;
+  border: unset;
+  padding: 10px 20px;
+  font-size: 15.5px;
+}
+  .section-neo{
+    padding: unset;
+    padding-inline: 15px;
+    margin-top: 20px;
+  }
+  .section-neo .accordion-dropdown-wrapper .accordion-dropdown .accordion-item{
+    padding-block: 10px !important;
+  }
+  .section-neo ul li a,.section-neo ul li:nth-child(2) a,.section-neo ul li{
+    font-size: 12px;
+  }
+  .section.section-accountbtn{
+    background-image: none !important;
+  }
+  .section.section-neo .button.primary{
+    border-radius: 8px;
+    background-image: linear-gradient(to top, #c02925, #ec3824);
+    color: white;
+    border: unset;
+    padding: 10px 20px;
+    font-size: 15.5px;
+    margin-bottom: 10px;
   }
 
 }
