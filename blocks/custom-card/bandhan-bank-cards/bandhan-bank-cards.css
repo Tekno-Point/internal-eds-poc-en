@@ -169,6 +169,7 @@ left: 0;
 .section-subtitle.section-subtitleleft{
   background-repeat: no-repeat;
 background-size: cover;
+min-height: 746px;
 }
 .section-subtitle.section-subtitleleft  > div:nth-child(1) > h2{
 text-align:left;
@@ -232,6 +233,7 @@ margin-bottom: 0;
 }
 .section-subtitle.section-subtitleleft{
  background-size: contain;
+ min-height: 300px;
 }
 
 }
@@ -741,11 +743,12 @@ overflow:hidden;
 /* .bandhan-bank-carousel3 */
 
 /* section-mainpage-hero */
+
 .section-mainpage-hero .swiper .swiper-pagination-bullets{
   bottom:45px;
   }
   .section-mainpage-hero .swiper-wrapper .swiper-slide > div:nth-child(1) > picture > img{
-    height:100%;
+    height: 100%;
 }
 .section-mainpage-hero .swiper{
   padding-bottom: 0px;
