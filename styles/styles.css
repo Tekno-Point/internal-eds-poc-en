@@ -269,7 +269,7 @@
  
  
  /* Targeting the 'Let's Get Started' button */
- .section.section-neo .button.primary {
+ /* .section.section-neo .button.primary {
    border-radius: 8px;
    background-image: linear-gradient(to top, #c02925, #ec3824);
    color: white;
@@ -278,7 +278,7 @@
    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.27);
    text-decoration: none;
    font-size: 25px;
- }
+ } */
  
  .section.section-neo .button.primary:hover {
    background-color: #ec3824;
@@ -407,24 +407,24 @@
  display: flex;
  justify-content: center;
 }
-.section.section-neo .button.primary:hover {
+/* .section.section-neo .button.primary:hover {
   background-color: #ec3824;
   cursor: pointer;
-}
+} */
 .section-neo ul{
  display:flex;
  justify-content:space-between;
  list-style:none;
 }
-.section-neo{
+/* .section-neo{
  padding: 70px 14% 0 14%;
-}
+} */
 
-.section-neo ul{
+/* .section-neo ul{
  display:flex;
  justify-content:space-between;
  list-style:none;
-}
+} */
 
 
 .section-neo .accordion-dropdown-wrapper .accordion-dropdown {
@@ -1646,3 +1646,8 @@ background: #ED3B25;
 /* carouer point */
 
 /* code regading the  */
+
+.modal dialog{
+  width: 100% !important;
+  max-width: 100% !important;
+}
