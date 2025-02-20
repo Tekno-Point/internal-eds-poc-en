@@ -653,3 +653,11 @@ display:none;
 body{
   font-family: 'Lato';
 }
+
+.bandhan-bank-carousel1 .swiper-wrapper .swiper-slide{
+
+  height: 276px;
+  }
+  .section-subtitle.section-subtitleleft{
+  min-height: 746px;
+  }
