@@ -13,12 +13,11 @@ header.bandhan-bank-savings-account .nav-wrapper {
   z-index: 2;
   padding: 0 14%;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
   display: flex;
   align-content: center;
 
   box-shadow: 0 4px 8px lightgray;
-  height: 78px !important;
   background-color: #fff;
 
 }
