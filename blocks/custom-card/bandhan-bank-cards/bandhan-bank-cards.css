@@ -744,6 +744,9 @@ overflow:hidden;
 /* .bandhan-bank-carousel3 */
 
 /* section-mainpage-hero */
+.section-mainpage-hero{
+  height:445px;
+}
 .section-mainpage-hero .swiper .swiper-pagination-bullets{
   bottom:45px;
   }
