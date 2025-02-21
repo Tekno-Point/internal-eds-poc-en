@@ -66,7 +66,9 @@ export default async function decorate(block) {
     try {
         const xfPath = block.querySelector('a')?.href;
         block.innerHTML = '';
+        block.style.display = 'none'
         await appendXF(block, xfPath);
+        block.style.display = 'block'
     } catch (error) {
         console.warn(error); // eslint-disable-line
     }
