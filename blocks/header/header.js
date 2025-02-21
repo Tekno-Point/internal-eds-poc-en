@@ -1,5 +1,6 @@
 import { getMetadata } from '../../scripts/aem.js';
 import { loadFragment } from '../../scripts/scripts.js';
+import { appendXF } from '../experience-fragment/experience-fragment.js';
 
 // media query match that indicates mobile/tablet width
 export const isDesktop = window.matchMedia('(min-width: 900px)');
@@ -152,6 +153,13 @@ export default async function decorate(block) {
 
   // decorate nav DOM
   block.textContent = '';
+  if (fragment.querySelector('.experience-fragment')) {
+    block.append(fragment.firstElementChild);
+    return block;
+  } else if (navPath.includes('/experience-fragments/')) {
+    appendXF(block, navMeta);
+    return block;
+  }
   const nav = document.createElement('nav');
   nav.id = 'nav';
   while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
