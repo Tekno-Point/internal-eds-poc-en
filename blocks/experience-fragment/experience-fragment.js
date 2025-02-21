@@ -27,6 +27,7 @@ export async function appendXF(block, xfPath) {
             }
             const div = document.createElement('div');
             div.innerHTML = str;
+            removeLazyImag(div);
             div.querySelectorAll('link').forEach((link) => {
                 try {
                     const newLinkHref = link.href.replace('http://localhost:3000', 'https://stg1-website.hdfclife.tech');
@@ -47,8 +48,8 @@ export async function appendXF(block, xfPath) {
                     '/foundation/clientlibs',
                 ];
                 const newScriptSrc = script.src.replace('http://localhost:3000', 'https://stg1-website.hdfclife.tech');
-                
-                if (!excludeLinks.some(clientLib => newScriptSrc.includes(clientLib)) && 
+
+                if (!excludeLinks.some(clientLib => newScriptSrc.includes(clientLib)) &&
                     !document.querySelector(`script[src="${newScriptSrc}"]`)) {
                     try {
                         const newScript = document.createElement('script');
@@ -60,7 +61,7 @@ export async function appendXF(block, xfPath) {
                     }
                 }
             });
-    
+
             if (window.isLast) {
                 setTimeout(() => {
                     const event = new Event('DOMContentLoaded');
@@ -73,7 +74,7 @@ export async function appendXF(block, xfPath) {
         return block;
     } catch (error) {
         console.warn(error);
-        
+
     }
 }
 
@@ -87,10 +88,10 @@ export default async function decorate(block) {
     await appendXF(block, xfPath);
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    const images = document.querySelectorAll('img[data-src]');
+function removeLazyImag(block) {
+    const images = block.querySelectorAll('img[data-src]');
     images.forEach((img) => {
-      img.setAttribute('src', img.getAttribute('data-src'));
-      img.removeAttribute('data-src'); // Optional: Remove the data-src attribute
+        img.setAttribute('src', img.getAttribute('data-src'));
+        img.removeAttribute('data-src'); // Optional: Remove the data-src attribute
     });
-});
+};
