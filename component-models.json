@@ -756,6 +756,10 @@
             "name": "Hdfc-life Content Style",
             "children": [
               {
+                "name": "Hdfc Plan Card",
+                "value": "hdfc-plan-card"
+              },
+              {
                 "name": "Hdfc life detail",
                 "value": "hdfc-detail"
               },
