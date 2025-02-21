@@ -126,6 +126,23 @@ h2 strong {
   color: var(--color-secondary);
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (width < 768px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
+@media screen and (width > 768px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
 /* Background Colors */
 
 .bg-default-dark-light-gray {
