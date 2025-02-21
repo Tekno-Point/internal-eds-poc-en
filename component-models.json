@@ -111,6 +111,58 @@
                 "value": "blue-bg"
               },
               {
+                "name": "section subtitle",
+                "value": "section-subtitle"
+              },
+              {
+                "name": "section bandhancontainer ",
+                "value": "section-bandhancontainer "
+              },
+              {
+                "name": "Bandhan Saving Bank",
+                "value": "saving-bank"
+              },
+              {
+                "name": "section subtitleleft ",
+                "value": "section-subtitleleft "
+              },
+              {
+                "name": "section subtitleright ",
+                "value": "section-subtitleright"
+              },
+              {
+                "name": "section bandhancontainerone",
+                "value": "section-bandhancontainer-one"
+              },
+              {
+                "name": "section bandhancontainertwo",
+                "value": "section-bandhancontainer-two"
+              },
+              {
+                "name": "section bandhancontainer beyond ",
+                "value": "section-bandhancontainer-beyond"
+              },
+              {
+                "name": "section scaner",
+                "value": "section-scaner"
+              },
+              {
+                "name": "section mainpagehero",
+                "value": "section-mainpage-hero"
+              },
+              {
+                "name": "section hero",
+                "value": "section-hero"
+              },
+              {
+                "name": "section accountbtn ",
+                "value": "section-accountbtn"
+              },
+              {
+                "name": "section neo ",
+                "value": "section-neo"
+              },
+              {
                 "name": "Fino Insurance Plans Cards",
                 "value": "fino-insurance-plans-cards"
               },
@@ -187,32 +239,32 @@
                 "value": "banner-carousel"
               },
               {
-                "name":"Center Text Red",
-                "value" :"center-text-red"
+                "name": "Center Text Red",
+                "value": "center-text-red"
               },
               {
-                "name":"Quick Links",
-                "value" :"quick-links-css"  
+                "name": "Quick Links",
+                "value": "quick-links-css"
               },
               {
-                "name":"Video Teaser",
-                "value" :"video-teaser"
+                "name": "Video Teaser",
+                "value": "video-teaser"
               },
               {
-                "name":"Life Stage Wrapper",
-                "value" :"life-stage-wrapper"
+                "name": "Life Stage Wrapper",
+                "value": "life-stage-wrapper"
               },
               {
-                "name":"Get The App",
-                "value" :"get-the-app"
+                "name": "Get The App",
+                "value": "get-the-app"
               },
               {
-                "name":"Social",
-                "value" :"social"
+                "name": "Social",
+                "value": "social"
               },
               {
-                "name":"Footer RTE",
-                "value" :"footer-rte"
+                "name": "Footer RTE",
+                "value": "footer-rte"
               },
               {
                 "name": "p-style-12",
@@ -233,6 +285,10 @@
               {
                 "name": "text-center",
                 "value": "text-center"
+              },
+              {
+                "name": "Footer Dark",
+                "value": "footer-dark"
               }
             ]
           },
@@ -493,6 +549,10 @@
                 "value": "all-expandable"
               },
               {
+                "name": "Bandhan Saving Bank",
+                "value": "saving-bank"
+              },
+              {
                 "name": "Only Mobile Expandable",
                 "value": "only-mobile-expandable"
               }
@@ -716,6 +776,15 @@
                 "value": "hdfc-card-number"
               }
             ]
+          },
+          {
+            "name": "bandhan-bank Content Style",
+            "children": [
+              {
+                "name": "bandhan bank detail",
+                "value": "bandhan-customdetail"
+              }
+            ]
           }
         ]
       }
@@ -792,8 +861,20 @@
                 "value": "three-slides-only"
               },
               {
+                "name": "Four Slides Only",
+                "value": "four-slides-only"
+              },
+              {
+                "name": "Five Slides Only",
+                "value": "five-Slides-only"
+              },
+              {
                 "name": "Reviews",
                 "value": "reviews"
+              },
+              {
+                "name": "Bandhan Saving Bank",
+                "value": "saving-bank"
               },
               {
                 "name": "Fino One Slide Only",
@@ -820,7 +901,24 @@
                 "name": "hdfc One Slide Only",
                 "value": "hdfc-one-slide-only"
               }
-          ]
+            ]
+          },
+          {
+            "name": "bandhan bank Style",
+            "children": [
+              {
+                "name": "bandhan bank",
+                "value": "bandhan-bank-carousel1"
+              },
+              {
+                "name": "bandhan bank carousel2",
+                "value": "bandhan-bank-carousel2"
+              },
+              {
+                "name": "bandhan bank carousel3",
+                "value": "bandhan-bank-carousel3"
+              }
+            ]
           }
         ],
         "valueType": "string[]"
@@ -849,6 +947,22 @@
               {
                 "name": "One Slide Only",
                 "value": "one-slide-only"
+              },
+              {
+                "name": "Bhandhan Banner",
+                "value": "bandhan-home-slider"
+              },
+              {
+                "name": "Bandhan Image Sliders",
+                "value": "bandhan-nri-banking"
+              },
+              {
+                "name": "Bandhan multi Sliders",
+                "value": "bandhan-search-body"
+              },
+              {
+                "name": "Bandhan three Sliders",
+                "value": "bandhan-three-sliders"
               }
             ]
           }
@@ -1018,25 +1132,24 @@
           {
             "name": "hdfc life Content Style",
             "children": [
-            {
-              "name": "Container Bg Color",
-              "value": "eds-container-bg-color"
-            },
-            {
-              "name": "hdfc Container width ",
-              "value": "eds-container"
-            },
-            {
-              "name": "hdfc Container width btn ",
-              "value": "eds-container-btn"
-            },
-            {
-              "name": "HDFC Overflow",
-              "value": "hdfc-overflow"
-            }
-          ]
+              {
+                "name": "Container Bg Color",
+                "value": "eds-container-bg-color"
+              },
+              {
+                "name": "hdfc Container width ",
+                "value": "eds-container"
+              },
+              {
+                "name": "hdfc Container width btn ",
+                "value": "eds-container-btn"
+              },
+              {
+                "name": "HDFC Overflow",
+                "value": "hdfc-overflow"
+              }
+            ]
           }
-          
         ]
       }
     ]
@@ -1247,5 +1360,4 @@
       }
     ]
   }
-
 ]
