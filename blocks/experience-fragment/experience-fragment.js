@@ -34,21 +34,21 @@ export async function appendXF(block, xfPath) {
             }
         });
         block.append(div.querySelector('.root'));
-        div.querySelectorAll('script').forEach((link) => {
-            // debugger;
-            if (exculdeLink.filter((clientLib) => link.src.includes(clientLib)).length) {
-                try {
-                    const newScript = document.createElement('script');
-                    newScript.src = link.src.replace('http://localhost:3000', 'https://stg1-website.hdfclife.tech');
-                    newScript.type = 'text/javascript';
-                    console.log(' Script :: ', newScript.src);
+        // div.querySelectorAll('script').forEach((link) => {
+        //     // debugger;
+        //     if (exculdeLink.filter((clientLib) => link.src.includes(clientLib)).length) {
+        //         try {
+        //             const newScript = document.createElement('script');
+        //             newScript.src = link.src.replace('http://localhost:3000', 'https://stg1-website.hdfclife.tech');
+        //             newScript.type = 'text/javascript';
+        //             console.log(' Script :: ', newScript.src);
 
-                    document.body.append(newScript);
-                } catch (error) {
-                    console.error(error); // eslint-disable-line
-                }
-            }
-        });
+        //             document.body.append(newScript);
+        //         } catch (error) {
+        //             console.error(error); // eslint-disable-line
+        //         }
+        //     }
+        // });
 
         if (window.isLast) {
             setTimeout(() => {
