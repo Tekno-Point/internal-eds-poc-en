@@ -16,28 +16,32 @@ export async function appendXF(block, xfPath) {
         }
         const div = document.createElement('div');
         div.innerHTML = str;
+        const exculdeLink = [
+            '/hdfclifeinsurancecompany/',
+        ];
         div.querySelectorAll('link').forEach((link) => {
-            try {
-                const newLink = document.createElement('link');
-                newLink.href = link.href.replace('http://localhost:3000', 'https://stg1-website.hdfclife.tech');
-                newLink.rel = 'stylesheet';
-                document.head.append(newLink);
-            } catch (error) {
-                console.error(error); // eslint-disable-line
+            if (exculdeLink.filter((clientLib) => link.href.includes(clientLib)).length) {
+                try {
+                    const newLink = document.createElement('link');
+                    newLink.href = link.href.replace('http://localhost:3000', 'https://stg1-website.hdfclife.tech');
+                    console.log(' Link :: ', newLink.href);
+                    
+                    newLink.rel = 'stylesheet';
+                    document.head.append(newLink);
+                } catch (error) {
+                    console.error(error); // eslint-disable-line
+                }
             }
         });
         block.append(div.querySelector('.root'));
         div.querySelectorAll('script').forEach((link) => {
-            const exculdeLink = [
-                '/clientlibs/granite/',
-                '/foundation/clientlibs',
-            ];
             // debugger;
-            if (!exculdeLink.filter((clientLib) => link.src.includes(clientLib)).length) {
+            if (exculdeLink.filter((clientLib) => link.src.includes(clientLib)).length) {
                 try {
                     const newScript = document.createElement('script');
                     newScript.src = link.src.replace('http://localhost:3000', 'https://stg1-website.hdfclife.tech');
                     newScript.type = 'text/javascript';
+                    console.log(' Script :: ', newScript.src);
 
                     document.body.append(newScript);
                 } catch (error) {
@@ -51,7 +55,7 @@ export async function appendXF(block, xfPath) {
                 const event = new Event('DOMContentLoaded');
                 // Dispatch the event
                 document.dispatchEvent(event);
-            }, 1000);
+            });
         }
         window.isLast = true;
     }
