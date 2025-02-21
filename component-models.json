@@ -1133,6 +1133,10 @@
             "name": "hdfc life Content Style",
             "children": [
               {
+                "name": "Image only container",
+                "value": "image-only-container"
+              },
+              {
                 "name": "Container Bg Color",
                 "value": "eds-container-bg-color"
               },
