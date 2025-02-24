@@ -441,6 +441,9 @@ table tbody tr:nth-child(even) {
   min-height: 680px !important;
 }
 .image-only-container{
-  min-height: 434px ;
+  height: 434px ;
+}
+.eds-container-container{
+   height: 700px;
 }
 /* height */
