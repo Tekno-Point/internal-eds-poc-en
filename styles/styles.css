@@ -440,4 +440,7 @@ table tbody tr:nth-child(even) {
 .termbannerFormV2 .relative.minHeight680{
   min-height: 680px !important;
 }
+.image-only-container{
+  min-height: 434px ;
+}
 /* height */
