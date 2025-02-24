@@ -431,3 +431,7 @@ table tbody tr:nth-child(even) {
   font-size: 12px;
   font-weight: 600;
 }
+
+.deskTopHeader .deskTopHeaderWrap .headerWrap{
+  height: 68px;
+}
