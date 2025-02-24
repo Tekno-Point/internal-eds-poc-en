@@ -507,4 +507,15 @@ table tbody tr:nth-child(even) {
   .section:nth-child(25) {
   height:795px;
   }
+  .section:nth-child(2) .image-only-container img{
+    height:434px;
+    }
+  
+  .section:nth-child(3) .image-only-container img{
+    height:340px;
+    }
+  
+  .section:nth-child(4) .image-only-container img{
+    height:339px;
+    }
 /* height */
