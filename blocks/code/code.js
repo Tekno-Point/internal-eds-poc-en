@@ -1,5 +1,11 @@
-export default function decorate(block) {
+export default async function decorate(block) {
     block.innerHTML = (block.textContent);
+    await import('./clientlib-Jquery.min.js');
+    await import('./clientlib-jquery-ui.min.js');
+    await import('./clientlib-swiffy-slider.min.js');
+    await import('./clientlib-bootstrap.min.js');
+    await import('./clientlib-base.min.js');
+    await import('./clientlib-term-category-revamp.min.js');
 
     // const div= document.createElement('div');
     // block.innerHTML = block.querySelector('p').textContent;
