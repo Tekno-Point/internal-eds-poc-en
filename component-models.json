@@ -1377,12 +1377,12 @@
             "name": "Type",
             "children": [
               {
-                "name": "Table",
-                "value": "table"
+                "name": "Head",
+                "value": "head"
               },
               {
-                "name": "test",
-                "value": "test"
+                "name": "Footer",
+                "value": "footer"
               }
             ]
           }
