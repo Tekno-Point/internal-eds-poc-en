@@ -1,0 +1,13 @@
+@import url('./clientlib-bootstrap.min.css');
+@import url('./clientlib-swiffy-slider.min.css');
+@import url('./clientlib-term-category-revamp.min.css');
+
+.deskTopHeader {
+    left: 0;
+}
+
+.megaMenuSec .megaMenuLinkSec .menuLinkInner h3,
+.megaMenuSec .megaMenuLinkSec .menuLinkInner a,
+.hamMenuSection a {
+    color: #005e9e;
+}

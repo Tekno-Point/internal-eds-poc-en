@@ -152,84 +152,84 @@ export default async function decorate(block) {
   const fragment = await loadFragment(navPath);
 
   // decorate nav DOM
-  block.textContent = '';
-  if (fragment.querySelector('.experience-fragment')) {
-    block.append(fragment.firstElementChild);
-    return block;
-  } else if (navPath.includes('/experience-fragments/')) {
-    appendXF(block, navMeta);
-    return block;
-  }
-  const nav = document.createElement('nav');
-  nav.id = 'nav';
-  while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
+  block.innerHTML = (fragment.firstElementChild.textContent);
+  // if (fragment.querySelector('.experience-fragment')) {
+  //   block.append(fragment.firstElementChild);
+  //   return block;
+  // } else if (navPath.includes('/experience-fragments/')) {
+  //   appendXF(block, navMeta);
+  //   return block;
+  // }
+  // const nav = document.createElement('nav');
+  // nav.id = 'nav';
+  // while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
 
-  const classes = ['head', 'brand', 'sections', 'tools'];
-  classes.forEach((c, i) => {
-    const section = nav.children[i];
-    if (section) section.classList.add(`nav-${c}`);
-  });
+  // const classes = ['head', 'brand', 'sections', 'tools'];
+  // classes.forEach((c, i) => {
+  //   const section = nav.children[i];
+  //   if (section) section.classList.add(`nav-${c}`);
+  // });
 
-  const navBrand = nav.querySelector('.nav-brand');
-  const brandLink = navBrand.querySelector('.button');
-  if (brandLink) {
-    brandLink.className = '';
-    brandLink.closest('.button-container').className = '';
-  }
+  // const navBrand = nav.querySelector('.nav-brand');
+  // const brandLink = navBrand.querySelector('.button');
+  // if (brandLink) {
+  //   brandLink.className = '';
+  //   brandLink.closest('.button-container').className = '';
+  // }
 
-  const navSections = nav.querySelector('.nav-sections');
-  if (navSections) {
-    navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
-      if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
-      navSection.addEventListener('click', () => {
-        if (isDesktop.matches) {
-          const expanded = navSection.getAttribute('aria-expanded') === 'true';
-          toggleAllNavSections(navSections);
-          navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-        }
-      });
-    });
-  }
+  // const navSections = nav.querySelector('.nav-sections');
+  // if (navSections) {
+  //   navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
+  //     if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
+  //     navSection.addEventListener('click', () => {
+  //       if (isDesktop.matches) {
+  //         const expanded = navSection.getAttribute('aria-expanded') === 'true';
+  //         toggleAllNavSections(navSections);
+  //         navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+  //       }
+  //     });
+  //   });
+  // }
 
-  // hamburger for mobile
-  const hamburger = document.createElement('div');
-  hamburger.classList.add('nav-hamburger');
+  // // hamburger for mobile
+  // const hamburger = document.createElement('div');
+  // hamburger.classList.add('nav-hamburger');
 
-  hamburger.innerHTML = `<button type="button" aria-controls="nav" aria-label="Open navigation">
-      <span class="nav-hamburger-icon"></span>
-    </button>`;
-  let mobFragment = null;
-  hamburger.addEventListener('click', async () => {
-    if (!mobFragment) {
-      mobFragment = await loadFragment('/nippon/modals/mob-nav-modal');
-      const mobNav = mobFragment.querySelector('.default-content-wrapper');
-      mobNav.classList.add('desk-dp-none');
-      navBrand.prepend(mobNav);
-      // navSections.prepend(mobFragment.lastElementChild.lastElementChild);
-      mobNav.querySelectorAll(':scope > ul > li').forEach((navSection) => {
-        wrapListUE(navSection);
-      });
-      mobNav.querySelectorAll('ul ul').forEach((el) => {
-        el.querySelectorAll('ul').forEach((ele) => {
-          ele.setAttribute('aria-expanded', 'false');
-          ele.parentElement.querySelector('p').addEventListener('click', () => {
-            const expanded = ele.getAttribute('aria-expanded') === 'true';
-            ele.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-            ele.parentElement.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-            ele.parentElement.querySelector('p').classList.toggle('navlist-dropdown');
-          });
-        });
-      });
-    }
-    toggleMenu(nav, navSections);
-  }); nav.prepend(hamburger);
-  nav.setAttribute('aria-expanded', 'false');
-  // prevent mobile nav behavior on window resize
-  toggleMenu(nav, navSections, isDesktop.matches);
-  isDesktop.addEventListener('change', () => toggleMenu(nav, navSections, isDesktop.matches));
+  // hamburger.innerHTML = `<button type="button" aria-controls="nav" aria-label="Open navigation">
+  //     <span class="nav-hamburger-icon"></span>
+  //   </button>`;
+  // let mobFragment = null;
+  // hamburger.addEventListener('click', async () => {
+  //   if (!mobFragment) {
+  //     mobFragment = await loadFragment('/nippon/modals/mob-nav-modal');
+  //     const mobNav = mobFragment.querySelector('.default-content-wrapper');
+  //     mobNav.classList.add('desk-dp-none');
+  //     navBrand.prepend(mobNav);
+  //     // navSections.prepend(mobFragment.lastElementChild.lastElementChild);
+  //     mobNav.querySelectorAll(':scope > ul > li').forEach((navSection) => {
+  //       wrapListUE(navSection);
+  //     });
+  //     mobNav.querySelectorAll('ul ul').forEach((el) => {
+  //       el.querySelectorAll('ul').forEach((ele) => {
+  //         ele.setAttribute('aria-expanded', 'false');
+  //         ele.parentElement.querySelector('p').addEventListener('click', () => {
+  //           const expanded = ele.getAttribute('aria-expanded') === 'true';
+  //           ele.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+  //           ele.parentElement.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+  //           ele.parentElement.querySelector('p').classList.toggle('navlist-dropdown');
+  //         });
+  //       });
+  //     });
+  //   }
+  //   toggleMenu(nav, navSections);
+  // }); nav.prepend(hamburger);
+  // nav.setAttribute('aria-expanded', 'false');
+  // // prevent mobile nav behavior on window resize
+  // toggleMenu(nav, navSections, isDesktop.matches);
+  // isDesktop.addEventListener('change', () => toggleMenu(nav, navSections, isDesktop.matches));
 
-  const navWrapper = document.createElement('div');
-  navWrapper.className = 'nav-wrapper';
-  navWrapper.append(nav);
-  block.append(navWrapper);
+  // const navWrapper = document.createElement('div');
+  // navWrapper.className = 'nav-wrapper';
+  // navWrapper.append(nav);
+  // block.append(navWrapper);
 }
