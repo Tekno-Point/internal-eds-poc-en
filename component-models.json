@@ -1363,5 +1363,38 @@
         "label": "Video Link"
       }
     ]
+  },
+  {
+    "id": "code",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Type",
+            "children": [
+              {
+                "name": "Table",
+                "value": "table"
+              },
+              {
+                "name": "test",
+                "value": "test"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "text-area",
+        "valueType": "string",
+        "name": "htmlCode",
+        "value": "",
+        "label": "Author HTML Code"
+      }
+    ]
   }
 ]
