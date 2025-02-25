@@ -13,6 +13,8 @@ export default async function decorate(block) {
 
   // decorate footer DOM
   block.textContent = '';
+  block.append(fragment.firstElementChild);
+/* 
   if (fragment.querySelector('.experience-fragment')) {
     block.append(fragment.firstElementChild);
   } else if (footerMeta.includes('/experience-fragments/')) {
@@ -22,4 +24,4 @@ export default async function decorate(block) {
     while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
     block.append(footer);
   }
-}
+ */}

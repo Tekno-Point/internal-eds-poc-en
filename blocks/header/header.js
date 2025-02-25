@@ -152,7 +152,7 @@ export default async function decorate(block) {
   const fragment = await loadFragment(navPath);
 
   // decorate nav DOM
-  block.innerHTML = (fragment.firstElementChild.textContent);
+  block.append(fragment.firstElementChild);
   // if (fragment.querySelector('.experience-fragment')) {
   //   block.append(fragment.firstElementChild);
   //   return block;

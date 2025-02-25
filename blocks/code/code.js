@@ -1,4 +1,5 @@
 export default function decorate(block) {
+    block.innerHTML = (block.textContent);
 
     // const div= document.createElement('div');
     // block.innerHTML = block.querySelector('p').textContent;
