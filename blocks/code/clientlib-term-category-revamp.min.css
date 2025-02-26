@@ -58,8 +58,8 @@ h2.homeheader2+span+p,h2.homeheader2+p{font-size:16px;line-height:22px;font-weig
 .bg2h4{font-size:22px;line-height:28px;font-weight:600;color:#fff;position:absolute;bottom:20px;left:20px;z-index:9;padding-left:17px;padding-right:17px}
 .bg2 h6{font-size:16px;line-height:22px;padding-bottom:10px}
 .bg2 div{bottom:20px;position:absolute}
-.panel-title a{font-size:22px;line-height:22px;font-weight:400;color:#767676;display:block;background-image:url('../../../content/dam/hdfclifeinsurancecompany/home/icons/arrow-up.png');background-repeat:no-repeat;background-position:100%;margin-top:78px;text-decoration:none}
-.panel-title a.collapsed{font-size:22px;line-height:22px;font-weight:400;color:#767676;display:block;background-image:url('../../../content/dam/hdfclifeinsurancecompany/home/icons/arrow-down.png');background-repeat:no-repeat;background-position:right bottom}
+.panel-title a{font-size:22px;line-height:22px;font-weight:400;color:#767676;display:block;background-image:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/home/icons/arrow-up.png');background-repeat:no-repeat;background-position:100%;margin-top:78px;text-decoration:none}
+.panel-title a.collapsed{font-size:22px;line-height:22px;font-weight:400;color:#767676;display:block;background-image:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/home/icons/arrow-down.png');background-repeat:no-repeat;background-position:right bottom}
 .swiper-slide{padding-left:15px !important}
 .disc-txt{font-size:12px;line-height:20px;color:#767676;margin-top:8px}
 #carouselExampleIndicators{max-width:1600px;margin:0 auto}
@@ -330,79 +330,79 @@ h2.homeheader2+span+p+button,h2.homeheader2+span+p+p+button{margin:0 auto;displa
 @keyframes MoveUpDown{0,100%{bottom:0}
 50%{bottom:10px}
 }
-.bg-About_Us{display:inline-block;width:78px;height:78px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -508px -310px}
-.bg-Android{display:inline-block;width:28px;height:28px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -10px -527px}
-.bg-Apple{display:inline-block;width:28px;height:29px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -552px -429px}
-.bg-Asset_management{display:inline-block;width:80px;height:80px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -236px -316px}
-.bg-BFSI_Awards{display:inline-block;width:173px;height:173px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -10px -10px}
-.bg-Branches{display:inline-block;width:80px;height:80px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -508px -10px}
-.bg-Bullet{display:inline-block;width:21px;height:21px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -359px -527px}
-.bg-call_header_hover{display:inline-block;width:46px;height:46px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -429px -139px}
-.bg-call_header{display:inline-block;width:46px;height:46px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -429px -205px}
-.bg-Cancel{display:inline-block;width:14px;height:14px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -608px -50px}
+.bg-About_Us{display:inline-block;width:78px;height:78px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -508px -310px}
+.bg-Android{display:inline-block;width:28px;height:28px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -10px -527px}
+.bg-Apple{display:inline-block;width:28px;height:29px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -552px -429px}
+.bg-Asset_management{display:inline-block;width:80px;height:80px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -236px -316px}
+.bg-BFSI_Awards{display:inline-block;width:173px;height:173px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -10px -10px}
+.bg-Branches{display:inline-block;width:80px;height:80px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -508px -10px}
+.bg-Bullet{display:inline-block;width:21px;height:21px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -359px -527px}
+.bg-call_header_hover{display:inline-block;width:46px;height:46px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -429px -139px}
+.bg-call_header{display:inline-block;width:46px;height:46px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -429px -205px}
+.bg-Cancel{display:inline-block;width:14px;height:14px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -608px -50px}
 .bg-Chat{display:block;float:right;position:fixed;bottom:20px;right:0;z-index:999}
-.bg-Chat a{display:block;clear:both;width:63px;height:66px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -336px -316px}
+.bg-Chat a{display:block;clear:both;width:63px;height:66px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -336px -316px}
 .floater{position:absolute;right:30px;bottom:0;width:63px}
 .bg-Chat1{display:block;float:right;clear:both;margin-bottom:10px}
-.bg-Chat1 a{display:block;width:38px;height:38px;background:url('../../../content/dam/hdfclifeinsurancecompany/home/icons/message.png') 0 0 no-repeat;background-size:99%;margin-top:4px}
+.bg-Chat1 a{display:block;width:38px;height:38px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/home/icons/message.png') 0 0 no-repeat;background-size:99%;margin-top:4px}
 .bg-cll{display:block;float:right;clear:both;margin-bottom:10px}
 .bg-cll a{display:block;width:38px;height:37px;background:0}
 .bg-Childrens{display:inline-block;width:93px;height:93px;background:0}
 .bg-Customer{display:inline-block;width:21px;height:18px;background:-442px -527px}
-.bg-Employee{display:inline-block;width:17px;height:20px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -608px -10px}
-.bg-FB{display:inline-block;width:42px;height:42px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -203px -123px}
-.bg-Fund_Performance{display:inline-block;width:78px;height:78px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -10px -429px}
+.bg-Employee{display:inline-block;width:17px;height:20px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -608px -10px}
+.bg-FB{display:inline-block;width:42px;height:42px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -203px -123px}
+.bg-Fund_Performance{display:inline-block;width:78px;height:78px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -10px -429px}
 .bg-Group{display:inline-block;width:93px;height:93px;background:0}
-.bg-HDFC_logo{display:inline-block;width:87px;height:57px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -316px -236px}
+.bg-HDFC_logo{display:inline-block;width:87px;height:57px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -316px -236px}
 .bg-Health{display:inline-block;width:93px;height:93px;background:0}
-.bg-Instagram{display:inline-block;width:42px;height:42px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -236px -203px}
-.bg-Knowledge_Center{display:inline-block;width:78px;height:78px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -108px -429px}
-.bg-Language{display:inline-block;width:53px;height:34px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -429px -271px}
-.bg-Language_1{display:inline-block;width:52px;height:34px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -429px -325px}
-.bg-Linkedin{display:inline-block;width:42px;height:42px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -304px -429px}
-.bg-Lives_insured{display:inline-block;width:80px;height:80px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -508px -110px}
-.bg-Login_hover{display:inline-block;width:30px;height:30px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -429px -379px}
-.bg-Login{display:inline-block;width:30px;height:30px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -265px -123px}
-.bg-menu{display:inline-block;width:24px;height:14px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -350px -491px}
-.bg-mouse_cursor{display:inline-block;width:59px;height:109px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -429px -10px}
-.bg-Online_Call{display:inline-block;width:22px;height:22px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -233px -527px}
-.bg-Online_Email{display:inline-block;width:20px;height:17px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -483px -527px}
-.bg-Online_Request_call_back{display:inline-block;width:22px;height:22px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -275px -527px}
-.bg-Online_sms{display:inline-block;width:22px;height:22px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -317px -527px}
-.bg-Partner{display:inline-block;width:26px;height:15px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -304px -491px}
-.bg-Policy_Whatsapp{display:inline-block;width:23px;height:24px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -190px -527px}
+.bg-Instagram{display:inline-block;width:42px;height:42px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -236px -203px}
+.bg-Knowledge_Center{display:inline-block;width:78px;height:78px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -108px -429px}
+.bg-Language{display:inline-block;width:53px;height:34px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -429px -271px}
+.bg-Language_1{display:inline-block;width:52px;height:34px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -429px -325px}
+.bg-Linkedin{display:inline-block;width:42px;height:42px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -304px -429px}
+.bg-Lives_insured{display:inline-block;width:80px;height:80px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -508px -110px}
+.bg-Login_hover{display:inline-block;width:30px;height:30px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -429px -379px}
+.bg-Login{display:inline-block;width:30px;height:30px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -265px -123px}
+.bg-menu{display:inline-block;width:24px;height:14px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -350px -491px}
+.bg-mouse_cursor{display:inline-block;width:59px;height:109px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -429px -10px}
+.bg-Online_Call{display:inline-block;width:22px;height:22px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -233px -527px}
+.bg-Online_Email{display:inline-block;width:20px;height:17px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -483px -527px}
+.bg-Online_Request_call_back{display:inline-block;width:22px;height:22px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -275px -527px}
+.bg-Online_sms{display:inline-block;width:22px;height:22px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -317px -527px}
+.bg-Partner{display:inline-block;width:26px;height:15px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -304px -491px}
+.bg-Policy_Whatsapp{display:inline-block;width:23px;height:24px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -190px -527px}
 .bg-Retirement{display:inline-block;width:93px;height:93px;background:0}
 .bg-Savings{display:inline-block;width:93px;height:93px;background:0}
 .bg-pos{display:inline-block;width:93px;height:93px;background:0}
 .bg-combo{display:inline-block;width:93px;height:93px;background:0}
-.bg-search_hover{display:inline-block;width:13px;height:13px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -608px -84px}
-.bg-search{display:inline-block;width:30px;height:30px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -236px -265px}
-.bg-hand_cursor{display:inline-block;width:24px;height:24px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -58px -527px}
-.bg-see_more_arrow{display:inline-block;width:17px;height:8px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -608px -117px}
-.bg-Slideshare{display:inline-block;width:42px;height:42px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -366px -429px}
-.bg-Speaker{display:inline-block;width:22px;height:19px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -400px -527px}
-.bg-Star_no_filled{display:inline-block;width:12px;height:12px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -608px -145px}
-.bg-star_filled{display:inline-block;width:12px;height:12px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -608px -177px}
-.bg-Subscripe_failed{display:inline-block;width:24px;height:24px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -102px -527px}
-.bg-Subscripe_sucess{display:inline-block;width:24px;height:24px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -146px -527px}
-.bg-Sum_assuredsvg{display:inline-block;width:80px;height:80px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -508px -210px}
+.bg-search_hover{display:inline-block;width:13px;height:13px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -608px -84px}
+.bg-search{display:inline-block;width:30px;height:30px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -236px -265px}
+.bg-hand_cursor{display:inline-block;width:24px;height:24px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -58px -527px}
+.bg-see_more_arrow{display:inline-block;width:17px;height:8px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -608px -117px}
+.bg-Slideshare{display:inline-block;width:42px;height:42px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -366px -429px}
+.bg-Speaker{display:inline-block;width:22px;height:19px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -400px -527px}
+.bg-Star_no_filled{display:inline-block;width:12px;height:12px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -608px -145px}
+.bg-star_filled{display:inline-block;width:12px;height:12px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -608px -177px}
+.bg-Subscripe_failed{display:inline-block;width:24px;height:24px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -102px -527px}
+.bg-Subscripe_sucess{display:inline-block;width:24px;height:24px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -146px -527px}
+.bg-Sum_assuredsvg{display:inline-block;width:80px;height:80px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -508px -210px}
 .bg-Term_plans{display:inline-block;width:93px;height:93px;background:0}
-.bg-Tools_and_Calculators{display:inline-block;width:78px;height:78px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -206px -429px}
-.bg-Twitter{display:inline-block;width:42px;height:42px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -428px -429px}
+.bg-Tools_and_Calculators{display:inline-block;width:78px;height:78px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -206px -429px}
+.bg-Twitter{display:inline-block;width:42px;height:42px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -428px -429px}
 .bg-Ulip{display:inline-block;width:93px;height:93px;background:0}
-.bg-Youtube{display:inline-block;width:42px;height:42px;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -490px -429px}
+.bg-Youtube{display:inline-block;width:42px;height:42px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/homeiconSprite.png') -490px -429px}
 .bg1{display:inline-block;width:100%;background:0;background-size:cover;background-position:50%;background-repeat:no-repeat;-webkit-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;transition:all .5s}
 .bg1:hover{-ms-transform:scale(1.1);-moz-transform:scale(1.1);-webkit-transform:scale(1.1);-o-transform:scale(1.1);transform:scale(1.1)}
 .bg2{display:inline-block;width:100%;background:0;background-repeat:no-repeat;-webkit-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;transition:all .5s;background-size:100%}
 .bg2:hover{-ms-transform:scale(1.1);-moz-transform:scale(1.1);-webkit-transform:scale(1.1);-o-transform:scale(1.1);transform:scale(1.1)}
 .swiper-slide span{margin:0 auto !important}
 .calculator-section{padding-top:80px;padding-bottom:80px;position:relative;display:none;max-width:1200px;width:100%;margin:0 auto;border:1px solid #bfc0c1;background-color:#fff;margin:68px auto}
-.calculator-section .close-icon{position:absolute;top:26px;right:26px;cursor:pointer;font-size:23px;width:20px;height:20px;display:inline-block;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/pop-close.png') no-repeat 0 0}
+.calculator-section .close-icon{position:absolute;top:26px;right:26px;cursor:pointer;font-size:23px;width:20px;height:20px;display:inline-block;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/pop-close.png') no-repeat 0 0}
 .calculator-section h3{color:#233253;font-weight:500;font-size:20px;line-height:28px;margin-bottom:16px}
 .calculator-section .calc-btn{display:block;text-transform:uppercase;margin:0 auto 49px}
 .calculator-section .form-group label{font-size:14px;font-weight:400;line-height:32px;color:#8a93a5;display:block}
 .calculator-section .select-holder1 select{width:110%;border:0 solid transparent;background-color:transparent !important;font-size:14px;color:#233253;line-height:22px;font-weight:500;outline:0}
-.calculator-section .select-holder1{background:url('../../../content/dam/hdfclifeinsurancecompany/select-arrow.png') no-repeat right center;max-width:200px;width:100%;overflow:hidden;padding-top:4px;border:1px solid #c7cacc;height:34px;padding-left:5px}
+.calculator-section .select-holder1{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/select-arrow.png') no-repeat right center;max-width:200px;width:100%;overflow:hidden;padding-top:4px;border:1px solid #c7cacc;height:34px;padding-left:5px}
 .select-holder2{background:no-repeat right center;max-width:187px;width:100%;overflow:hidden;padding-top:4px;border:1px solid #ed1c24;height:34px;padding-left:5px;background-color:#fff;border-radius:3px;margin:0 auto}
 .select-holder2 select{width:110%;border:0 solid transparent;background-color:transparent !important;font-size:14px;color:#ed1c24;line-height:22px;font-weight:500;outline:0}
 .rupee{position:relative;left:8px;top:3px;right:-16px;top:1px;z-index:99;width:15px;font-family:arial}
@@ -451,7 +451,7 @@ ul.search-suggestions-selectOption{border:1px solid rgba(0,0,0,0.08);height:130p
 .sac input{background-color:#f4f4f4;font-size:12px;font-style:italic;color:#767676;height:47px;outline-style:none;outline-width:0;border:0 solid transparent;box-shadow:none !important}
 .sac input:focus{background-color:#f4f4f4}
 .sac label{font-size:14px;color:#233253}
-.select-holder{background:url(../../../content/dam/hdfclifeinsurancecompany/images/home-images/select-arrow.png) no-repeat right center #f4f4f4;height:38px;width:100%;OVERFLOW:HIDDEN;padding-top:7px;padding-left:10px;cursor:pointer}
+.select-holder{background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/select-arrow.png) no-repeat right center #f4f4f4;height:38px;width:100%;OVERFLOW:HIDDEN;padding-top:7px;padding-left:10px;cursor:pointer}
 .select-holder select{cursor:pointer;width:100%;border:0 solid transparent;background-color:transparent !important;font-size:12px;font-style:italic;outline:0;color:#767676;-webkit-appearance:none;appearance:none}
 .sac .row{padding-bottom:10px}
 .sac .row:last-child{padding-bottom:0}
@@ -555,7 +555,7 @@ footer .stayUpdatedSec{max-width:600px}
 .swiper-button-next,.swiper-button-prev{top:188px !important}
 }
 .width100{width:100%}
-.close-icon1{position:absolute;top:26px;right:26px;cursor:pointer;font-size:23px;z-index:999;width:20px;height:20px;display:inline-block;background:url('../../../content/dam/hdfclifeinsurancecompany/images/home-images/pop-close.png') no-repeat 0 0}
+.close-icon1{position:absolute;top:26px;right:26px;cursor:pointer;font-size:23px;z-index:999;width:20px;height:20px;display:inline-block;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/pop-close.png') no-repeat 0 0}
 .getQuoteSec{display:flex;justify-content:center;margin:50px}
 .recomendPlans>div{display:flex;flex-wrap:wrap;justify-content:center}
 .recomendPlans h3{font-weight:700}
@@ -582,7 +582,7 @@ footer .stayUpdatedSec{max-width:600px}
 .cs-workarea .cs-box-holder:before{width:4px;content:"";position:absolute;top:0;left:0;height:100px;z-index:1;background-color:#ed1c24}
 .cs-workarea .cs-box-holder h3{font-family:Poppins,sans-serif;font-size:28px;line-height:28px;font-weight:700;color:#005e9e;padding-bottom:24px}
 .cs-workarea .cs-box-holder ul{clear:both;overflow:hidden;min-height:190px}
-.cs-workarea .cs-box-holder ul li:before{content:"";position:absolute;left:0;top:6px;background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -37px -88px;width:6px;height:10px;z-index:9}
+.cs-workarea .cs-box-holder ul li:before{content:"";position:absolute;left:0;top:6px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -37px -88px;width:6px;height:10px;z-index:9}
 .cs-workarea .cs-box-holder ul li{position:relative;clear:both;font-size:16px;color:#233253;line-height:22px;padding-bottom:16px;padding-left:18px}
 .cs-workarea .cs-box-holder ul li a{color:#233253;text-decoration:none}
 .cs-workarea .cs-box-holder ul li a:hover{color:#233253;text-decoration:none}
@@ -598,16 +598,16 @@ footer .stayUpdatedSec{max-width:600px}
 .login-btn:hover{background:#005e9e !important;border-color:#005e9e !important}
 .rt-blue-bg{width:100%;padding:3px;background-color:#80c1e1}
 .rt-blue-bg h5{font-size:16px;line-height:22px;font-weight:700;color:#233253;padding:24px 0 21px 44px;position:relative}
-.rt-blue-bg h5:before{position:absolute;left:18px;top:27px;content:"";background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -157px -90px;width:17px;height:16px}
+.rt-blue-bg h5:before{position:absolute;left:18px;top:27px;content:"";background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -157px -90px;width:17px;height:16px}
 .rt-blue-bg ul{clear:both;overflow:hidden}
 .rt-blue-bg ul .range-limit{clear:both;overflow:hidden}
 .rt-blue-bg ul li a{clear:both;background-color:#fff;padding:19px 30px 19px 22px;font-size:14px;line-height:14px;color:#2c6698;font-weight:500;display:block;width:100%;margin-top:3px;position:relative}
 .rt-blue-bg ul li a:hover{color:#ed1c24}
-.rt-blue-bg ul li a:after{position:absolute;right:18px;top:22px;content:"";background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -178px -92px;width:6px;height:11px}
-.rt-blue-bg ul li a:hover:after{position:absolute;right:18px;top:22px;content:"";background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -37px -88px;width:6px;height:10px}
+.rt-blue-bg ul li a:after{position:absolute;right:18px;top:22px;content:"";background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -178px -92px;width:6px;height:11px}
+.rt-blue-bg ul li a:hover:after{position:absolute;right:18px;top:22px;content:"";background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -37px -88px;width:6px;height:10px}
 .rt-blue-bg1{width:100%;padding:3px;background-color:#0083c3;margin-top:26px}
 .rt-blue-bg1 h5{font-size:16px;line-height:22px;font-weight:700;color:#fff;padding:24px 0 0 44px;position:relative}
-.rt-blue-bg1 h5:before{position:absolute;left:18px;top:27px;content:"";background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -204px -94px;width:18px;height:18px}
+.rt-blue-bg1 h5:before{position:absolute;left:18px;top:27px;content:"";background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -204px -94px;width:18px;height:18px}
 .rt-blue-bg1 ul{clear:both;overflow:hidden}
 .rt-blue-bg1 ul .range-limit{clear:both;overflow:hidden}
 .cs-bonus.recommend-search-me{padding-bottom:0 !important;background-color:#fff !important}
@@ -615,13 +615,13 @@ footer .stayUpdatedSec{max-width:600px}
 .cs-bonus.recommend-search-me select option{font-style:normal !important}
 .rt-blue-bg1 ul li a{clear:both;overflow:hidden;padding:19px 30px 19px 34px;font-size:14px;line-height:18px;color:#fff;font-weight:500;display:block;width:100%;margin-top:3px;border-bottom:1px solid #FFF;position:relative}
 .rt-blue-bg1 ul li a:hover{color:#233253}
-.rt-blue-bg1 ul li a:before{position:absolute;left:18px;top:22px;content:"";background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -188px -92px;width:6px;height:11px}
+.rt-blue-bg1 ul li a:before{position:absolute;left:18px;top:22px;content:"";background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -188px -92px;width:6px;height:11px}
 .rt-blue-bg1 ul li:last-child a{border-bottom:0 !important}
 .Searchsection{background:#f9f9f9;padding:48px 0 48px 0}
 .Searchsection .search{max-width:420px;width:100%;margin:0 auto}
 .Searchsection .search label{font-size:14px;line-height:22px;color:#233253;font-weight:normal}
 .Searchsection .search .search-sec{position:relative;max-width:420px;width:100%;background:#f4f4f4;border:1px solid #c7cacc;height:41px;border-radius:4px}
-.Searchsection .search .search-sec:before{position:absolute;content:"";left:14px;top:13px;background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -107px -86px;width:14px;height:14px}
+.Searchsection .search .search-sec:before{position:absolute;content:"";left:14px;top:13px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -107px -86px;width:14px;height:14px}
 .Searchsection .search .search-sec input{float:left;width:74%;background-color:transparent;border:1px solid transparent;font-size:12px;line-height:28px;color:#767676;height:39px;padding-left:37px}
 .Searchsection .search .search-sec input:focus{background-color:#FFF}
 .Searchsection .search .search-sec button{float:right;background:#ed1c24;border-radius:0 4px 4px 0;Width:26%;height:39px;border:none !important;font-size:12px;color:#fff}
@@ -632,33 +632,33 @@ footer .stayUpdatedSec{max-width:600px}
 .hmbreadcrumb ul li{display:inline-block;font-size:12px;line-height:22px;font-weight:normal;padding-top:7px;padding-right:5px;padding-left:10px;position:relative}
 .hmbreadcrumb ul li:first-child:before{display:none}
 .hmbreadcrumb ul li:first-child{padding-left:0 !important;padding-right:0 !important;margin-right:5px}
-.hmbreadcrumb ul li:before{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -91px -89px;width:7px;height:8px;position:absolute;content:"";left:0;top:14px}
+.hmbreadcrumb ul li:before{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -91px -89px;width:7px;height:8px;position:absolute;content:"";left:0;top:14px}
 .hmbreadcrumb ul .level0{color:#233253 !important}
 .hmbreadcrumb ul .level1{color:#717a8d !important}
 .hmbreadcrumb ul .level2{color:#233253 !important}
 .hmbreadcrumb ul li a{color:#233253}
 .hmbreadcrumb ul li a:hover{color:#233253}
 .background-white{background-color:#fff !important}
-.bread-home{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -60px -87px;width:9px;height:10px;display:inline-block}
+.bread-home{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -60px -87px;width:9px;height:10px;display:inline-block}
 h1 .bgwhite{background-color:#fff;line-height:48px;height:50px;display:inline-block}
 .cs-banner-section{margin-top:98px;padding-top:50px}
 .cs-banner-section h1{position:relative;line-height:48px;font-weight:700;font-size:48px;color:#ed1c24}
-.cs-banner-section h1:before{position:absolute;left:0;top:0;content:"";width:82px;height:82px;background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat 0 0;z-index:-1;left:-44px;top:-18px}
+.cs-banner-section h1:before{position:absolute;left:0;top:0;content:"";width:82px;height:82px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat 0 0;z-index:-1;left:-44px;top:-18px}
 .cs-banner-section h1 .bluetxt{color:#233253}
 .cs-banner-section h1+p{font-size:14px;line-height:20px;color:#233253;padding-top:14px}
 .cs-banner-section ul{display:block;margin-top:15px}
 .cs-banner-section ul li{display:inline-block;padding-right:26px;position:relative;padding-left:20px;font-size:12px;line-height:20px}
-.cs-banner-section ul li:before{content:"";position:absolute;width:16px;height:16px;left:0;top:2px;background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat 0 -84px}
+.cs-banner-section ul li:before{content:"";position:absolute;width:16px;height:16px;left:0;top:2px;background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat 0 -84px}
 .cs-banner-section ul li.services:before{content:"";position:absolute;width:16px;height:13px;left:0;top:4px;background:no-repeat 0 0 !important}
 .cs-banner-section ul li a,.cs-banner-section ul li a:hover{color:#233253;text-decoration:none}
 .cs-banner-section ul li a span{color:#005e9e;font-weight:600}
-.cs-profile{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -87px 0;width:73px;height:70px;display:inline-block}
-.cs-help{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -170px 0;width:72px;height:89px;display:inline-block}
-.payins{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -256px 0;width:56px;height:56px;display:inline-block}
-.manage{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -249px -64px;width:56px;height:56px;display:inline-block}
-.ps{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -249px -64px;width:56px;height:56px;display:inline-block}
-.demat{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -4px -112px;width:56px;height:56px;display:inline-block}
-.claims{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -391px -69px;width:56px;height:56px;display:inline-block}
+.cs-profile{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -87px 0;width:73px;height:70px;display:inline-block}
+.cs-help{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -170px 0;width:72px;height:89px;display:inline-block}
+.payins{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -256px 0;width:56px;height:56px;display:inline-block}
+.manage{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -249px -64px;width:56px;height:56px;display:inline-block}
+.ps{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -249px -64px;width:56px;height:56px;display:inline-block}
+.demat{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -4px -112px;width:56px;height:56px;display:inline-block}
+.claims{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -391px -69px;width:56px;height:56px;display:inline-block}
 .ui-datepicker{width:17em;padding:.2em .2em 0;display:none}
 .ui-datepicker .ui-datepicker-prev{left:0 !important}
 .ui-datepicker .ui-datepicker-next{right:0 !important}
@@ -666,10 +666,10 @@ h1 .bgwhite{background-color:#fff;line-height:48px;height:50px;display:inline-bl
 .ui-datepicker table{width:100%;font-size:.7em;border-collapse:collapse;font-family:verdana;margin:0 0 .4em;color:#000;background:#fff}
 .ui-datepicker td{border:0;padding:1px}
 .ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}
-.grp{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -324px -65px;width:56px;height:56px;display:inline-block}
-.manage-online{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -249px -64px;width:56px;height:56px;display:inline-block}
-.specimen{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -385px 0;width:56px;height:56px;display:inline-block}
-.escalation{background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -324px 0;width:56px;height:56px;display:inline-block}
+.grp{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -324px -65px;width:56px;height:56px;display:inline-block}
+.manage-online{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -249px -64px;width:56px;height:56px;display:inline-block}
+.specimen{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -385px 0;width:56px;height:56px;display:inline-block}
+.escalation{background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -324px 0;width:56px;height:56px;display:inline-block}
 .claim-tabaddjust li{margin-left:50px !important;margin-right:50px !important}
 @media only screen and (max-width:1020px){.claim-tabaddjust li{margin-left:0 !important;margin-right:0 !important}
 body.cs{padding-top:200px}
@@ -698,7 +698,7 @@ body.cs{padding-top:120px}
 .cs-workarea .cs-box-holder h3{float:left;padding-top:17px;padding-left:20px;font-size:18px;line-height:24px;font-weight:500;width:70%;padding-bottom:0}
 .cs-workarea .cs-box-holder ul,.cs-workarea .cs-box-holder ul+div,.cs-workarea .cs-box-holder::before{display:none}
 .Searchsection .search .search-sec input{width:60%}
-.cs-workarea .cs-box-holder::after{position:absolute;content:"";right:38px;top:50%;transform:translateY(-50%);background:url('../../../content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -137px -88px;display:inline-block;width:8px;height:14px}
+.cs-workarea .cs-box-holder::after{position:absolute;content:"";right:38px;top:50%;transform:translateY(-50%);background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/cs-sprite.png') no-repeat -137px -88px;display:inline-block;width:8px;height:14px}
 }
 .dbl{padding-top:3px !important}
 .pay:before{display:none}
@@ -747,8 +747,8 @@ button:hover{border-color:#fff !important}
 .claim-online-wrapper .steps .step1{color:#005e9e}
 .claim-online-wrapper .steps .step2{color:#005e9e}
 .claim-online-wrapper .steps .step3{color:#005e9e}
-.claim-online-wrapper .steps .step1:before{position:absolute;left:0;width:58px;height:58px;content:"";background:url('../../../content/dam/hdfclifeinsurancecompany/icons/step-1.png') no-repeat 0 0}
-.claim-online-wrapper .steps .step2:before{position:absolute;left:0;width:58px;height:58px;content:"";background:url('../../../content/dam/hdfclifeinsurancecompany/icons/step-2.png') no-repeat 0 0}
+.claim-online-wrapper .steps .step1:before{position:absolute;left:0;width:58px;height:58px;content:"";background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/step-1.png') no-repeat 0 0}
+.claim-online-wrapper .steps .step2:before{position:absolute;left:0;width:58px;height:58px;content:"";background:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/step-2.png') no-repeat 0 0}
 .claim-online-wrapper .steps .step3:before{position:absolute;left:0;width:58px;height:58px;content:""}
 .claim-online-wrapper .steps .step1:after{position:absolute;right:0;top:0;width:62px;height:58px;content:""}
 .claim-online-wrapper .steps .step2:after{position:absolute;right:0;top:0;width:62px;height:58px;content:""}
@@ -892,7 +892,7 @@ input[type=number]{-moz-appearance:textfield}
 .exite{font-weight:600 !important;font-size:24px !important;line-height:30px !important;color:#233253 !important}
 .products-custom-listnew{margin-bottom:38px}
 .products-custom-listnew li{font-size:16px;line-height:26px;position:relative;padding-left:34px;padding-top:2px}
-.products-custom-listnew li::before{content:"";position:absolute;top:8px;left:0;width:21px;height:20px;background:url(../../../content/dam/hdfclifeinsurancecompany/products-sprite-icons.png) -236px -435px}
+.products-custom-listnew li::before{content:"";position:absolute;top:8px;left:0;width:21px;height:20px;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/products-sprite-icons.png) -236px -435px}
 @media only screen and (max-width:680px){li{font-size:14px;line-height:20px}
 }
 .chk-break{border:none !important;width:100% !important;font-size:10px !important;color:#666;text-align:left !important;line-height:14px}
@@ -936,7 +936,7 @@ input[type=number]{-moz-appearance:textfield}
 .settle li{font-size:14px !important;line-height:32px !important;color:#838383 !important}
 .km,.km:hover{color:#ed1c24;font-size:12px}
 .calcQuoate{color:rgba(000,000,000,0.6);position:relative;padding-left:30px;margin-bottom:5px}
-.calcQuoate:before{content:"";position:absolute;top:0;left:0;width:21px;height:20px;background:url(../../../content/dam/hdfclifeinsurancecompany/images/product/products-sprite-icons.png) -236px -435px}
+.calcQuoate:before{content:"";position:absolute;top:0;left:0;width:21px;height:20px;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/product/products-sprite-icons.png) -236px -435px}
 .pb15{padding-bottom:15px !important}
 .popularMenuList{border-right:1px solid #cfd6d6;padding-right:40px}
 @media screen and (min-height:800px){.viewall{bottom:17%}
@@ -950,8 +950,8 @@ input[type=number]{-moz-appearance:textfield}
 .prodgreybg h4{font-size:20px;text-transform:uppercase;color:#494641;text-align:center;letter-spacing:4px}
 .prodgreybg .prodwhitebg{background-color:#fff;text-align:center;padding:30px 20px 30px 20px}
 .prodgreybg .prodwhitebg h5{font-size:15px;color:#494641;padding-bottom:15px;text-align:center}
-.close-iconprod{position:absolute;top:-30px;right:0;cursor:pointer;font-size:23px;z-index:999;width:24px;height:24px;display:inline-block;background:url(../../../content/dam/hdfclifeinsurancecompany/images/category/prod-close.png) no-repeat 0 0}
-.close-iconprod:hover{background:url(../../../content/dam/hdfclifeinsurancecompany/images/category/prod-close-over.png) no-repeat 0 0}
+.close-iconprod{position:absolute;top:-30px;right:0;cursor:pointer;font-size:23px;z-index:999;width:24px;height:24px;display:inline-block;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/category/prod-close.png) no-repeat 0 0}
+.close-iconprod:hover{background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/category/prod-close-over.png) no-repeat 0 0}
 .prod.modal.sac{width:100%;margin-left:0}
 #prodmodal.modal.sac .modal-dialog.modal-lg,#prodmodal2.modal.sac .modal-dialog.modal-lg{margin:50px auto 0;width:100% !important;max-width:94%}
 .mar33{margin-left:33px}
@@ -968,7 +968,7 @@ input[type=number]{-moz-appearance:textfield}
 .cont .hover-drop-down::before{content:"";position:absolute;top:-15px;left:32px;width:0;height:0;border-left:15px solid transparent;border-right:15px solid transparent;border-bottom:15px solid #fff}
 .cont .effectshow{opacity:1;top:0}
 .contus .default-select-cust-arrow svg{top:35px}
-.form-select-holder{position:relative;margin:0 auto;-webkit-border-radius:7px;overflow:hidden;background-image:url('../../../content/dam/hdfclifeinsurancecompany/icons/dd-arrow.png');background-repeat:no-repeat;background-position:240px center;-moz-border-radius:7px;border-radius:7px;width:272px;border:1px solid #ed1c24;display:none;-o-background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover}
+.form-select-holder{position:relative;margin:0 auto;-webkit-border-radius:7px;overflow:hidden;background-image:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/dd-arrow.png');background-repeat:no-repeat;background-position:240px center;-moz-border-radius:7px;border-radius:7px;width:272px;border:1px solid #ed1c24;display:none;-o-background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover}
 .form-select-holder select{border:none !important;width:110% !important}
 .contact-section-wrapper .info-cards-wrapper .info-card small{font-size:16px !important}
 .contact-section-wrapper .info-cards-wrapper .info-card small.font12{font-size:12px !important}
@@ -986,7 +986,7 @@ input[type=number]{-moz-appearance:textfield}
 }
 .contrate .icon-wrap.active>.hover-drop-down{top:20px;opacity:1;pointer-events:initial}
 .contrate .star-rate{margin-top:8px}
-.contrate .star-rate i{display:inline-block;width:18px;height:17px;background:url(../../../content/dam/hdfclifeinsurancecompany/products-sprite-icons.png) -516px -88px}
+.contrate .star-rate i{display:inline-block;width:18px;height:17px;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/products-sprite-icons.png) -516px -88px}
 .contrate .rating-wrapper{display:flex !important;margin-top:10px;margin-left:24px;align-items:end}
 .contrate .social-icons-link{display:flex}
 .contrate .social-icons-link svg{margin-right:8px;margin-top:8px}
@@ -1085,7 +1085,7 @@ input.isd{width:15% !important}
 .geta-callback-component-popup small{font-size:12px;font-weight:400;line-height:20px;color:#5a5a5a;margin-top:30px;float:left}
 }
 .deskTopHeader .deskTopHeaderWrap .headerWrap nav.site_navBar>ul>li .megaMenuSec.opened{top:100%;opacity:1;visibility:visible;box-shadow:0 -1px 4px 0 rgba(0,0,0,0.1);-webkit-box-shadow:0 -1px 4px 0 rgba(0,0,0,0.1);-moz-box-shadow:0 -1px 4px 0 rgba(0,0,0,0.1)}
-.megaMenuSec .arrowUp{position:absolute;left:460px;top:-10px;background:url(../../../content/dam/hdfclifeinsurancecompany/top-arrow.png) no-repeat -6px 0;border:0;width:30px;height:20px}
+.megaMenuSec .arrowUp{position:absolute;left:460px;top:-10px;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/top-arrow.png) no-repeat -6px 0;border:0;width:30px;height:20px}
 .deskTopHeader .deskTopHeaderWrap .headerWrap nav.site_navBar>ul>li>a.opened .caretIcon svg path{stroke:#ed1c24}
 .siteButton:hover{background:#ff3038 !important}
 .error-txt{display:block;font-size:11px;font-weight:400;line-height:32px;color:#ed1c24}
@@ -1110,7 +1110,7 @@ input.isd{width:15% !important}
 .siteButton.outlinedBtn{cursor:pointer}
 footer .footerFormSec .stayConnectedSec>div{max-width:50%}
 footer .footerFormSec .stayConnectedSec>div a.whatsapp:hover{background:#5af576;border-color:#2cd449}
-footer .footerFormSec .stayConnectedSec>div a.avatar:hover{background-image:url("../../../content/dam/hdfclifeinsurancecompany/home/color.png");background-repeat:no-repeat}
+footer .footerFormSec .stayConnectedSec>div a.avatar:hover{background-image:url("https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/home/color.png");background-repeat:no-repeat}
 footer .footerFormSec .stayConnectedSec>div a.avatar img{transition:all .25s ease-in}
 footer .footerFormSec .stayConnectedSec>div a.avatar:hover img{display:none}
 footer .footerFormSec .stayConnectedSec>div a:hover:last-child img{filter:none}
@@ -1138,15 +1138,15 @@ footer .footerFormSec .stayConnectedSec>div{max-width:70%}
 .hamMenuWrp .hamMenuInnerWrp .hamMenuSection h3 a{color:#005e9e}
 .mcheck{display:none}
 .wcheck{display:none}
-.pulse{display:block;width:22px;height:22px;border-radius:50%;background:#fff url("../../../content/dam/hdfclifeinsurancecompany/red.svg") no-repeat center center;cursor:pointer;box-shadow:0 5px 5px #e1e1e1;animation:pulse 1.5s 55 ease-out;animation-iteration-count:10;animation-timing-function:ease;border:1px solid #e1e1e1;padding:10px}
+.pulse{display:block;width:22px;height:22px;border-radius:50%;background:#fff url("https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/red.svg") no-repeat center center;cursor:pointer;box-shadow:0 5px 5px #e1e1e1;animation:pulse 1.5s 55 ease-out;animation-iteration-count:10;animation-timing-function:ease;border:1px solid #e1e1e1;padding:10px}
 .pulse:hover{animation:none;z-index:9}
-@-webkit-keyframes pulse{1%{-webkit-box-shadow:0 0 0 0 rgba(237,28,36,0.4);background:#ed1c24 url("../../../content/dam/hdfclifeinsurancecompany/white.svg") no-repeat center center}
-70%{-webkit-box-shadow:0 0 0 10px rgba(237,28,36,0);background:#fff url("../../../content/dam/hdfclifeinsurancecompany/red.svg") no-repeat center center}
-100%{-webkit-box-shadow:0 0 0 0 rgba(237,28,36,0);background:#fff url("../../../content/dam/hdfclifeinsurancecompany/red.svg") no-repeat center center}
+@-webkit-keyframes pulse{1%{-webkit-box-shadow:0 0 0 0 rgba(237,28,36,0.4);background:#ed1c24 url("https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/white.svg") no-repeat center center}
+70%{-webkit-box-shadow:0 0 0 10px rgba(237,28,36,0);background:#fff url("https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/red.svg") no-repeat center center}
+100%{-webkit-box-shadow:0 0 0 0 rgba(237,28,36,0);background:#fff url("https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/red.svg") no-repeat center center}
 }
-@keyframes pulse{1%{-moz-box-shadow:0 0 0 0 rgba(237,28,36,0.4);box-shadow:0 0 0 0 rgba(237,28,36,0.4);background:#ed1c24 url("../../../content/dam/hdfclifeinsurancecompany/white.svg") no-repeat center center}
-70%{-moz-box-shadow:0 0 0 10px rgba(237,28,36,0);box-shadow:0 0 0 10px rgba(237,28,36,0);background:#fff url("../../../content/dam/hdfclifeinsurancecompany/red.svg") no-repeat center center}
-100%{-moz-box-shadow:0 0 0 0 rgba(237,28,36,0);box-shadow:0 0 0 0 rgba(237,28,36,0);background:#fff url("../../../content/dam/hdfclifeinsurancecompany/red.svg") no-repeat center center}
+@keyframes pulse{1%{-moz-box-shadow:0 0 0 0 rgba(237,28,36,0.4);box-shadow:0 0 0 0 rgba(237,28,36,0.4);background:#ed1c24 url("https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/white.svg") no-repeat center center}
+70%{-moz-box-shadow:0 0 0 10px rgba(237,28,36,0);box-shadow:0 0 0 10px rgba(237,28,36,0);background:#fff url("https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/red.svg") no-repeat center center}
+100%{-moz-box-shadow:0 0 0 0 rgba(237,28,36,0);box-shadow:0 0 0 0 rgba(237,28,36,0);background:#fff url("https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/red.svg") no-repeat center center}
 }
 .listbulletElibility{list-style-type:disc !important}
 .listbulletElibilityol li{list-style-type:decimal !important}
@@ -1690,13 +1690,13 @@ footer .footerViewMore{display:block;text-align:center;padding:0 38px}
 footer .footerViewMore .viewMoreBtn{font-size:12px;font-weight:600;line-height:20px;color:#233253;text-transform:uppercase}
 .viewMoreBtn span{display:inline-flex;position:relative;top:1px;margin-left:8px}
 }
-@media screen and (min-width:100px) and (max-width:1023px){footer .footerMenuSec>.menuSecList>h3:after{position:absolute;width:20px;height:20px;content:"";background:url(../../../content/dam/hdfclifeinsurancecompany/images/home-images/dd-arrow.png) no-repeat;left:0;top:-5px;transform:rotate(-90deg);background-size:60%}
+@media screen and (min-width:100px) and (max-width:1023px){footer .footerMenuSec>.menuSecList>h3:after{position:absolute;width:20px;height:20px;content:"";background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/dd-arrow.png) no-repeat;left:0;top:-5px;transform:rotate(-90deg);background-size:60%}
 footer .footerMenuSec>.menuSecList ul{display:none;padding-left:20px}
 footer .wrapper.footerMenuSec .productMenuSec .productMenuWrp{display:none;padding-left:20px}
 footer .footerMenuSec>.menuSecList>h3,footer .footerMenuSec>.productMenuSec>h3{position:relative;padding-left:18px}
-footer .footerMenuSec>.menuSecList>h3:after,footer .footerMenuSec>.productMenuSec>h3:after{position:absolute;width:20px;height:20px;content:"";background:url(../../../content/dam/hdfclifeinsurancecompany/images/home-images/dd-arrow.png) no-repeat;left:0;top:-5px;transform:rotate(-90deg);background-size:60%}
+footer .footerMenuSec>.menuSecList>h3:after,footer .footerMenuSec>.productMenuSec>h3:after{position:absolute;width:20px;height:20px;content:"";background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/dd-arrow.png) no-repeat;left:0;top:-5px;transform:rotate(-90deg);background-size:60%}
 footer .footerMenuSec>.menuSecList>h3,footer .footerMenuSec>.productMenuSec>h3{position:relative;padding-left:18px}
-footer .footerMenuSec>.menuSecList .productMenuWrp .menuSecList>h3:after,footer .footerMenuSec>.productMenuSec .productMenuWrp .menuSecList>h3:after{position:absolute;width:20px;height:20px;content:"";background:url(../../../content/dam/hdfclifeinsurancecompany/images/home-images/dd-arrow.png) no-repeat;left:0;top:-5px;transform:rotate(-90deg);background-size:50%}
+footer .footerMenuSec>.menuSecList .productMenuWrp .menuSecList>h3:after,footer .footerMenuSec>.productMenuSec .productMenuWrp .menuSecList>h3:after{position:absolute;width:20px;height:20px;content:"";background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/dd-arrow.png) no-repeat;left:0;top:-5px;transform:rotate(-90deg);background-size:50%}
 footer .footerMenuSec>.menuSecList .productMenuWrp .menuSecList>h3,footer .footerMenuSec>.productMenuSec .productMenuWrp .menuSecList>h3{position:relative;padding-left:15px}
 footer .footerMenuSec>.menuSecList.open h3:after,footer .footerMenuSec>.productMenuSec.open h3:after{transform:none;top:5px}
 }
@@ -1762,8 +1762,8 @@ span.countStars{display:inline-block;margin-left:10px;color:#233253;font-size:11
 .hamMenuWrp{z-index:9999 !important}
 .deskTopHeader .deskTopHeaderWrap .headerWrap nav.site_navBar ul li:hover a.megaMenuLink{color:#ed1c24 !important}
 .new-hdfc-life-insurance-header .megaMenuSec{padding:21px 50px 0;display:grid;grid-template-columns:1fr 325px;grid-column-gap:40px;position:absolute;background-color:#fff;z-index:99999;top:100%;left:-1px;width:calc(100% + 1px);height:auto;min-height:600px;opacity:0;visibility:hidden;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;max-height:90vh;overflow-y:scroll}
-.megaMenuSec.arw .arrowUp{position:absolute;left:42%;top:-20px;background:url(../../../content/dam/hdfclifeinsurancecompany/top-arrow.png) no-repeat -6px 0;border:0;width:58px;height:20px}
-.megaMenuSec.arw1 .arrowUp{position:absolute;left:33%;top:-20px;background:url(../../../content/dam/hdfclifeinsurancecompany/top-arrow.png) no-repeat -6px 0;border:0;width:58px;height:20px}
+.megaMenuSec.arw .arrowUp{position:absolute;left:42%;top:-20px;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/top-arrow.png) no-repeat -6px 0;border:0;width:58px;height:20px}
+.megaMenuSec.arw1 .arrowUp{position:absolute;left:33%;top:-20px;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/top-arrow.png) no-repeat -6px 0;border:0;width:58px;height:20px}
 .deskTopHeader .deskTopHeaderWrap .headerWrap nav.site_navBar ul li:hover .caretIcon svg path{stroke:#ed1c24}
 .new-hdfc-life-insurance-header .swiffy-slider .slider-container{margin-left:42px}
 .new-hdfc-life-insurance-header .megaMenuSec .keyFeatureSec{margin-top:0;margin-bottom:20px}
@@ -2123,7 +2123,7 @@ footer .footerFormSec .stayConnectedSec>div a.twitter img{width:23px}
 .hdfc-life-insurance-footer .wrapper.footerMenuSec .productMenuSec .productMenuWrp .menuSecList h3 .menuBullet{display:block;width:10%}
 .hdfc-life-insurance-footer .wrapper.footerMenuSec .productMenuSec .productMenuWrp .menuSecList h3 .menuBullet img{transform:rotate(-90deg);height:6px}
 .hdfc-life-insurance-footer .wrapper.footerMenuSec .productMenuSec .productMenuWrp .menuSecList.open h3 .menuBullet img{transform:rotate(0)}
-.hdfc-life-insurance-footer .popularLinks h3::after,.hdfc-life-insurance-footer .wrapper.footerMenuSec .productMenuSec>h3::after{position:absolute;width:20px;height:20px;content:"";background:url(../../../content/dam/hdfclifeinsurancecompany/images/home-images/dd-arrow.png) no-repeat;right:-10px;top:-5px;transform:rotate(-90deg);background-size:60%}
+.hdfc-life-insurance-footer .popularLinks h3::after,.hdfc-life-insurance-footer .wrapper.footerMenuSec .productMenuSec>h3::after{position:absolute;width:20px;height:20px;content:"";background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/dd-arrow.png) no-repeat;right:-10px;top:-5px;transform:rotate(-90deg);background-size:60%}
 .hdfc-life-insurance-footer .popularLinks .popularMenuList.open h3::after,.hdfc-life-insurance-footer .wrapper.footerMenuSec .productMenuSec.open>h3::after{transform:none;top:5px}
 .hdfc-life-insurance-footer .wrapper.footerMenuSec .productMenuSec .productMenuWrp .menuSecList .planNameHead,.hdfc-life-insurance-footer .wrapper.footerMenuSec .productMenuSec .productMenuWrp .menuSecList .planNameHead h3{display:inline}
 }
@@ -2221,7 +2221,7 @@ img{max-width:100%}
 .popUpLeadForm .newForm .formData .mobile_block label{left:57px}
 .popUpLeadForm .newForm .form-field .form-control{color:#000 !important;-webkit-text-fill-color:#000;width:100% !important;padding:0 3px 0 5px;box-sizing:border-box;background-color:transparent;border:1px solid #005e9e;height:40px;font-style:normal !important;opacity:1}
 .popUpLeadForm .error-txt,.popUpLeadForm .error-txt1{line-height:14px;padding-top:5px;font-size:11px;font-weight:400;color:#ed1c24}
-.popUpLeadForm .newForm .form-field .form-control.hasDatepicker{background:url(../../../content/dam/hdfclifeinsurancecompany/campaign/red-date-icon.png) no-repeat 93% 10px;background-size:26px;background-position-y:center;height:38px;cursor:pointer}
+.popUpLeadForm .newForm .form-field .form-control.hasDatepicker{background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/campaign/red-date-icon.png) no-repeat 93% 10px;background-size:26px;background-position-y:center;height:38px;cursor:pointer}
 .popUpLeadForm .newForm .form-field .form-control[name="phone"]{width:77% !important;border-radius:0 5px 5px 0;border-left:0}
 .popUpLeadForm .newForm .form-field .form-control:focus{outline:0}
 .popUpLeadForm .newForm .formView .previewFieldBlock.mobile_block #code{width:23% !important;margin-left:0;color:#005e9e;border-radius:5px 0 0 5px}
@@ -2456,7 +2456,7 @@ html{scroll-behavior:smooth}
 .newTermAccordion .accordion-header::after{right:5px;top:5px}
 .newTermAccordion .accordion-content{max-height:0;padding-left:40px}
 .newTermAccordion .accordion-item.active .accordion-content{max-height:500px}
-.newTermAccordion .accordion-header::after{content:"";background-image:url(../../../content/dam/hdfclifeinsurancecompany/category-page/newtermplan/newAccordianArrow.png);width:14px;height:18px;background-size:contain;background-position:center;background-repeat:no-repeat;display:inline-block;position:absolute;transition:transform .3s ease}
+.newTermAccordion .accordion-header::after{content:"";background-image:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/category-page/newtermplan/newAccordianArrow.png);width:14px;height:18px;background-size:contain;background-position:center;background-repeat:no-repeat;display:inline-block;position:absolute;transition:transform .3s ease}
 .newTermAccordion .accordion-item.active .accordion-header::after{transform:rotate(180deg)}
 }
 .twoCardPointerLayout>.cmp-container{display:grid;grid-template-columns:repeat(2,1fr);justify-content:space-between;gap:40px}
@@ -2553,7 +2553,7 @@ button:active,button:focus,input,input:active button,input:focus{outline:0}
 .rupee-con .rupee+input{padding-left:18px !important;margin-left:0}
 .toolsCalcForm .toolsCalcInput input[type="text"]{height:32px;max-width:185px;width:100%;border:1px solid #c7cacc;font-weight:500;background-color:#fff;font-size:14px;line-height:32px;color:#666;padding:0 10px;background-color:#fff}
 .error-txt2{display:block;font-size:11px;font-weight:400;line-height:32px;color:#ed1c24}
-#scdate{background:url(../../../content/dam/hdfclifeinsurancecompany/icons/date.png) no-repeat;background-position:95%;cursor:pointer;width:100% !important}
+#scdate{background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/date.png) no-repeat;background-position:95%;cursor:pointer;width:100% !important}
 .codCalcFormWrp .codCalcForm .codCalcFormInputRow .codRadioSec>label{font-weight:600;font-size:14px;line-height:22px;color:rgba(0,0,0,1);margin-bottom:10px}
 .codCalcFormWrp .codCalcForm .codCalcFormInputRow .codRadioSec .genderRadioWrp{display:flex;flex-wrap:wrap;justify-content:space-between;max-width:185px;width:100%}
 .tobaccoRadioSec .tobaccoRadioSec__tooltip{position:relative;display:flex;align-items:start;gap:10px}
@@ -3546,7 +3546,7 @@ html{scroll-behavior:smooth}
 .terms-rel-te .card:hover{box-shadow:0 5px 7px rgb(98 158 199 / 22%);border:1px solid #629ec7;background:#fcfeff}
 .terms-rel-te .card .card-body{color:#454545;font-weight:300}
 .terms-rel-te .mb-0>a{display:block;position:relative;line-height:19px}
-.terms-rel-te .mb-0>a:after{content:"";background-image:url(../../../content/dam/hdfclifeinsurancecompany/category-page/newtermplan/tab-arrow.png);width:14px;height:18px;background-size:contain;background-position:0 8px;background-repeat:no-repeat;display:inline-block;float:right}
+.terms-rel-te .mb-0>a:after{content:"";background-image:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/category-page/newtermplan/tab-arrow.png);width:14px;height:18px;background-size:contain;background-position:0 8px;background-repeat:no-repeat;display:inline-block;float:right}
 .terms-rel-te .mb-0>a[aria-expanded="true"]:after{content:"";background-image:url(../components/termpage/termaccordion/clientlib/img/tab-arrow.png);width:14px;height:18px;background-size:contain;background-position:0 2px;background-repeat:no-repeat;display:inline-block;float:right;transform:rotate(180deg)}
 @media only screen and (min-width:769px){.accordion-margin{margin-bottom:1.5rem !important}
 }
@@ -3559,7 +3559,7 @@ html{scroll-behavior:smooth}
 .new-article-Section .new-article-SectionList li{width:337px}
 .new-article-Section .new-article-SectionList li{margin:0 8px 20px}
 .new-article-SectionWrapper .owl-carousel div.owl-nav button{top:50%}
-body .owl-carousel .owl-nav button span{background:url(../../../content/dam/hdfclifeinsurancecompany/sprite.png) no-repeat}
+body .owl-carousel .owl-nav button span{background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/sprite.png) no-repeat}
 body .owl-carousel .owl-nav button.owl-prev.disabled{background:#c7cacc;pointer-events:none}
 body .owl-carousel .owl-nav button.owl-prev{background:#ed1c24}
 body .owl-carousel .owl-nav button.owl-next.disabled{background:#c7cacc;pointer-events:none}
@@ -3567,7 +3567,7 @@ body .owl-carousel .owl-nav button.owl-next.disabled{background:#c7cacc;pointer-
 body .owl-carousel .owl-nav button.owl-prev span{background-position:-1px -17px}
 body .owl-carousel .owl-nav button.owl-next{background:#ed1c24}
 body .owl-carousel .owl-nav button.owl-next span{background-position:-1px -1px}
-body .owl-carousel .owl-nav button span{text-indent:-9999px;background:url(../../../content/dam/hdfclifeinsurancecompany/images/product/sprite.png) no-repeat;width:14px;height:12px;display:block;margin:auto}
+body .owl-carousel .owl-nav button span{text-indent:-9999px;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/product/sprite.png) no-repeat;width:14px;height:12px;display:block;margin:auto}
 h3.homeheader2{font-size:48px}
 .new-articles .mresptop15 .abtboxRt{height:240px}
 .new-articles .subDiv{line-height:0}
@@ -3733,7 +3733,7 @@ h1{font-size:38px;line-height:48px;color:#233253;font-weight:700}
 .newCustomertestimonials .name-location .location-img{margin:0;width:auto;height:20px}
 .newCustomertestimonials .name-location .location{color:#005e9e;font-size:16px;font-weight:400;line-height:24px}
 .socialSectionWrapper .owl-carousel div.owl-nav button{top:50%}
-body .owl-carousel .owl-nav button span{background:url(../../../content/dam/hdfclifeinsurancecompany/sprite.png) no-repeat}
+body .owl-carousel .owl-nav button span{background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/sprite.png) no-repeat}
 body .owl-carousel .owl-nav button.owl-prev.disabled{background:#c7cacc;pointer-events:none}
 body .owl-carousel .owl-nav button.owl-prev{background:#ed1c24}
 body .owl-carousel .owl-nav button.owl-next.disabled{background:#c7cacc;pointer-events:none}
@@ -3741,7 +3741,7 @@ body .owl-carousel .owl-nav button.owl-next.disabled{background:#c7cacc;pointer-
 body .owl-carousel .owl-nav button.owl-prev span{background-position:-1px -17px}
 body .owl-carousel .owl-nav button.owl-next{background:#ed1c24}
 body .owl-carousel .owl-nav button.owl-next span{background-position:-1px -1px}
-body .owl-carousel .owl-nav button span{text-indent:-9999px;background:url(../../../content/dam/hdfclifeinsurancecompany/images/product/sprite.png) no-repeat;width:14px;height:12px;display:block;margin:auto}
+body .owl-carousel .owl-nav button span{text-indent:-9999px;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/product/sprite.png) no-repeat;width:14px;height:12px;display:block;margin:auto}
 body .owl-carousel .owl-nav button{width:40px;height:40px;position:absolute;border-radius:500px;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-ms-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}
 .owl-carousel div.owl-nav button.owl-next{right:-52px}
 .owl-carousel div.owl-nav button.owl-prev{left:-56px}
@@ -3827,7 +3827,7 @@ button{outline:none !important}
 button:focus{outline:0 !important}
 @media screen and (min-width:100px) and (max-width:1023px){.section{padding-left:20px;padding-right:20px}
 }
-.dticon{background:url(../../../content/dam/hdfclifeinsurancecompany/icons/date.png) no-repeat;background-position:95%;cursor:pointer;width:100% !important}
+.dticon{background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/date.png) no-repeat;background-position:95%;cursor:pointer;width:100% !important}
 .form-control{display:block;width:100%;height:calc(1.5em + 0.75rem + 2px);padding:.375rem .75rem;font-size:1rem;font-weight:400;line-height:1.5;color:#495057;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;border-radius:.25rem;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}
 @media(prefers-reduced-motion:reduce){.form-control{transition:none}
 }
@@ -3860,7 +3860,7 @@ input[type="date"].form-control{appearance:none}
 .sac input{font-size:12px;font-style:italic;color:#767676;height:47px;outline-style:none;outline-width:0;border:0 solid transparent;box-shadow:none !important}
 .sac input,.sac input:focus{background-color:#f4f4f4}
 .sac label{font-size:14px;color:#233253}
-.select-holder{background-color:#f4f4f4;background:url(../../../content/dam/hdfclifeinsurancecompany/icons/select-arrow.png) no-repeat 100% #f4f4f4;height:38px;width:100%;overflow:HIDDEN;padding-top:7px;padding-left:10px;cursor:pointer}
+.select-holder{background-color:#f4f4f4;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/select-arrow.png) no-repeat 100% #f4f4f4;height:38px;width:100%;overflow:HIDDEN;padding-top:7px;padding-left:10px;cursor:pointer}
 .select-holder select{cursor:pointer;width:116%;border:0 solid transparent;background-color:transparent !important;font-size:12px;font-style:italic;outline:0;color:#767676}
 .sac .row{padding-bottom:10px}
 .sac p{padding-top:10px;margin-bottom:18px !important}
@@ -3868,7 +3868,7 @@ input[type="date"].form-control{appearance:none}
 }
 .modal-dialog.modal-lg{margin:0}
 .modal-dialog{pointer-events:unset}
-.close-icon1{position:absolute;top:26px;right:26px;cursor:pointer;font-size:23px;z-index:999;width:20px;height:20px;display:inline-block;background:url(../../../content/dam/hdfclifeinsurancecompany/images/home-images/pop-close.png) no-repeat 0 0}
+.close-icon1{position:absolute;top:26px;right:26px;cursor:pointer;font-size:23px;z-index:999;width:20px;height:20px;display:inline-block;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/images/home-images/pop-close.png) no-repeat 0 0}
 .form-control,input[type="text"]{font-style:italic !important}
 .disc-text{line-height:22px;font-size:12px !important;font-weight:400;color:#5a5a5a}
 .disc-text{padding-bottom:20px}
@@ -3923,7 +3923,7 @@ span.message-success{color:#4bb543;font-size:12px}
 .modal-body{padding:0;max-height:unset !important;overflow-y:unset !important}
 .modal-body::-webkit-scrollbar{-webkit-appearance:none}
 .modal-body::-webkit-scrollbar-thumb{border-radius:8px;border:2px solid #fff;background-color:rgba(0,0,0,0.2)}
-#scdate{background:url(../../../content/dam/hdfclifeinsurancecompany/icons/date.png) no-repeat;background-position:95%;cursor:pointer;width:100% !important}
+#scdate{background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/date.png) no-repeat;background-position:95%;cursor:pointer;width:100% !important}
 @media screen and (min-width:100px) and (max-width:1023px){.disc-text{padding-bottom:20px}
 }
 @media(hover:none){textarea{font-size:12px}
@@ -4019,9 +4019,9 @@ body,html{font-family:Poppins,sans-serif}
 .container{max-width:1060px;width:100%}
 .section{width:100%;max-width:1600px;margin:0 auto;clear:both;overflow:hidden;padding-top:85px;padding-bottom:72px}
 .btnred:not(:disabled):not(.disabled).active:focus,.btnred:not(:disabled):not(.disabled):active:focus,.show>.btnred.dropdown-toggle:focus:not(:disabled):not(.disabled).active:focus{background:#ff3038 !important;outline:0;outline-style:none;outline-width:0}
-.panel-title a{background-image:url(../../../content/dam/hdfclifeinsurancecompany/home/icons/arrow-up.png);margin-top:78px;text-decoration:none}
+.panel-title a{background-image:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/home/icons/arrow-up.png);margin-top:78px;text-decoration:none}
 .panel-title a,.panel-title a.collapsed{font-size:22px !important;line-height:22px;font-weight:400;color:#767676;display:block;background-repeat:no-repeat;background-position:100%}
-.panel-title a.collapsed{background-image:url(../../../content/dam/hdfclifeinsurancecompany/home/icons/arrow-down.png)}
+.panel-title a.collapsed{background-image:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/home/icons/arrow-down.png)}
 .panel.panel-default{padding-bottom:16px}
 .panel.panel-default .panel-collapse{padding-top:20px;line-height:22px;font-size:12px;font-weight:400;color:#5a5a5a}
 .panel-collapse p{position:relative;margin-top:12px;padding-left:7px;word-wrap:break-word}
@@ -4197,7 +4197,7 @@ a.btn-top{right:35px;bottom:18%}
 .downloadbrochure .previewFieldBlock,.downloadbrochure .emailField{margin:10px 0;box-sizing:border-box;position:relative;height:auto;border-radius:3px;margin-bottom:10px;background-color:transparent !important;align-items:center;justify-content:flex-start}
 .downloadbrochure .spanTxt{top:-19px !important}
 .downloadbrochure .radio_buttons h3,.downloadbrochure .input_section span,.downloadbrochure .spanTxt{margin:0 0 5px;font-size:14px;display:inline-block;color:#005e9e;position:absolute;top:-8px;font-weight:500;left:0}
-.downloadbrochure .form-field .form-control.hasDatepicker{background:url(../../../content/dam/hdfclifeinsurancecompany/campaign/red-date-icon.png) no-repeat 93% 10px;background-size:26px;background-position-y:center;height:40px;cursor:pointer}
+.downloadbrochure .form-field .form-control.hasDatepicker{background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/campaign/red-date-icon.png) no-repeat 93% 10px;background-size:26px;background-position-y:center;height:40px;cursor:pointer}
 .downloadbrochure .form-holder1 .form-control{padding:0 10px;box-sizing:border-box;width:100%;font-size:12px !important;font-weight:400 !important;line-height:18px !important;color:#59595b;height:41px !important;border:1px solid#dbdddd !important;background-color:#f4f4f4}
 .downloadbrochure .form-field.previewFieldBlock .showAge{margin-bottom:-5px;color:#005e9e;text-align:right;font-size:12px;margin-right:-10px;display:none}
 .downloadbrochure .radio_buttons{width:45%;margin:10px 0}
@@ -4217,7 +4217,7 @@ a.btn-top{right:35px;bottom:18%}
 .downloadbrochure .checktxt{display:inline-block;width:92%;line-height:14px;position:relative;padding-left:19px !important;bottom:-2px}
 .downloadbrochure .chkdes:checked+label:before{left:6px;top:2px;width:5px;height:10px;border:solid #ed1c24;border-width:0 2px 2px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);z-index:99999;position:absolute;content:""}
 .downloadbrochure .highlight-v2{color:#429760;float:right;font-size:12px}
-.downloadbrochure .highlight-v2::before{content:'';display:inline-block;height:14px;width:14px;background-color:#dbdddd;background-image:url('../../../content/dam/hdfclifeinsurancecompany/icons/shieldicon.png');background-repeat:no-repeat;position:relative;top:2px;left:-3px}
+.downloadbrochure .highlight-v2::before{content:'';display:inline-block;height:14px;width:14px;background-color:#dbdddd;background-image:url('https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/icons/shieldicon.png');background-repeat:no-repeat;position:relative;top:2px;left:-3px}
 .downloadbrochure .download-icon svg{position:relative;top:-2px;left:2px}
 @media(max-width:767px){.downloadbrochure .form-holder{padding:20px}
 .downloadbrochure .form-holder h2{font-size:15px;line-height:1.2}
