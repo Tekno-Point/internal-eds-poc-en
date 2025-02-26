@@ -431,7 +431,9 @@ table tbody tr:nth-child(even) {
   font-size: 12px;
   font-weight: 600;
 }
-
+.section.fragment-container {
+  max-width: 100%;
+}
 
 /* height */
 /* .deskTopHeader .deskTopHeaderWrap .headerWrap{
