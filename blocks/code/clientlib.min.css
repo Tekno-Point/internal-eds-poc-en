@@ -1,0 +1,525 @@
+.termbannerFormV2 .flex-dir-column{flex-direction:column}
+.termbannerFormV2 .hyperlink{text-decoration:underline}
+@media screen and (max-width:767px){.termbannerFormV2 .mob-text-center{text-align:center}
+}
+.termbannerFormV2 .termbanner h1{margin-bottom:.5rem}
+.termbannerFormV2 .page-heading{font-size:48px;font-weight:700;color:#233253;margin-bottom:15px}
+.termbannerFormV2 .top-banner .desclaimer p{font-style:normal;font-size:16px;line-height:22px;color:#666;font-weight:300}
+.termbannerFormV2 .top-banner .desclaimer h2{color:#233253;font-weight:700}
+.termbannerFormV2 .sec-spc-top{padding-top:50px}
+.termbannerFormV2 .sec-spc-btm{padding-bottom:50px}
+.termbannerFormV2 header{background-color:#fff}
+.termbannerFormV2 .ban-left ul{list-style:none;padding-left:0}
+.termbannerFormV2 .dr-none{display:none}
+.termbannerFormV2 .btn:not(:disabled):not(.disabled){cursor:pointer}
+.termbannerFormV2 .catBannerBtn .dataLayerBtnClick{width:auto;font-size:12px;font-weight:600;background:#ed1c24;border:1px solid #ed1c24;color:#fff;padding:5px 20px;text-transform:uppercase;margin:1rem 1rem 1rem 0;transition:all .3s ease;border-radius:.25rem;text-align:center;vertical-align:middle;user-select:none;display:inline-block}
+.termbannerFormV2 .catBannerBtn .dataLayerBtnClick:hover{box-shadow:0 8px 12px rgba(237,28,36,.2);background:#ff3038}
+.termbannerFormV2 .ban-left ul li{margin-right:52px;margin-top:15px;font-size:14px;float:left;width:36%}
+.termbannerFormV2 .ban-left ul li a{color:#8a93a5;display:flex;text-decoration:none}
+.termbannerFormV2 .ban-left ul li img{margin-right:6px}
+.termbannerFormV2 .ban-1 img{width:70%}
+.termbannerFormV2 .ban-right>div>a,.termbannerFormV2 .ban-right>div>a:hover{font-weight:600;font-size:12px;line-height:20px;text-transform:uppercase;color:#005e9e;text-decoration:none}
+.termbannerFormV2 .timing{color:darkgray;font-size:10px;font-weight:500}
+.termbannerFormV2 .call-icon{width:12px;height:12px}
+.termbannerFormV2 .circle-blue-150{width:150px;height:150px;background:#bddcf8;padding:12px;border-radius:100%;border:15px solid #d6e9fa;position:absolute;top:68px;left:458px;z-index:1;-webkit-animation:move-1 2s infinite alternate;animation:move-1 2s infinite alternate}
+@-webkit-keyframes move-1{0{top:68px}
+100%{top:25px}
+}
+@keyframes move-1{0{top:68px}
+100%{top:25px}
+}
+.termbannerFormV2 .circle-red-70{width:70px;height:70px;background:#f8bdbd;padding:12px;border-radius:50%;border:10px solid #fad6d6;position:absolute;top:225px;left:505px;z-index:1;-webkit-animation:move-4 2s infinite alternate;animation:move-4 2s infinite alternate}
+@-webkit-keyframes move-4{0{top:225px;transform:scale(1);-webkit-transform:scale(1)}
+100%{top:210px;transform:scale(1.1);-webkit-transform:scale(1.1)}
+}
+@keyframes move-4{0{top:225px;transform:scale(1);-webkit-transform:scale(1)}
+100%{top:210px;transform:scale(1.1);-webkit-transform:scale(1.1)}
+}
+.termbannerFormV2 .circle-red-65{width:65px;height:65px;background:#f8bdbd;padding:12px;border-radius:100%;border:10px solid #fad6d6;position:absolute;top:50px;left:-34px;z-index:1;-webkit-animation:move-2 4s infinite alternate;animation:move-2 4s infinite alternate}
+@-webkit-keyframes move-2{0{top:50px}
+100%{top:230px}
+}
+@keyframes move-2{0{top:50px}
+100%{top:230px}
+}
+.termbannerFormV2 .circle-blue-35{width:35px;height:35px;background:#bddcf8;padding:12px;border-radius:100%;border:10px solid #d6e9fa;position:absolute;top:-2px;left:-22px;z-index:1;-webkit-animation:move-3 4s infinite alternate;animation:move-3 4s infinite alternate}
+@-webkit-keyframes move-3{0{top:3px;transform:scale(1);-webkit-transform:scale(1)}
+100%{top:-17px;transform:scale(0.7);-webkit-transform:scale(0.7)}
+}
+@keyframes move-3{0{top:3px;transform:scale(1);-webkit-transform:scale(1)}
+100%{top:-17px;transform:scale(0.7);-webkit-transform:scale(0.7)}
+}
+.termbannerFormV2 #error,.termbannerFormV2 #error2,.termbannerFormV2 #error3{font-size:12px;color:#ff000b;text-align:right;position:absolute;display:block;top:-22px;left:0;right:0}
+.termbannerFormV2 .inputSection #error{top:-7px;margin-top:5px}
+.termbannerFormV2 .newForm .formView .previewFieldBlock{margin:10px;box-sizing:border-box;position:relative;width:46%;height:auto;border-radius:3px;margin-bottom:5px;background-color:transparent !important;align-items:center;justify-content:flex-start}
+.termbannerFormV2 .newForm label[for="mobile"]{width:100%}
+.termbannerFormV2 input[type="text"]{height:40px;border:1px solid #005e9e}
+.termbannerFormV2 input[type="text"]:focus{border:1px solid #005e9e}
+.termbannerFormV2 .newForm #code{width:42px;margin-left:-31px;text-align:center;border-right:1px solid #717171;border-radius:0}
+.termbannerFormV2 .newForm .mobile_block #mobile{width:70%;padding-left:10px}
+.termbannerFormV2 .newForm .form-field input::-webkit-outer-spin-button,.termbannerFormV2 .newForm .form-field input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.termbannerFormV2 .newForm .form-field input[type=number]{-moz-appearance:textfield}
+.termbannerFormV2 .newForm .form-field [type=text]::placeholder{color:#005e9e}
+.termbannerFormV2 .newForm .formData .mobile_block label{left:57px}
+.termbannerFormV2 .newForm .form-field .form-control{color:#000 !important;-webkit-text-fill-color:#000;width:100% !important;padding:0 3px;box-sizing:border-box;background-color:#f5f6f7;border:1px solid #dee0e3;height:36px;font-style:normal !important;opacity:1;font-size:14px}
+.termbannerFormV2 .error-txt,.termbannerFormV2 .error-txt1{width:100%;line-height:14px;padding-top:5px;font-size:11px;font-weight:400;color:#ed1c24}
+.termbannerFormV2 .newForm .form-field .form-control.hasDatepicker{background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/products-page/calenderBlue.png) no-repeat 93% 10px;background-size:19px;background-position-y:center;height:36px;cursor:pointer;background-color:#f5f6f7}
+.termbannerFormV2 .newForm .form-field .form-control[name="phone"]{width:77% !important;border-radius:0 5px 5px 0;border-left:0}
+.termbannerFormV2 .newForm .form-field .form-control:focus{outline:0;border:1px solid #005e9e}
+.termbannerFormV2 .newForm .formView .previewFieldBlock.mobile_block #code{width:23% !important;margin-left:0;border-right:0;color:#005e9e;border-radius:5px 0 0 5px}
+.termbannerFormV2 .newForm label{left:10px;font-size:14px;background:#fff;display:inline-block;color:#233253;transition:all .5s ease;font-weight:500;text-align:left}
+.termbannerFormV2 input{position:unset}
+.termbannerFormV2 input:focus~label,.termbannerFormV2 input:not(:focus):valid~label{top:-10px}
+.termbannerFormV2 .newForm label{top:-10px}
+.termbannerFormV2 .newForm .d_flex{display:flex;align-items:baseline;justify-content:center;flex-wrap:wrap}
+.termbannerFormV2 .newForm .radio_buttons{color:#797979;position:relative;z-index:1;padding:0;width:46%;margin:5px 10px 5px 10px}
+.termbannerFormV2 .newForm .radio_buttons label{display:flex}
+.termbannerFormV2 .newForm .formData .radio_buttons h3{top:-14px}
+@media screen and (max-width:767px){.termbannerFormV2 .newForm .formData .radio_buttons h3{text-align:left !important}
+}
+.termbannerFormV2 .newForm .radio_buttons h3,.termbannerFormV2 .newForm .input_section span,.termbannerFormV2 .newForm .spanTxt{margin:0 0 5px;font-size:14px;display:inline-block;color:#005e9e;top:-8px;font-weight:500;left:0}
+.termbannerFormV2 .newForm .spanTxt{top:-19px !important}
+.termbannerFormV2 .newForm #yes_nriBannerForm,.termbannerFormV2 .newForm #no_nriBannerForm{font-size:14px}
+.termbannerFormV2 .newForm #no_nriBannerForm,.termbannerFormV2 .newForm #maleBannerForm,.termbannerFormV2 .newForm #noBannerForm{border-radius:5px}
+.termbannerFormV2 .newForm #maleBannerForm,.termbannerFormV2 .newForm #femaleBannerForm,.termbannerFormV2 .newForm #yesBannerForm,.termbannerFormV2 .newForm #noBannerForm,.termbannerFormV2 .newForm #yes_nriBannerForm,.termbannerFormV2 .newForm #no_nriBannerForm{background-color:#f5f6f7;padding:8.5px 11px;font-weight:500;display:inline-block;text-align:center;cursor:pointer;box-sizing:border-box;width:50%;font-size:14px;color:#717171;border:1px solid #dee0e3;padding:6px 22px}
+.termbannerFormV2 .newForm #maleBannerForm img,.termbannerFormV2 .newForm #femaleBannerForm img,.termbannerFormV2 .newForm #yesBannerForm img,.termbannerFormV2 .newForm #noBannerForm img,.termbannerFormV2 .newForm #yes_nriBannerForm img,.termbannerFormV2 .newForm #no_nriBannerForm img{filter:grayscale(100%);width:24px;height:24px}
+.termbannerFormV2 .newForm .valid{background:#fff !important;color:#005e9e !important;border-color:#005e9e !important}
+.termbannerFormV2 .newForm .valid img{filter:grayscale(0) !important}
+.termbannerFormV2 .newForm input.valid{background-color:#fff !important}
+.termbannerFormV2 .newForm .calIcon{position:absolute;top:8px;right:10px;cursor:pointer}
+.termbannerFormV2 .newForm .hidden-dob{position:absolute;right:0;width:20px;cursor:pointer;height:20px;z-index:10000;opacity:0}
+.termbannerFormV2 .newForm .simpleLabel{width:95%;font-size:12px;color:#000;font-weight:400;margin-top:10px;display:block;padding:0 15px 0 0;display:inline;margin-bottom:0}
+.termbannerFormV2 .disclaimer{width:95%;margin-top:8px;display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.termbannerFormV2 .disclaimer .simpleLabel{max-height:16px;padding:0;overflow:hidden;margin-top:0;transition:all .5s linear}
+.termbannerFormV2 .disclaimer .simpleLabel.expand{max-height:150px}
+.termbannerFormV2 .disclaimer .dropDown{width:10px;margin-top:6px;cursor:pointer;transition:all .5s linear}
+.termbannerFormV2 .disclaimer .dropDown.rotate{transform:rotate(180deg)}
+@media screen and (max-width:768px){.termbannerFormV2 .disclaimer{width:90%}
+.termbannerFormV2 .disclaimer .simpleLabel{max-height:32px}
+}
+.termbannerFormV2 #error5{font-size:12px;color:red;display:none;margin-left:5px;margin-bottom:-7px}
+.termbannerFormV2 .newForm .buttonCenter{margin:auto;width:100%;text-align:center;margin-bottom:12px}
+.termbannerFormV2 #callToActionSurvey1{margin-top:10px}
+.termbannerFormV2 .newForm .buttonCenter button{font-weight:600;background-color:#ed1c24;color:#fff;border:1px solid #ed1c24;cursor:pointer;display:inline-block;height:37px;padding:0 25px;font-size:12px;border-radius:4px}
+.termbannerFormV2 .newForm .buttonCenter button:hover{box-shadow:0 8px 12px rgb(237 28 36 / 20%);background:#ff3038}
+.termbannerFormV2 .newForm .bottomText{font-size:12px;text-align:center;padding:0;padding-top:14px;border-top:1px solid #ccc;display:block;width:100%;font-weight:400;color:#000}
+.hdfcBreadcrumb .breadcrumbSection.cat{position:unset}
+.hdfcBreadcrumb .breadcrumbSection{background:linear-gradient(0,#ebf5f9,rgba(235,245,249,0));padding:8px 0 8px 35px;width:100%}
+.hdfcBreadcrumb .breadcrumbSection label{font-weight:400;font-size:12px;line-height:22px;color:#7b8498;margin:0;display:inline-flex;margin-right:4px}
+.hdfcBreadcrumb .breadcrumbSection .arrowCaret{margin-right:5px}
+.termbannerFormV2 label.active{color:#233253;cursor:auto}
+.termbannerFormV2 .termbanner .subtitle{font-size:32px;font-weight:700;margin-bottom:10px}
+.termbannerFormV2 .desk-dflex{display:flex;justify-content:center;align-items:center;flex-wrap:wrap}
+.termbannerFormV2 .desk-dflex a:first-child{margin-top:20px;margin-bottom:10px}
+.termbannerFormV2 .modal-content{padding:40px 20px 0}
+.termbannerFormV2 .modal.sac .modal-dialog.modal-lg{margin:20px auto}
+.termbannerFormV2 .modal-body.info-form{padding:1rem 0}
+.termbannerFormV2 .modal .subtext p{font-style:normal;font-size:16px;padding-top:10px}
+.termbannerFormV2 .modal .geta-callback-component-popup .inputGroup input{height:40px;border:0;font-size:12px;line-height:23px;color:#767676;font-weight:300;padding:.375rem .75rem}
+.termbannerFormV2 .modal .modal-dialog .modal-content .info-form .geta-callback-component-popup .geta-callback-inner .schedule-a-call-back input::placeholder{font-size:12px;color:#767676 !important;opacity:1}
+.termbannerFormV2 .modal input.first-name{width:100% !important}
+@media screen and (max-width:767px) and (min-width:579px){.termbannerFormV2 .desk-dflex{display:none}
+.termbannerFormV2 .top-banner{order:1}
+.hdfcBreadcrumb .breadcrumbSection{order:0;background:#fcfcfc}
+.hdfcBreadcrumb .breadcrumbSection{padding:8px 0 8px 15px}
+.termbannerFormV2 .sec-spc-top{padding-top:20px}
+.termbannerFormV2 .ban-left ul li{margin-right:52px;margin-bottom:15px;font-size:14px;text-align:left;width:36%}
+.termbannerFormV2 .ban-left .mt-5{margin-top:10px !important}
+.termbannerFormV2 .ban-left ul li img{width:45px;margin-right:0}
+}
+@media screen and (max-width:580px){.termbannerFormV2 .desk-dflex{display:none}
+.termbannerFormV2 .top-banner .row{text-align:center}
+.termbannerFormV2 .top-banner .geta-callback-inner .row{text-align:left}
+.termbannerFormV2 .prvc.subtext p{margin-left:0}
+.termbannerFormV2 .termbanner .start-planning-today .disc-text{padding:10px 0 10px 16px}
+.termbannerFormV2 .ban-left ul li{width:100%;margin-bottom:25px;text-align:left}
+.termbannerFormV2 .ban-left ul li img{width:34px;margin-right:0;height:auto}
+.termbannerFormV2 .ban-left ul li a{align-items:center;justify-content:flex-start}
+.termbannerFormV2 .ban-left ul li{margin-left:0;margin-right:0}
+}
+@media screen and (min-width:375px) and (max-width:480px){.termbannerFormV2 .top-banner button.mr-3{margin-right:0 !important}
+}
+@media screen and (min-width:360px) and (max-width:480px){.termbannerFormV2 .ban-left .btn-danger{margin:0 auto !important}
+}
+.termbannerFormV2 .top-banner .text-gray{margin-bottom:.5rem;color:#8a93a5;font-size:1rem;font-weight:500;line-height:1.2}
+.termbannerFormV2 .top-banner p{margin-top:0;margin-bottom:1rem;font-size:16px;line-height:20px;color:#454545;font-weight:300}
+.termbannerFormV2 .termbanner p.page-heading{font-size:48px;font-weight:700;color:#233253;margin-bottom:15px;line-height:48px}
+@media screen and (min-width:100px) and (max-width:1023px){.termbannerFormV2 .page-heading{font-size:34px !important}
+.termbannerFormV2 .termbanner p.page-heading{line-height:30px}
+}
+.termbannerFormV2 .form-group :focus{outline:0;outline-width:0;outline-style:none}
+.termbannerFormV2 .ey{position:relative;right:4px;bottom:2px}
+.termbannerFormV2 .termbanner .start-planning-today .inpt{width:43%;display:inline-block}
+.termbannerFormV2 .termbanner .start-planning-today .onee{margin-right:13px}
+.termbannerFormV2 .leadform .row{justify-content:space-around}
+.termbannerFormV2 .pset.col-sm-12 p{font-size:13px !important;line-height:20px;color:#454545;font-weight:400}
+.termbannerFormV2 .termbanner .start-planning-today label{margin-top:0}
+.termbannerFormV2 .termbanner .btnred,.termbannerFormV2 .termbanner .btnred:active,.termbannerFormV2 .termbanner .btnred:focus,.termbannerFormV2 .termbanner .btnred:hover{color:#fff;border-radius:4px;font-size:12px;line-height:20px;font-weight:600;border:1px solid #ed1c24;height:34px;padding:7px 21px;min-width:132px}
+.termbannerFormV2 .btn:not(:disabled):not(.disabled){cursor:pointer}
+.termbannerFormV2 .btnred{background:#ed1c24}
+.termbannerFormV2 .btn-spc{width:100%;display:block;text-align:center}
+.termbannerFormV2 .f-disclaimer.terms-list{width:auto;display:grid;padding:22px}
+.termbannerFormV2 .btnred:active,.termbannerFormV2 .btnred:focus,.termbannerFormV2 .btnred:hover,.termbannerFormV2 .btnred:not(:disabled):not(.disabled).active:focus,.termbannerFormV2 .btnred:not(:disabled):not(.disabled):active:focus,.termbannerFormV2 .show>.btnred.dropdown-toggle:focus,.termbannerFormV2 .show>.btnred.dropdown-toggle:focus:not(:disabled):not(.disabled).active:focus{background:#ff3038 !important;outline:0;outline-style:none;outline-width:0}
+.termbannerFormV2 .btnred:active,.termbannerFormV2 .btnred:focus,.termbannerFormV2 .btnred:hover{box-shadow:0 8px 12px rgb(237 28 36 / 20%)}
+.termbannerFormV2 .termbanner .btnred,.termbannerFormV2 .termbanner .btnred:active,.termbannerFormV2 .termbanner .btnred:focus,.termbannerFormV2 .termbanner .btnred:hover{color:#fff;border-radius:4px;font-size:12px;line-height:20px;font-weight:600;border:1px solid #ed1c24;height:34px;padding:7px 21px;min-width:162px}
+.termbannerFormV2 .termbanner .start-planning-today .setdisc-text{line-height:22px;font-size:12px !important;font-weight:400;color:#5a5a5a;padding:10px 10px 10px 18px}
+.termbannerFormV2 .f-disclaimer.terms-list p{font-size:12px;padding:0 12px;color:#424242}
+.termbannerFormV2 .termbanner .setH2{font-size:32px;line-height:48px;text-align:center;font-weight:700;color:#233253;margin-bottom:40px}
+.termbannerFormV2 #leadBannerForm{margin-top:-15px}
+.termbannerFormV2 .termbanner .start-planning-today .form-control,input[type="text"]{font-style:italic !important}
+.termbannerFormV2 .termbanner .start-planning-today .inputGroup label{color:#233253;font-size:14px;line-height:22px;font-weight:600;display:block;margin-bottom:8px}
+.termbannerFormV2 .termbanner .start-planning-today .inputGroup input{height:40px;background-color:#f4f4f4 !important;border:0;font-size:13px;line-height:23px;color:#767676;font-weight:300;padding:.1rem .75rem;width:100%;border-radius:5px;border:1px solid #e6e6e6}
+.termbannerFormV2 .termbanner .start-planning-today .form-control,.termbannerFormV2 input[type="text"].isd{width:15% !important;-webkit-text-fill-color:#424040;opacity:.6;font-style:normal !important}
+.termbannerFormV2 .termbanner .start-planning-today .modilewidth{width:100% !important}
+.termbannerFormV2 .termbanner .start-planning-today .chkbx{padding-top:0 !important;display:inline-block;width:90%;padding-left:16px;padding-top:5px}
+.termbannerFormV2 .termbanner .start-planning-today{width:100%;padding:30px;background:#fff;box-shadow:0 2px 7px #e1e1e1;margin:20px auto;position:relative}
+.termbannerFormV2 .termbanner .rightStyle .start-planning-today{padding:0 30px;box-shadow:none}
+.termbannerFormV2 .termbanner .start-planning-today .sac input{font-size:12px;font-style:italic;color:#767676;height:38px;outline-style:none;outline-width:0;border:0 solid transparent;box-shadow:none !important;background-color:#f4f4f4}
+.termbannerFormV2 .termbanner .start-planning-today .sac input:focus{background-color:#f4f4f4}
+.termbannerFormV2 .termbanner .start-planning-today .setdisc-text{line-height:22px;font-size:12px !important;font-weight:400;color:#5a5a5a}
+.termbannerFormV2 .termbanner .start-planning-today .setdisc-text p{line-height:22px;font-size:12px !important;font-weight:500;color:#5a5a5a;top:-2px;position:relative}
+.termbannerFormV2 .prvc{display:block;width:100%;font-weight:500;color:#6d6d6d;font-size:13px;font-style:italic}
+.termbannerFormV2 .ribbon{width:150px;height:150px;overflow:hidden;position:absolute}
+.termbannerFormV2 .ribbon::before,.termbannerFormV2 .ribbon::after{position:absolute;z-index:-1;content:"";display:block;border:5px solid #004680}
+.termbannerFormV2 .ribbon span{position:absolute;display:block;width:240px;padding:10px 0;background-color:#0060a0;box-shadow:0 5px 10px rgba(0,0,0,0.1);color:#fff;font-size:14px;text-shadow:0 1px 1px rgba(0,0,0,0.2);text-transform:uppercase;text-align:center}
+.termbannerFormV2 .ribbon-top-right{top:-10px;right:-10px}
+.termbannerFormV2 .ribbon-top-right::before,.termbannerFormV2 .ribbon-top-right::after{border-top-color:transparent;border-right-color:transparent}
+.termbannerFormV2 .ribbon-top-right::before{top:0;left:17px}
+.termbannerFormV2 .ribbon-top-right::after{bottom:17px;right:0}
+.termbannerFormV2 .ribbon-top-right span{left:-24px;top:30px;transform:rotate(45deg);z-index:999}
+.termbannerFormV2 img.bg-Life_Protection-img{margin-bottom:10px}
+.termbannerFormV2 .features-icon-text{width:33.3%;text-align:center}
+.termbannerFormV2 .download-brcr{width:95%;display:block;text-align:center;margin:20px auto;border-top:1px solid #e1e1e1;padding-top:20px}
+.termbannerFormV2 .error-txt-name{display:none;font-size:11px;font-weight:400;line-height:32px;color:#ed1c24}
+.termbannerFormV2 .error-txt-mob{display:none;font-size:11px;font-weight:400;line-height:32px;color:#ed1c24}
+.termbannerFormV2 .download-brcr button{color:#005e9e;margin-left:5px;font-size:14px;border:0;background:0}
+.termbannerFormV2 .download-brcr span{color:#5a5a5a;font-weight:normal;padding:0 20px}
+.termbannerFormV2 .ribbon::before,.termbannerFormV2 .ribbon::after{position:absolute;z-index:9 !important;content:"";display:block;border:5px solid #004680}
+.termbannerFormV2 .ribbon-top-right::before{top:0;left:17px}
+.termbannerFormV2 .ribbon-top-right::after{bottom:17px;right:0}
+.termbannerFormV2 .product-title.left-text.hide-for-mob.textAboveHeading::before{content:"";z-index:0;width:95px;top:20px;left:43px;height:95px;background:transparent;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/lead-product-banner/h1-small-bg.png);position:absolute;background-size:cover;transform:translateZ(-1px)}
+.termbannerFormV2 .product-title.left-text.hide-for-mob::before{content:"";z-index:0;width:95px;height:95px;top:15px;left:43px;background:transparent;background:url(https://stg1-website.hdfclife.tech/content/dam/hdfclifeinsurancecompany/lead-product-banner/h1-small-bg.png);position:absolute;background-size:cover;transform:translateZ(-1px)}
+.termbannerFormV2 .product-title.left-text.hide-for-mob::after{content:"+";position:absolute;left:67px;top:18px;color:#ed1c24;font-size:26px;font-weight:400}
+.termbannerFormV2 .product-title.left-text.hide-for-mob.textAboveHeading::after{content:"+";position:absolute;left:67px;top:33px;color:#ed1c24;font-size:26px;font-weight:400}
+.termbannerFormV2 div.heading_p{margin-left:63px;margin-top:15px;margin-right:5px}
+.termbannerFormV2 .banner-icons-wrapper{display:flex;margin-left:40px}
+.termbannerFormV2 .bg-Life_Protection-p{padding:0 8px;font-size:14px;margin-top:0}
+.termbannerFormV2 .product-title.left-text.hide-for-mob{display:block;color:#ed1c24}
+.termbannerFormV2 .product-title{margin:60px auto 8px;text-align:left;font-size:48px;line-height:48px;font-weight:700;max-width:75%}
+.termbannerFormV2 .dp-mob{display:none}
+.termbannerFormV2 .dp-desk{display:block}
+.termbannerFormV2 .setdisc-text .scb-checkbox1[type="checkbox"]{margin-top:5px}
+.termbannerFormV2 .rating-wrapper{display:none}
+.termbannerFormV2 .btn-spc .btn-primary:disabled{opacity:.65;color:#fff;background-color:#dc3545;border-color:#dc3545}
+.termbannerFormV2 input.leadBannerFirstName{width:100% !important}
+.termbannerFormV2 div.disclaimerTxt{font-size:13px;font-weight:bold;z-index:1;position:relative;margin-bottom:-19px !important;line-height:6px;left:101px;top:36px;color:#233253}
+.termbannerFormV2 .grey-txt{color:#8a93a5;left:100px;position:relative}
+.termbannerFormV2 .termbanner .start-planning-today .sub-tx p{font-size:12px;position:relative;text-align:center;padding:0;margin:0;margin-bottom:1rem;top:-35px;font-weight:700}
+.termbannerFormV2 .blu-c{color:#005e9e}
+.termbannerFormV2 .tandc{width:auto;margin:0 0 15px;text-align:left}
+.termbannerFormV2 .sml-tx p{line-height:18px;font-size:11px !important;font-weight:400;color:#5a5a5a;top:13px;position:relative}
+.termbannerFormV2 .arn-b p{text-align:left;font-size:12px;padding-top:10px;margin-bottom:0}
+.termbannerFormV2 .popuptext{font-weight:500;font-size:14px !important;line-height:20px;color:#0056b3;display:inline-block !important;margin-left:42px;text-decoration:none;width:auto !important}
+.termbannerFormV2 #scheduleCallBtnCP{padding:7px 16px !important;text-transform:none}
+.termbannerFormV2 .termbanner .top-banner .mobileBreak a{display:inline-block;color:#0056a5;background-color:#e2f0fc;font-weight:500;padding:4px 12px;border-radius:20px;margin-right:40px;margin-bottom:15px}
+.termbannerFormV2 .catBannerBtn .btn:last-child{font-size:12px;font-weight:600}
+.termbannerFormV2 .catBannerBtn .btn:last-child:hover{background-color:#fff;color:#ed1c24;box-shadow:0 8px 12px rgb(237 28 36 / 20%)}
+@media screen and (min-width:768px){.termbannerFormV2 .relative{position:relative}
+.termbannerFormV2 .relative.minHeight680{min-height:680px}
+.termbannerFormV2 .relative.minHeight580{min-height:580px}
+.termbannerFormV2 .absolute{position:absolute;top:0;right:0}
+}
+@media screen and (max-width:768px){.termbannerFormV2 .termHeader{width:100%}
+.termbannerFormV2 .termHeader p{margin-bottom:16px !important}
+.termbannerFormV2 h2{font-weight:700;font-size:24px}
+.termbannerFormV2 .mobileOrder1{order:1}
+.termbannerFormV2 .mobileOrder2{order:2}
+.termbannerFormV2 .mobileOrder3{order:3}
+.termbannerFormV2 .grey-txt{left:49px}
+.termbannerFormV2 .rating-wrapper{display:block}
+.termbannerFormV2 .f-disclaimer.terms-list{display:none}
+.termbannerFormV2 .termbanner .subtitle{font-size:24px}
+.termbannerFormV2 .setdisc-text .scb-checkbox1[type="checkbox"]{margin-top:1px}
+.termbannerFormV2 .termbanner .start-planning-today .onee{margin-right:0}
+.termbannerFormV2 .termbanner .start-planning-today .inpt{width:95%}
+.termbannerFormV2 #leadBannerForm{margin-top:0}
+.termbannerFormV2 .download-brcr span{color:#5a5a5a;font-weight:normal;padding:0 8px;display:table-cell;width:auto}
+.termbannerFormV2 .product-title.left-text.hide-for-mob::after{content:"+";position:absolute;left:31px;top:21px;color:#ed1c24;font-size:24px;font-weight:400}
+.termbannerFormV2 .product-title.left-text.hide-for-mob.textAboveHeading::after{content:"+";position:absolute;left:31px;top:48px;color:#ed1c24;font-size:24px;font-weight:400}
+.termbannerFormV2 .product-title.left-text.hide-for-mob::before{content:"";z-index:0;width:64px;top:16px;left:15px;height:65px}
+.termbannerFormV2 .product-title.left-text.hide-for-mob.textAboveHeading::before{content:"";z-index:0;width:64px;top:42px;left:15px;height:65px}
+.termbannerFormV2 .banner-icons-wrapper{display:none;margin-left:40px}
+.termbannerFormV2 div.heading_p{margin-left:49px;margin-top:9px;margin-right:50px;font-size:14px;margin-bottom:30px}
+.termbannerFormV2 .termbanner .start-planning-today .modilewidth{width:100% !important}
+.termbannerFormV2 .product-title{margin:35px auto 8px 47px;text-align:left;font-size:27px;line-height:37px;font-weight:700;max-width:75%}
+.termbannerFormV2 .dp-mob{display:block}
+.termbannerFormV2 .dp-desk{display:none}
+.termbannerFormV2 .termbanner .start-planning-today{width:auto;margin:0 5px;left:0;position:relative}
+.termbannerFormV2 .termbanner .setH2{font-size:20px;line-height:48px;font-weight:700;color:#233253;margin-bottom:14px}
+.termbannerFormV2 .ey{right:0;bottom:3px}
+.termbannerFormV2 .ribbon span{width:265px;box-shadow:0 5px 10px rgb(0 0 0 / 3%);font-size:10px;text-shadow:0 1px 1px rgb(0 0 0 / 3%)}
+.termbannerFormV2 .ribbon-top-right span{left:-24px;top:19px;transform:rotate(45deg);z-index:99}
+.termbannerFormV2 .ribbon-top-right::before{top:0;left:48px}
+.termbannerFormV2 .ribbon-top-right::after{bottom:49px;right:0}
+.termbannerFormV2 .tandc{margin:15px 0 0;text-align:center}
+.termbannerFormV2 .termbanner .start-planning-today .inputGroup input{padding:.1rem .6rem}
+.termbannerFormV2 .termbanner .start-planning-today .chkbx{padding-top:0 !important;width:92%;position:relative;top:-2px}
+.termbannerFormV2 .termbanner .start-planning-today{padding:20px;margin-top:20px;margin-bottom:20px}
+.termbannerFormV2 .download-brcr button{color:#005e9e;margin-left:0;font-size:10px;border:0;background:0;padding:0}
+.termbannerFormV2 .download-brcr a{width:48%;display:table-cell;font-size:10px}
+.termbannerFormV2 .download-brcr{width:95%;text-align:center;margin:20px auto;border-top:1px solid #e1e1e1;padding-top:20px}
+.termbannerFormV2 div.disclaimerTxt{font-size:10px;font-weight:bold;z-index:1;position:relative;line-height:13px;left:4px;top:-12px;color:#233253;width:78%;margin:11px;padding-top:19px}
+.termbannerFormV2 .sub-tx{font-size:12px;position:relative;text-align:center;padding:0;margin:0;top:-22px;font-weight:700}
+.termbannerFormV2 .sub-tx p{margin-bottom:0 !important;top:unset !important}
+.termbannerFormV2 #scheduleCallBtnCP{margin-top:0 !important;padding:0 16px !important}
+.termbannerFormV2 .disc-text.setdisc-text,.termbannerFormV2 .prvc{padding-right:0}
+.termbannerFormV2 .sml-tx p{line-height:16px;font-size:10px !important;font-weight:400;color:#5a5a5a;position:relative;padding:14px 0 10px}
+.termbannerFormV2 .rating-wrapper{padding-bottom:10px}
+.termbannerFormV2 .popuptext{text-align:center;margin:unset}
+.termbannerFormV2 .termbanner .catBannerBtn{display:flex;flex-direction:column;align-items:center}
+.termbannerFormV2 .catBannerBtn a{height:fit-content;width:fit-content;padding:5px !important}
+.termbannerFormV2 .catBannerBtn .btn-danger{margin:0 auto !important}
+.termbannerFormV2 .catBannerBtn .btn-outline-danger,.termbannerFormV2 .catBannerBtn .dataLayerBtnClick{padding:5px 18px;height:fit-content;margin-right:0}
+.termbannerFormV2 .sec-spc-btm{padding-bottom:10px}
+.termbannerFormV2 .sec-spc-top{padding-top:20px}
+.termbannerFormV2 .catBannerBtn{display:flex;flex-direction:row-reverse;justify-content:center;gap:5px}
+}
+.termbannerFormV2 .star-ratings-main{display:none}
+@media screen and (max-width:480px){.termbannerFormV2 .star-ratings-main{display:block;margin:10px auto;width:74%}
+.termbannerFormV2 .star-ratings{display:flex;align-items:center;width:max-content}
+.termbannerFormV2 .star-ratings img{margin:0 2px}
+.termbannerFormV2 .star-ratings .rated{padding-top:2px;margin-left:10px}
+.termbannerFormV2 .star-ratings span{color:#233253;font-size:11px}
+}
+.termbannerFormV2 .termbanner .info-form .chkbx p{margin-bottom:18px !important}
+@media screen and (max-width:1279px){.termbannerFormV2 .circle-blue-150,.termbannerFormV2 .circle-red-70,.termbannerFormV2 .circle-red-65,.termbannerFormV2 .circle-blue-35{display:none}
+}
+.hdfcBreadcrumb .breadcrumbSection.cat{background:linear-gradient(0,#ebf5f9,rgba(235,245,249,0));padding:8px 0 8px 35px;width:100%}
+.termbannerFormV2 .setposition{position:relative}
+.termbannerFormV2 .top-banner .forRecaptcha:focus{outline:0 !important;box-shadow:none !important}
+.termbannerFormV2 .termbanner .modal-body.info-form{padding:0 !important}
+.termbannerFormV2 .sac p{font-size:unset;line-height:unset;color:unset;font-weight:unset}
+.termbannerFormV2 .termbanner input.first-name{width:100% !important}
+.termbannerFormV2 .top-banner ul li .ml-2 p{font-size:inherit;line-height:inherit;color:inherit;font-weight:inherit;margin-bottom:0}
+.termbannerFormV2 .termbanner .rightStyle div:last-child{text-align:center}
+.termbannerFormV2 .top-banner .info-form .rightImg img{height:auto}
+@media screen and (min-width:768px){.termbannerFormV2 .ban-left ul{display:inline-block}
+.termbannerFormV2 .top-banner .info-form .rightImg img{width:90%;height:auto}
+}
+.termbannerFormV2 .termbanner .catBannerBtn a{width:195px;border:1px solid #ed1c24;font-size:12px;line-height:20px}
+.termbannerFormV2 .termbanner .catBannerBtn .btn-outline-danger{color:#ed1c24;font-weight:600;height:30px;padding:5px 18px 26px 18px}
+.termbannerFormV2 .termbanner .catBannerBtn .dataLayerBtnClick{width:auto;font-size:12px;font-weight:600;background:#ed1c24;border:1px solid #ed1c24;color:#fff;padding:5px 20px;text-transform:uppercase;margin:1rem 1rem 1rem 0;transition:all .3s ease}
+.termbannerFormV2 .termbanner .catBannerBtn .dataLayerBtnClick:hover{box-shadow:0 8px 12px rgba(237,28,36,.2);background:#ff3038}
+.termbannerFormV2 .top-banner p.bansubtitle{margin-bottom:.5rem;font-weight:500;line-height:1.2;font-size:1rem;color:unset}
+.termbannerFormV2 .termbanner .custom-pageheading{font-size:30px;line-height:32px;font-weight:700;color:#233253}
+@media screen and (max-width:768px){.termbannerFormV2 .termbanner .custom-pageheading{font-size:24px;line-height:26px}
+.termbannerFormV2 .termbanner .catBannerBtn .dataLayerBtnClick{width:195px;margin:unset}
+.termbannerFormV2 .selectMale,.termbannerFormV2 .selectFemale{text-align:center}
+}
+.termbannerFormV2 .termbanner .contact-info a,.termbannerFormV2 .termbanner .contact-info a:hover{font-weight:600;font-size:12px;line-height:20px;text-transform:uppercase;color:#005e9e;text-decoration:none}
+@media screen and (min-width:768px){.termbannerFormV2 .termbanner .mob-only{display:none}
+}
+@media screen and (max-width:768px){.termbannerFormV2 .desktop-only{display:none !important}
+}
+.termbannerFormV2 .bansubtitle{color:#000}
+.termbannerFormV2 .ban-left ul{padding:0}
+.termbannerFormV2 .ban-left .btn-wrap{display:inline-block}
+.termbannerFormV2 .ban-li-img{width:34px;height:32px}
+.termbannerFormV2 .ban-left ul li a p{color:#454545;float:left;text-decoration:none;margin-left:20px;min-height:42px;font-size:14px;font-weight:500}
+.termbannerFormV2 .li-text{display:flex;flex-wrap:nowrap;flex-direction:column;align-items:start}
+.termbannerFormV2 a.knw-more-mod{color:#007bff !important;margin-top:0;text-decoration:none !important}
+@media screen and (min-width:581px) and (max-width:767px){.termbannerFormV2 .ban-left .btn-wrap{display:inline-block;width:100%}
+.termbannerFormV2 .ban-left ul li{width:38%;margin-right:35px}
+}
+@media screen and (max-width:580px){.termbannerFormV2 .ban-left ul li{margin-right:0;margin-bottom:0;font-size:14px;float:left;width:100%}
+.termbannerFormV2 .ban-left ul li div{justify-content:start}
+.termbannerFormV2 .top-banner .row{text-align:center}
+.termbannerFormV2 .ban-li-img{width:24px;height:26px}
+.termbannerFormV2 .ban-left .btn-wrap .btn{display:block;width:100%}
+.termbannerFormV2 .ban-left ul li a{margin-left:12px;text-align:left;min-height:34px}
+.termbannerFormV2 .ban-left ul li a p{min-height:auto;margin-left:0;margin:auto 0}
+.termbannerFormV2 .ban-left ul.clearfix{margin-bottom:20px}
+}
+@media screen and (max-width:480px){.termbannerFormV2 .ban-left ul li a{margin-left:12px;text-align:left;min-height:28px}
+}
+@media screen and (max-width:768px){.termbannerFormV2 .termbannerFormV2 .termbanner .top-banner .mobileBreak a{margin-right:0}
+.termbannerFormV2 .newForm .formView .previewFieldBlock{text-align:left}
+.termbannerFormV2 .newForm .radio_buttons{margin-bottom:10px}
+}
+.termbannerFormV2 .termbanner .font-18{font-size:18px}
+.termbannerFormV2 .top-banner p b{font-weight:700}
+.termbannerFormV2 .daterangepicker{z-index:10}
+.termbannerFormV2 .dsp-n{display:none !important}
+.termbannerFormV2 .achievementCounts{max-width:535px}
+.termbannerFormV2 .achievementCounts__wrapper{display:flex;align-items:center}
+.termbannerFormV2 .achievementCounts__card{display:flex;align-items:center;justify-content:space-around;gap:10px}
+.termbannerFormV2 .achievementCounts__border{padding:3.5px;min-width:55px;border:1px dashed #42b2ff;background:#d4eeff;position:relative}
+.termbannerFormV2 .achievementCounts__border::after{content:"";background:#d4eeff;position:absolute;bottom:-2px;left:50%;border:1px dashed #42b2ff;border-top:0;border-left:0;padding:7px;transform:translate(-50%,50%) rotate(45deg)}
+.termbannerFormV2 .achievementCounts__count{font-size:14px;line-height:27px;font-weight:600;text-align:center;color:#005e9e}
+.termbannerFormV2 .achievementCounts__count p{margin:0;color:#005e9e;font-size:14px;line-height:27px;font-weight:600}
+.termbannerFormV2 .achievementCounts__title,.termbannerFormV2 .achievementCounts__title p{font-size:10px;line-height:14px;font-weight:600;color:#454545;max-width:65px;text-align:left;margin-bottom:0}
+.termbannerFormV2 .achievementCounts__border--side{height:48px;border:1px dashed #717171;margin-left:15px;margin-right:15px}
+.termbannerFormV2 .achievementCounts__border--side.hide{display:none}
+@media screen and (max-width:767px){.termbannerFormV2 .achievementCounts__wrapper{max-width:100%}
+.termbannerFormV2 .achievementCounts__card{gap:unset;justify-content:space-between}
+.termbannerFormV2 .achievementCounts__border{max-width:80px;text-align:center;padding:5px 0;margin-right:10px;min-width:unset}
+.termbannerFormV2 .achievementCounts__border::after{bottom:-7px;left:50%;padding:5px;transform:translateX(-50%) rotate(45deg)}
+.termbannerFormV2 .achievementCounts__border--side{height:37px;margin-left:5px;margin-right:5px}
+}
+@media screen and (max-width:767px){.termbannerFormV2 .achievementCounts__wrapper{gap:20px;overflow-x:auto;min-height:max-content;padding-bottom:20px}
+.termbannerFormV2 .achievementCounts__count{font-size:12px;width:75px;line-height:18px;text-align:center}
+.termbannerFormV2 .achievementCounts__count p{font-size:12px;text-align:center;line-height:18px}
+.termbannerFormV2 .achievementCounts__title,.termbannerFormV2 .achievementCounts__title p{font-size:12px;line-height:16px;max-width:max-content;margin-right:12px;margin-bottom:0}
+.termbannerFormV2 .achievementCounts__border--side{height:37px}
+}
+@media screen and (min-width:767px){.termbannerFormV2 .achievementCounts__wrapper{margin-top:50px}
+}
+.termbannerFormV2 .newForm .radio_buttons .customFormRadioFlex{display:flex !important;justify-content:center;align-items:center;gap:10px}
+.termbannerFormV2 .discount__container{font-size:16px;border-radius:5px;display:flex;font-style:italic;align-items:center}
+.termbannerFormV2 .discount__container .discount__amount{background-color:#005e9e;color:#fff;padding:4px;padding-left:7px;border-radius:5px;font-size:18px;box-shadow:0 0 0 3px #005e9e;z-index:2;margin-bottom:0;font-weight:600}
+.termbannerFormV2 .discount__container .discount__title{margin-top:5px;margin-bottom:5px;background-color:#c7e2f1;padding:4px;padding-left:10px;border-radius:5px;border-top-left-radius:0;border-bottom-left-radius:0;color:#005e9e;font-weight:600}
+@media screen and (max-width:767px){.termbannerFormV2 .discount__container{display:none}
+}
+.termbannerFormV2 .cutomerRatingSection{background-color:#daf2fc;padding:3px;display:flex;justify-content:space-evenly;align-items:center}
+.termbannerFormV2 .cutomerRatingSection .ratingTxt{margin-bottom:0 !important;font-size:14px;font-weight:500;line-height:24px;color:#454545}
+.termbannerFormV2 .cutomerRatingSection .customerRatingSection__starRating--icons{display:flex;gap:3px}
+.termbannerFormV2 .cutomerRatingSection .customerRatingSection__starRating--icons img{width:20px;height:20px}
+.termbannerFormV2 .cutomerRatingSection .ratingTxt span{color:#233253;font-weight:700}
+.termbannerFormV2 .customerRatingSection__starRating{display:flex;gap:10px;justify-content:center;align-items:center}
+@media screen and (max-width:767px){.termbannerFormV2 .cutomerRatingSection{row-gap:5px;flex-wrap:wrap}
+.termbannerFormV2 .cutomerRatingSection .ratingTxt{font-size:12px;line-height:18px}
+.termbannerFormV2 .cutomerRatingSection .customerRatingSection__starRating--icons img{width:14px;height:14px}
+}
+.termbannerFormV2 .featureElements{margin-top:20px;background:#005e9e;padding:5px 10px;display:flex;gap:10px;border-radius:5px;justify-content:space-evenly}
+.termbannerFormV2 .featureElements .featureElements__points--txt{display:flex;flex-direction:column;gap:5px}
+.termbannerFormV2 .featureElements .featureElements__points--txt p{margin-bottom:0 !important}
+.termbannerFormV2 .featureElements .featureElements__points{display:flex;gap:8px}
+.termbannerFormV2 .featureElements .featureElements__points .featureElements__border{border-right:1px dashed #0ff;width:5px;height:100%}
+.termbannerFormV2 .featureElements__points .featureElements__points--title{font-size:14px;font-weight:700;line-height:21px;text-align:center;color:#f5f5f5;margin-bottom:0 !important}
+.termbannerFormV2 .featureElements .featureElements__points .featureElements__points--description{font-size:10px;font-weight:400;line-height:15px;text-align:center;color:#fff}
+@media screen and (min-width:767px){.termbannerFormV2 .featureElements{display:none}
+}
+.termbannerFormV2 .bannerPointsAndBtns{display:flex;flex-direction:column}
+@media screen and (max-width:767px){.termbannerFormV2 .bannerPointsAndBtns{flex-direction:column-reverse}
+.termbannerFormV2 .bannerPointsAndBtns.mobileBtnChange{flex-direction:column}
+}
+.termbannerFormV2 .weDontSpam{font-size:12px;font-weight:600;line-height:18px;color:#7d7d7d;margin-left:10px}
+.termbannerFormV2 .weDontSpam img{width:15px;height:15px;margin-right:3px}
+@media screen and (max-width:767px){.termbannerFormV2 .responsive-div{display:none}
+.termbannerFormV2 .top-banner p{margin-bottom:0}
+}
+.termbannerFormV2 .formHoarding{background-color:#233253;padding:11px 15px;border-bottom-left-radius:8px;border-bottom-right-radius:8px}
+.termbannerFormV2 .newForm{box-shadow:0 0 8px 5px #e4eef6}
+.termbannerFormV2 .formHoarding .formHoarding__title .formHoarding__title--txt{text-align:center;margin-bottom:0 !important;color:#fff;font-weight:700;font-size:18px}
+@media screen and (max-width:767px){.termbannerFormV2 .formHoarding .formHoarding__title .formHoarding__title--txt{font-size:16px;line-height:24px}
+}
+.termbannerFormV2 .formHoarding .formHoarding__title .formHoarding__title--txt span{color:#69d2ff}
+.termbannerFormV2 .formHoarding .formHoarding__description{display:flex;justify-content:space-between;margin-top:4px;color:#fff}
+.termbannerFormV2 .formHoarding .formHoarding__description .formHoarding__description--leftTxt,.termbannerFormV2 .formHoarding .formHoarding__description .formHoarding__description--rightTxt{font-size:16px;font-weight:500;line-height:24px;margin-bottom:0 !important;color:#fff}
+@media screen and (max-width:768px){.termbannerFormV2 .formHoarding .formHoarding__description .formHoarding__description--leftTxt,.termbannerFormV2 .formHoarding .formHoarding__description .formHoarding__description--rightTxt{font-size:12px;font-weight:500;line-height:18px}
+}
+.termbannerFormV2 .newForm .formHeading .marginLeft{margin-left:0}
+.termbannerFormV2 .font-18{font-size:18px}
+.termbannerFormV2 input::placeholder{opacity:.5;color:#005e9e;font-size:15px;font-style:italic;font-weight:400}
+.termbannerFormV2 .newForm .marginLeft .heading{margin:0}
+.termbannerFormV2 .newForm .formView .inputSection .fieldsForm{margin-left:0;width:100%;margin-right:0}
+.termbannerFormV2 .newForm .formField h3{color:#233253}
+.termbannerFormV2 .newForm .radio_buttons .fieldnri{position:relative;margin:5px 0}
+.termbannerFormV2 .newForm .radio_buttons .fieldnri span{font-size:10pt;display:flex;gap:10px}
+.termbannerFormV2 .newForm .radio_buttons .fieldgen{position:relative;margin:5px 0}
+.termbannerFormV2 .newForm .radio_buttons .fieldgen .fieldgen__container{font-size:10pt;display:flex;gap:10px}
+.termbannerFormV2 .newForm .radio_buttons .fieldgen span{font-size:10pt;display:flex;justify-content:center;align-items:center;gap:10px}
+.termbannerFormV2 .mobileNo14#phone{display:none}
+.termbannerFormV2 .newForm .fieldgen .selectMale{font-size:12px;-webkit-text-stroke:0;top:-2px;position:relative;left:2px}
+.termbannerFormV2 .newForm .fieldgen .selectFemale{font-size:12px;-webkit-text-stroke:0}
+.termbannerFormV2 .newForm .radio_buttons .smoker{position:relative}
+.termbannerFormV2 .newForm .radio_buttons .smoker .smokerDetails{font-size:10pt;display:flex;gap:10px}
+.termbannerFormV2 .newForm .form-field.previewFieldBlock .showAge{color:#828282;font-size:12px;font-weight:600;display:none}
+.termbannerFormV2 .newForm #formView{font-family:'Source Sans Pro',sans-serif}
+.termbannerFormV2 .newForm .formView{height:auto;width:550px;border-radius:5px;border:1px solid #b9e8ff;background-color:#fff;box-shadow:0 0 18px 0 #458BD14D}
+.termbannerFormV2 .input__vertical-line{background:#717171;width:1.2px;height:21px;position:absolute;left:47px;top:36px}
+@media screen and (max-width:767px){.termbannerFormV2 .input__vertical-line{left:60px}
+}
+.termbannerFormV2 #phone:focus{border-left:0}
+.termbannerFormV2 .form-control:focus{box-shadow:unset}
+.termbannerFormV2 .newForm .formField{padding:0 12px}
+@media screen and (max-width:767px){.termbannerFormV2 .newForm .formField{padding:0}
+}
+.termbannerFormV2 .newForm .formHeading{display:flex;align-items:center;justify-content:center;margin:15px 0}
+.termbannerFormV2 .newForm .formHeading h4{color:#000;margin:0;line-height:28px;font-weight:400;font-size:22px;text-align:center}
+.termbannerFormV2 .newForm .formHeading h4 span{display:block;font-size:18px;font-weight:400}
+.termbannerFormV2 .newForm .border{display:block;width:70px;height:5px;background:#d41d25;margin:5px auto 0}
+.termbannerFormV2 .newForm .formData .inputSection{position:relative;margin:5px auto 5px;width:95%;justify-content:space-between;display:flex;flex-wrap:wrap}
+.termbannerFormV2 .check-option-tab{display:flex;justify-content:start;align-items:flex-start;flex-wrap:wrap;margin-top:10px;margin-bottom:20px}
+@media screen and (max-width:767px){.termbannerFormV2 .check-option-tab{margin-left:10px}
+.termbannerFormV2 .check-option-tab .error-txt{text-align:left}
+}
+.termbannerFormV2 .check-option-tab input[type="checkbox"]{width:5%;margin-top:10px}
+.termbannerFormV2 .check-option-tab label{width:100%;font-family:'Source Sans Pro',sans-serif;font-size:12px;color:#000;font-weight:400;display:block;line-height:16px}
+.termbannerFormV2 .check-option-tab .error-txt{width:100%}
+.termbannerFormV2 .newForm #yes_nriBannerForm,.termbannerFormV2 .newForm #femaleBannerForm,.termbannerFormV2 .newForm #yesBannerForm{border-radius:5px}
+.termbannerFormV2 .daterangepicker select.monthselect,.termbannerFormV2 .daterangepicker select.yearselect{padding:5px}
+@media screen and (max-width:768px){.termbannerFormV2 .ban-right{margin-top:0}
+.termbannerFormV2 .newForm .formView{width:auto}
+.termbannerFormV2 .newForm .radio_buttons,.termbannerFormV2 .newForm .formView .previewFieldBlock{width:100%}
+.termbannerFormV2 .newForm .formData .mobile_block label{left:75px}
+.termbannerFormV2 .check-option-tab label{text-align:left;padding-left:5px}
+}
+.termbannerFormV2 .smoker__label{position:relative;display:flex;align-items:start;gap:10px}
+.termbannerFormV2 .tooltipWrap{position:relative}
+.termbannerFormV2 .tobaccoRadioSec__tooltiptext{position:absolute;bottom:36px;right:-50%;transform:translateX(50%);width:max-content;padding:10px 7px;background-color:#eaf4fd;border:1px solid #bddcf8;box-shadow:0 4px 4px 0 rgba(0,0,0,0.25);border-radius:5px;font-size:11px;line-height:15px;font-weight:300;visibility:hidden;max-width:245px;width:max-content;color:#000}
+.termbannerFormV2 .tobaccoRadioSec__tooltiptext::before{content:'';display:block;width:15px;height:15px;position:absolute;bottom:-8px;left:39%;background-color:#eaf4fd;border-bottom:1px solid #bddcf8;border-right:1px solid #bddcf8;transform:rotate(45deg);z-index:0}
+@media screen and (max-width:678px){.termbannerFormV2 .tobaccoRadioSec__tooltiptext{max-width:180px}
+.termbannerFormV2 .tobaccoRadioSec__tooltiptext::before{left:35%}
+}
+.termbannerFormV2 .tobaccoRadioSec__tooltipicon{cursor:pointer}
+.termbannerFormV2 .tobaccoRadioSec__tooltipicon:hover+.tobaccoRadioSec__tooltiptext{visibility:visible}
+.termbannerFormV2 .fullWidthEmailContainer{width:100% !important}
+.termbannerFormV2 .rhsImg{display:flex;justify-content:center;align-items:center}
+.termbannerFormV2 .rhsImg img{width:100%;height:auto}
+.termbannerFormV2 .otp-screen-container{padding:15px;border-radius:5px;border:1px solid #d51d25;background-color:#fff;box-shadow:0 0 8px 5px #e4eef6}
+.termbannerFormV2 .form-holder{border-radius:10px;box-shadow:0 0 8px 5px #e4eef6}
+.termbannerFormV2 .checkbox-wrapper{margin-bottom:18px}
+.termbannerFormV2 .agree-checkbox-error-txt{padding:10px 0 0 30px;line-height:1.2}
+.termbannerFormV2 .checktxt p{margin-bottom:0 !important}
+@media screen and (max-width:768px){.termbannerFormV2 .form-holder{max-width:unset}
+}
+.termbannerFormV2 .otp-head-title,.termbannerFormV2 .otp-head-title p{font-size:22px;line-height:28px;font-weight:600;color:#3f4c69;text-align:center}
+.termbannerFormV2 .otp-head-title{position:relative}
+.termbannerFormV2 .otp-head-title::after{content:"";width:120px;height:4px;background-color:#ed1c24;position:absolute;left:50%;bottom:-10px;transform:translate(-50%);border-radius:5px}
+.termbannerFormV2 .number-email-wrapper{display:flex;border:1px solid #e8e8e8;max-width:75%;width:fit-content;margin:35px auto;border-radius:5px}
+.termbannerFormV2 .number-wrapper{text-align:center;padding:8px 8px}
+.termbannerFormV2 .mail-wrapper{width:50%;text-align:center;border-left:1px solid #e8e8e8;padding:8px 8px}
+.termbannerFormV2 .number-wrapper .mobile-Number{font-size:14px;font-weight:600;color:#3f4c69;margin-bottom:0}
+.termbannerFormV2 .number-wrapper .inside-content{padding:4px;margin-bottom:0;font-size:12px;text-align:center;color:#989898;overflow-wrap:break-word}
+.termbannerFormV2 .error-msg{display:flex;margin:0 auto;max-width:fit-content;gap:6px;border-radius:5px;padding:6px 15px}
+.termbannerFormV2 .error-msg-green{background-color:#edf9e8}
+.termbannerFormV2 .error-msg-red{background-color:#fff2f3}
+.dsp-n{display:none}
+.termbannerFormV2 .mainform{text-align:center;margin-top:5px;position:relative}
+@media screen and (min-width:768px){.FormJourney.width-75{width:75%;margin:0 auto}
+}
+.termbannerFormV2 .otp-input .border-red{border-bottom:1px solid red}
+.termbannerFormV2 .otp-input input{max-width:8%;height:40px;margin-right:10px;font-size:14px;font-weight:600;border:1px solid #9d9b9b;border-top:0;border-right:0;border-left:0;outline:0;margin-bottom:10px;text-align:center;font-style:unset !important}
+.termbannerFormV2 .otp-input input:focus{border:1px solid #9d9b9b;border-top:0;border-right:0;border-left:0}
+.termbannerFormV2 .otpoption{margin-bottom:10px}
+.termbannerFormV2 .otp-input{margin-top:15px}
+.termbannerFormV2 .otpoption p{color:#949dad;font-size:12px;font-weight:600}
+.termbannerFormV2 .otpoption .resend-grey{color:#2e3c5c;font-weight:600;cursor:pointer}
+.termbannerFormV2 .btn-main-wrapper{display:flex;gap:20px;justify-content:center;align-items:center;margin-top:25px;flex-wrap:wrap}
+.termbannerFormV2 .btn-back{padding:7px 55px;border:1px solid #ed1c24;background-color:#fff;border-radius:5px;color:#ed1c24;font-size:15px;font-weight:600}
+.termbannerFormV2 .btn-verify{padding:7px 55px;border:1px solid #ed1c24;background-color:#ed1c24;border-radius:5px;color:#fff;font-size:15px;font-weight:600}
+.termbannerFormV2 .success-img{text-align:center;margin-top:20px}
+.termbannerFormV2 .overlay{top:0;left:0;right:0;bottom:0;background-color:#fbfbfb8a}
+@media screen and (min-width:768px){.termbannerFormV2 .error-msg-main-wrapper{max-width:70%;margin:0 auto}
+}
+@media screen and (max-width:768px){.termbannerFormV2 .otp-head-title{font-size:15px}
+.termbannerFormV2 .otp-head-title::after{content:"";width:100px;height:3px;background-color:#ed1c24;position:absolute;left:50%;transform:translate(-50%);border-radius:5px}
+.termbannerFormV2 .number-email-wrapper{max-width:unset}
+.termbannerFormV2 .mobile-Number{font-size:12px}
+.termbannerFormV2 .inside-content{font-size:12px}
+.termbannerFormV2 .btn-back,.termbannerFormV2 .btn-verify{padding:5px 35px;font-size:14px;font-weight:500}
+}
+.termbannerFormV2 .error-msg-green .error-green{color:#4da22b;font-size:10px;font-weight:600;margin-bottom:0}
+.termbannerFormV2 .error-msg-red .error-red{color:#ed2129;font-size:10px;font-weight:600;margin-bottom:0}
+.termbannerFormV2 .dsp-n{display:none}

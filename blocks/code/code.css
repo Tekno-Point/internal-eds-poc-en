@@ -1,5 +1,7 @@
 @import url('./clientlib-bootstrap.min.css');
 @import url('./clientlib-swiffy-slider.min.css');
+@import url('./clientlib-daterangepicker.min.css');
+@import url('./clientlib.min.css');
 @import url('./clientlib-term-category-revamp.min.css');
 
 .deskTopHeader {
@@ -10,4 +12,8 @@
 .megaMenuSec .megaMenuLinkSec .menuLinkInner a,
 .hamMenuSection a {
     color: #005e9e;
+}
+
+.pwaSection {
+    display: none;
 }
