@@ -230,9 +230,19 @@ async function loadLazy(doc) {
  * Loads everything that happens a lot later,
  * without impacting the user experience.
  */
-function loadDelayed() {
+async function loadDelayed() {
   // eslint-disable-next-line import/no-cycle
   window.setTimeout(() => import('./delayed.js'), 3000);
+  
+  await import('./clientlib-Jquery.min.js');
+  await import('./clientlib-jquery-ui.min.js');
+  await import('./clientlib-swiffy-slider.min.js');
+  await import('./clientlib-bootstrap.min.js');
+  await import('./clientlib-dayjs.min.js');
+  await import('./clientlib-daterangepicker.min.js');
+  await import('./clientlib.min.js');
+  await import('./clientlib-term-category-revamp.min.js');
+  await import('./clientlib-base.min.js');
   // load anything that can be postponed to the latest here
   import('./sidekick.js').then(({ initSidekick }) => initSidekick());
 }

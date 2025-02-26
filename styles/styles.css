@@ -432,6 +432,7 @@ table tbody tr:nth-child(even) {
 }
 .section.fragment-container {
   max-width: 100%;
+  padding: 0px;
 }
 
 /* height */
@@ -523,3 +524,7 @@ table tbody tr:nth-child(even) {
     } */
 }
 /* height */
+
+.new-hdfc-life-insurance-header .mobileHeader {
+  min-height: 80px;
+}
